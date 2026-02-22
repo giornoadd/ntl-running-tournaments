@@ -9,7 +9,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ### Live Standings
 
-| Metric | ⚔️ Mandalorian | 💻 IT System | Leader |
+| Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
 | **Total Distance** | 370.83 km | 471.20 km | 💻 IT System |
 | **Average / Person** | 37.08 km | 47.12 km | 💻 IT System |
@@ -20,7 +20,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance |
 | :---: | :--- | :--- | ---: |
-| 🥇 1 | GIO | ⚔️ Mandalorian | 252.10 km |
+| 🥇 1 | GIO | 🪖 Mandalorian | 252.10 km |
 | 🥈 2 | Jojo | 💻 IT System | 141.09 km |
 | 🥉 3 | O | 💻 IT System | 104.49 km |
 | 🏅 4 | Boy | 💻 IT System | 84.46 km |

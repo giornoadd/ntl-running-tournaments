@@ -6,7 +6,7 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 ## 🏆 2026 Tournament
 
-| Metric | ⚔️ Mandalorian | 💻 IT System | Leader |
+| Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
 | **Total Distance** | 370.83 km | 471.20 km | 💻 **IT System** |
 | **Average / Person** | 37.08 km | 47.12 km | 💻 **IT System** |
@@ -17,7 +17,7 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 | Rank | Name | Team | Distance |
 | :---: | :--- | :--- | ---: |
-| 🥇 1 | Gio | ⚔️ Mandalorian | 222.43 km |
+| 🥇 1 | Gio | 🪖 Mandalorian | 222.43 km |
 | 🥈 2 | Jojo | 💻 IT System | 141.09 km |
 | 🥉 3 | O | 💻 IT System | 86.56 km |
 | 🏅 4 | Boy | 💻 IT System | 84.46 km |
@@ -25,7 +25,7 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 ### Quarterly Breakdown
 
-| Quarter | ⚔️ Mandalorian | 💻 IT System | Winner |
+| Quarter | 🪖 Mandalorian | 💻 IT System | Winner |
 | :--- | ---: | ---: | :--- |
 | **Q1** | 370.83 km (37.08 avg) | 471.20 km (47.12 avg) | 💻 IT System |
 
@@ -40,34 +40,34 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 ## 🏆 2025 Tournament
 
-| Metric | ⚔️ Mandalorian | 💻 IT System | Leader |
+| Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 46.10 km | 40.19 km | ⚔️ **Mandalorian** |
-| **Average / Person** | 4.61 km | 4.02 km | ⚔️ **Mandalorian** |
+| **Total Distance** | 46.10 km | 40.19 km | 🪖 **Mandalorian** |
+| **Average / Person** | 4.61 km | 4.02 km | 🪖 **Mandalorian** |
 
-> ⚔️ **Mandalorian** leads by **0.59 km/person**
+> 🪖 **Mandalorian** leads by **0.59 km/person**
 
 ### 🌟 Top 5 Individual Runners
 
 | Rank | Name | Team | Distance |
 | :---: | :--- | :--- | ---: |
-| 🥇 1 | Gio | ⚔️ Mandalorian | 29.67 km |
+| 🥇 1 | Gio | 🪖 Mandalorian | 29.67 km |
 | 🥈 2 | Game | 💻 IT System | 22.26 km |
 | 🥉 3 | O | 💻 IT System | 17.93 km |
-| 🏅 4 | Chan | ⚔️ Mandalorian | 8.62 km |
-| 🏅 5 | Sand | ⚔️ Mandalorian | 7.81 km |
+| 🏅 4 | Chan | 🪖 Mandalorian | 8.62 km |
+| 🏅 5 | Sand | 🪖 Mandalorian | 7.81 km |
 
 ### Quarterly Breakdown
 
-| Quarter | ⚔️ Mandalorian | 💻 IT System | Winner |
+| Quarter | 🪖 Mandalorian | 💻 IT System | Winner |
 | :--- | ---: | ---: | :--- |
-| **Q4** | 46.10 km (4.61 avg) | 40.19 km (4.02 avg) | ⚔️ Mandalorian |
+| **Q4** | 46.10 km (4.61 avg) | 40.19 km (4.02 avg) | 🪖 Mandalorian |
 
 ### Monthly Details
 
 - **2025-December** — Mandalorian: 37.76 km | IT System: 40.19 km | 💻 IT System
   - 📋 [2025-December.md](2025-December.md) | 📄 [2025-December.csv](2025-December.csv)
-- **2025-October** — Mandalorian: 8.34 km | IT System: 0.00 km | ⚔️ Mandalorian
+- **2025-October** — Mandalorian: 8.34 km | IT System: 0.00 km | 🪖 Mandalorian
   - 📋 [2025-October.md](2025-October.md) | 📄 [2025-October.csv](2025-October.csv)
 
 ---

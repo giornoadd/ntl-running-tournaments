@@ -265,7 +265,7 @@ def generate_all_readmes():
         lines.append(f"| | |")
         lines.append(f"| :--- | :--- |")
         lines.append(f"| **Name** | {display_name} ({thai_name}) |")
-        lines.append(f"| **Team** | {'⚔️' if team == 'Mandalorian' else '💻'} {team} |")
+        lines.append(f"| **Team** | {'🪖' if team == 'Mandalorian' else '💻'} {team} |")
         lines.append(f"| **Primary Activity** | {activity_label} |")
         lines.append(f"| **Tracking App** | 📱 {app_used} |")
         lines.append(f"| **Member Since** | {first_date} |")

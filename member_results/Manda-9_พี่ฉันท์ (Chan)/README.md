@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Chan (พี่ฉันท์) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🚶 Walking (เดิน) |
 | **Tracking App** | 📱 Mi Fitness |
 | **Member Since** | 2025-12-24 |
@@ -51,4 +51,4 @@
 | 2 | 2025-12-30 | Tue, Dec 30 | **3.61 km** | 🚶 Walking (เดิน) | [📸](chan-2025-dec-30.png) |
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

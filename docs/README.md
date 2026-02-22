@@ -7,7 +7,7 @@ This directory contains the official rules, participant lists, and operational w
 | Team | Total Distance | Avg/Person | Active Members |
 | :--- | :--- | :--- | :--- |
 | 💻 **IT System** | **500.67 km** | **50.07 km** | 8 / 10 |
-| ⚔️ **Mandalorian** | **403.88 km** | **40.39 km** | 8 / 10 |
+| 🪖 **Mandalorian** | **403.88 km** | **40.39 km** | 8 / 10 |
 
 > **IT System leads by 9.68 km/person** 🏆
 
@@ -15,11 +15,11 @@ This directory contains the official rules, participant lists, and operational w
 
 | Rank | Name | Team | Distance |
 | :---: | :--- | :--- | :--- |
-| 🥇 | GIO | ⚔️ Mandalorian | 241.31 km |
+| 🥇 | GIO | 🪖 Mandalorian | 241.31 km |
 | 🥈 | Jojo | 💻 IT System | 136.38 km |
 | 🥉 | O | 💻 IT System | 98.48 km |
 | 4 | Boy | 💻 IT System | 84.46 km |
-| 5 | Sand | ⚔️ Mandalorian | 43.81 km |
+| 5 | Sand | 🪖 Mandalorian | 43.81 km |
 
 ## Available Documents
 

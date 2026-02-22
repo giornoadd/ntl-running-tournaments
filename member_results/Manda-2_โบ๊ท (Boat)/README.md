@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Boat (โบ๊ท) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
 | **Tracking App** | 📱 Strava |
 | **Member Since** | 2026-01-24 |
@@ -45,4 +45,4 @@
 | 3 | 2026-01-31 | Sat, Jan 31 | **7.30 km** | 🚶 Walk (เดิน) | [📸](boat-2026-jan-31.JPEG) |
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

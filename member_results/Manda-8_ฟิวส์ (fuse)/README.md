@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Fuse (ฟิวส์) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🚶 Morning Walk (เดินเช้า) |
 | **Tracking App** | 📱 Samsung Health |
 | **Member Since** | 2026-01-24 |
@@ -34,4 +34,4 @@
 | 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🚶 Morning Walk (เดินเช้า) | [📸](fuse-2026-jan-24.JPEG) |
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

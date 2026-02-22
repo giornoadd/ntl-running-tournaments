@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Neung (หนึ่ง) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🏃 Unknown (ไม่ทราบ) |
 | **Tracking App** | 📱 Unknown |
 | **Member Since** | N/A |
@@ -30,4 +30,4 @@
 *No running data recorded yet.* 🏁
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

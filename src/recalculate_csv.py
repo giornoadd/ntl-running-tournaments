@@ -262,11 +262,11 @@ def generate_results_readme(quarterly_stats, monthly_stats, runner_yearly_stats=
         year_itsys = sum(s['itsys'] for _, s in year_quarters)
         year_manda_avg = year_manda / TEAM_SIZE
         year_itsys_avg = year_itsys / TEAM_SIZE
-        leader = "💻 **IT System**" if year_itsys_avg > year_manda_avg else "⚔️ **Mandalorian**"
+        leader = "💻 **IT System**" if year_itsys_avg > year_manda_avg else "🪖 **Mandalorian**"
         lead_by = abs(year_itsys_avg - year_manda_avg)
         
         lines.append(f"## 🏆 {year} Tournament\n")
-        lines.append("| Metric | ⚔️ Mandalorian | 💻 IT System | Leader |")
+        lines.append("| Metric | 🪖 Mandalorian | 💻 IT System | Leader |")
         lines.append("| :--- | ---: | ---: | :--- |")
         lines.append(f"| **Total Distance** | {year_manda:.2f} km | {year_itsys:.2f} km | {leader} |")
         lines.append(f"| **Average / Person** | {year_manda_avg:.2f} km | {year_itsys_avg:.2f} km | {leader} |")
@@ -280,19 +280,19 @@ def generate_results_readme(quarterly_stats, monthly_stats, runner_yearly_stats=
                 lines.append("| :---: | :--- | :--- | ---: |")
                 medals = ["🥇 1", "🥈 2", "🥉 3", "🏅 4", "🏅 5"]
                 for idx, (r_name, r_data) in enumerate(top_runners):
-                    team_icon = "⚔️ Mandalorian" if r_data['team'] == 'Mandalorian' else "💻 IT System"
+                    team_icon = "🪖 Mandalorian" if r_data['team'] == 'Mandalorian' else "💻 IT System"
                     lines.append(f"| {medals[idx]} | {r_name} | {team_icon} | {r_data['distance']:.2f} km |")
                 lines.append("")
 
         # Quarterly breakdown
         lines.append("### Quarterly Breakdown\n")
-        lines.append("| Quarter | ⚔️ Mandalorian | 💻 IT System | Winner |")
+        lines.append("| Quarter | 🪖 Mandalorian | 💻 IT System | Winner |")
         lines.append("| :--- | ---: | ---: | :--- |")
         
         for q, stats in year_quarters:
             q_manda_avg = stats['manda'] / TEAM_SIZE
             q_itsys_avg = stats['itsys'] / TEAM_SIZE
-            q_winner = "💻 IT System" if q_itsys_avg > q_manda_avg else "⚔️ Mandalorian"
+            q_winner = "💻 IT System" if q_itsys_avg > q_manda_avg else "🪖 Mandalorian"
             if q_itsys_avg == q_manda_avg:
                 q_winner = "🤝 Tie"
             lines.append(f"| **{q}** | {stats['manda']:.2f} km ({q_manda_avg:.2f} avg) | {stats['itsys']:.2f} km ({q_itsys_avg:.2f} avg) | {q_winner} |")
@@ -308,7 +308,7 @@ def generate_results_readme(quarterly_stats, monthly_stats, runner_yearly_stats=
         )
         
         for month_key, stats in year_months:
-            m_winner = "💻 IT System" if stats['itsys'] > stats['manda'] else "⚔️ Mandalorian"
+            m_winner = "💻 IT System" if stats['itsys'] > stats['manda'] else "🪖 Mandalorian"
             if stats['itsys'] == stats['manda']:
                 m_winner = "🤝 Tie"
             lines.append(f"- **{month_key}** — Mandalorian: {stats['manda']:.2f} km | IT System: {stats['itsys']:.2f} km | {m_winner}")

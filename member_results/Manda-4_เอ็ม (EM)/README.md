@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Em (เอ็ม) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
 | **Tracking App** | 📱 Apple Watch |
 | **Member Since** | 2026-01-24 |
@@ -42,4 +42,4 @@
 | 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

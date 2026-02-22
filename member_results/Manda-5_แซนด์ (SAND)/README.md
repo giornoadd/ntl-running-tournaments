@@ -7,7 +7,7 @@
 | | |
 | :--- | :--- |
 | **Name** | Sand (แซนด์) |
-| **Team** | ⚔️ Mandalorian |
+| **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🚶 Walk (เดิน) |
 | **Tracking App** | 📱 Strava |
 | **Member Since** | 2025-12-23 |
@@ -60,4 +60,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk (เดิน) | [📸](sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-02-22 19:16*
+*Auto-generated on 2026-02-22 20:23*

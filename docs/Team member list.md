@@ -4,7 +4,7 @@ The competition is segmented into two distinct factions: **Mandalorian** and **I
 
 ---
 
-## ⚔️ Mandalorian
+## 🪖 Mandalorian
 
 | ID | Alias | Display Name | Distance | Active Days | Evidence |
 | :--- | :--- | :--- | ---: | :---: | :---: |
