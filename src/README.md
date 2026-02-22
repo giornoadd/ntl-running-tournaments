@@ -12,7 +12,7 @@ These scripts align directly with the steps in [`docs/End-to-End Workflow.md`](.
 | 2 | **`add_date_watermark.py`** | Adds date watermark to bottom-right corner |
 | 3 | **`add_name_watermark.py`** | Adds runner's nickname watermark to bottom-center |
 | 4 | **`analyze_with_gemini.py`** | AI-powered OCR to extract dates and distances (requires `GEMINI_API_KEY`) |
-| 5 | **`recalculate_csv.py`** | Validates distances (Run ≥ 1km, Walk ≥ 2km) and recalculates team statistics |
+| 5 | **`recalculate_csv.py`** | Validates distances (Run ≥ 1km, Walk ≥ 2km), recalculates team statistics, and generates `results/README.md` |
 | 6 | **`generate_member_readmes.py`** | Generates individual member README profiles with stats and image links |
 | — | **`run_all.py`** | Master pipeline — runs Steps 1→2→3→5→6 in sequence |
 
