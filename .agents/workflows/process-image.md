@@ -88,41 +88,65 @@ mv "member_results/{FolderName}/{original_filename}" "member_results/{FolderName
 
 ---
 
-## Step 4: Run the Processing Pipeline
+## Step 4: Update the CSV
 
-After renaming, run the full End-to-End pipeline to apply watermarks and recalculate statistics:
+Manually add the extracted distance to the correct CSV file in `results/`.
+
+### 4a: Determine the target CSV
+
+The file is `results/{yyyy}-{Month}.csv` based on the date extracted in Step 2.
+- Example: **Feb 22, 2026** → `results/2026-February.csv`
+- If the file doesn't exist yet, create it with the header row (see existing CSVs for format).
+
+### 4b: Add or update the entry
+
+- If the **date row already exists**, append the new runner entry to the `Runners` column:
+  - Before: `Boy: 6.31km`
+  - After: `"Mos: 2.26km, Boy: 6.31km"`
+- If the **date row doesn't exist**, add a new row at the correct chronological position:
+  - Format: `{date},{Nickname}: {distance}km,,0,0,0,0,0,0`
+  - The accumulation columns (0s) will be recalculated automatically in Step 5a.
+- **Multiple entries same person same day**: combine distances into one entry (e.g. `GIO: 13.09km`), or list separately (e.g. `"GIO: 2.30km, GIO: 10.79km"`).
+
+### 4c: Runner name format
+
+Use the **capitalized display name** (not the lowercase nickname) in the CSV:
+- `gio` → `GIO`, `boat` → `Boat`, `toro` → `Toro`, `em` → `EM`
+- `sand` → `Sand`, `peck` → `Peck`, `neung` → `Neung`, `fuse` → `Fuse`
+- `chan` → `Chan`, `mos` → `Mos`
+- `oat` → `Oat`, `game` → `Game`, `o` → `O`, `palm` → `Palm`
+- `oum` → `Oum`, `jojo` → `Jojo`, `tae` → `Tae`, `boy` → `Boy`
+- `ton` → `Ton`, `pan` → `PAN`
+
+---
+
+## Step 5: Recalculate & Regenerate
+
+After updating the CSV, run these two lightweight scripts (fast, ~1-2 seconds each):
+
+### 5a: Recalculate statistics
 
 // turbo
 ```bash
-python3 src/run_all.py
+python3 src/recalculate_csv.py
 ```
 
-Working directory: `/Users/giornoadd/my-macos/running-comp`
+This recalculates accumulations, averages, and generates MD tables + `results/README.md`.
 
-This script sequentially:
-1. **Reformats** any remaining un-renamed files (`src/reformat_files.py`)
-2. **Adds date watermark** — bottom-right corner (`src/add_date_watermark.py`)
-3. **Adds name watermark** — bottom-center with owner's name (`src/add_name_watermark.py`)
-4. **Recalculates CSV** statistics in `results/` — processes ALL months including 2025 (`src/recalculate_csv.py`)
-5. **Generates MD** tables from each CSV automatically
-
-### Step 4b: Generate Member READMEs
-
-After the pipeline completes, regenerate individual member profile pages:
+### 5b: Generate Member READMEs
 
 // turbo
 ```bash
 python3 src/generate_member_readmes.py
 ```
 
-This script:
-1. Parses all `results/yyyy-month.csv` files to extract each member's activities.
-2. Links available evidence images from the member's `member_results/` folder.
-3. Generates a `README.md` per member with all-time summary, monthly breakdowns, and image links.
+This regenerates individual member profile pages with updated stats and image links.
+
+> **Note:** Do NOT run `python3 src/run_all.py` for single-file processing. It re-watermarks ALL ~160+ images and is very slow. Use `run_all.py` only for batch processing (e.g., initial setup or processing many new files at once).
 
 ---
 
-## Step 5: Report Summary
+## Step 6: Report Summary
 
 After processing, report back to the user with:
 

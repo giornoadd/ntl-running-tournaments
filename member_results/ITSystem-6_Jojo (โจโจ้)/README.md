@@ -16,18 +16,18 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **136.38 km** |
-| **Active Days** | 📅 29 days |
+| **Total Distance** | 🔥 **141.09 km** |
+| **Active Days** | 📅 30 days |
 | **Average / Session** | 📏 4.70 km |
 | **Best Session** | 🏆 10.04 km (2026-01-08) |
-| **Evidence Files** | 📸 29 screenshots |
+| **Evidence Files** | 📸 30 screenshots |
 | **First Active** | 2026-01-05 |
-| **Last Active** | 2026-02-20 |
+| **Last Active** | 2026-02-22 |
 
 ---
 
 ## 📅 2026-February
-> 14 sessions · 62.37 km total · 4.46 km avg · best 10.01 km
+> 15 sessions · 67.08 km total · 4.47 km avg · best 10.01 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -45,6 +45,7 @@
 | 12 | 2026-02-16 | Mon, Feb 16 | **4.65 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](jojo-2026-feb-16.jpg) |
 | 13 | 2026-02-18 | Wed, Feb 18 | **4.68 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](jojo-2026-feb-18.jpg) |
 | 14 | 2026-02-20 | Fri, Feb 20 | **4.68 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](jojo-2026-feb-20.jpg) |
+| 15 | 2026-02-22 | Sun, Feb 22 | **4.71 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](jojo-2026-feb-22.jpg) |
 
 ## 📅 2026-January
 > 15 sessions · 74.01 km total · 4.93 km avg · best 10.04 km
@@ -68,4 +69,4 @@
 | 15 | 2026-01-31 | Sat, Jan 31 | **2.35 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](jojo-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-02-22 18:47*
+*Auto-generated on 2026-02-22 19:11*
