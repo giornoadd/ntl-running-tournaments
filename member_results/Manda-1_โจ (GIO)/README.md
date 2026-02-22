@@ -45,31 +45,30 @@
 | 12 | 2026-02-21 | Sat, Feb 21 | **14.18 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-feb-21.jpg) [📸2](gio-2026-feb-21_1.jpg) |
 
 ## 📅 2026-January
-> 21 sessions · 119.94 km total · 5.71 km avg · best 10.79 km
+> 20 sessions · 119.94 km total · 6.00 km avg · best 13.09 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-01-01 | Thu, Jan 01 | **8.52 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-01.jpg) |
 | 2 | 2026-01-03 | Sat, Jan 03 | **6.03 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-03.jpg) |
 | 3 | 2026-01-05 | Mon, Jan 05 | **4.53 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-05.jpg) |
-| 4 | 2026-01-06 | Tue, Jan 06 | **2.30 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-jan-06.jpg) [📸2](gio-2026-jan-06_1.jpg) |
-| 5 | 2026-01-06 | Tue, Jan 06 | **10.79 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-jan-06.jpg) [📸2](gio-2026-jan-06_1.jpg) |
-| 6 | 2026-01-10 | Sat, Jan 10 | **2.12 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-10.jpg) |
-| 7 | 2026-01-11 | Sun, Jan 11 | **6.08 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-11.jpg) |
-| 8 | 2026-01-13 | Tue, Jan 13 | **4.55 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-13.jpg) |
-| 9 | 2026-01-14 | Wed, Jan 14 | **3.51 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-14.jpg) |
-| 10 | 2026-01-16 | Fri, Jan 16 | **3.08 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-16.jpg) |
-| 11 | 2026-01-17 | Sat, Jan 17 | **6.04 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-17.jpg) |
-| 12 | 2026-01-18 | Sun, Jan 18 | **5.03 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-18.jpg) |
-| 13 | 2026-01-19 | Mon, Jan 19 | **5.44 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-19.jpg) |
-| 14 | 2026-01-20 | Tue, Jan 20 | **5.43 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-20.jpg) |
-| 15 | 2026-01-21 | Wed, Jan 21 | **5.44 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-21.jpg) |
-| 16 | 2026-01-22 | Thu, Jan 22 | **5.46 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-22.jpg) |
-| 17 | 2026-01-23 | Fri, Jan 23 | **8.03 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-23.jpg) |
-| 18 | 2026-01-24 | Sat, Jan 24 | **8.04 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-24.jpg) |
-| 19 | 2026-01-26 | Mon, Jan 26 | **5.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-26.jpg) |
-| 20 | 2026-01-29 | Thu, Jan 29 | **6.09 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-29.jpg) |
-| 21 | 2026-01-31 | Sat, Jan 31 | **8.41 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-31.jpg) |
+| 4 | 2026-01-06 | Tue, Jan 06 | **13.09 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-jan-06.jpg) [📸2](gio-2026-jan-06_1.jpg) |
+| 5 | 2026-01-10 | Sat, Jan 10 | **2.12 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-10.jpg) |
+| 6 | 2026-01-11 | Sun, Jan 11 | **6.08 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-11.jpg) |
+| 7 | 2026-01-13 | Tue, Jan 13 | **4.55 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-13.jpg) |
+| 8 | 2026-01-14 | Wed, Jan 14 | **3.51 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-14.jpg) |
+| 9 | 2026-01-16 | Fri, Jan 16 | **3.08 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-16.jpg) |
+| 10 | 2026-01-17 | Sat, Jan 17 | **6.04 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-17.jpg) |
+| 11 | 2026-01-18 | Sun, Jan 18 | **5.03 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-18.jpg) |
+| 12 | 2026-01-19 | Mon, Jan 19 | **5.44 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-19.jpg) |
+| 13 | 2026-01-20 | Tue, Jan 20 | **5.43 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-20.jpg) |
+| 14 | 2026-01-21 | Wed, Jan 21 | **5.44 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-21.jpg) |
+| 15 | 2026-01-22 | Thu, Jan 22 | **5.46 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-22.jpg) |
+| 16 | 2026-01-23 | Fri, Jan 23 | **8.03 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-23.jpg) |
+| 17 | 2026-01-24 | Sat, Jan 24 | **8.04 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-24.jpg) |
+| 18 | 2026-01-26 | Mon, Jan 26 | **5.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-26.jpg) |
+| 19 | 2026-01-29 | Thu, Jan 29 | **6.09 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-29.jpg) |
+| 20 | 2026-01-31 | Sat, Jan 31 | **8.41 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2026-jan-31.jpg) |
 
 ## 📅 2025-December
 > 4 sessions · 21.33 km total · 5.33 km avg · best 8.51 km
