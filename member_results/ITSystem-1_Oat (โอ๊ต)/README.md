@@ -1,24 +1,50 @@
-# 🏃‍♂️ Personal Stats: Oat (โอ๊ต)
+# 🏃 Oat (โอ๊ต)
 
-This is the automated detailed running log for **Oat**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `43.77 km`
-- **Active Days:** `8 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Oat (โอ๊ต) |
+| **Team** | 💻 IT System |
+| **Primary Activity** | 🏃 Indoor Run (วิ่งในร่ม) |
+| **Tracking App** | 📱 Mi Fitness |
+| **Member Since** | 2026-01-15 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **43.77 km** |
+| **Active Days** | 📅 8 days |
+| **Average / Session** | 📏 5.47 km |
+| **Best Session** | 🏆 7.05 km (2026-02-01) |
+| **Evidence Files** | 📸 8 screenshots |
+| **First Active** | 2026-01-15 |
+| **Last Active** | 2026-02-04 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-01 | **7.05 km** | EM: 9.66km, Sand: 3.62km, Boy: 5.22km, Jojo: 4.27km, Oat: 7.05km, Ton: 2.40km |
-| 2026-02-02 | **7.02 km** | GIO: 6.02km, Sand: 2.45km, Jojo: 6.41km, Oat: 7.02km |
-| 2026-02-04 | **3.03 km** | Sand: 2.11km, Boy: 6.19km, Jojo: 3.24km, O: 6.00km, Oat: 3.03km, Palm: 4.01km |
+> 3 sessions · 17.10 km total · 5.70 km avg · best 7.05 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-01 | Sun, Feb 01 | **7.05 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-feb-01.jpg) |
+| 2 | 2026-02-02 | Mon, Feb 02 | **7.02 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-feb-02.jpg) |
+| 3 | 2026-02-04 | Wed, Feb 04 | **3.03 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-feb-04.jpg) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-15 | **4.06 km** | Oat: 4.06km, Jojo: 2.35km |
-| 2026-01-17 | **5.03 km** | GIO: 6.04km, Oat: 5.03km, Jojo: 2.27km |
-| 2026-01-18 | **6.50 km** | GIO: 5.03km, Oat: 6.50km, Palm: 4.01km, Oum: 5.81km, Jojo: 2.28km |
-| 2026-01-21 | **5.04 km** | GIO: 5.44km, Mos: 4.61km, Oat: 5.04km, Game: 6.16km, Oum: 2.39km |
-| 2026-01-30 | **6.04 km** | Oat: 6.04km, Ton: 3.91km |
+> 5 sessions · 26.67 km total · 5.33 km avg · best 6.50 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-15 | Thu, Jan 15 | **4.06 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-jan-15.jpg) |
+| 2 | 2026-01-17 | Sat, Jan 17 | **5.03 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-jan-17.jpg) |
+| 3 | 2026-01-18 | Sun, Jan 18 | **6.50 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-jan-18.jpg) |
+| 4 | 2026-01-21 | Wed, Jan 21 | **5.04 km** | 🚶 Outdoor Walk (เดินกลางแจ้ง) | [📸](oat-2026-jan-21.jpg) |
+| 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-jan-30.jpg) |
+
+---
+*Auto-generated on 2026-02-22 18:18*

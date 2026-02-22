@@ -92,7 +92,7 @@ def process_files(base_dir, target_folder=None, dry_run=False, api_key=None):
                 months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
                 month_str = months[date_obj.month - 1]
                 
-                new_filename_base = f"{nickname}-{date_obj.day:02d}-{month_str}-{date_obj.year}"
+                new_filename_base = f"{nickname}-{date_obj.year}-{month_str}-{date_obj.day:02d}"
                 new_filename = f"{new_filename_base}{ext}"
                 new_filepath = os.path.join(root, new_filename)
                 

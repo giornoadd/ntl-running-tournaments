@@ -1,26 +1,52 @@
-# 🏃‍♂️ Personal Stats: Palm (ปาล์ม)
+# 🏃 Palm (ปาล์ม)
 
-This is the automated detailed running log for **Palm**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `39.12 km`
-- **Active Days:** `10 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Palm (ปาล์ม) |
+| **Team** | 💻 IT System |
+| **Primary Activity** | 🏃 Treadmill Run (วิ่งลู่) |
+| **Tracking App** | 📱 Garmin |
+| **Member Since** | 2026-01-12 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **39.12 km** |
+| **Active Days** | 📅 10 days |
+| **Average / Session** | 📏 3.91 km |
+| **Best Session** | 🏆 5.01 km (2026-01-24) |
+| **Evidence Files** | 📸 10 screenshots |
+| **First Active** | 2026-01-12 |
+| **Last Active** | 2026-02-07 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-04 | **4.01 km** | Sand: 2.11km, Boy: 6.19km, Jojo: 3.24km, O: 6.00km, Oat: 3.03km, Palm: 4.01km |
-| 2026-02-07 | **5.01 km** | GIO: 11.44km, Boy: 7.00km, O: 6.62km, PAN: 2.16km, Palm: 5.01km |
+> 2 sessions · 9.02 km total · 4.51 km avg · best 5.01 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-04 | Wed, Feb 04 | **4.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-feb-04.jpg) |
+| 2 | 2026-02-07 | Sat, Feb 07 | **5.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-feb-07.JPEG) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-12 | **3.01 km** | Palm: 3.01km |
-| 2026-01-18 | **4.01 km** | GIO: 5.03km, Oat: 6.50km, Palm: 4.01km, Oum: 5.81km, Jojo: 2.28km |
-| 2026-01-19 | **3.03 km** | GIO: 5.44km, Mos: 3.13km, Game: 2.42km, Palm: 3.03km, Jojo: 2.15km, Ton: 2.00km |
-| 2026-01-20 | **4.01 km** | GIO: 5.43km, Mos: 2.96km, Palm: 4.01km, Ton: 1.15km |
-| 2026-01-24 | **5.01 km** | Fuse: 12.76km, GIO: 8.04km, Boat: 6.52km, Sand: 6.26km, Toro: 4.47km, EM: 4.15km, O: 6.01km, Palm: 5.01km, Jojo: 3.17km |
-| 2026-01-27 | **3.01 km** | Boat: 4.68km, Game: 8.45km, Palm: 3.01km, Jojo: 6.31km, Boy: 5.01km, Ton: 4.15km |
-| 2026-01-29 | **4.01 km** | GIO: 6.09km, Palm: 4.01km, Jojo: 6.40km, Boy: 6.00km, Ton: 3.47km |
-| 2026-01-31 | **4.01 km** | GIO: 8.41km, Boat: 7.30km, O: 6.01km, Palm: 4.01km, Jojo: 2.35km |
+> 8 sessions · 30.10 km total · 3.76 km avg · best 5.01 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-12 | Mon, Jan 12 | **3.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-12.jpg) |
+| 2 | 2026-01-18 | Sun, Jan 18 | **4.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-18.jpg) |
+| 3 | 2026-01-19 | Mon, Jan 19 | **3.03 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-19.jpg) |
+| 4 | 2026-01-20 | Tue, Jan 20 | **4.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-20.jpg) |
+| 5 | 2026-01-24 | Sat, Jan 24 | **5.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-24.jpg) |
+| 6 | 2026-01-27 | Tue, Jan 27 | **3.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-27.jpg) |
+| 7 | 2026-01-29 | Thu, Jan 29 | **4.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-29.jpg) |
+| 8 | 2026-01-31 | Sat, Jan 31 | **4.01 km** | 🏃 Treadmill Run (วิ่งลู่) | [📸](palm-2026-jan-31.jpg) |
+
+---
+*Auto-generated on 2026-02-22 18:18*

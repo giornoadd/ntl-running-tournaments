@@ -1,20 +1,46 @@
-# 🏃‍♂️ Personal Stats: มอส (Mos)
+# 🏃 Mos (มอส)
 
-This is the automated detailed running log for **Mos**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `13.29 km`
-- **Active Days:** `4 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Mos (มอส) |
+| **Team** | ⚔️ Mandalorian |
+| **Primary Activity** | 🚶 Walk (เดิน) |
+| **Tracking App** | 📱 Samsung Health |
+| **Member Since** | 2026-01-19 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **13.29 km** |
+| **Active Days** | 📅 4 days |
+| **Average / Session** | 📏 3.32 km |
+| **Best Session** | 🏆 4.61 km (2026-01-21) |
+| **Evidence Files** | 📸 4 screenshots |
+| **First Active** | 2026-01-19 |
+| **Last Active** | 2026-02-11 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-11 | **2.59 km** | Boat: 5.46km, GIO: 7.45km, Mos: 2.59km |
+> 1 sessions · 2.59 km total · 2.59 km avg · best 2.59 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-11 | Wed, Feb 11 | **2.59 km** | 🚶 Walk (เดิน) | [📸](mos-2026-feb-11.jpg) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-19 | **3.13 km** | GIO: 5.44km, Mos: 3.13km, Game: 2.42km, Palm: 3.03km, Jojo: 2.15km, Ton: 2.00km |
-| 2026-01-20 | **2.96 km** | GIO: 5.43km, Mos: 2.96km, Palm: 4.01km, Ton: 1.15km |
-| 2026-01-21 | **4.61 km** | GIO: 5.44km, Mos: 4.61km, Oat: 5.04km, Game: 6.16km, Oum: 2.39km |
+> 3 sessions · 10.70 km total · 3.57 km avg · best 4.61 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-19 | Mon, Jan 19 | **3.13 km** | 🚶 Walk (เดิน) | [📸](mos-2026-jan-19.jpg) |
+| 2 | 2026-01-20 | Tue, Jan 20 | **2.96 km** | 🚶 Walk (เดิน) | [📸](mos-2026-jan-20.jpg) |
+| 3 | 2026-01-21 | Wed, Jan 21 | **4.61 km** | 🚶 Walk (เดิน) | [📸](mos-2026-jan-21.jpg) |
+
+---
+*Auto-generated on 2026-02-22 18:18*

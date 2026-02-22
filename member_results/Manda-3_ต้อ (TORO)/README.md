@@ -1,19 +1,45 @@
-# 🏃‍♂️ Personal Stats: ต้อ (TORO)
+# 🏃 Toro (ต้อ)
 
-This is the automated detailed running log for **Toro**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `13.00 km`
-- **Active Days:** `3 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Toro (ต้อ) |
+| **Team** | ⚔️ Mandalorian |
+| **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
+| **Tracking App** | 📱 Strava |
+| **Member Since** | 2026-01-24 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **13.00 km** |
+| **Active Days** | 📅 3 days |
+| **Average / Session** | 📏 4.33 km |
+| **Best Session** | 🏆 4.47 km (2026-01-24) |
+| **Evidence Files** | 📸 3 screenshots |
+| **First Active** | 2026-01-24 |
+| **Last Active** | 2026-02-13 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-13 | **4.34 km** | Toro: 4.34km, Boy: 7.09km, O: 6.01km |
+> 1 sessions · 4.34 km total · 4.34 km avg · best 4.34 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-13 | Fri, Feb 13 | **4.34 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](toro-2026-feb-13.jpg) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-24 | **4.47 km** | Fuse: 12.76km, GIO: 8.04km, Boat: 6.52km, Sand: 6.26km, Toro: 4.47km, EM: 4.15km, O: 6.01km, Palm: 5.01km, Jojo: 3.17km |
-| 2026-01-25 | **4.19 km** | Toro: 4.19km, EM: 4.25km, Sand: 3.44km, Chan: 3.29km, O: 7.01km |
+> 2 sessions · 8.66 km total · 4.33 km avg · best 4.47 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.47 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](toro-2026-jan-24.jpg) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](toro-2026-jan-25.JPEG) |
+
+---
+*Auto-generated on 2026-02-22 18:18*

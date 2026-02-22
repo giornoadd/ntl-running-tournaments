@@ -70,3 +70,15 @@ This script:
 1. Validates distances strictly against the `1km`/`2km` minimum criteria.
 2. Moves disqualified runs to the "Invalid (ผิดกติกา)" column.
 3. Automatically computes the Daily and Accumulated statistical averages across the active months.
+
+### E. Generate Member READMEs
+After recalculating the CSVs, generate individual member profile pages with stats, monthly breakdowns, and linked evidence screenshots.
+
+```bash
+python3 src/generate_member_readmes.py
+```
+
+This script:
+1. Parses all `results/yyyy-month.csv` files to extract each member's activities.
+2. Links available evidence images from the member's `member_results/` folder.
+3. Generates a README.md per member with all-time summary, monthly tables, and image links.

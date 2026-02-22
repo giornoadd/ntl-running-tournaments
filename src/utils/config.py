@@ -10,6 +10,11 @@ PROJECT_ROOT = os.path.dirname(SRC_DIR)
 MEMBER_RESULTS_DIR = os.path.join(PROJECT_ROOT, "member_results")
 RESULTS_DIR = os.path.join(PROJECT_ROOT, "results")
 
+# Competition Rules
+RUN_MIN_DISTANCE = 1.0   # km — minimum for running activities
+WALK_MIN_DISTANCE = 2.0  # km — minimum for walking activities
+TEAM_SIZE = 10            # members per team
+
 # Renaming logic regex pattern
 RENAMED_PATTERN = re.compile(
     r'^([a-z]+)-(\d{4})-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-(\d{2})(_\d+)?\.(jpg|jpeg|png)$',

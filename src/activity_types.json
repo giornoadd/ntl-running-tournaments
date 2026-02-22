@@ -1,0 +1,134 @@
+{
+  "_description": "OCR-verified activity types from member evidence screenshots. Format: member_nickname_lower -> { default_activity, app_used, per_date_overrides }",
+  "oat": {
+    "default_activity": "Indoor Run",
+    "default_activity_thai": "วิ่งในร่ม",
+    "app": "Mi Fitness",
+    "overrides": {
+      "2026-01-21": { "activity": "Outdoor Walk", "activity_thai": "เดินกลางแจ้ง" }
+    }
+  },
+  "pan": {
+    "default_activity": "Walk",
+    "default_activity_thai": "เดิน",
+    "app": "Unknown",
+    "overrides": {}
+  },
+  "fuse": {
+    "default_activity": "Morning Walk",
+    "default_activity_thai": "เดินเช้า",
+    "app": "Samsung Health",
+    "overrides": {}
+  },
+  "em": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Apple Watch",
+    "overrides": {}
+  },
+  "mos": {
+    "default_activity": "Walk",
+    "default_activity_thai": "เดิน",
+    "app": "Samsung Health",
+    "overrides": {}
+  },
+  "toro": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Strava",
+    "overrides": {}
+  },
+  "boat": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Strava",
+    "overrides": {
+      "2026-01-31": { "activity": "Walk", "activity_thai": "เดิน" }
+    }
+  },
+  "oum": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Apple Watch",
+    "overrides": {
+      "2026-01-14": { "activity": "Walk", "activity_thai": "เดิน" }
+    }
+  },
+  "chan": {
+    "default_activity": "Walking",
+    "default_activity_thai": "เดิน",
+    "app": "Mi Fitness",
+    "overrides": {
+      "2026-01-25_1": { "activity": "Outdoor Run", "activity_thai": "วิ่งกลางแจ้ง" },
+      "2026-02-17": { "activity": "Outdoor Run", "activity_thai": "วิ่งกลางแจ้ง" }
+    }
+  },
+  "game": {
+    "default_activity": "Indoor Run",
+    "default_activity_thai": "วิ่งในร่ม",
+    "app": "Apple Watch",
+    "overrides": {}
+  },
+  "palm": {
+    "default_activity": "Treadmill Run",
+    "default_activity_thai": "วิ่งลู่",
+    "app": "Garmin",
+    "overrides": {}
+  },
+  "boy": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Apple Watch",
+    "overrides": {}
+  },
+  "o": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Run Tracker (Fitness22)",
+    "overrides": {}
+  },
+  "ton": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Strava",
+    "overrides": {}
+  },
+  "jojo": {
+    "default_activity": "Indoor Walk",
+    "default_activity_thai": "เดินในร่ม",
+    "app": "Huawei Health",
+    "overrides": {
+      "2026-02-02": { "activity": "Outdoor Run", "activity_thai": "วิ่งกลางแจ้ง" }
+    }
+  },
+  "sand": {
+    "default_activity": "Walk",
+    "default_activity_thai": "เดิน",
+    "app": "Strava",
+    "overrides": {}
+  },
+  "gio": {
+    "default_activity": "Outdoor Run",
+    "default_activity_thai": "วิ่งกลางแจ้ง",
+    "app": "Strava",
+    "overrides": {}
+  },
+  "peck": {
+    "default_activity": "Unknown",
+    "default_activity_thai": "ไม่ทราบ",
+    "app": "Unknown",
+    "overrides": {}
+  },
+  "neung": {
+    "default_activity": "Unknown",
+    "default_activity_thai": "ไม่ทราบ",
+    "app": "Unknown",
+    "overrides": {}
+  },
+  "tae": {
+    "default_activity": "Unknown",
+    "default_activity_thai": "ไม่ทราบ",
+    "app": "Unknown",
+    "overrides": {}
+  }
+}

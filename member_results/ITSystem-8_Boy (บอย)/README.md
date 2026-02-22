@@ -1,28 +1,56 @@
-# 🏃‍♂️ Personal Stats: Boy (บอย)
+# 🏃 Boy (บอย)
 
-This is the automated detailed running log for **Boy**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `73.15 km`
-- **Active Days:** `12 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Boy (บอย) |
+| **Team** | 💻 IT System |
+| **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
+| **Tracking App** | 📱 Apple Watch |
+| **Member Since** | 2026-01-07 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **84.46 km** |
+| **Active Days** | 📅 14 days |
+| **Average / Session** | 📏 6.03 km |
+| **Best Session** | 🏆 7.47 km (2026-02-21) |
+| **Evidence Files** | 📸 14 screenshots |
+| **First Active** | 2026-01-07 |
+| **Last Active** | 2026-02-22 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-01 | **5.22 km** | EM: 9.66km, Sand: 3.62km, Boy: 5.22km, Jojo: 4.27km, Oat: 7.05km, Ton: 2.40km |
-| 2026-02-04 | **6.19 km** | Sand: 2.11km, Boy: 6.19km, Jojo: 3.24km, O: 6.00km, Oat: 3.03km, Palm: 4.01km |
-| 2026-02-06 | **5.40 km** | Boy: 5.40km, O: 7.00km |
-| 2026-02-07 | **7.00 km** | GIO: 11.44km, Boy: 7.00km, O: 6.62km, PAN: 2.16km, Palm: 5.01km |
-| 2026-02-08 | **6.39 km** | Boy: 6.39km, Jojo: 4.41km, O: 5.00km, PAN: 2.05km |
-| 2026-02-13 | **7.09 km** | Toro: 4.34km, Boy: 7.09km, O: 6.01km |
-| 2026-02-14 | **6.37 km** | Boat: 7.41km, GIO: 10.78km, Boy: 6.37km, Jojo: 4.54km |
-| 2026-02-21 | **7.47 km** | Boat: 5.46km, GIO: 14.18km, Boy: 7.47km |
+> 9 sessions · 57.44 km total · 6.38 km avg · best 7.47 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-01 | Sun, Feb 01 | **5.22 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-01.jpg) |
+| 2 | 2026-02-04 | Wed, Feb 04 | **6.19 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-04.jpg) |
+| 3 | 2026-02-06 | Fri, Feb 06 | **5.40 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-06.jpg) |
+| 4 | 2026-02-07 | Sat, Feb 07 | **7.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-07.JPG) |
+| 5 | 2026-02-08 | Sun, Feb 08 | **6.39 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-08.JPG) |
+| 6 | 2026-02-13 | Fri, Feb 13 | **7.09 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-13.jpg) |
+| 7 | 2026-02-14 | Sat, Feb 14 | **6.37 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-14.jpg) |
+| 8 | 2026-02-21 | Sat, Feb 21 | **7.47 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-21.jpg) |
+| 9 | 2026-02-22 | Sun, Feb 22 | **6.31 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-feb-22.jpg) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-26 | **6.01 km** | GIO: 5.02km, O: 6.02km, Boy: 6.01km, Ton: 1.11km |
-| 2026-01-27 | **5.01 km** | Boat: 4.68km, Game: 8.45km, Palm: 3.01km, Jojo: 6.31km, Boy: 5.01km, Ton: 4.15km |
-| 2026-01-28 | **5.00 km** | Jojo: 2.13km, Boy: 5.00km |
-| 2026-01-29 | **6.00 km** | GIO: 6.09km, Palm: 4.01km, Jojo: 6.40km, Boy: 6.00km, Ton: 3.47km |
+> 5 sessions · 27.02 km total · 5.40 km avg · best 6.01 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-07 | Wed, Jan 07 | **5.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-jan-07.png) |
+| 2 | 2026-01-26 | Mon, Jan 26 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-jan-26.jpg) |
+| 3 | 2026-01-27 | Tue, Jan 27 | **5.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-jan-27.jpg) |
+| 4 | 2026-01-28 | Wed, Jan 28 | **5.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-jan-28.jpg) |
+| 5 | 2026-01-29 | Thu, Jan 29 | **6.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](boy-2026-jan-29.jpg) |
+
+---
+*Auto-generated on 2026-02-22 18:18*

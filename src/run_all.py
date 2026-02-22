@@ -2,10 +2,11 @@
 """
 Single CLI entrypoint to run the entire End-to-End Workflow securely.
 Usage:
-    python3 scripts/run_all.py
+    python3 src/run_all.py
 
-This wrapper executes the workflow outlined in `docs/End-to-End Workflow.md` 
-in chronological order to reformat evidence, add watermarks, and recalculate statistics.
+This wrapper executes the workflow outlined in `docs/End-to-End Workflow.md`
+in chronological order to reformat evidence, add watermarks, recalculate
+statistics, and generate member READMEs.
 """
 
 import os
@@ -51,6 +52,9 @@ def main():
     
     # Step 5: Recalculate Statistics and Apply Rules
     run_script("recalculate_csv.py")
+    
+    # Step 6: Generate Member READMEs
+    run_script("generate_member_readmes.py")
     
     print("\n🎉 End-to-End Workflow completed successfully!\n")
 

@@ -1,19 +1,45 @@
-# 🏃‍♂️ Personal Stats: เอ็ม (EM)
+# 🏃 Em (เอ็ม)
 
-This is the automated detailed running log for **Em**.
+> Personal running statistics for the **Running Competition 2026**
 
-## 📊 Accumulative Summary
-- **Total Distance Ran:** `18.06 km`
-- **Active Days:** `3 days`
+## 👤 Profile
+
+| | |
+| :--- | :--- |
+| **Name** | Em (เอ็ม) |
+| **Team** | ⚔️ Mandalorian |
+| **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
+| **Tracking App** | 📱 Apple Watch |
+| **Member Since** | 2026-01-24 |
+
+## 📊 All-Time Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Distance** | 🔥 **18.06 km** |
+| **Active Days** | 📅 3 days |
+| **Average / Session** | 📏 6.02 km |
+| **Best Session** | 🏆 9.66 km (2026-02-01) |
+| **Evidence Files** | 📸 3 screenshots |
+| **First Active** | 2026-01-24 |
+| **Last Active** | 2026-02-01 |
+
 ---
+
 ## 📅 2026-February
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-02-01 | **9.66 km** | EM: 9.66km, Sand: 3.62km, Boy: 5.22km, Jojo: 4.27km, Oat: 7.05km, Ton: 2.40km |
+> 1 sessions · 9.66 km total · 9.66 km avg · best 9.66 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-02-01 | Sun, Feb 01 | **9.66 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-feb-01.JPEG) |
 
 ## 📅 2026-January
-| Date | Distance | Full Team Daily Context |
-| :--- | :--- | :--- |
-| 2026-01-24 | **4.15 km** | Fuse: 12.76km, GIO: 8.04km, Boat: 6.52km, Sand: 6.26km, Toro: 4.47km, EM: 4.15km, O: 6.01km, Palm: 5.01km, Jojo: 3.17km |
-| 2026-01-25 | **4.25 km** | Toro: 4.19km, EM: 4.25km, Sand: 3.44km, Chan: 3.29km, O: 7.01km |
+> 2 sessions · 8.40 km total · 4.20 km avg · best 4.25 km
 
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-jan-24.JPEG) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-jan-25.JPEG) |
+
+---
+*Auto-generated on 2026-02-22 18:18*
