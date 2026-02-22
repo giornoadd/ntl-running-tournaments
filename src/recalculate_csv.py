@@ -110,6 +110,7 @@ def recalculate_all():
     # Collect quarterly stats for README generation
     quarterly_stats = {}  # {(year, quarter): {manda_total, itsys_total}}
     monthly_stats = {}    # {filepath_basename: {manda_total, itsys_total}}
+    runner_yearly_stats = {} # {year: {name: {'team': team, 'distance': 0.0}}}
     
     for filepath in files:
         file_year = get_year_from_filepath(filepath)
@@ -160,6 +161,19 @@ def recalculate_all():
                     
             manda_daily = sum(r['dist'] for r in valid_manda)
             itsys_daily = sum(r['dist'] for r in valid_itsys)
+            
+            if file_year not in runner_yearly_stats:
+                runner_yearly_stats[file_year] = {}
+            for r in valid_manda:
+                name = r['name'].capitalize()
+                if name not in runner_yearly_stats[file_year]:
+                    runner_yearly_stats[file_year][name] = {'team': 'Mandalorian', 'distance': 0.0}
+                runner_yearly_stats[file_year][name]['distance'] += r['dist']
+            for r in valid_itsys:
+                name = r['name'].capitalize()
+                if name not in runner_yearly_stats[file_year]:
+                    runner_yearly_stats[file_year][name] = {'team': 'IT System', 'distance': 0.0}
+                runner_yearly_stats[file_year][name]['distance'] += r['dist']
             
             manda_accum += manda_daily
             itsys_accum += itsys_daily
@@ -222,10 +236,12 @@ def recalculate_all():
         }
     
     # Generate results/README.md
-    generate_results_readme(quarterly_stats, monthly_stats)
+    generate_results_readme(quarterly_stats, monthly_stats, runner_yearly_stats)
 
 
-def generate_results_readme(quarterly_stats, monthly_stats):
+def generate_results_readme(quarterly_stats, monthly_stats, runner_yearly_stats=None):
+    if runner_yearly_stats is None:
+        runner_yearly_stats = {}
     """Generate results/README.md with yearly-quarterly statistics."""
     lines = []
     lines.append("# 📊 Running Competition: Results Tracker\n")
@@ -256,6 +272,18 @@ def generate_results_readme(quarterly_stats, monthly_stats):
         lines.append(f"| **Average / Person** | {year_manda_avg:.2f} km | {year_itsys_avg:.2f} km | {leader} |")
         lines.append(f"\n> {leader} leads by **{lead_by:.2f} km/person**\n")
         
+        if year in runner_yearly_stats:
+            top_runners = sorted(runner_yearly_stats[year].items(), key=lambda x: x[1]['distance'], reverse=True)[:5]
+            if top_runners:
+                lines.append("### 🌟 Top 5 Individual Runners\n")
+                lines.append("| Rank | Name | Team | Distance |")
+                lines.append("| :---: | :--- | :--- | ---: |")
+                medals = ["🥇 1", "🥈 2", "🥉 3", "🏅 4", "🏅 5"]
+                for idx, (r_name, r_data) in enumerate(top_runners):
+                    team_icon = "⚔️ Mandalorian" if r_data['team'] == 'Mandalorian' else "💻 IT System"
+                    lines.append(f"| {medals[idx]} | {r_name} | {team_icon} | {r_data['distance']:.2f} km |")
+                lines.append("")
+
         # Quarterly breakdown
         lines.append("### Quarterly Breakdown\n")
         lines.append("| Quarter | ⚔️ Mandalorian | 💻 IT System | Winner |")

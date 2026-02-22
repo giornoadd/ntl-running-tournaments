@@ -13,6 +13,16 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 > 💻 **IT System** leads by **10.04 km/person**
 
+### 🌟 Top 5 Individual Runners
+
+| Rank | Name | Team | Distance |
+| :---: | :--- | :--- | ---: |
+| 🥇 1 | Gio | ⚔️ Mandalorian | 222.43 km |
+| 🥈 2 | Jojo | 💻 IT System | 141.09 km |
+| 🥉 3 | O | 💻 IT System | 86.56 km |
+| 🏅 4 | Boy | 💻 IT System | 84.46 km |
+| 🏅 5 | Oat | 💻 IT System | 43.77 km |
+
 ### Quarterly Breakdown
 
 | Quarter | ⚔️ Mandalorian | 💻 IT System | Winner |
@@ -36,6 +46,16 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 | **Average / Person** | 4.61 km | 4.02 km | ⚔️ **Mandalorian** |
 
 > ⚔️ **Mandalorian** leads by **0.59 km/person**
+
+### 🌟 Top 5 Individual Runners
+
+| Rank | Name | Team | Distance |
+| :---: | :--- | :--- | ---: |
+| 🥇 1 | Gio | ⚔️ Mandalorian | 29.67 km |
+| 🥈 2 | Game | 💻 IT System | 22.26 km |
+| 🥉 3 | O | 💻 IT System | 17.93 km |
+| 🏅 4 | Chan | ⚔️ Mandalorian | 8.62 km |
+| 🏅 5 | Sand | ⚔️ Mandalorian | 7.81 km |
 
 ### Quarterly Breakdown
 

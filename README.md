@@ -11,10 +11,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Metric | ⚔️ Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 357.78 km | 460.48 km | 💻 IT System |
-| **Average / Person** | 35.78 km | 46.05 km | 💻 IT System |
+| **Total Distance** | 370.83 km | 471.20 km | 💻 IT System |
+| **Average / Person** | 37.08 km | 47.12 km | 💻 IT System |
 
-> IT System leads by **10.27 km/person** 🏆
+> IT System leads by **10.04 km/person** 🏆
+
+### 🌟 Top 5 Individual Runners
+
+| Rank | Name | Team | Distance |
+| :---: | :--- | :--- | ---: |
+| 🥇 1 | GIO | ⚔️ Mandalorian | 252.10 km |
+| 🥈 2 | Jojo | 💻 IT System | 141.09 km |
+| 🥉 3 | O | 💻 IT System | 104.49 km |
+| 🏅 4 | Boy | 💻 IT System | 84.46 km |
+| 🏅 5 | Game | 💻 IT System | 44.89 km |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
