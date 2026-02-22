@@ -26,6 +26,7 @@ They are preserved here for reference, debugging, or highly specific edge-cases.
 | **`verify_ocr.py`** / **`verify_rename.py`** | Minor validation scripts to independently test the Tesseract/Gemini regex extraction models against known inputs before bulk-applying. |
 | **`sync_metadata.py`** / **`update_metadata_from_filename.py`** | Utilities that forcibly injected/corrected EXIF DateTimeOriginal metadata headers into JPG tracks based on their directory tree formatting. |
 | **`convert_csv_to_md.py`** | Script used to parse the raw `results/*.csv` tracking files and generate formatted Markdown tables. |
+| **`recover_csv.py`** | Emergency script used to reverse-engineer corrupted/truncated CSV files back into existence by reading their intact Markdown representations. |
 
 ---
 *If you are looking for the active operational pipeline scripts (e.g. `run_all.py`, `reformat_files.py`, `recalculate_csv.py`), navigate back to the **`src/`** directory.*
