@@ -1,0 +1,70 @@
+#!/bin/bash
+# Batch watermark runner - processes images that don't have visible dates
+BASE="/Users/giornoadd/my-macos/running-comp/member_results"
+SCRIPT="/Users/giornoadd/my-macos/running-comp/scripts/add_date_watermark.py"
+
+# Boat (Strava share - no dates)
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-feb-11.jpg"
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-feb-14.jpg"
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-feb-21.jpg"
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-jan-24.jpg"
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-jan-27.jpg"
+python3 "$SCRIPT" "$BASE/Manda-2_โบ๊ท (Boat)/boat-2026-jan-31.JPEG"
+
+# TORO (Nike Run Club - no dates)
+python3 "$SCRIPT" "$BASE/Manda-3_ต้อ (TORO)/toro-2026-feb-13.jpg"
+python3 "$SCRIPT" "$BASE/Manda-3_ต้อ (TORO)/toro-2026-jan-24.jpg"
+python3 "$SCRIPT" "$BASE/Manda-3_ต้อ (TORO)/toro-2026-jan-25.JPEG"
+
+# SAND (Strava share - no dates)
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2025-dec-23.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2025-dec-27.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2025-dec-28.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-01.JPEG"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-02.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-03.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-04.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-12.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-12_1.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-18.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-feb-19.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-02.JPEG"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-08.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-13.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-14.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-24.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-24_1.jpg"
+python3 "$SCRIPT" "$BASE/Manda-5_แซนด์ (SAND)/sand-2026-jan-25.jpg"
+
+# O (Run Tracker - no dates)
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-04.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-06.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-07.JPG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-08.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-13.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-15.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-feb-17.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-jan-23.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-jan-24.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-jan-25.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-jan-26.JPEG"
+python3 "$SCRIPT" "$BASE/ITSystem-3_O (โอ)/o-2026-jan-31.JPEG"
+
+# Boy (Strava detail with "Today" - no dates)
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-01.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-04.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-06.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-07.JPG"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-08.JPG"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-13.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-14.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-feb-21.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-jan-26.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-jan-27.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-jan-28.jpg"
+python3 "$SCRIPT" "$BASE/ITSystem-8_Boy (บอย)/boy-2026-jan-29.jpg"
+
+echo ""
+echo "=============================================="
+echo "  Batch watermark complete! 51 images processed"
+echo "=============================================="
