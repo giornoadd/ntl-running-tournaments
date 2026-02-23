@@ -16,18 +16,22 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **252.10 km** |
-| **Active Days** | 📅 38 days |
-| **Average / Session** | 📏 6.63 km |
+| **Total Distance** | 🔥 **261.56 km** |
+| **Active Days** | 📅 39 days |
+| **Average / Session** | 📏 6.71 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
-| **Evidence Files** | 📸 47 screenshots |
+| **Evidence Files** | 📸 49 screenshots |
 | **First Active** | 2025-10-17 |
-| **Last Active** | 2026-02-21 |
+| **Last Active** | 2026-02-23 |
+
+### 📌 Reports & Plans
+* 📊 [Personal Running Statistics (All 49 Activities)](personal-statistics.md)
+* 🏃🏻‍♂️ [Half-Marathon Performance & 14-Day Plan](Half_Marathon_Plan.md)
 
 ---
 
 ## 📅 2026-February
-> 12 sessions · 102.49 km total · 8.54 km avg · best 14.18 km
+> 13 sessions · 111.95 km total · 8.61 km avg · best 14.18 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -43,6 +47,7 @@
 | 10 | 2026-02-18 | Wed, Feb 18 | **8.58 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-feb-18.jpg) [📸2](gio-2026-feb-18_1.jpg) |
 | 11 | 2026-02-20 | Fri, Feb 20 | **8.45 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-feb-20.jpg) [📸2](gio-2026-feb-20.png) |
 | 12 | 2026-02-21 | Sat, Feb 21 | **14.18 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-feb-21.jpg) [📸2](gio-2026-feb-21_1.jpg) |
+| 13 | 2026-02-23 | Mon, Feb 23 | **9.46 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸1](gio-2026-feb-23.jpg) [📸2](gio-2026-feb-23_1.jpg) |
 
 ## 📅 2026-January
 > 21 sessions · 119.94 km total · 5.71 km avg · best 10.79 km
@@ -89,4 +94,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-02-22 20:23*
+*Auto-generated on 2026-02-23 06:34*
