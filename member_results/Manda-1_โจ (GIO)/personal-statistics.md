@@ -1,7 +1,5 @@
 # 📊 Personal running statistics (All Activities)
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 14 วัน (Half-Marathon Plan)](Half_Marathon_Plan.md)
-
 > สถิติการวิ่ง/เดินทั้งหมดของ Gio (โจ) เรียงตั้งแต่แรกจนถึงปัจจุบัน
 
 | วันที่ | กิจกรรม | ระยะทาง | เวลา | Average Pace | Heart Rate (Avg/Max) | HR Zones | Cadence | Cache File |
@@ -54,3 +52,5 @@
 | 2026-02-21 | Morning Walk | 5.16 km | 1h 8m | N/A | N/A | N/A | N/A | gio-2026-feb-21.jpg |
 | 2026-02-23 | Morning Walk | 3.44 km | 47m 24s | N/A | N/A | N/A | N/A | gio-2026-feb-23_1.jpg |
 | 2026-02-23 | 6km Easy Run | 6.02 km | 44:50 | 7:27/km | N/A | N/A | N/A | gio-2026-feb-23.jpg |
+
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 14 วัน (Half-Marathon Plan)](Half_Marathon_Plan.md)
