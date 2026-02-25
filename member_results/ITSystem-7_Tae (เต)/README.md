@@ -9,6 +9,7 @@
 | **Name** | Tae (เต) |
 | **Team** | 💻 IT System |
 | **Primary Activity** | 🏃 Unknown (ไม่ทราบ) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Unknown |
 | **Member Since** | N/A |
 
@@ -30,4 +31,4 @@
 *No running data recorded yet.* 🏁
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

@@ -8,7 +8,8 @@
 | :--- | :--- |
 | **Name** | Oat (โอ๊ต) |
 | **Team** | 💻 IT System |
-| **Primary Activity** | 🏃 Indoor Run (วิ่งในร่ม) |
+| **Primary Activity** | 🏃 Hybrid (Running + Morning Walk) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Mi Fitness |
 | **Member Since** | 2026-01-15 |
 
@@ -16,10 +17,13 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **43.77 km** |
+| **Total Distance** | 🔥 **43.77 km** (Running 38.73 km + Walk 5.04 km) |
 | **Active Days** | 📅 8 days |
+| **Total Sessions** | 📋 8 sessions (Running 7 + Walk 1) |
 | **Average / Session** | 📏 5.47 km |
 | **Best Session** | 🏆 7.05 km (2026-02-01) |
+| **Longest Run** | 🏅 7.05 km — Indoor Run (วิ่งในร่ม) (2026-02-01) |
+| **Avg Running Cadence** | 🦶 111 spm |
 | **Evidence Files** | 📸 8 screenshots |
 | **First Active** | 2026-01-15 |
 | **Last Active** | 2026-02-04 |
@@ -47,4 +51,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

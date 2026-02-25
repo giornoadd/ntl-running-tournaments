@@ -15,4 +15,4 @@
 | 2026-02-04 | Treadmill Running | 4.01 km | 48:43 | 12:09/km | N/A | N/A | N/A | palm-2026-feb-04.jpg |
 | 2026-02-07 | Walking | 5.01 km | N/A | 11:18/km | N/A | N/A | N/A | palm-2026-feb-07.JPEG |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม Half-Marathon](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

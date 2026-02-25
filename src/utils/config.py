@@ -46,6 +46,66 @@ OLLAMA_PRESETS = {
     "fun":      {"temperature": 0.9, "top_k": 50, "top_p": 0.95},  # Reporter: motivation
 }
 
+
+def get_ollama_client():
+    """Create and return an Ollama client connected to the configured base URL."""
+    from ollama import Client
+    return Client(host=OLLAMA_BASE_URL)
+
+
+def ask_ollama(prompt: str, system: str = "", preset: str = None, agent: str = "general") -> str:
+    """Send a prompt to local Ollama and return the response.
+
+    Args:
+        prompt: The question or instruction.
+        system: System prompt (role, language, style).
+        preset: One of 'precise', 'balanced', 'creative', 'fun'.
+                Uses .env defaults if not specified.
+        agent:  Agent slug for logging, e.g. 'process-image',
+                'running-coach', 'sports-analyst', 'tournament-reporter'.
+
+    Returns:
+        The model's response text.
+    """
+    client = get_ollama_client()
+
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    # Get generation options from preset or defaults
+    if preset and preset in OLLAMA_PRESETS:
+        opts = OLLAMA_PRESETS[preset]
+    else:
+        opts = {"temperature": OLLAMA_TEMPERATURE, "top_k": OLLAMA_TOP_K, "top_p": OLLAMA_TOP_P}
+
+    response = client.chat(
+        model=OLLAMA_MODEL,
+        messages=messages,
+        options=opts,
+    )
+    content = response["message"]["content"]
+
+    # Log the interaction
+    try:
+        from src.utils.ai_logger import log_ai_interaction
+        log_ai_interaction(
+            service="ollama",
+            agent=agent,
+            prompt=prompt,
+            response=content,
+            metadata={
+                "model": OLLAMA_MODEL,
+                "preset": preset or "default",
+                "system": system[:100] if system else "(none)",
+            },
+        )
+    except Exception:
+        pass  # Never let logging break the main flow
+
+    return content
+
 # Google Drive Config
 GOOGLE_DRIVE_FOLDER_ID = os.environ.get("GOOGLE_DRIVE_FOLDER_ID", "1FHh4VKxjO2zJF6Bx42UZgxv80cmpsEdG")
 

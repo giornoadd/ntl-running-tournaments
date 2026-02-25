@@ -8,4 +8,4 @@
 | 2026-01-25 | Morning Run (วิ่งตอนเช้า) | 4.25 km | 43:18 | 10:11/km | N/A | N/A | N/A | em-2026-jan-25.JPEG |
 | 2026-02-01 | Outdoor Run (วิ่งกลางแจ้ง) | 9.66 km | 1:20:00 | 8:20/km | N/A | N/A | N/A | em-2026-feb-01.JPEG |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

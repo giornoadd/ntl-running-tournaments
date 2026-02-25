@@ -9,6 +9,7 @@
 | **Name** | PAN (แพน) |
 | **Team** | 💻 IT System |
 | **Primary Activity** | 🚶 Walk (เดิน) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Unknown |
 | **Member Since** | 2026-02-07 |
 
@@ -16,8 +17,9 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **4.21 km** |
+| **Total Distance** | 🔥 **4.21 km** (Running 0.00 km + Walk 4.21 km) |
 | **Active Days** | 📅 2 days |
+| **Total Sessions** | 📋 2 sessions (Running 0 + Walk 2) |
 | **Average / Session** | 📏 2.10 km |
 | **Best Session** | 🏆 2.16 km (2026-02-07) |
 | **Evidence Files** | 📸 2 screenshots |
@@ -31,8 +33,8 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-07 | Sat, Feb 07 | **2.16 km** | 🚶 Walk (เดิน) | [📸](pan-2026-feb-07.JPG) |
-| 2 | 2026-02-08 | Sun, Feb 08 | **2.05 km** | 🚶 Walk (เดิน) | [📸](pan-2026-feb-08.JPG) |
+| 1 | 2026-02-07 | Sat, Feb 07 | **2.16 km** | 🚶 การเดิน (Walking) | [📸](pan-2026-feb-07.JPG) |
+| 2 | 2026-02-08 | Sun, Feb 08 | **2.05 km** | 🚶 การเดิน (Walking) | [📸](pan-2026-feb-08.JPG) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

@@ -13,4 +13,4 @@
 | 2026-02-02 | Indoor Run (วิ่งในร่ม) | 7.02 km | 1:18:12 | 11'08"/km | 116/N/A bpm | N/A | 101 spm | oat-2026-feb-02.jpg |
 | 2026-02-04 | Indoor Run (วิ่งในร่ม) | 3.03 km | 38:13 | 12'37"/km | 109/N/A bpm | N/A | 89 spm | oat-2026-feb-04.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

@@ -12,7 +12,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - [Tournament Calendar](docs/tournaments/Tournament%20Calendar.md)
   - [Process Workflow](docs/End-to-End%20Workflow.md)
   - [AI Agent System Guide](docs/AI%20Agent%20System.md)
-- **`/member_results`**: Per-participant subfolders with evidence screenshots, individual READMEs, personal statistics, and HM training plans.
+- **`/member_results`**: Per-participant subfolders with evidence screenshots, individual READMEs, personal statistics, and running plans.
 - **`/results`**: Monthly CSV/MD statistics and [quarterly standings](results/README.md).
 - **`/resources`**: Output files from AI agents.
   - `/resources/tournaments-reports`: Infographics, recaps, and news content.
@@ -29,7 +29,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
 - **`/tests`**: 48 pytest tests covering config, dates, files, recalculation, and member READMEs.
 - **`/.agents`**: AI agent workflows and skills.
   - `workflows/process-image.md`: Coach Assistant Agent — file processing & tournament ops.
-  - `workflows/running-coach.md`: Running Coach Agent — personal coaching & HM plans.
+  - `workflows/running-coach.md`: Running Coach Agent — personal coaching & running plans.
   - `workflows/sports-analyst.md`: Sports Analyst Agent — infographic & data viz content.
   - `workflows/tournament-reporter.md`: Tournament Reporter Agent — news & engagement content.
   - `skills/notebooklm-research/SKILL.md`: Shared skill for querying NotebookLM knowledge base.
@@ -42,7 +42,7 @@ Four AI agents manage tournament operations via slash commands:
 | Agent | Command | Role |
 |---|---|---|
 | 🏟️ Coach Assistant | `/process-image` | Rename files, update CSV/stats, tournament operations |
-| 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, HM training plans |
+| 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
 

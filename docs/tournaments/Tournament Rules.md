@@ -91,7 +91,7 @@ The competition resets every quarter. Results and rewards are distributed at the
 
 Evidence processing and statistics are managed by AI agents:
 - **`/process-image`** — Auto-rename, validate, and update CSV stats
-- **`/running-coach`** — Personal coaching and HM training plan generation
+- **`/running-coach`** — Personal coaching and running plan generation
 - **`/sports-analyst`** — Infographic content and tournament recaps
 
 See [End-to-End Workflow](../End-to-End%20Workflow.md) for full details.

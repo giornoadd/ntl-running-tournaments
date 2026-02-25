@@ -1,4 +1,4 @@
-# 🏃🏻‍♂️ วิเคราะห์ศักยภาพและแผนฝึกซ้อมสู่ Half-Marathon (เจาะลึกจนถึง Race Week!)
+# 🏃🏻‍♂️ วิเคราะห์ศักยภาพและแผนฝึกซ้อมสู่ Running Goal (เจาะลึกจนถึง Race Week!)
 *จัดทำโดย: Personal Running Coach & Sports Data Analyst*
 
 [🔙 กลับไปดูข้อมูล: สถิติการวิ่งทั้งหมด (Personal Statistics)](personal-statistics.md) | [🏠 กลับหน้าหลัก (Profile)](README.md)
@@ -10,7 +10,7 @@
 
 ---
 
-## 1. การวิเคราะห์ศักยภาพสำหรับ Half-Marathon (Performance Analysis for HM)
+## 1. การวิเคราะห์ศักยภาพสำหรับ Running Goal (Performance Analysis)
 
 ประเมินผลการวิ่งจากสถิติในตาราง เพื่อเจาะลึกความพร้อมสำหรับระยะ 21.1 กม. ของคุณโจ:
 
@@ -22,9 +22,19 @@
 * **การวิเคราะห์ Cadence:** ในสถิติปัจจุบันยังไม่มีการบันทึก Cadence (รอบขา) เอาไว้ แต่รอบขาคือตัวแปรหลักในการประหยัดพลังงานสำหรับมาราธอน (Running Economy) ถ้ารอบขาช้าเกินไป น้ำหนักจะกดทับหัวเข่านานขึ้น ขีดจำกัดความล้าจะมาเร็ว
 * **ข้อเสนอแนะ:** โค้ชแนะนำให้ลองโฟกัสก้าวเท้าให้สั้นลงแต่สับเท้าแตะพื้นเบาๆ และเร็วขึ้น โดยตั้งเป้าหมาย Cadence ให้อยู่ที่ประมาณ **160-170 spm (ก้าวต่อนาที)** เพื่อลดแรงกระแทกและทำให้คุณยืนระยะ 21.1 กม. ได้อย่างประหยัดแรงที่สุด
 
-### 💪🏻 จุดแข็งที่พร้อมสำหรับ Half-Marathon
+### 💪🏻 จุดแข็งที่พร้อมสำหรับ Running Goal
 * **วินัยในการฝึกซ้อมความแข็งแรง (Strength Training):** คุณมีเซสซั่นการเล่นเวท (Upper, Lower, Core) อย่างสม่ำเสมอ นี่คือ "อาวุธลับ" ที่จะช่วยล็อกแกนกลางลำตัวไม่ให้ส่ายตอนท้ายเรซ ซึ่งจะช่วยส่งก้าวเท้าให้มั่นคงและลดอาการบาดเจ็บไปได้มหาศาล
 * **ความคุ้นชินกับการสะสมระยะ:** การวิ่งระดับ 8-10km แทบกลายเป็นระยะปกติของคุณไปแล้ว แสดงว่าระบบโครงสร้างเส้นเอ็นของร่างกายปรับตัวเข้ากับแรงกระแทกระยะกลางได้ดีระดับหนึ่งแล้วครับพร้อมต่อยอดไปสู่ระยะฟาล์ฟมาราธอนอย่างแน่นอน
+
+### ❤️ Heart Rate Zones (Max HR: 176 BPM)
+
+| Zone | BPM Range | ใช้ตอนไหน |
+|:---|:---|:---|
+| Zone 1 Recovery | < 114 | Warm-up, Cool-down |
+| Zone 2 Endurance | 114–143 | Easy Run, Long Run |
+| Zone 3 Tempo | 143–157 | Tempo Run, Intervals |
+| Zone 4 Threshold | 157–171 | Speed Work, Race Pace |
+| Zone 5 Anaerobic | 171–176 | Sprint, Short Bursts |
 
 ### ⚠️ จุดที่ต้องระวังและพัฒนา (Areas to Watch)
 * **อาการชนกำแพง (Hitting the wall):** เมื่อขยับระยะ Long Run ไปเกิน 15km พลังงานไกลโคเจนในกล้ามเนื้ออาจจะหมดลงจนร่างกายหยุดกะทันหัน **วิธีแก้ไข:** จำเป็นต้องเริ่มฝึก **"การกินเจลระหว่างวิ่ง (Nutrition Training)"** ให้กระเพาะคุ้นชิน ควบคู่กับการวิ่ง Long Run ในทุกๆ สัปดาห์
@@ -32,9 +42,9 @@
 
 ---
 
-## 2. การออกแบบแผนการฝึกซ้อมสู่ Half-Marathon (Tailored Half-Marathon Plan)
+## 2. การออกแบบแผนการฝึกซ้อมสู่ Running Goal (Tailored Running Goal Plan)
 
-แผนฝึกซ้อม 18 สัปดาห์ (Week 10 จนถึง Week 27 วันที่ 27 มิ.ย. 2026) ถูกออกแบบมาจากแอปคู่ใจของคุณ เพื่อสะสมระยะและสร้างความพร้อมสู่เส้นชัยอย่างปลอดภัย โดยมีองค์ประกอบการวิ่งหลักๆ 3 แบบดังนี้:
+แผนฝึกซ้อม 27 สัปดาห์ (Week 1 วันที่ 22 ธ.ค. 2025 จนถึง Week 27 วันที่ 27 มิ.ย. 2026) ถูกออกแบบมาจากแอป **Runna** คู่ใจของคุณ เพื่อสะสมระยะและสร้างความพร้อมสู่เส้นชัยอย่างปลอดภัย โดยมีองค์ประกอบการวิ่งหลักๆ 3 แบบดังนี้:
 
 * 🟢 **Easy Run:** วิ่งด้วยความเร็วชิลๆ (Pace สบายๆ) เพื่อขยายความจุปอด สร้างความทนทานของกล้ามเนื้อและหัวใจ (Aerobic Base) และเป็นการ Active Recovery ให้เลือดไปล้างกรดแลคติกออก
 * 🟣 **Long Run:** การวิ่งยาวสัปดาห์ละ 1 ครั้ง เพื่อขยายขีดจำกัดร่างกาย เพิ่มความคุ้นเคยกับระยะทางและเวลาที่ต้องอยู่บนขานานขึ้น (Time on Feet) ครึ่งหลังของแผนจะมีการสอดแทรกระดมความเร็วเข้าไปจำลองความเหนื่อยในวันแข่งจริง
@@ -42,10 +52,106 @@
 
 โค้ชได้ถอดรหัสจากแอปของคุณ เพื่อให้คุณเข้าใจจุดประสงค์ของการซ้อมแต่ละวัน และทำมันได้อย่างมีประสิทธิภาพสูงสุดครับ:
 
-### 🗓️ Week 10: Feb 23 - Mar 1 (สัปดาห์สร้างฐานและสลับความเร็ว)
-* **Mon 23:** `Upper Body Strength + 6km Easy Run` (โฟกัสวงสวิงแขนตอนวิ่งให้สัมพันธ์กัน ช่วยประหยัดแรงขา)
+### 📊 ภาพรวมแผน 27 สัปดาห์
+
+| Phase | สัปดาห์ | วันที่ | Long Run | เป้าหมาย | Status |
+|---|---|---|---|---|---|
+| 🏗️ **Foundation** | Wk 1-4 | 22 ธ.ค. — 18 ม.ค. | 5-7 km | สร้างฐาน Aerobic + คุ้นชินกับตาราง | ✅ 3/4 pass, 1 ⚠️ |
+| 📈 **Base Building** | Wk 5-9 | 19 ม.ค. — 22 ก.พ. | 8-9 km | ขยายระยะ + เริ่ม Speed Work | ✅ 5/5 pass |
+| 💪 **Strength Phase** | Wk 10-15 | 23 ก.พ. — 5 เม.ย. | 10-12 km | เพิ่มความเข้มข้น + Hybrid Training | 🔄 Wk 10 |
+| 🔝 **Peak Phase** | Wk 16-23 | 6 เม.ย. — 31 พ.ค. | 13-19 km | ดันระยะสูงสุด + Race Practice | 📅 |
+| 🏁 **Taper & Race** | Wk 24-27 | 1 มิ.ย. — 28 มิ.ย. | 17→14→11 km | ลดระยะ เตรียมวันแข่ง | 📅 |
+
+---
+
+### 🗓️ Week 1: Dec 22 - Dec 28 ✅ (สัปดาห์เริ่มต้น Runna — สร้างกิจวัตร)
+* **Mon 22:** 🧘🏻‍♂️ *Rest Day*
+* **Tue 23:** 🧘🏻‍♂️ *Rest Day*
+* **Wed 24:** 🧘🏻‍♂️ *Rest Day*
+* **Thu 25:** 🧘🏻‍♂️ *Rest Day*
+* **Fri 26:** 🧘🏻‍♂️ *Rest Day*
+* **Sat 27:** ✅ `Saturday Morning Run` *(จริง: 8.5 km, 1h 26m 44s)* 🔥
+* **Sun 28:** ✅ `Sunday Morning Run + 3.5km Easy Run` *(จริง: 2.2 km, 30m 5s + 3.5 km, 31m 9s)*
+
+### 🗓️ Week 2: Dec 29 - Jan 4 ✅ (สัปดาห์สร้างฐานเริ่มต้น)
+* **Mon 29:** ✅ `4km Easy Run` *(จริง: 4 km)*
+* **Tue 30:** ✅ `Tuesday Morning Run` *(จริง: 2.1 km, 27m 31s + 4.0 km, 35m 6s)*
+* **Wed 31:** ✅ `Wednesday Morning Run + Rolling 300s` *(จริง: 5.3 km, 1h 10m 48s + 0.5 km, 4m 8s)* ส่งท้ายปี 🎆
+* **Thu 1:** ✅ `Upper Body Lift` (40-50m) 🎆 Happy New Year!
+* **Fri 2:** ❌ `Full Body Strength Session` (40-50m)
+* **Sat 3:** ✅ `Saturday Morning Run + 6km Progressive Run` *(จริง: 1.9 km, 25m 42s + 6.0 km, 1h 2m 51s)*
+* **Sun 4:** 🧘🏻‍♂️ *Rest Day*
+
+### 🗓️ Week 3: Jan 5 - Jan 11 ⚠️ (เริ่ม Speed Work แรก — Drop Set)
+> ⚠️ **ขาด:** Rolling 400s (Thu) + 7km Long Run (Sat) — ทำ 6km Sunday Run แทน
+* **Mon 5:** ✅ `Monday Morning Run + 4.5km Easy Run` *(จริง: 1.5 km, 23m 1s + 4.5 km, 39m 16s)*
+* **Tue 6:** ✅ `Drop Set` **(First Speed Workout!)** *(จริง: 2.3 km, 22m 57s)* ฝึกวิ่งลดระดับความเร็วเป็นชุด
+* **Wed 7:** ❌ `Full Body Strength` (40-50m)
+* **Thu 8:** ❌ `Rolling 400s (3km)` **(Speed Work)**
+* **Fri 9:** 🧘🏻‍♂️ *Rest Day*
+* **Sat 10:** ❌ `7km Long Run` (7 km)
+* **Sun 11:** ✅ `Lower Body Strength (40-50m) + Sunday Morning Run` *(จริง: 6.1 km, 53m 51s)*
+
+### 🗓️ Week 4: Jan 12 - Jan 18 ✅ (สัปดาห์เพิ่มความเร็ว — Rolling 500s)
+* **Mon 12:** 🧘🏻‍♂️ *Rest Day*
+* **Tue 13:** ✅ `Loading Up (40-50m) + 4.5km Easy Run` *(จริง: 4.5 km, 41m 26s)*
+* **Wed 14:** ✅ `Rolling 500s` **(Speed Work)** *(จริง: 3.5 km, 29m 18s)* วิ่งเร่ง 500m สลับพัก
+* **Thu 15:** ❌ `Upper Body Strength` (40-50m)
+* **Fri 16:** ✅ `Building Strength (40-50m) + 3km Easy Run` *(จริง: 3.1 km, 28m 56s)*
+* **Sat 17:** 🧘🏻‍♂️ *Rest Day*
+* **Sun 18:** ✅ `5km Long Run` *(จริง: 5.0 km, 39m 53s)* 🎯
+
+### 🗓️ Week 5: Jan 19 - Jan 25 ✅🔥 (เพิ่มปริมาณ + Interval Work)
+> 🔥 **เกินแผน:** วิ่งเพิ่มในวัน Rest (Mon 5.4km, Tue 5.4km, Fri 8.0km)
+* **Mon 19:** 🧘🏻‍♂️ *Rest Day*
+* **Tue 20:** 🧘🏻‍♂️ *Rest Day*
+* **Wed 21:** ✅ `Strong Foundation (40-50m) + On Off 200s (5.4km)` **(Speed Work)** *(จริง: 5.4 km, 53m 45s)* สลับวิ่งเร็ว-ช้าทุก 200m
+* **Thu 22:** ✅ `Pyramid Intervals (5.5km)` **(Speed Work)** *(จริง: 5.5 km, 46m 35s)* วิ่งไต่ระดับความเร็วแบบพีระมิด
+* **Fri 23:** 🧘🏻‍♂️ *Rest Day*
+* **Sat 24:** ✅ `Upper Body Lift + 8km Long Run` **(First 8K!)** *(จริง: 8.0 km, 1h 16m 46s)* 🎉
+* **Sun 25:** ❌ `Going Heavy` (40-50m)
+
+### 🗓️ Week 6: Jan 26 - Feb 1 ✅ (สัปดาห์ Tempo + Progressive Long Run)
+* **Mon 26:** ✅ `Stronger Upper Body (40-50m) + 5km Easy Run` *(จริง: 5.0 km, Pace 8:07/km, Zone 3, Cadence 151 spm)*
+* **Tue 27:** 🧘🏻‍♂️ *Rest Day*
+* **Wed 28:** ✅ `Lower Body Strength` (40-50m)
+* **Thu 29:** ✅ `5km Easy Run + Tempo 1200s (6km)` **(Key Speed Workout!)** *(จริง: 6.1 km, Pace 7:38/km, Zone 4)* วิ่ง Tempo 1.2km ซ้ำ คุมเพซใน Zone 4
+* **Fri 30:** ❌ `Strength Supersets` (40-50m)
+* **Sat 31:** ✅ `8km Progressive Repeat Long Run` **(Key Endurance!)** *(จริง: 8.4 km, Pace 7:53/km, Zone 4, Cadence 154 spm)* วิ่งยาวแบบไต่ระดับความเร็ว 🔥
+* **Sun 1:** 🧘🏻‍♂️ *Rest Day*
+
+### 🗓️ Week 7: Feb 2 - Feb 8 ✅ (สัปดาห์ Speed + Long Run 9km)
+* **Mon 2:** ✅ `5km Easy Run` *(จริง: 6.0 km, Pace 8:10/km, 49m 15s)*
+* **Tue 3:** ✅ `600s into 200s (7.5km)` **(Key Speed Workout!)** *(จริง: 7.7 km, Pace 8:01/km, 1h 1m 52s)* วิ่งเร็ว 600m สลับ 200m recovery
+* **Wed 4:** ✅ `Upper Body Strength` (10s)
+* **Thu 5:** ✅ `Half Easy, Half Tempo (6km)` *(จริง: 6.2 km, Pace 7:49/km, 48m 51s)* ครึ่งแรกชิลๆ ครึ่งหลังกดเพซ
+* **Fri 6:** ✅ `Legs & Core Strength` (7s)
+* **Sat 7:** ✅ `9km Long Run` **(New Longest Run!)** *(จริง: 9.1 km, 1h 14m 39s)* 🎉
+* **Sun 8:** ✅ `Full Body Strength` (2m 14s)
+
+### 🗓️ Week 8: Feb 9 - Feb 15 ✅ (Cut-back Week พักฟื้นเฟสแรก — 6km)
+*สัปดาห์นี้แอปตั้งใจลดระยะ Long Run ลง ให้กล้ามเนื้อได้ซ่อมแซม*
+* **Mon 9:** ✅ `5km Easy Run` *(จริง: 5.0 km, Pace 7:29/km, 37m 36s)*
+* **Tue 10:** ✅ `Upper Body Lift`
+* **Wed 11:** ✅ `On Off Ks (5km)` **(Speed Work)** *(จริง: 5.2 km, Pace 7:29/km, 39m 4s)*
+* **Thu 12:** ✅ `5km Easy Run` *(จริง: 5.0 km, Pace 7:37/km, 38m 14s)*
+* **Fri 13:** ✅ `Full Body Strength (40-50m) + Lower Body Strength`
+* **Sat 14:** ✅ `6km Long Run` *(จริง: 6.1 km, Pace 8:43/km, 53m 7s)* วิ่งให้จบแบบยังอยากวิ่งต่อ
+* **Sun 15:** 🧘🏻‍♂️ *Rest Day*
+
+### 🗓️ Week 9: Feb 16 - Feb 22 ✅ (กลับมาไต่ระดับ — 9km)
+* **Mon 16:** ✅ `Stronger Upper Body (40-50m) + 5km Easy Run` *(จริง: 5.0 km, Pace 7:53/km, 39m 35s)*
+* **Tue 17:** 🧘🏻‍♂️ *Rest Day*
+* **Wed 18:** ✅ `Loading Up (40-50m) + 500m Madness (6.5km)` **(Speed Work)** *(จริง: 6.5 km, Pace 7:54/km)* วิ่งเร่ง 500m ซ้ำๆ ฝึกทนกรดแลคติก
+* **Thu 19:** 🧘🏻‍♂️ *Rest Day*
+* **Fri 20:** ✅ `Over and Unders 1km (6.2km)` **(Speed Work)** *(จริง: 6.2 km, Pace 7:59/km, 49m 44s)* วิ่งสลับเร็ว-ช้าทุก 1km
+* **Sat 21:** ✅ `9km Long Run` *(จริง: 9.0 km, Pace 9:11/km, 1h 22m 53s, Zone 2)* รักษา Zone 2 ได้ดีมาก!
+* **Sun 22:** ❌ `Building Strength` (40-50m)
+
+### 🗓️ Week 10: Feb 23 - Mar 1 🔄 (สัปดาห์สร้างฐานและสลับความเร็ว)
+* **Mon 23:** `Upper Body Strength + 6km Easy Run` *(จริง: 6.0 km, Pace 7:27/km, Zone 3, Cadence 157 spm)* ✅
 * **Tue 24:** `Strong Foundation` (เน้นการทรงตัวและการลงน้ำหนัก)
-* **Wed 25:** `Over and Unders 400s (5.6km)` **(Key Speed Workout!)** วิ่งเร็ว 400ม. สลับวิ่งคุมเพซ 400ม. ฝึกให้ร่างกายคุ้นชินกับการเร่งและผ่อนโดยไม่หยุดเดิน
+* **Wed 25:** `Over and Unders 400s (5.6km)` **(Key Speed Workout!)** *(จริง: 5.9 km, Pace 8:17/km, Zone 3, Cadence 140 spm)* ✅
 * **Thu 26:** `6km Easy Run` (วิ่งคลายกรดแลคติก Pace 8:00+)
 * **Fri 27:** `Going Heavy` (วันสร้างพลังกล้ามเนื้อขั้นสุด)
 * **Sat 28:** `10km Block Long Run` **(Key Endurance!)** รักษาระดับ Pace ยืนพื้นให้ได้ตลอด 10km (แนะนำ Pace 8:30) ฝึกการจิบน้ำทุกๆ 2-3 กิโลเมตร
@@ -208,7 +314,7 @@
 | **Wed 24** | `Race Pace Practice 5km` | วิ่งซ้อมเพซเป้าหมายช่วงสั้นๆ ล็อกความรู้สึกเกียร์นี้ไว้ |
 | **Thu 25** | 🧘🏻‍♂️ *Rest Day* | นอนตุน **"เริ่มโหลดคาร์ฯ (Carb Loading)"** ดื่มน้ำให้ฉี่ใส |
 | **Fri 26** | 🧘🏻‍♂️ *Rest Day* | ตัดเล็บเท้า! ติดเบอร์บิบเข็มกลัด พักผ่อนให้เยอะที่สุด |
-| **Sat 27** | 🏁 **Half Marathon Race 21.1km** | **Race Day!** ลุยให้สนุก ครึ่งแรกห้ามวิ่งเร็วเด็ดขาด ทยอยเติมเจลตามแผน แล้วรับเหรียญรางวัลอย่างสง่างามครับ! 🥇 |
+| **Sat 27** | 🏁 **Running Goal Race 21.1km** | **Race Day!** ลุยให้สนุก ครึ่งแรกห้ามวิ่งเร็วเด็ดขาด ทยอยเติมเจลตามแผน แล้วรับเหรียญรางวัลอย่างสง่างามครับ! 🥇 |
 | **Sun 28** | 🧘🏻‍♂️ *Rest Day* | เอาเหรียญมาถ่ายรูปโชว์โค้ชด้วยนะครับ! |
 
 > [!TIP]

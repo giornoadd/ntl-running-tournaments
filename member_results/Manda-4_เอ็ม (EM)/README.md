@@ -9,6 +9,7 @@
 | **Name** | Em (เอ็ม) |
 | **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Apple Watch |
 | **Member Since** | 2026-01-24 |
 
@@ -20,6 +21,8 @@
 | **Active Days** | 📅 3 days |
 | **Average / Session** | 📏 6.02 km |
 | **Best Session** | 🏆 9.66 km (2026-02-01) |
+| **Best Pace** | ⚡ 8:20/km — Outdoor Run (วิ่งกลางแจ้ง) (2026-02-01) |
+| **Longest Run** | 🏅 9.66 km — Outdoor Run (วิ่งกลางแจ้ง) (2026-02-01) |
 | **Evidence Files** | 📸 3 screenshots |
 | **First Active** | 2026-01-24 |
 | **Last Active** | 2026-02-01 |
@@ -38,8 +41,8 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-jan-24.JPEG) |
-| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-jan-25.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](em-2026-jan-24.JPEG) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](em-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

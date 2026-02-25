@@ -109,53 +109,58 @@ curl http://localhost:11434/api/tags
 
 ## Python Integration
 
-Use via `src/utils/config.py` (recommended) or standalone:
+Install the official client:
+
+```bash
+pip install ollama
+```
+
+### Using `ask_ollama()` helper (recommended)
+
+The helper in `src/utils/config.py` wraps the `ollama.Client` with project presets:
 
 ```python
-import requests
-from src.utils.config import (
-    OLLAMA_BASE_URL, OLLAMA_MODEL,
-    OLLAMA_TEMPERATURE, OLLAMA_TOP_K, OLLAMA_TOP_P,
-    OLLAMA_PRESETS,
+from src.utils.config import ask_ollama
+
+# Coach (precise):  validate data, parse dates
+ask_ollama("Is 2.13km in 19:56 a run or walk?", preset="precise")
+
+# Reporter (fun):   LINE/Facebook, motivation
+ask_ollama("เขียน LINE message สรุปสัปดาห์", preset="fun")
+
+# Custom system prompt:
+ask_ollama("วิเคราะห์ pace", system="You are a running coach. Respond in Thai.")
+```
+
+### Using `ollama.Client` directly
+
+```python
+from src.utils.config import get_ollama_client, OLLAMA_MODEL
+
+client = get_ollama_client()
+
+# Chat completion
+response = client.chat(
+    model=OLLAMA_MODEL,
+    messages=[
+        {"role": "system", "content": "You are a sports analyst."},
+        {"role": "user", "content": "Summarize: GIO 241km, Jojo 151km"},
+    ],
+    options={"temperature": 0.7, "top_k": 40, "top_p": 0.9},
 )
+print(response["message"]["content"])
+```
 
-def ask_ollama(prompt: str, system: str = "", preset: str = None) -> str:
-    """Send a prompt to local Ollama and return the response.
-    
-    Args:
-        prompt: The question or instruction
-        system: System prompt (role, language, style)
-        preset: One of 'precise', 'balanced', 'creative', 'fun'
-                Uses .env defaults if not specified
-    """
-    messages = []
-    if system:
-        messages.append({"role": "system", "content": system})
-    messages.append({"role": "user", "content": prompt})
-    
-    # Get generation options from preset or defaults
-    if preset and preset in OLLAMA_PRESETS:
-        opts = OLLAMA_PRESETS[preset]
-    else:
-        opts = {"temperature": OLLAMA_TEMPERATURE, "top_k": OLLAMA_TOP_K, "top_p": OLLAMA_TOP_P}
-    
-    response = requests.post(
-        f"{OLLAMA_BASE_URL}/api/chat",
-        json={
-            "model": OLLAMA_MODEL,
-            "messages": messages,
-            "stream": False,
-            "options": opts,
-        },
-        timeout=120
-    )
-    response.raise_for_status()
-    return response.json()["message"]["content"]
+### Streaming
 
-# Examples:
-# Coach (precise):   ask_ollama("Is 2.13km in 19:56 a run or walk?", preset="precise")
-# Reporter (fun):    ask_ollama("เขียน LINE message สรุปสัปดาห์", preset="fun")
-# Custom:            ask_ollama("วิเคราะห์ pace", system="You are a coach.")
+```python
+stream = client.chat(
+    model=OLLAMA_MODEL,
+    messages=[{"role": "user", "content": "Tell me about running"}],
+    stream=True,
+)
+for chunk in stream:
+    print(chunk["message"]["content"], end="", flush=True)
 ```
 
 ---

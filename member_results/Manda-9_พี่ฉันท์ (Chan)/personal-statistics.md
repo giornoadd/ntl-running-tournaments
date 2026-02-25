@@ -13,4 +13,4 @@
 | 2026-02-17 | Outdoor Running (วิ่งกลางแจ้ง) | 3.38 km | 42:49 | 12'40"/km | 135/N/A bpm | N/A | N/A | chan-2026-feb-17.jpg |
 | 2026-02-23 | Outdoor Running (วิ่งกลางแจ้ง) | 3.47 km | 43:44 | 12'36"/km | 127/N/A bpm | N/A | N/A | chan-2026-feb-23.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

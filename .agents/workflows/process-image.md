@@ -48,7 +48,7 @@ Use `view_file` on the image. Extract:
 | Field | Required? | Example |
 |---|---|---|
 | Date | ✅ | 2026-02-23 |
-| Activity Name | ✅ | Morning Run, Easy Run, Walk |
+| Activity Name | ✅ | Over and Unders 400s, 5km Easy Run, Morning Walk |
 | Distance | ✅ | 6.02 km |
 | Duration/Time | ✅ | 44:50, 1h 10m |
 | Average Pace | ✅ | 7:27/km |
@@ -61,6 +61,16 @@ Use `view_file` on the image. Extract:
 - Buddhist Era year (e.g., 2569) → subtract 543 → AD (2026).
 - If date says "Today"/"Yesterday" → ask user for actual date.
 - Use `N/A` for fields not visible. **Never guess.**
+
+**🏷️ Activity Name Alignment (สำคัญมาก!):**
+- **Always cross-reference** the member's `running-plan.md` to find the correct session name for that date.
+- Use the **specific training session name** from the plan (e.g. `600s into 200s`, `On Off Ks`, `8km Progressive Repeat Long Run`, `Rolling 500s`, `Pyramid Intervals`).
+- **Do NOT** use generic names like `Outdoor Run (วิ่งกลางแจ้ง)` — use the workout's actual name.
+- If the date matches a plan session, use that exact name. If it's an extra run not in the plan, use the name shown in the app screenshot.
+- For combined daily entries in README.md, join names with ` + ` (e.g. `9km Long Run + Morning Walk`).
+- **Do NOT** append `(Running Plan - Week N)` — just use the clean session name.
+- For walks, use `Morning Walk`. For morning warmup runs, use `Morning Run`.
+- See GIO's `personal-statistics.md` as the reference format.
 
 #### 3. Rename the file
 Format: `{nickname}-{yyyy}-{mon}-{dd}.{ext}`

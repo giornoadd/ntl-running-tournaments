@@ -99,7 +99,9 @@ After creating the content, use `generate_image` to create the actual infographi
 ### Data Source:
 - `member_results/{Folder}/personal-statistics.md` — All session data
 - `member_results/{Folder}/README.md` — Profile & summary
-- `member_results/{Folder}/Half_Marathon_Plan.md` — Training plan & goals
+- `member_results/{Folder}/running-plan.md` — Training plan & goals
+
+> **🏷️ Activity Names:** Always use the specific session names from `running-plan.md` (e.g. `600s into 200s`, `On Off Ks`, `8km Long Run`) — never use generic `Outdoor Run`.
 
 ### Output: Personal Stats Card
 
@@ -200,7 +202,9 @@ Next Milestone: {next target from plan}
 ## 🏃 Activity Feed
 | Date | Runner | Activity | Distance | Pace | 🔥 |
 |---|---|---|---|---|---|
-| {date} | {name} | {activity} | {dist} | {pace} | {highlight} |
+| {date} | {name} | {activity from running-plan.md} | {dist} | {pace} | {highlight} |
+
+> **🏷️ Activity column:** Use specific session names from each member's `running-plan.md` (e.g. `Over and Unders 400s`, `Pyramid Intervals`), not generic names.
 
 ## 💬 Coach's Corner
 {1-2 sentence motivational note about the week's performance}
@@ -256,6 +260,7 @@ Example: 8:30/km × 21.1 = 2:59:21 × 1.05 ≈ 3:08:18
 | **Language** | Thai (หัวข้อ) + English (data labels) |
 | **Tone** | Exciting, sports-broadcast energy 🎙️ |
 | **Data** | Always cite source — never invent numbers |
+| **Activity Names** | Use specific session names from `running-plan.md` (e.g. `600s into 200s`, `On Off Ks`, `8km Long Run`). Never use generic `Outdoor Run`. |
 | **Emojis** | Heavy use for visual appeal |
 | **Format** | Use table art, progress bars (████░░), box drawing |
 | **Colors** | 🪖 Mandalorian = green/olive, 💻 IT System = blue/cyan |
@@ -297,4 +302,4 @@ Example: 8:30/km × 21.1 = 2:59:21 × 1.05 ≈ 3:08:18
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`, `results/{yyyy}-{Month}.md`
 - **Member stats:** `member_results/{Folder}/personal-statistics.md`
 - **Member profiles:** `member_results/{Folder}/README.md`
-- **HM Plans:** `member_results/{Folder}/Half_Marathon_Plan.md`
+- **HM Plans:** `member_results/{Folder}/running-plan.md`

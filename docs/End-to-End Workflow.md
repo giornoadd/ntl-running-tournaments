@@ -107,7 +107,7 @@ This script:
 | Tournament dashboard | `results/README.md` |
 | Member profiles | `member_results/{Folder}/README.md` |
 | Personal stats | `member_results/{Folder}/personal-statistics.md` |
-| HM training plans | `member_results/{Folder}/Half_Marathon_Plan.md` |
+| running plans | `member_results/{Folder}/running-plan.md` |
 | Infographic reports | `resources/tournaments-reports/` |
 
 ---

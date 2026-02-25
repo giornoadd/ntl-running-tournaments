@@ -6,7 +6,7 @@ The competition is segmented into two distinct factions: **Mandalorian** and **I
 
 ## 🪖 Mandalorian
 
-| ID | Alias | Display Name | Distance | Active Days | Evidence | HM Plan |
+| ID | Alias | Display Name | Distance | Active Days | Evidence | Running Plan |
 | :--- | :--- | :--- | ---: | :---: | :---: | :---: |
 | **Manda-1** | GIO | โจ | **241.35 km** | 37 | 47 📸 | ✅ |
 | **Manda-2** | Boat | โบ๊ท | **36.83 km** | 6 | 6 📸 | ✅ |
@@ -22,7 +22,7 @@ The competition is segmented into two distinct factions: **Mandalorian** and **I
 
 ## 💻 IT System
 
-| ID | Alias | Display Name | Distance | Active Days | Evidence | HM Plan |
+| ID | Alias | Display Name | Distance | Active Days | Evidence | Running Plan |
 | :--- | :--- | :--- | ---: | :---: | :---: | :---: |
 | **ITSystem-1** | Oat | โอ๊ต | **43.77 km** | 8 | 8 📸 | ✅ |
 | **ITSystem-2** | Game | เกมส์ | **44.89 km** | 6 | 8 📸 | ✅ |
@@ -50,7 +50,7 @@ Each folder contains:
 |---|---|
 | `README.md` | Profile page with all-time stats (auto-generated) |
 | `personal-statistics.md` | Detailed activity log with pace, HR, cadence |
-| `Half_Marathon_Plan.md` | Personalized half-marathon training plan |
+| `running-plan.md` | Personalized running plan |
 | `*.jpg / *.png` | Evidence screenshots (renamed to standard format) |
 
 ---

@@ -62,7 +62,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 | 📊 **Post-Run Analysis** | วิเคราะห์เซสซั่นล่าสุด เทียบกับ 5 ครั้งก่อนหน้า + ตรวจว่าตามแผนไหม |
 | 🎯 **Goal Setting** | ถาม-ตอบกับนักกีฬาเพื่อตั้งเป้าหมายร่วมกัน |
 | 📋 **Progress Review** | รีวิวรายสัปดาห์/เดือน + เทียบแผน vs จริง |
-| 🏗️ **Plan Creation** | สร้าง `personal-statistics.md` + `Half_Marathon_Plan.md` |
+| 🏗️ **Plan Creation** | สร้าง `personal-statistics.md` + `running-plan.md` |
 
 ### How to Use
 
@@ -77,14 +77,14 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 /running-coach รีวิวความก้าวหน้าของ O ตลอดเดือน Feb
 
 # สร้างแผนฝึก HM ให้คนใหม่
-/running-coach สร้างแผน Half Marathon ให้ Boy
+/running-coach สร้างแผน Running Plan ให้ Boy
 ```
 
 ### Output
 - 📊 Post-Run Analysis (comparison table + coach advice)
-- 🎯 Updated goals in `Half_Marathon_Plan.md`
+- 🎯 Updated goals in `running-plan.md`
 - 📋 Progress report (plan vs actual)
-- 🏗️ New `personal-statistics.md` + `Half_Marathon_Plan.md`
+- 🏗️ New `personal-statistics.md` + `running-plan.md`
 
 ---
 
@@ -144,7 +144,7 @@ resources/tournaments-reports/
 | Agent | Query |
 |---|---|
 | Coach Assistant | "กฎการนับระยะทาง Run กับ Walk" |
-| Running Coach | "แผนฝึก Half Marathon สำหรับมือใหม่" |
+| Running Coach | "แผนฝึก Running Plan สำหรับมือใหม่" |
 | Sports Analyst | "สถิติการแข่งขันเดือนที่แล้ว" |
 
 ---
@@ -237,7 +237,7 @@ resources/tournaments-reports/
 
 ### Workflow 3: สมาชิกใหม่ / สร้างแผนฝึก
 ```
-1. /running-coach → สร้าง personal-statistics.md + Half_Marathon_Plan.md
+1. /running-coach → สร้าง personal-statistics.md + running-plan.md
 2. /sports-analyst → ทำ personal stats card
 ```
 

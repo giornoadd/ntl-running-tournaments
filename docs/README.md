@@ -46,7 +46,7 @@ Four AI agents manage the tournament operations:
 | Agent | Workflow | Role |
 | :--- | :--- | :--- |
 | 🏟️ **Coach Assistant** | `/process-image` | Rename files, update CSV/stats, tournament operations |
-| 🏃 **Running Coach** | `/running-coach` | Post-run analysis, goal setting, HM training plans |
+| 🏃 **Running Coach** | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 **Sports Analyst** | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 **Tournament Reporter** | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
 

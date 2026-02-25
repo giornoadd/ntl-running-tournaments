@@ -9,6 +9,7 @@
 | **Name** | O (โอ) |
 | **Team** | 💻 IT System |
 | **Primary Activity** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Run Tracker (Fitness22) |
 | **Member Since** | 2025-12-23 |
 
@@ -20,6 +21,8 @@
 | **Active Days** | 📅 18 days |
 | **Average / Session** | 📏 5.80 km |
 | **Best Session** | 🏆 7.01 km (2026-01-25) |
+| **Best Pace** | ⚡ 7:16/km — Outdoor Run (2025-12-31) |
+| **Longest Run** | 🏅 7.01 km — Outdoor Run (2026-01-25) |
 | **Evidence Files** | 📸 18 screenshots |
 | **First Active** | 2025-12-23 |
 | **Last Active** | 2026-02-22 |
@@ -31,36 +34,36 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-04 | Wed, Feb 04 | **6.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-04.JPEG) |
-| 2 | 2026-02-06 | Fri, Feb 06 | **7.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-06.JPEG) |
-| 3 | 2026-02-07 | Sat, Feb 07 | **6.62 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-07.JPG) |
-| 4 | 2026-02-08 | Sun, Feb 08 | **5.00 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-08.JPEG) |
-| 5 | 2026-02-13 | Fri, Feb 13 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-13.jpg) |
-| 6 | 2026-02-15 | Sun, Feb 15 | **4.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-15.jpg) |
-| 7 | 2026-02-17 | Tue, Feb 17 | **4.74 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-17.jpg) |
-| 8 | 2026-02-21 | Sat, Feb 21 | **6.07 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-21.jpg) |
-| 9 | 2026-02-22 | Sun, Feb 22 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-feb-22.jpg) |
+| 1 | 2026-02-04 | Wed, Feb 04 | **6.00 km** | 🏃 Outdoor Run | [📸](o-2026-feb-04.JPEG) |
+| 2 | 2026-02-06 | Fri, Feb 06 | **7.00 km** | 🏃 Outdoor Run | [📸](o-2026-feb-06.JPEG) |
+| 3 | 2026-02-07 | Sat, Feb 07 | **6.62 km** | 🏃 Outdoor Run | [📸](o-2026-feb-07.JPG) |
+| 4 | 2026-02-08 | Sun, Feb 08 | **5.00 km** | 🏃 Outdoor Run | [📸](o-2026-feb-08.JPEG) |
+| 5 | 2026-02-13 | Fri, Feb 13 | **6.01 km** | 🏃 Outdoor Run | [📸](o-2026-feb-13.jpg) |
+| 6 | 2026-02-15 | Sun, Feb 15 | **4.02 km** | 🏃 Outdoor Run | [📸](o-2026-feb-15.jpg) |
+| 7 | 2026-02-17 | Tue, Feb 17 | **4.74 km** | 🏃 Outdoor Run | [📸](o-2026-feb-17.jpg) |
+| 8 | 2026-02-21 | Sat, Feb 21 | **6.07 km** | 🏃 Outdoor Run | [📸](o-2026-feb-21.jpg) |
+| 9 | 2026-02-22 | Sun, Feb 22 | **6.01 km** | 🏃 Outdoor Run | [📸](o-2026-feb-22.jpg) |
 
 ## 📅 2026-January
 > 6 sessions · 35.09 km total · 5.85 km avg · best 7.01 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-11 | Sun, Jan 11 | **6.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-11.png) |
-| 2 | 2026-01-23 | Fri, Jan 23 | **4.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-23.JPEG) |
-| 3 | 2026-01-24 | Sat, Jan 24 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-24.JPEG) |
-| 4 | 2026-01-25 | Sun, Jan 25 | **7.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-25.JPEG) |
-| 5 | 2026-01-26 | Mon, Jan 26 | **6.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-26.JPEG) |
-| 6 | 2026-01-31 | Sat, Jan 31 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2026-jan-31.JPEG) |
+| 1 | 2026-01-11 | Sun, Jan 11 | **6.02 km** | 🏃 Outdoor Run | [📸](o-2026-jan-11.png) |
+| 2 | 2026-01-23 | Fri, Jan 23 | **4.02 km** | 🏃 Outdoor Run | [📸](o-2026-jan-23.JPEG) |
+| 3 | 2026-01-24 | Sat, Jan 24 | **6.01 km** | 🏃 Outdoor Run | [📸](o-2026-jan-24.JPEG) |
+| 4 | 2026-01-25 | Sun, Jan 25 | **7.01 km** | 🏃 Outdoor Run | [📸](o-2026-jan-25.JPEG) |
+| 5 | 2026-01-26 | Mon, Jan 26 | **6.02 km** | 🏃 Outdoor Run | [📸](o-2026-jan-26.JPEG) |
+| 6 | 2026-01-31 | Sat, Jan 31 | **6.01 km** | 🏃 Outdoor Run | [📸](o-2026-jan-31.JPEG) |
 
 ## 📅 2025-December
 > 3 sessions · 17.93 km total · 5.98 km avg · best 6.02 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2025-12-23 | Tue, Dec 23 | **6.01 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2025-dec-23.png) |
-| 2 | 2025-12-30 | Tue, Dec 30 | **5.90 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2025-dec-30.png) |
-| 3 | 2025-12-31 | Wed, Dec 31 | **6.02 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](o-2025-dec-31.png) |
+| 1 | 2025-12-23 | Tue, Dec 23 | **6.01 km** | 🏃 Outdoor Run | [📸](o-2025-dec-23.png) |
+| 2 | 2025-12-30 | Tue, Dec 30 | **5.90 km** | 🏃 Treadmill Run | [📸](o-2025-dec-30.png) |
+| 3 | 2025-12-31 | Wed, Dec 31 | **6.02 km** | 🏃 Outdoor Run | [📸](o-2025-dec-31.png) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

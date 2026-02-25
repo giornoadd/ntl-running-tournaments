@@ -10,4 +10,4 @@
 | 2026-02-11 | Walking (เดิน) | 2.59 km | 38:24 | 14:49/km | N/A | N/A | N/A | mos-2026-feb-11.jpg |
 | 2026-02-22 | Walking (เดิน) | 2.26 km | 31:08 | 13:47/km | N/A | N/A | 105 spm | mos-2026-feb-22.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

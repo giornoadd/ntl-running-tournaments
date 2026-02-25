@@ -9,6 +9,7 @@
 | **Name** | Fuse (ฟิวส์) |
 | **Team** | 🪖 Mandalorian |
 | **Primary Activity** | 🚶 Morning Walk (เดินเช้า) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Samsung Health |
 | **Member Since** | 2026-01-24 |
 
@@ -16,8 +17,9 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **12.76 km** |
+| **Total Distance** | 🔥 **12.76 km** (Running 0.00 km + Walk 12.76 km) |
 | **Active Days** | 📅 1 days |
+| **Total Sessions** | 📋 1 sessions (Running 0 + Walk 1) |
 | **Average / Session** | 📏 12.76 km |
 | **Best Session** | 🏆 12.76 km (2026-01-24) |
 | **Evidence Files** | 📸 1 screenshots |
@@ -34,4 +36,4 @@
 | 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🚶 Morning Walk (เดินเช้า) | [📸](fuse-2026-jan-24.JPEG) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

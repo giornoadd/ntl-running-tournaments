@@ -11,4 +11,4 @@
 | 2026-02-14 | Afternoon Run (วิ่งบ่าย) | 7.41 km | 1:01:00 | 8'18"/km | N/A | N/A | N/A | boat-2026-feb-14.jpg |
 | 2026-02-21 | Evening Run (วิ่งเย็น) | 5.46 km | 42:18 | 7'44"/km | N/A | N/A | N/A | boat-2026-feb-21.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

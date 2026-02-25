@@ -146,8 +146,132 @@ def format_evidence_links(image_files):
     return " ".join(f"[📸{i}]({f.replace(' ', '%20')})" for i, f in enumerate(image_files, 1))
 
 
-def get_activity_info(nickname_lower, date_str=None):
-    """Get OCR-verified activity type for a member, with optional per-date override."""
+def load_personal_stats_activities(folder_path):
+    """Load activity names from personal-statistics.md for each date.
+    Returns dict: {date_str: [activity_name, ...]} (multiple per date possible)."""
+    stats_path = os.path.join(folder_path, "personal-statistics.md")
+    activities = defaultdict(list)
+    if not os.path.isfile(stats_path):
+        return activities
+    try:
+        with open(stats_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line.startswith('|'):
+                    continue
+                cols = [c.strip() for c in line.split('|')]
+                # cols[0] is empty (before first |), cols[1]=date, cols[2]=activity, ...
+                if len(cols) < 4:
+                    continue
+                date_val = cols[1]
+                activity_val = cols[2]
+                # Skip header rows
+                if date_val in ('วันที่', ':---', ''):
+                    continue
+                if not re.match(r'\d{4}-\d{2}-\d{2}', date_val):
+                    continue
+                if activity_val:
+                    activities[date_val].append(activity_val)
+    except (IOError, UnicodeDecodeError):
+        pass
+    return activities
+
+
+def load_personal_stats_details(folder_path):
+    """Parse personal-statistics.md for detailed metrics.
+    Returns dict with: run_dist, walk_dist, run_count, walk_count, total_sessions,
+    best_pace, best_pace_activity, best_pace_date, cadence_values,
+    longest_long_run, longest_long_run_activity, longest_long_run_date."""
+    stats_path = os.path.join(folder_path, "personal-statistics.md")
+    details = {
+        'run_dist': 0.0, 'walk_dist': 0.0,
+        'run_count': 0, 'walk_count': 0, 'total_sessions': 0,
+        'best_pace': None, 'best_pace_activity': '', 'best_pace_date': '',
+        'cadence_values': [],
+        'longest_run_dist': 0.0, 'longest_run_activity': '', 'longest_run_date': '',
+    }
+    if not os.path.isfile(stats_path):
+        return details
+    try:
+        with open(stats_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line.startswith('|'):
+                    continue
+                cols = [c.strip() for c in line.split('|')]
+                if len(cols) < 6:
+                    continue
+                date_val = cols[1]
+                activity_val = cols[2]
+                dist_val = cols[3]
+                pace_val = cols[5] if len(cols) > 5 else ''
+                cadence_val = cols[8] if len(cols) > 8 else ''
+
+                if not re.match(r'\d{4}-\d{2}-\d{2}', date_val):
+                    continue
+
+                # Parse distance
+                dist_match = re.search(r'([\d.]+)\s*km', dist_val)
+                dist = float(dist_match.group(1)) if dist_match else 0.0
+
+                details['total_sessions'] += 1
+                is_walk = 'walk' in activity_val.lower()
+
+                if is_walk:
+                    details['walk_dist'] += dist
+                    details['walk_count'] += 1
+                else:
+                    details['run_dist'] += dist
+                    details['run_count'] += 1
+
+                    # Track longest run (exclude walks)
+                    if dist > details['longest_run_dist']:
+                        details['longest_run_dist'] = dist
+                        details['longest_run_activity'] = activity_val
+                        details['longest_run_date'] = date_val
+
+                    # Parse pace (format: "8:17/km" or "7:27/km")
+                    pace_match = re.search(r'(\d+):(\d+)/km', pace_val)
+                    if pace_match:
+                        pace_mins = int(pace_match.group(1))
+                        pace_secs = int(pace_match.group(2))
+                        pace_total = pace_mins * 60 + pace_secs
+                        if details['best_pace'] is None or pace_total < details['best_pace']:
+                            details['best_pace'] = pace_total
+                            details['best_pace_activity'] = activity_val
+                            details['best_pace_date'] = date_val
+
+                    # Parse cadence
+                    cad_match = re.search(r'(\d+)\s*spm', cadence_val)
+                    if cad_match:
+                        cad = int(cad_match.group(1))
+                        if not is_walk and cad > 80:  # filter out walk cadences
+                            details['cadence_values'].append(cad)
+    except (IOError, UnicodeDecodeError):
+        pass
+    return details
+
+
+def get_activity_info(nickname_lower, date_str=None, stats_activities=None):
+    """Get activity type for a member. Priority:
+    1. personal-statistics.md (specific session names from running plan)
+    2. activity_types.json overrides (per-date)
+    3. activity_types.json default
+    """
+    # 1. Check personal-statistics.md first
+    if date_str and stats_activities:
+        names = stats_activities.get(date_str, [])
+        if names:
+            # Combine all activities for this date with ' + '
+            combined = ' + '.join(names)
+            emoji = "🚶" if all('walk' in n.lower() for n in names) else "🏃"
+            if len(names) > 1 and any('walk' in n.lower() for n in names):
+                # Mixed run+walk: use run emoji
+                emoji = "🏃"
+            label = f"{emoji} {combined}"
+            return label, names[0]
+
+    # 2. Check activity_types.json
     member_info = ACTIVITY_DATA.get(nickname_lower, {})
     if not member_info:
         return "🏃 Run", "Run"
@@ -164,7 +288,7 @@ def get_activity_info(nickname_lower, date_str=None):
                 label += f" ({activity_thai})"
             return label, activity
 
-    # Use default
+    # 3. Use default
     activity = member_info.get('default_activity', 'Run')
     activity_thai = member_info.get('default_activity_thai', '')
     emoji = "🚶" if 'walk' in activity.lower() else "🏃"
@@ -181,6 +305,65 @@ def format_date_display(date_str):
         return dt.strftime("%a, %b %d")
     except ValueError:
         return date_str
+
+
+def extract_preserved_sections(readme_path):
+    """Extract manually-added sections between All-Time Summary and monthly data.
+    These sections (HR Zones, Goals, Coaching Methods, etc.) should be preserved
+    when regenerating the README."""
+    if not os.path.isfile(readme_path):
+        return []
+    try:
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+    except (IOError, UnicodeDecodeError):
+        return []
+
+    lines = content.split('\n')
+    # Find the end of All-Time Summary (last line of the summary table)
+    summary_end = -1
+    monthly_start = -1
+    auto_gen_marker = -1
+
+    for i, line in enumerate(lines):
+        # The All-Time Summary table ends after the last row starting with |
+        if '## 📊 All-Time Summary' in line:
+            # Find end of this table
+            for j in range(i + 1, len(lines)):
+                if lines[j].strip().startswith('|'):
+                    summary_end = j
+                elif summary_end > 0 and not lines[j].strip().startswith('|'):
+                    summary_end = j
+                    break
+
+        # Monthly sections start with ## 📅
+        if line.strip().startswith('## 📅') and monthly_start == -1 and summary_end > 0:
+            monthly_start = i
+            break
+
+        # Or the separator before monthly data
+        if line.strip() == '---' and summary_end > 0 and monthly_start == -1:
+            # Check if next non-empty line is a monthly header
+            for j in range(i + 1, min(i + 3, len(lines))):
+                if lines[j].strip().startswith('## 📅'):
+                    monthly_start = i
+                    break
+            if monthly_start > 0:
+                break
+
+    if summary_end > 0 and monthly_start > summary_end:
+        preserved = lines[summary_end:monthly_start]
+        # Strip leading/trailing empty lines but keep content
+        while preserved and not preserved[0].strip():
+            preserved.pop(0)
+        while preserved and not preserved[-1].strip():
+            preserved.pop()
+        # Only return if there's actual content (not just ---)
+        content_lines = [l for l in preserved if l.strip() and l.strip() != '---']
+        if content_lines:
+            return preserved
+
+    return []
 
 
 def generate_all_readmes():
@@ -239,9 +422,14 @@ def generate_all_readmes():
 
         image_count = count_images(folder_path)
         avg_distance = total_distance / active_days if active_days > 0 else 0.0
+        # Load per-date activities from personal-statistics.md
+        stats_activities = load_personal_stats_activities(folder_path)
+        # Load detailed stats (run/walk breakdown, pace, cadence)
+        stats_details = load_personal_stats_details(folder_path)
         activity_label, default_activity = get_activity_info(nickname_lower)
         member_info = ACTIVITY_DATA.get(nickname_lower, {})
         app_used = member_info.get('app', 'Unknown')
+        has_running_plan = os.path.isfile(os.path.join(folder_path, 'running-plan.md'))
 
         # Determine first and last active dates
         all_dates = []
@@ -265,25 +453,59 @@ def generate_all_readmes():
         lines.append(f"| | |")
         lines.append(f"| :--- | :--- |")
         lines.append(f"| **Name** | {display_name} ({thai_name}) |")
-        lines.append(f"| **Team** | {'🪖' if team == 'Mandalorian' else '💻'} {team} |")
-        lines.append(f"| **Primary Activity** | {activity_label} |")
+        team_emoji = '🪖' if team == 'Mandalorian' else '💻'
+        lines.append(f"| **Team** | {team_emoji} {team} |")
+        # Determine activity label based on stats
+        if stats_details['walk_count'] > 0 and stats_details['run_count'] > 0:
+            profile_activity = "🏃 Hybrid (Running + Morning Walk)"
+        else:
+            profile_activity = activity_label
+        lines.append(f"| **Primary Activity** | {profile_activity} |")
+        if has_running_plan:
+            lines.append(f"| **Training Plan** | 📝 Running Plan (running-plan.md) |")
         lines.append(f"| **Tracking App** | 📱 {app_used} |")
         lines.append(f"| **Member Since** | {first_date} |")
         lines.append("")
 
-        # All-time summary
+        # All-time summary (enhanced with personal-statistics.md data)
         lines.append("## 📊 All-Time Summary")
         lines.append("")
         lines.append(f"| Metric | Value |")
         lines.append(f"| :--- | :--- |")
-        lines.append(f"| **Total Distance** | 🔥 **{total_distance:.2f} km** |")
+        # Total distance with breakdown if stats available
+        if stats_details['total_sessions'] > 0 and stats_details['walk_count'] > 0:
+            lines.append(f"| **Total Distance** | 🔥 **{total_distance:.2f} km** (Running {stats_details['run_dist']:.2f} km + Walk {stats_details['walk_dist']:.2f} km) |")
+        else:
+            lines.append(f"| **Total Distance** | 🔥 **{total_distance:.2f} km** |")
         lines.append(f"| **Active Days** | 📅 {active_days} days |")
+        if stats_details['total_sessions'] > 0 and stats_details['walk_count'] > 0:
+            lines.append(f"| **Total Sessions** | 📋 {stats_details['total_sessions']} sessions (Running {stats_details['run_count']} + Walk {stats_details['walk_count']}) |")
         lines.append(f"| **Average / Session** | 📏 {avg_distance:.2f} km |")
         lines.append(f"| **Best Session** | 🏆 {max_distance:.2f} km ({max_date}) |")
+        # Best pace from personal-statistics.md
+        if stats_details['best_pace'] is not None:
+            bp_mins = stats_details['best_pace'] // 60
+            bp_secs = stats_details['best_pace'] % 60
+            lines.append(f"| **Best Pace** | ⚡ {bp_mins}:{bp_secs:02d}/km \u2014 {stats_details['best_pace_activity']} ({stats_details['best_pace_date']}) |")
+        # Longest Long Run
+        if stats_details['longest_run_dist'] > 0:
+            lines.append(f"| **Longest Run** | 🏅 {stats_details['longest_run_dist']:.2f} km \u2014 {stats_details['longest_run_activity']} ({stats_details['longest_run_date']}) |")
+        # Avg cadence
+        if stats_details['cadence_values']:
+            avg_cad = sum(stats_details['cadence_values']) // len(stats_details['cadence_values'])
+            lines.append(f"| **Avg Running Cadence** | 🦶 {avg_cad} spm |")
         lines.append(f"| **Evidence Files** | 📸 {image_count} screenshots |")
         lines.append(f"| **First Active** | {first_date} |")
         lines.append(f"| **Last Active** | {last_date} |")
         lines.append("")
+
+        # Preserve manually-added sections (HR Zones, Goals, Coaching Methods, etc.)
+        readme_path = os.path.join(folder_path, "README.md")
+        preserved = extract_preserved_sections(readme_path)
+        if preserved:
+            for pline in preserved:
+                lines.append(pline)
+            lines.append("")
 
         # Monthly sections (reverse chronological)
         sorted_months = sorted(m_data.keys(), key=lambda x: sort_csv_key(os.path.join(RESULTS_DIR, x + ".csv")), reverse=True)
@@ -309,7 +531,7 @@ def generate_all_readmes():
 
             for i, (date_str, dist) in enumerate(entries, 1):
                 day_name = format_date_display(date_str)
-                activity_display, _ = get_activity_info(nickname_lower, date_str)
+                activity_display, _ = get_activity_info(nickname_lower, date_str, stats_activities)
                 image_files = find_image_files(folder_path, nickname_lower, date_str)
                 evidence_links = format_evidence_links(image_files)
                 lines.append(f"| {i} | {date_str} | {day_name} | **{dist:.2f} km** | {activity_display} | {evidence_links} |")

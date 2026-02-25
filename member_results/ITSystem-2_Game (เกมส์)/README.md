@@ -9,6 +9,7 @@
 | **Name** | Game (เกมส์) |
 | **Team** | 💻 IT System |
 | **Primary Activity** | 🏃 Indoor Run (วิ่งในร่ม) |
+| **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Apple Watch |
 | **Member Since** | 2025-12-29 |
 
@@ -20,6 +21,8 @@
 | **Active Days** | 📅 6 days |
 | **Average / Session** | 📏 7.48 km |
 | **Best Session** | 🏆 11.13 km (2025-12-29) |
+| **Longest Run** | 🏅 11.13 km — Indoor Run (วิ่งในร่ม) (2025-12-29) |
+| **Avg Running Cadence** | 🦶 118 spm |
 | **Evidence Files** | 📸 8 screenshots |
 | **First Active** | 2025-12-29 |
 | **Last Active** | 2026-01-27 |
@@ -45,4 +48,4 @@
 | 2 | 2025-12-30 | Tue, Dec 30 | **11.13 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸1](game-2025-dec-30.png) [📸2](game-2025-dec-30_1.png) [📸3](game-2025-dec-30_2.png) |
 
 ---
-*Auto-generated on 2026-02-25 07:30*
+*Auto-generated on 2026-02-25 21:23*

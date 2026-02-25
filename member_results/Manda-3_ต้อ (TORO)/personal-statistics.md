@@ -8,4 +8,4 @@
 | 2026-01-25 | Evening Run (วิ่งตอนเย็น) | 4.19 km | 27:59 | 6:41/km | N/A | N/A | N/A | toro-2026-jan-25.JPEG |
 | 2026-02-13 | Evening Run (วิ่งตอนเย็น) | 4.34 km | 28:11 | 6:29/km | N/A | N/A | N/A | toro-2026-feb-13.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

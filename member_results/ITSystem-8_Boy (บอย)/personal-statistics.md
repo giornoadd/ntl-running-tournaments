@@ -19,4 +19,4 @@
 | 2026-02-21 | Morning Run | 6.37 km | 42m 19s | 6:38/km | N/A | N/A | N/A | boy-2026-feb-21.jpg |
 | 2026-02-22 | Afternoon Run | 6.31 km | 45m 22s | 7:11/km | N/A | N/A | N/A | boy-2026-feb-22.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม Half-Marathon](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

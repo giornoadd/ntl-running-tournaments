@@ -85,7 +85,7 @@ Use these as starting points for each agent role:
 ### 🏃 Running Coach (running-coach)
 | Query | Purpose |
 |---|---|
-| "แผนฝึกซ้อม Half Marathon สำหรับมือใหม่" | Training plan references |
+| "แผนฝึกซ้อม Running Plan สำหรับมือใหม่" | Training plan references |
 | "เทคนิค Walk-Run Interval" | Coaching methodology |
 | "วิธีป้องกันการบาดเจ็บสำหรับนักวิ่งมือใหม่" | Injury prevention |
 | "โภชนาการสำหรับนักวิ่ง" | Nutrition advice |
@@ -116,22 +116,30 @@ Use these as starting points for each agent role:
 > [!IMPORTANT]
 > **ทุกครั้ง** ที่ใช้ NotebookLM query, search, หรือ add source ต้อง **log ไว้เสมอ**
 
-### Log Directory
+### Log Directory Structure
 ```
 resources/notebooklm-log/
+├── process-image/
+│   └── 2026-02-25.md
+├── running-coach/
+│   └── 2026-02-25.md
+├── sports-analyst/
+│   └── 2026-02-25.md
+└── tournament-reporter/
+    └── 2026-02-25.md
 ```
 
 ### Log Filename Convention
 ```
-{agent}-{yyyy-mm-dd}.md
+resources/notebooklm-log/{agent}/{yyyy-mm-dd}.md
 ```
 
-| Agent | Filename Example |
+| Agent | Directory |
 |---|---|
-| Coach Assistant | `process-image-2026-02-25.md` |
-| Running Coach | `running-coach-2026-02-25.md` |
-| Sports Analyst | `sports-analyst-2026-02-25.md` |
-| Tournament Reporter | `tournament-reporter-2026-02-25.md` |
+| Coach Assistant | `process-image/` |
+| Running Coach | `running-coach/` |
+| Sports Analyst | `sports-analyst/` |
+| Tournament Reporter | `tournament-reporter/` |
 
 ### Log Format
 
@@ -143,28 +151,34 @@ Each log file is **append-only**. If the file already exists for today, append t
 
 ---
 
-## [{HH:MM}] Query
+## [{HH:MM}] Request
 **Tool:** notebook_query
-**Query:** {the question asked}
-**Response Summary:** {brief summary of the answer received}
-**Used For:** {what the agent used this info for}
+**Prompt:**
+\```
+{the question asked}
+\```
+**Response:**
+\```
+{brief summary of the answer received}
+\```
 
 ---
+```
 
-## [{HH:MM}] Add Source
-**Tool:** notebook_add_text
-**Title:** {source title}
-**Content Preview:** {first 100 chars}
-**Reason:** {why this was added}
+### Programmatic Logging (optional)
 
----
+If logging from Python, use the shared utility:
 
-## [{HH:MM}] Research
-**Tool:** research_start
-**Query:** {search query}
-**Mode:** fast/deep
-**Sources Found:** {N}
-**Imported:** {N} sources
+```python
+from src.utils.ai_logger import log_ai_interaction
+
+log_ai_interaction(
+    service="notebooklm",
+    agent="tournament-reporter",
+    prompt="กฎการแข่งขันวิ่งเรื่องระยะทางขั้นต่ำ",
+    response="Run ≥ 1km, Walk ≥ 2km...",
+    metadata={"tool": "notebook_query"},
+)
 ```
 
 ### Rules
@@ -178,7 +192,7 @@ Each log file is **append-only**. If the file already exists for today, append t
 
 After every NotebookLM tool call:
 
-1. Check if `resources/notebooklm-log/{agent}-{yyyy-mm-dd}.md` exists.
+1. Check if `resources/notebooklm-log/{agent}/{yyyy-mm-dd}.md` exists.
 2. If **yes** → append a new `## [{HH:MM}]` section.
 3. If **no** → create the file with the header and the first entry.
 
