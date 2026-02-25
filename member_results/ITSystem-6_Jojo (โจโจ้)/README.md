@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **151.09 km** (Running 79.22 km + Walk 71.87 km) |
-| **Active Days** | 📅 31 days |
-| **Total Sessions** | 📋 31 sessions (Running 9 + Walk 22) |
+| **Total Distance** | 🔥 **155.71 km** (Running 79.22 km + Walk 76.49 km) |
+| **Active Days** | 📅 32 days |
+| **Total Sessions** | 📋 32 sessions (Running 9 + Walk 23) |
 | **Average / Session** | 📏 4.87 km |
 | **Best Session** | 🏆 10.04 km (2026-01-08) |
 | **Best Pace** | ⚡ 6:31/km — Outdoor Run (2026-01-27) |
 | **Longest Run** | 🏅 10.04 km — Outdoor Run (2026-01-08) |
-| **Evidence Files** | 📸 31 screenshots |
+| **Evidence Files** | 📸 32 screenshots |
 | **First Active** | 2026-01-05 |
-| **Last Active** | 2026-02-24 |
+| **Last Active** | 2026-02-25 |
 
 ---
 
 ## 📅 2026-February
-> 16 sessions · 77.08 km total · 4.82 km avg · best 10.01 km
+> 17 sessions · 81.70 km total · 4.81 km avg · best 10.01 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -51,6 +51,7 @@
 | 14 | 2026-02-20 | Fri, Feb 20 | **4.68 km** | 🚶 Indoor Walk | [📸](jojo-2026-feb-20.jpg) |
 | 15 | 2026-02-22 | Sun, Feb 22 | **4.71 km** | 🚶 Indoor Walk | [📸](jojo-2026-feb-22.jpg) |
 | 16 | 2026-02-24 | Tue, Feb 24 | **10.00 km** | 🏃 Outdoor Run | [📸](jojo-2026-feb-24.jpg) |
+| 17 | 2026-02-25 | Wed, Feb 25 | **4.62 km** | 🚶 Indoor Walk | [📸](jojo-2026-feb-25.jpg) |
 
 ## 📅 2026-January
 > 15 sessions · 74.01 km total · 4.93 km avg · best 10.04 km
@@ -74,4 +75,4 @@
 | 15 | 2026-01-31 | Sat, Jan 31 | **2.35 km** | 🚶 Indoor Walk | [📸](jojo-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-02-25 21:23*
+*Auto-generated on 2026-02-26 06:16*

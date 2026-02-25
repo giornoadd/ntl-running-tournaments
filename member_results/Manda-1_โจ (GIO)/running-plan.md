@@ -150,9 +150,9 @@
 
 ### 🗓️ Week 10: Feb 23 - Mar 1 🔄 (สัปดาห์สร้างฐานและสลับความเร็ว)
 * **Mon 23:** `Upper Body Strength + 6km Easy Run` *(จริง: 6.0 km, Pace 7:27/km, Zone 3, Cadence 157 spm)* ✅
-* **Tue 24:** `Strong Foundation` (เน้นการทรงตัวและการลงน้ำหนัก)
+* **Tue 24:** ✅ `Strong Foundation` (เน้นการทรงตัวและการลงน้ำหนัก)
 * **Wed 25:** `Over and Unders 400s (5.6km)` **(Key Speed Workout!)** *(จริง: 5.9 km, Pace 8:17/km, Zone 3, Cadence 140 spm)* ✅
-* **Thu 26:** `6km Easy Run` (วิ่งคลายกรดแลคติก Pace 8:00+)
+* **Thu 26:** ✅ `6km Easy Run` *(จริง: 6.06 km, Pace 8:35/km, Zone 3, Cadence 147 spm)* วิ่งคลายกรดแลคติกได้ดี
 * **Fri 27:** `Going Heavy` (วันสร้างพลังกล้ามเนื้อขั้นสุด)
 * **Sat 28:** `10km Block Long Run` **(Key Endurance!)** รักษาระดับ Pace ยืนพื้นให้ได้ตลอด 10km (แนะนำ Pace 8:30) ฝึกการจิบน้ำทุกๆ 2-3 กิโลเมตร
 
