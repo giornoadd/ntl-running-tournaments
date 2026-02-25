@@ -56,6 +56,18 @@ def main():
     # Step 6: Generate Member READMEs
     run_script("generate_member_readmes.py")
     
+    # Step 7: Check for Duplicates
+    check_dup_script = os.path.join(BASE_DIR, "scripts", "check_duplicates.py")
+    if os.path.exists(check_dup_script):
+        print(f"\n{'='*50}")
+        print("🔍 Running: Duplicate Check")
+        print(f"{'='*50}")
+        result = subprocess.run([sys.executable, check_dup_script], cwd=BASE_DIR)
+        if result.returncode == 0:
+            print("✅ Finished: Duplicate Check")
+        else:
+            print("⚠️ Duplicate check finished with warnings")
+    
     print("\n🎉 End-to-End Workflow completed successfully!\n")
 
 if __name__ == "__main__":

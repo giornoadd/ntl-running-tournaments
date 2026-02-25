@@ -84,3 +84,25 @@ The competition resets every quarter. Results and rewards are distributed at the
 - 🥉 **3rd Place:** [Reward TBD]
 - 🏅 **4th Place:** [Reward TBD]
 - 🏅 **5th Place:** [Reward TBD]
+
+---
+
+## 🤖 AI-Assisted Operations
+
+Evidence processing and statistics are managed by AI agents:
+- **`/process-image`** — Auto-rename, validate, and update CSV stats
+- **`/running-coach`** — Personal coaching and HM training plan generation
+- **`/sports-analyst`** — Infographic content and tournament recaps
+
+See [End-to-End Workflow](../End-to-End%20Workflow.md) for full details.
+
+---
+
+## 🔗 Quick Links
+
+- [Team Member List](Team%20member%20list.md)
+- [Tournament Calendar](Tournament%20Calendar.md)
+- [End-to-End Workflow](../End-to-End%20Workflow.md)
+
+---
+*Last updated: 2026-02-25*

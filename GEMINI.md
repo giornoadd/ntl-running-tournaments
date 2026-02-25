@@ -7,12 +7,16 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
 
 ## Directory Structure
 - **`/docs`**: Project rules, participant lists, and process documentation.
-  - [Rule Book](docs/Tournament%20Rules.md)
-  - [Team Member List](docs/Team%20member%20list.md)
-  - [Tournament Calendar](docs/Tournament%20Calendar.md)
+  - [Rule Book](docs/tournaments/Tournament%20Rules.md)
+  - [Team Member List](docs/tournaments/Team%20member%20list.md)
+  - [Tournament Calendar](docs/tournaments/Tournament%20Calendar.md)
   - [Process Workflow](docs/End-to-End%20Workflow.md)
-- **`/member_results`**: Per-participant subfolders with evidence screenshots and individual READMEs.
+  - [AI Agent System Guide](docs/AI%20Agent%20System.md)
+- **`/member_results`**: Per-participant subfolders with evidence screenshots, individual READMEs, personal statistics, and HM training plans.
 - **`/results`**: Monthly CSV/MD statistics and [quarterly standings](results/README.md).
+- **`/resources`**: Output files from AI agents.
+  - `/resources/tournaments-reports`: Infographics, recaps, and news content.
+  - `/resources/notebooklm-log`: NotebookLM conversation logs per agent per day.
 - **`/src`**: [Python automation scripts](src/README.md) for E2E processing.
   - `run_all.py`: Master pipeline — runs Steps 1→2→3→5→6 in sequence.
   - `reformat_files.py`: Standardizes filenames to `{nickname}-{yyyy}-{mon}-{dd}.{ext}`.
@@ -23,24 +27,50 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - `generate_member_readmes.py`: Generates individual member README profiles with stats and image links.
   - `activity_types.json`: OCR-verified activity types per member (walk/run detection).
 - **`/tests`**: 48 pytest tests covering config, dates, files, recalculation, and member READMEs.
-- **`/scripts`**: Archived standalone utilities from earlier phases.
+- **`/.agents`**: AI agent workflows and skills.
+  - `workflows/process-image.md`: Coach Assistant Agent — file processing & tournament ops.
+  - `workflows/running-coach.md`: Running Coach Agent — personal coaching & HM plans.
+  - `workflows/sports-analyst.md`: Sports Analyst Agent — infographic & data viz content.
+  - `workflows/tournament-reporter.md`: Tournament Reporter Agent — news & engagement content.
+  - `skills/notebooklm-research/SKILL.md`: Shared skill for querying NotebookLM knowledge base.
+  - `skills/local-ollama/SKILL.md`: Shared skill for local LLM processing via Ollama (qwen3:8b).
+
+## AI Agent System
+
+Four AI agents manage tournament operations via slash commands:
+
+| Agent | Command | Role |
+|---|---|---|
+| 🏟️ Coach Assistant | `/process-image` | Rename files, update CSV/stats, tournament operations |
+| 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, HM training plans |
+| 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
+| 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
+
+**Shared Skill:** All agents can query the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a).
 
 ## Key Workflows
 
-### 1. Full Pipeline (Recommended)
-Drop screenshots into `member_results/` then run:
+### 1. AI Agent Processing (Recommended)
+```
+/process-image    # Process a single screenshot
+/running-coach    # Analyze runs, create training plans
+/sports-analyst   # Generate infographics and recaps
+/tournament-reporter  # Write news and motivation content
+```
+
+### 2. Full Pipeline (Batch)
 ```bash
 python3 src/run_all.py
 ```
 This executes: rename → watermark → recalculate → generate READMEs.
 
-### 2. Individual Scripts
+### 3. Individual Scripts
 ```bash
 python3 src/recalculate_csv.py       # Recalculate all CSVs + results/README.md
 python3 src/generate_member_readmes.py  # Regenerate member profiles
 ```
 
-### 3. Competition Rules
+### 4. Competition Rules
 - **Minimum Distance**: Run ≥ 1km, Walk ≥ 2km.
 - **Scoring**:
   - **Team**: Average Distance (Total ÷ 10 members).

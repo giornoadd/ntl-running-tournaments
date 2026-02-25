@@ -52,5 +52,7 @@
 | 2026-02-21 | Morning Walk | 5.16 km | 1h 8m | N/A | N/A | N/A | N/A | gio-2026-feb-21.jpg |
 | 2026-02-23 | Morning Walk | 3.44 km | 47m 24s | N/A | N/A | N/A | N/A | gio-2026-feb-23_1.jpg |
 | 2026-02-23 | 6km Easy Run | 6.02 km | 44:50 | 7:27/km | N/A | N/A | N/A | gio-2026-feb-23.jpg |
+| 2026-02-25 | Over and Unders 400m | 5.88 km | 48:43 | 8:17/km | 149 bpm | N/A | 140 spm | gio-2026-feb-25.jpg |
+| 2026-02-25 | Morning Walk | 3.58 km | 51m 37s | N/A | N/A | N/A | N/A | gio-2026-feb-25_1.jpg |
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 14 วัน (Half-Marathon Plan)](Half_Marathon_Plan.md)
+[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Half-Marathon Plan)](Half_Marathon_Plan.md)
