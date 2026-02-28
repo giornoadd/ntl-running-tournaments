@@ -14,5 +14,6 @@
 | 2026-01-31 | Treadmill Running | 4.01 km | 46:17 | 11:33/km | N/A | N/A | N/A | palm-2026-jan-31.jpg |
 | 2026-02-04 | Treadmill Running | 4.01 km | 48:43 | 12:09/km | N/A | N/A | N/A | palm-2026-feb-04.jpg |
 | 2026-02-07 | Walking | 5.01 km | N/A | 11:18/km | N/A | N/A | N/A | palm-2026-feb-07.JPEG |
+| 2026-02-28 | Walking | 5.50 km | 1:02:48 | 11:25/km | N/A | N/A | N/A | palm-2026-feb-28.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

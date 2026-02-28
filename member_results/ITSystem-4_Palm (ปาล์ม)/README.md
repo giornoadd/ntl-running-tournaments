@@ -17,26 +17,27 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **39.12 km** (Running 29.10 km + Walk 10.02 km) |
-| **Active Days** | 📅 10 days |
-| **Total Sessions** | 📋 10 sessions (Running 8 + Walk 2) |
-| **Average / Session** | 📏 3.91 km |
-| **Best Session** | 🏆 5.01 km (2026-01-24) |
+| **Total Distance** | 🔥 **44.62 km** (Running 29.10 km + Walk 15.52 km) |
+| **Active Days** | 📅 11 days |
+| **Total Sessions** | 📋 11 sessions (Running 8 + Walk 3) |
+| **Average / Session** | 📏 4.06 km |
+| **Best Session** | 🏆 5.50 km (2026-02-28) |
 | **Best Pace** | ⚡ 11:09/km — Treadmill Running (2026-01-19) |
 | **Longest Run** | 🏅 4.01 km — Treadmill Running (2026-01-18) |
-| **Evidence Files** | 📸 10 screenshots |
+| **Evidence Files** | 📸 11 screenshots |
 | **First Active** | 2026-01-12 |
-| **Last Active** | 2026-02-07 |
+| **Last Active** | 2026-02-28 |
 
 ---
 
 ## 📅 2026-February
-> 2 sessions · 9.02 km total · 4.51 km avg · best 5.01 km
+> 3 sessions · 14.52 km total · 4.84 km avg · best 5.50 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-02-04 | Wed, Feb 04 | **4.01 km** | 🏃 Treadmill Running | [📸](running-pics/palm-2026-feb-04.jpg) |
 | 2 | 2026-02-07 | Sat, Feb 07 | **5.01 km** | 🚶 Walking | [📸](running-pics/palm-2026-feb-07.JPEG) |
+| 3 | 2026-02-28 | Sat, Feb 28 | **5.50 km** | 🚶 Walking | [📸](running-pics/palm-2026-feb-28.jpg) |
 
 ## 📅 2026-January
 > 8 sessions · 30.10 km total · 3.76 km avg · best 5.01 km
@@ -53,4 +54,4 @@
 | 8 | 2026-01-31 | Sat, Jan 31 | **4.01 km** | 🏃 Treadmill Running | [📸](running-pics/palm-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-02-28 19:45*
+*Auto-generated on 2026-02-28 22:36*
