@@ -162,7 +162,7 @@ Four AI agents manage tournament operations via slash commands:
 The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 
 1. **Drop Evidence:**
-   Drag & drop participant screenshots into their folder under `member_results/`.
+   Drag & drop participant screenshots into their `running-pics/` subfolder under `member_results/`.
 
 2. **Process with AI Agent (Recommended):**
    ```
@@ -182,7 +182,7 @@ The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 | Directory | Purpose |
 |-----------|---------|
 | `docs/` | [Tournament Rules](docs/tournaments/Tournament%20Rules.md), [Team Members](docs/tournaments/Team%20member%20list.md), [Calendar](docs/tournaments/Tournament%20Calendar.md), [Workflow](docs/End-to-End%20Workflow.md), [Agent Guide](docs/AI%20Agent%20System.md) |
-| `member_results/` | Per-member folders: evidence screenshots, READMEs, `personal-statistics.md`, `running-plan.md` |
+| `member_results/` | Per-member folders: `running-pics/` (evidence screenshots), READMEs, `personal-statistics.md`, `running-plan.md` |
 | `results/` | Monthly CSV/MD statistics and [quarterly standings](results/README.md) |
 | `resources/` | Agent output: [tournament reports](resources/tournaments-reports/), [NotebookLM logs](resources/notebooklm-log/) |
 | `src/` | [Automation scripts](src/README.md) — pipeline, watermarking, recalculation, README generation |

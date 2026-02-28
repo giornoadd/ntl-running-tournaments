@@ -399,6 +399,7 @@ Example: 8:30/km × 21.1 = 2:59:21 × 1.05 ≈ 3:08:18
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **📂 Output directory:** `resources/tournaments-reports/` ← all reports & images go here
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`, `results/{yyyy}-{Month}.md`
+- **Evidence screenshots:** `member_results/{Folder}/running-pics/` ← renamed evidence images
 - **Member stats:** `member_results/{Folder}/personal-statistics.md`
 - **Member profiles:** `member_results/{Folder}/README.md`
 - **HM Plans:** `member_results/{Folder}/running-plan.md`

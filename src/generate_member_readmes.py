@@ -81,11 +81,12 @@ def sort_csv_key(filepath):
 
 
 def count_images(folder_path):
-    """Count renamed image files in a member folder."""
+    """Count renamed image files in a member folder's running-pics/ subfolder."""
+    pics_dir = os.path.join(folder_path, "running-pics")
     count = 0
-    if not os.path.isdir(folder_path):
+    if not os.path.isdir(pics_dir):
         return 0
-    for f in os.listdir(folder_path):
+    for f in os.listdir(pics_dir):
         if re.match(r'^[a-z]+-\d{4}-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-\d{2}', f, re.IGNORECASE):
             if f.lower().endswith(('.jpg', '.jpeg', '.png')):
                 count += 1
@@ -93,15 +94,16 @@ def count_images(folder_path):
 
 
 def get_image_dates(folder_path, nickname_lower):
-    """Get set of dates that have image evidence."""
+    """Get set of dates that have image evidence in running-pics/ subfolder."""
+    pics_dir = os.path.join(folder_path, "running-pics")
     dates = set()
-    if not os.path.isdir(folder_path):
+    if not os.path.isdir(pics_dir):
         return dates
     pattern = re.compile(
         rf'^{re.escape(nickname_lower)}-(\d{{4}})-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-(\d{{2}})',
         re.IGNORECASE
     )
-    for f in os.listdir(folder_path):
+    for f in os.listdir(pics_dir):
         m = pattern.match(f)
         if m and f.lower().endswith(('.jpg', '.jpeg', '.png')):
             year, mon, day = m.group(1), m.group(2).lower(), m.group(3)
@@ -111,6 +113,7 @@ def get_image_dates(folder_path, nickname_lower):
 
 def find_image_files(folder_path, nickname_lower, date_str):
     """Find image files matching a date_str like '2026-01-15' for a member.
+    Searches in running-pics/ subfolder.
     Returns list of filenames sorted (base first, then _1, _2, etc)."""
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -122,10 +125,11 @@ def find_image_files(folder_path, nickname_lower, date_str):
 
     # Pattern: nickname-YYYY-mon-DD[_N].(jpg|jpeg|png)
     prefix = f"{nickname_lower}-{year}-{mon_abbr}-{day}"
+    pics_dir = os.path.join(folder_path, "running-pics")
     matches = []
-    if not os.path.isdir(folder_path):
+    if not os.path.isdir(pics_dir):
         return matches
-    for f in os.listdir(folder_path):
+    for f in os.listdir(pics_dir):
         f_lower = f.lower()
         if f_lower.endswith(('.jpg', '.jpeg', '.png')):
             # Match exact prefix (with or without _N suffix before extension)
@@ -138,12 +142,17 @@ def find_image_files(folder_path, nickname_lower, date_str):
 
 
 def format_evidence_links(image_files):
-    """Create markdown links for image files."""
+    """Create markdown links for image files in running-pics/ subfolder."""
     if not image_files:
         return ""
     if len(image_files) == 1:
-        return f"[📸]({image_files[0].replace(' ', '%20')})"
-    return " ".join(f"[📸{i}]({f.replace(' ', '%20')})" for i, f in enumerate(image_files, 1))
+        path = f"running-pics/{image_files[0]}".replace(' ', '%20')
+        return f"[📸]({path})"
+    links = []
+    for i, f in enumerate(image_files, 1):
+        path = f"running-pics/{f}".replace(' ', '%20')
+        links.append(f"[📸{i}]({path})")
+    return " ".join(links)
 
 
 def load_personal_stats_activities(folder_path):

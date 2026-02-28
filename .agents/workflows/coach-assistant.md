@@ -76,7 +76,7 @@ Use `view_file` on the image. Extract:
 Format: `{nickname}-{yyyy}-{mon}-{dd}.{ext}`
 
 ```
-IMG_8764.JPG → gio-2025-oct-17.jpg
+running-pics/IMG_8764.JPG → running-pics/gio-2025-oct-17.jpg
 ```
 
 - Month = 3-letter lowercase: `jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sep`, `oct`, `nov`, `dec`
@@ -85,7 +85,7 @@ IMG_8764.JPG → gio-2025-oct-17.jpg
 - **Collision:** append `_1`, `_2` if filename exists
 
 ```bash
-mv "member_results/{Folder}/{original}" "member_results/{Folder}/{new_name}"
+mv "member_results/{Folder}/running-pics/{original}" "member_results/{Folder}/running-pics/{new_name}"
 ```
 
 #### 4. Update personal-statistics.md
@@ -249,6 +249,7 @@ python3 src/generate_member_readmes.py
 
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **Member folders:** `member_results/{Team}-{ID}_{Thai} ({Alias})/`
+- **Evidence screenshots:** `member_results/{Folder}/running-pics/` ← renamed images go here
 - **Results CSV:** `results/{yyyy}-{Month}.csv`
 - **Results MD:** `results/{yyyy}-{Month}.md`
 - **Tournament Dashboard:** `results/README.md` (auto-generated)

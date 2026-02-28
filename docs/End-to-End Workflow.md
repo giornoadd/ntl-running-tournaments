@@ -23,7 +23,7 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 
 ### Single Image Submission:
 ```
-1. Drop screenshot into member_results/{Folder}/
+1. Drop screenshot into member_results/{Folder}/running-pics/
 2. /coach-assistant → Agent renames, extracts stats, updates CSV + personal-statistics.md
 3. /running-coach   → Agent analyzes the run and gives feedback
 ```
@@ -48,16 +48,16 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 ## 📸 1. Evidence Submission
 
 Participants send their running/walking screenshots via the LINE group.
-Save these images into the respective member's folder under `member_results/`.
+Save these images into the respective member's `running-pics/` subfolder under `member_results/`.
 
 > [!NOTE]
-> **Example Import Path:** `member_results/ITSystem-3_O (โอ)/IMG_1234.jpg`
+> **Example Import Path:** `member_results/ITSystem-3_O (โอ)/running-pics/IMG_1234.jpg`
 
 ---
 
 ## 🪄 2. Automated Processing (Full Batch)
 
-After adding screenshots to `member_results/`, execute the master pipeline. This sequentially reformats files, applies watermarks, and recalculates all CSV standings.
+After adding screenshots to `member_results/{Folder}/running-pics/`, execute the master pipeline. This sequentially reformats files, applies watermarks, and recalculates all CSV standings.
 
 ```bash
 python3 src/run_all.py
@@ -146,6 +146,7 @@ Uploads all files from `docs/`, `results/`, `member_results/`, and `resources/` 
 | Member profiles | `member_results/{Folder}/README.md` |
 | Personal stats | `member_results/{Folder}/personal-statistics.md` |
 | Running plans | `member_results/{Folder}/running-plan.md` |
+| Evidence screenshots | `member_results/{Folder}/running-pics/` |
 | Infographic reports | `resources/tournaments-reports/` |
 | NotebookLM logs | `resources/notebooklm-log/` |
 

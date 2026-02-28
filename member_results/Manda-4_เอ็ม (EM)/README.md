@@ -34,15 +34,15 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-01 | Sun, Feb 01 | **9.66 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](em-2026-feb-01.JPEG) |
+| 1 | 2026-02-01 | Sun, Feb 01 | **9.66 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](running-pics/em-2026-feb-01.JPEG) |
 
 ## 📅 2026-January
 > 2 sessions · 8.40 km total · 4.20 km avg · best 4.25 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](em-2026-jan-24.JPEG) |
-| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](em-2026-jan-25.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/em-2026-jan-24.JPEG) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](running-pics/em-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-02-28 09:42*
+*Auto-generated on 2026-02-28 19:45*

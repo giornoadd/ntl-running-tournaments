@@ -36,7 +36,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 ```
 # ส่งรูปใหม่เข้ามา
-/coach-assistant member_results/ITSystem-3_O (โอ)/IMG_1234.jpg
+/coach-assistant member_results/ITSystem-3_O (โอ)/running-pics/IMG_1234.jpg
 
 # สรุปผล tournament
 /coach-assistant สรุปผลการแข่งขัน
@@ -52,7 +52,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 ```
 
 ### Output
-- ✅ Renamed file (e.g., `o-2026-feb-25.jpg`)
+- ✅ Renamed file in `running-pics/` (e.g., `o-2026-feb-25.jpg`)
 - ✅ Updated `personal-statistics.md`
 - ✅ Updated `results/{month}.csv`
 - ✅ Regenerated member README

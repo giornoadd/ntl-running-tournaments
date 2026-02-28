@@ -12,7 +12,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - [Tournament Calendar](docs/tournaments/Tournament%20Calendar.md)
   - [Process Workflow](docs/End-to-End%20Workflow.md)
   - [AI Agent System Guide](docs/AI%20Agent%20System.md)
-- **`/member_results`**: Per-participant subfolders with evidence screenshots, individual READMEs, personal statistics, and running plans.
+- **`/member_results`**: Per-participant subfolders with individual READMEs, personal statistics, running plans, and `running-pics/` subfolder containing evidence screenshots.
 - **`/results`**: Monthly CSV/MD statistics and [quarterly standings](results/README.md).
 - **`/resources`**: Output files from AI agents.
   - `/resources/tournaments-reports`: Infographics, recaps, and news content.

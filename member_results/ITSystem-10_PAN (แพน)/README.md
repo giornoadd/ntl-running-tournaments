@@ -33,8 +33,8 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-07 | Sat, Feb 07 | **2.16 km** | 🚶 การเดิน (Walking) | [📸](pan-2026-feb-07.JPG) |
-| 2 | 2026-02-08 | Sun, Feb 08 | **2.05 km** | 🚶 การเดิน (Walking) | [📸](pan-2026-feb-08.JPG) |
+| 1 | 2026-02-07 | Sat, Feb 07 | **2.16 km** | 🚶 การเดิน (Walking) | [📸](running-pics/pan-2026-feb-07.JPG) |
+| 2 | 2026-02-08 | Sun, Feb 08 | **2.05 km** | 🚶 การเดิน (Walking) | [📸](running-pics/pan-2026-feb-08.JPG) |
 
 ---
-*Auto-generated on 2026-02-28 09:42*
+*Auto-generated on 2026-02-28 19:45*

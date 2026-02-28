@@ -325,3 +325,4 @@ Read these files to generate content:
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`
 - **Members:** `member_results/{Folder}/`
+- **Evidence screenshots:** `member_results/{Folder}/running-pics/`

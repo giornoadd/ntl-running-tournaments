@@ -22,5 +22,6 @@
 | 2026-02-17 | Outdoor Run | 4.74 km | N/A | N/A | N/A | N/A | N/A | o-2026-feb-17.jpg |
 | 2026-02-21 | Outdoor Run | 6.07 km | N/A | N/A | N/A | N/A | N/A | o-2026-feb-21.jpg |
 | 2026-02-22 | Outdoor Run | 6.01 km | N/A | N/A | N/A | N/A | N/A | o-2026-feb-22.jpg |
+| 2026-02-28 | Outdoor Run | 6.01 km | 51:13 | 8:31/km | N/A | N/A | N/A | o-2026-feb-28.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md)

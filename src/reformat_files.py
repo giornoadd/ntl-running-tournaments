@@ -12,29 +12,32 @@ def reformat_files(base_dir, target_folder=None, dry_run=False, use_ocr=False, f
 
     print(f"Scanning {base_dir}...")
     
-    for root, dirs, _ in os.walk(base_dir):
-        if root == base_dir: continue
+    for entry in os.listdir(base_dir):
+        member_dir = os.path.join(base_dir, entry)
+        if not os.path.isdir(member_dir):
+            continue
         
-        folder_name = os.path.basename(root)
+        folder_name = entry
         if target_folder and folder_name != target_folder:
             continue
             
         nickname = files.get_nickname(folder_name)
         
         if not nickname:
-            # print(f"Skipping {folder_name} (no nickname)")
             continue
+            
+        # Look for images in running-pics/ subfolder
+        pics_dir = os.path.join(member_dir, "running-pics")
+        if not os.path.isdir(pics_dir):
+            os.makedirs(pics_dir, exist_ok=True)
             
         print(f"Processing {folder_name} (Nickname: {nickname})")
         
-        # Get files
-        img_files = [f for f in os.listdir(root) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
-        
-        # Sort to ensure consistent processing? No, we process one by one.
-        # But for incrementing suffix, we might need order? No, suffix logic handles it.
+        # Get image files from running-pics/
+        img_files = [f for f in os.listdir(pics_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
         
         for filename in img_files:
-            filepath = os.path.join(root, filename)
+            filepath = os.path.join(pics_dir, filename)
             
             # 1. Try Filename Date
             dt = dates.parse_date_from_filename(filename)
@@ -53,7 +56,6 @@ def reformat_files(base_dir, target_folder=None, dry_run=False, use_ocr=False, f
                 print(f"    [Fallback] Using modification time: {dt}")
 
             if not dt:
-                # print(f"  [Skip] No date found for {filename}")
                 continue
                 
             # Rename
@@ -64,7 +66,7 @@ def reformat_files(base_dir, target_folder=None, dry_run=False, use_ocr=False, f
             new_base = f"{nickname}-{dt.year}-{mon_str}-{dt.day:02d}"
             _, ext = os.path.splitext(filename)
             new_filename = f"{new_base}{ext}"
-            new_filepath = os.path.join(root, new_filename)
+            new_filepath = os.path.join(pics_dir, new_filename)
             
             if filename == new_filename:
                 continue
@@ -72,12 +74,10 @@ def reformat_files(base_dir, target_folder=None, dry_run=False, use_ocr=False, f
             # Collision handling
             counter = 1
             while os.path.exists(new_filepath):
-                # If content is identical? We assume unique filenames for now or handle stats duplicates later.
-                # Just rename to _1, _2
-                if new_filepath == filepath: break # Should have proved equality above, but just in case
+                if new_filepath == filepath: break
                 
                 new_filename = f"{new_base}_{counter}{ext}"
-                new_filepath = os.path.join(root, new_filename)
+                new_filepath = os.path.join(pics_dir, new_filename)
                 counter += 1
                 
             if dry_run:

@@ -35,15 +35,15 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-13 | Fri, Feb 13 | **4.34 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](toro-2026-feb-13.jpg) |
+| 1 | 2026-02-13 | Fri, Feb 13 | **4.34 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/toro-2026-feb-13.jpg) |
 
 ## 📅 2026-January
 > 2 sessions · 8.66 km total · 4.33 km avg · best 4.47 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **4.47 km** | 🏃 วิ่งตอนเย็น วันเสาร์ (Evening Run) | [📸](toro-2026-jan-24.jpg) |
-| 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](toro-2026-jan-25.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.47 km** | 🏃 วิ่งตอนเย็น วันเสาร์ (Evening Run) | [📸](running-pics/toro-2026-jan-24.jpg) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/toro-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-02-28 09:42*
+*Auto-generated on 2026-02-28 19:45*

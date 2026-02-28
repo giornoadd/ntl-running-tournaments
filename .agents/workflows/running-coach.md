@@ -293,6 +293,7 @@ Your role has **4 modes** — the user (or the `/coach-assistant` workflow) will
 
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **Member folders:** `member_results/{Team}-{ID}_{ThaiName} ({Alias})/`
+- **Evidence screenshots:** `member_results/{Folder}/running-pics/` ← renamed evidence images
 - **Personal stats:** `member_results/{Folder}/personal-statistics.md`
 - **Running Plan:** `member_results/{Folder}/running-plan.md`
 - **README:** `member_results/{Folder}/README.md`

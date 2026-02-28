@@ -35,16 +35,16 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-19 | Thu, Feb 19 | **3.29 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) | [📸](oum-2026-feb-19.jpg) |
+| 1 | 2026-02-19 | Thu, Feb 19 | **3.29 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) | [📸](running-pics/oum-2026-feb-19.jpg) |
 
 ## 📅 2026-January
 > 3 sessions · 13.41 km total · 4.47 km avg · best 5.81 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-14 | Wed, Jan 14 | **5.21 km** | 🚶 Walk (เดิน) | [📸](oum-2026-jan-14.png) |
-| 2 | 2026-01-18 | Sun, Jan 18 | **5.81 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) + การวิ่ง (Outdoor Run) | [📸1](oum-2026-jan-18.jpg) [📸2](oum-2026-jan-18_1.jpg) |
-| 3 | 2026-01-21 | Wed, Jan 21 | **2.39 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) | [📸](oum-2026-jan-21.jpg) |
+| 1 | 2026-01-14 | Wed, Jan 14 | **5.21 km** | 🚶 Walk (เดิน) | [📸](running-pics/oum-2026-jan-14.png) |
+| 2 | 2026-01-18 | Sun, Jan 18 | **5.81 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) + การวิ่ง (Outdoor Run) | [📸1](running-pics/oum-2026-jan-18.jpg) [📸2](running-pics/oum-2026-jan-18_1.jpg) |
+| 3 | 2026-01-21 | Wed, Jan 21 | **2.39 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) | [📸](running-pics/oum-2026-jan-21.jpg) |
 
 ---
-*Auto-generated on 2026-02-28 09:42*
+*Auto-generated on 2026-02-28 19:45*
