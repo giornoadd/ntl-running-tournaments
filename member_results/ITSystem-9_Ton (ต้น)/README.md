@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **32.66 km** (Running 30.66 km + Walk 2.00 km) |
-| **Active Days** | 📅 13 days |
-| **Total Sessions** | 📋 13 sessions (Running 12 + Walk 1) |
-| **Average / Session** | 📏 2.51 km |
+| **Total Distance** | 🔥 **41.62 km** (Running 39.62 km + Walk 2.00 km) |
+| **Active Days** | 📅 16 days |
+| **Total Sessions** | 📋 16 sessions (Running 15 + Walk 1) |
+| **Average / Session** | 📏 2.60 km |
 | **Best Session** | 🏆 4.15 km (2026-01-27) |
 | **Best Pace** | ⚡ 8:04/km — Morning Run (2026-02-01) |
 | **Longest Run** | 🏅 4.15 km — Morning Run (2026-01-27) |
-| **Evidence Files** | 📸 19 screenshots |
+| **Evidence Files** | 📸 24 screenshots |
 | **First Active** | 2026-01-19 |
-| **Last Active** | 2026-02-12 |
+| **Last Active** | 2026-02-24 |
 
 ---
 
 ## 📅 2026-February
-> 6 sessions · 15.71 km total · 2.62 km avg · best 3.47 km
+> 9 sessions · 24.67 km total · 2.74 km avg · best 4.02 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -41,6 +41,9 @@
 | 4 | 2026-02-09 | Mon, Feb 09 | **3.47 km** | 🏃 Afternoon Run | [📸1](ton-2026-feb-09.jpg) [📸2](ton-2026-feb-09_1.jpg) |
 | 5 | 2026-02-10 | Tue, Feb 10 | **1.80 km** | 🏃 Morning Run | [📸](ton-2026-feb-10.jpg) |
 | 6 | 2026-02-12 | Thu, Feb 12 | **3.47 km** | 🏃 Afternoon Run | [📸1](ton-2026-feb-12.jpg) [📸2](ton-2026-feb-12_1.jpg) |
+| 7 | 2026-02-16 | Mon, Feb 16 | **3.34 km** | 🏃 Morning Run + Afternoon Run | [📸1](ton-2026-feb-16.jpg) [📸2](ton-2026-feb-16_1.jpg) |
+| 8 | 2026-02-19 | Thu, Feb 19 | **1.60 km** | 🏃 Morning Run | [📸](ton-2026-feb-19.jpg) |
+| 9 | 2026-02-24 | Tue, Feb 24 | **4.02 km** | 🏃 Morning Run + Afternoon Run | [📸1](ton-2026-feb-24.jpg) [📸2](ton-2026-feb-24_1.jpg) |
 
 ## 📅 2026-January
 > 7 sessions · 16.95 km total · 2.42 km avg · best 4.15 km
@@ -56,4 +59,4 @@
 | 7 | 2026-01-30 | Fri, Jan 30 | **3.91 km** | 🏃 Morning Run | [📸1](ton-2026-jan-30.jpg) [📸2](ton-2026-jan-30_1.jpg) |
 
 ---
-*Auto-generated on 2026-02-26 06:16*
+*Auto-generated on 2026-02-28 09:42*

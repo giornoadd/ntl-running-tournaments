@@ -24,6 +24,39 @@ Generated images (from `generate_image`) are also saved in the same directory.
 
 ---
 
+## ⚡ Step 0: Validate Statistics First (บังคับทำก่อนทุก Content Type)
+
+> [!IMPORTANT]
+> **ก่อนสร้าง infographic ทุกครั้ง ต้องตรวจสอบข้อมูลให้ถูกต้องก่อนเสมอ:**
+>
+> ### 1. Cross-check CSV vs personal-statistics.md
+> สำหรับ **ทุกสมาชิก** ที่มี entry ใน CSV ช่วงเวลาที่สร้าง infographic:
+> - อ่าน `results/{yyyy}-{Month}.csv` — ดูรายชื่อสมาชิก + ระยะทางแต่ละวัน
+> - อ่าน `member_results/{Folder}/personal-statistics.md` — ตรวจสอบว่าตรงกัน
+> - ตรวจสอบว่าระยะในคอลัมน์ `Runners` = ผลรวมจาก personal-statistics ของวันนั้น
+>
+> ### 2. Verify Competition Rules Compliance
+> ตรวจสอบทุก entry ใน CSV ตามกติกา:
+> - **🏃 วิ่ง (Run):** ระยะ ≥ 1.00 km → ถึงจะนับ
+> - **🚶 เดิน (Walk):** ระยะ ≥ 2.00 km → ถึงจะนับ
+> - Entry ที่ไม่ผ่าน → ย้ายไปคอลัมน์ `Invalid (ผิดกติกา)` และอย่านำมาคำนวณ
+>
+> ### 3. Fix & Recalculate (ถ้าพบข้อผิดพลาด)
+> ถ้าพบข้อมูลใน CSV ไม่ตรงกับ personal-statistics หรือ Invalid flag ผิด:
+> 1. แก้ไข `results/{yyyy}-{Month}.csv` ให้ถูกต้อง
+> 2. Run: `python3 src/recalculate_csv.py`
+> 3. Run: `python3 src/generate_member_readmes.py`
+>
+> ### 4. Report Validation Summary
+> แสดงตารางสรุปผลการตรวจสอบก่อนสร้าง infographic:
+> ```
+> ✅ Cross-check complete — N members verified
+> ✅ All entries comply with competition rules
+> ⚠️ Fixed: {จำนวน} issues found and corrected (ถ้ามี)
+> ```
+
+---
+
 You have **4 content types:**
 
 ---
@@ -31,6 +64,8 @@ You have **4 content types:**
 ## Content Type 1: 🏆 Tournament Infographic (ภาพรวม Tournament)
 
 **Trigger:** "สรุปผล tournament", "ทำ infographic ประจำสัปดาห์/เดือน"
+
+> ⚡ **ต้องทำ Step 0 validation ก่อนเสมอ** — ดูด้านบน
 
 ### Data Source:
 - `results/README.md` — Team standings, Top 5
@@ -172,6 +207,8 @@ Next Milestone: {next target from plan}
 
 **Trigger:** "สรุปสัปดาห์นี้", "recap เดือน {Month}"
 
+> ⚡ **ต้องทำ Step 0 validation ก่อนเสมอ** — ดูด้านบน
+
 ### Data Source:
 - `results/{yyyy}-{Month}.csv` — Filter by date range
 - All `member_results/*/personal-statistics.md` — individual details
@@ -253,13 +290,75 @@ Example: 8:30/km × 21.1 = 2:59:21 × 1.05 ≈ 3:08:18
 
 ---
 
-## Style Guide
+## Content Type 5: 📋 Main README Update (อัพเดต README หลัก)
+
+**Trigger:** "update README", "อัพเดต README", "อัพเดต standings ใน README"
+
+> ⚡ **ต้องทำ Step 0 validation ก่อนเสมอ** — ดูด้านบน
+
+### Data Sources (อ่านทั้งหมดก่อนเขียน):
+- `results/README.md` — Team standings, Top 5
+- `results/{yyyy}-{Month}.csv` — Latest accumulate numbers
+- `docs/tournaments/Tournament Rules.md` — กติกา
+- `docs/tournaments/Tournament Calendar.md` — Week ปัจจุบัน + เส้นตาย
+- `docs/tournaments/Team member list.md` — Roster ทั้ง 20 คน
+
+### What to Update in `README.md`:
+
+1. **Live Standings section** — อัพเดตตัวเลขทีมและ Top 5 ให้ตรงกับ `results/README.md`
+2. **Full Roster tables** — ทั้ง 20 คน พร้อมระยะ + active days ล่าสุด
+3. **Tournament Calendar** — ระบุ Current Week และ Remaining Weeks ให้ถูกต้อง
+4. **Rules Summary table** — คงไว้ (อ้างอิงจาก Tournament Rules.md)
+5. **Last updated date** — วันที่ปัจจุบัน
+
+### README Structure Template:
+
+```markdown
+# Running Competition 2026 🏃‍♂️
+
+## 🏆 Live Standings — Q{N} {Year}
+> 📅 Status: [Active/Upcoming] — Week {N} | Data as of: {date}
+
+### ⚔️ Team Battle
+| Metric | 🪖 Mandalorian | 💻 IT System | Leader |
+...
+
+### 🌟 Top 5 Individual Runners
+...
+
+### 👥 Full Roster
+#### 🪖 Mandalorian + 💻 IT System tables
+
+## 📅 Tournament Calendar — Q{N}
+| Week | Dates | Notes |
+| Current week highlighted |
+> Q1 Deadline: 31 March 2026, 23:59
+
+## 📏 Competition Rules — Key Points
+| Rule | Detail |
+| Run ≥ 1.0 km | Walk ≥ 2.0 km | etc. |
+
+## 🤖 AI Agent System
+...
+
+*Last updated: {today's date} — Auto-updated by Sports Analyst Agent*
+```
+
+### Important Notes:
+- **ห้ามแต่งตัวเลข** — ดึงจาก `results/README.md` เท่านั้น
+- **Weekly status** — คำนวณจาก Calendar: Week ปัจจุบัน = วันแรกที่เริ่มจนถึงวันสุดท้าย
+- **Roster distances** — ดึงจาก generate_member_readmes output หรือ `results/README.md`
+
+---
+
 
 | Aspect | Guideline |
 |---|---|
 | **Language** | Thai (หัวข้อ) + English (data labels) |
 | **Tone** | Exciting, sports-broadcast energy 🎙️ |
 | **Data** | Always cite source — never invent numbers |
+| **Validation** | ตรวจ CSV vs personal-statistics ก่อนเสมอ (Step 0) |
+| **Rules** | Run ≥ 1km, Walk ≥ 2km — ตัด Invalid ออกก่อนคำนวณ |
 | **Activity Names** | Use specific session names from `running-plan.md` (e.g. `600s into 200s`, `On Off Ks`, `8km Long Run`). Never use generic `Outdoor Run`. |
 | **Emojis** | Heavy use for visual appeal |
 | **Format** | Use table art, progress bars (████░░), box drawing |

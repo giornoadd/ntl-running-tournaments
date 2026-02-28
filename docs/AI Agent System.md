@@ -7,7 +7,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 ## Agent Overview
 
 ```
-📸 /process-image       →  รับภาพ → rename → update stats → สรุปผล
+📸 /coach-assistant       →  รับภาพ → rename → update stats → สรุปผล
 🏃 /running-coach       →  วิเคราะห์การวิ่ง → ตั้งเป้า → แผนฝึก HM
 📈 /sports-analyst      →  Infographic → Personal card → Recap
 � /tournament-reporter →  ข่าว → LINE/Facebook → เชียร์ → motivation
@@ -16,7 +16,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 ---
 
-## 🏟️ Agent 1: Coach Assistant (`/process-image`)
+## 🏟️ Agent 1: Coach Assistant (`/coach-assistant`)
 
 ### Objective
 จัดการงาน operations ทั้งหมด — รับหลักฐานใหม่, rename ไฟล์, อัพเดตสถิติ, สรุปผล tournament
@@ -33,13 +33,13 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 ```
 # ส่งรูปใหม่เข้ามา
-/process-image member_results/ITSystem-3_O (โอ)/IMG_1234.jpg
+/coach-assistant member_results/ITSystem-3_O (โอ)/IMG_1234.jpg
 
 # สรุปผล tournament
-/process-image สรุปผลการแข่งขัน
+/coach-assistant สรุปผลการแข่งขัน
 
 # Batch processing หลายรูป
-/process-image ประมวลผลรูปใหม่ทั้งหมดใน member_results/
+/coach-assistant ประมวลผลรูปใหม่ทั้งหมดใน member_results/
 ```
 
 ### Output
@@ -225,7 +225,7 @@ resources/tournaments-reports/
 
 ### Workflow 1: สมาชิกส่งหลักฐานใหม่
 ```
-1. /process-image → rename + update stats
+1. /coach-assistant → rename + update stats
 2. /running-coach → วิเคราะห์ผลวิ่ง + คำแนะนำ
 ```
 
@@ -243,7 +243,7 @@ resources/tournaments-reports/
 
 ### Workflow 4: End of Quarter
 ```
-1. /process-image → สรุปผล tournament
+1. /coach-assistant → สรุปผล tournament
 2. /sports-analyst → ทำ infographic ไตรมาส
 ```
 

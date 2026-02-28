@@ -42,7 +42,7 @@ Utility scripts not part of the main pipeline:
 
 ### AI Agent Processing (Recommended)
 ```
-/process-image    # Process a single screenshot
+/coach-assistant    # Process a single screenshot
 /running-coach    # Analyze runs, create training plans
 /sports-analyst   # Generate infographics and recaps
 /tournament-reporter  # Write news content

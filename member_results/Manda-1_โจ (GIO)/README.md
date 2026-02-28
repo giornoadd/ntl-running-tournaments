@@ -17,17 +17,17 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **280.55 km** (Running 251.83 km + Walk 27.00 km) |
-| **Active Days** | 📅 43 days |
-| **Total Sessions** | 📋 54 sessions (Running 45 + Walk 9) |
-| **Average / Session** | 📏 6.52 km |
+| **Total Distance** | 🔥 **294.73 km** (Running 261.89 km + Walk 31.12 km) |
+| **Active Days** | 📅 45 days |
+| **Total Sessions** | 📋 56 sessions (Running 46 + Walk 10) |
+| **Average / Session** | 📏 6.55 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
 | **Best Pace** | ⚡ 7:27/km — 6km Easy Run (2026-02-23) |
 | **Longest Run** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
 | **Avg Running Cadence** | 🦶 143 spm |
-| **Evidence Files** | 📸 53 screenshots |
+| **Evidence Files** | 📸 55 screenshots |
 | **First Active** | 2025-10-17 |
-| **Last Active** | 2026-02-26 |
+| **Last Active** | 2026-02-28 |
 
 ## ❤️ Heart Rate Zones (Max HR: 176 BPM)
 
@@ -80,7 +80,7 @@
 ---
 
 ## 📅 2026-February
-> 17 sessions · 130.94 km total · 7.70 km avg · best 14.18 km
+> 19 sessions · 145.12 km total · 7.64 km avg · best 14.18 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -101,6 +101,8 @@
 | 15 | 2026-02-25 | Wed, Feb 25 | **3.58 km** | 🏃 Over and Unders 400s + Morning Walk | [📸1](gio-2026-feb-25.jpg) [📸2](gio-2026-feb-25_1.jpg) |
 | 16 | 2026-02-26 | Thu, Feb 26 | **3.47 km** | 🏃 Morning Walk + 6km Easy Run | [📸1](gio-2026-feb-26.jpg) [📸2](gio-2026-feb-26_1.jpg) |
 | 17 | 2026-02-26 | Thu, Feb 26 | **6.06 km** | 🏃 Morning Walk + 6km Easy Run | [📸1](gio-2026-feb-26.jpg) [📸2](gio-2026-feb-26_1.jpg) |
+| 18 | 2026-02-28 | Sat, Feb 28 | **4.12 km** | 🏃 Morning Walk + 10km Block Long Run | [📸1](gio-2026-feb-28.jpg) [📸2](gio-2026-feb-28_1.jpg) |
+| 19 | 2026-02-28 | Sat, Feb 28 | **10.06 km** | 🏃 Morning Walk + 10km Block Long Run | [📸1](gio-2026-feb-28.jpg) [📸2](gio-2026-feb-28_1.jpg) |
 
 ## 📅 2026-January
 > 21 sessions · 119.94 km total · 5.71 km avg · best 10.79 km
@@ -147,4 +149,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-02-26 06:16*
+*Auto-generated on 2026-02-28 09:42*

@@ -61,7 +61,7 @@ def ask_ollama(prompt: str, system: str = "", preset: str = None, agent: str = "
         system: System prompt (role, language, style).
         preset: One of 'precise', 'balanced', 'creative', 'fun'.
                 Uses .env defaults if not specified.
-        agent:  Agent slug for logging, e.g. 'process-image',
+        agent:  Agent slug for logging, e.g. 'coach-assistant',
                 'running-coach', 'sports-analyst', 'tournament-reporter'.
 
     Returns:

@@ -83,7 +83,7 @@ def log_ai_interaction(
 
     Args:
         service:  'ollama' or 'notebooklm'.
-        agent:    Agent name slug, e.g. 'process-image', 'running-coach',
+        agent:    Agent name slug, e.g. 'coach-assistant', 'running-coach',
                   'sports-analyst', 'tournament-reporter', or 'general'.
         prompt:   The prompt or query sent.
         response: The response text received.

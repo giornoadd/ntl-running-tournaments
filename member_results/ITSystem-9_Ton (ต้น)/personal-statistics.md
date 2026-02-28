@@ -17,6 +17,10 @@
 | 2026-02-09 | Afternoon Run | 3.47 km† | 20:30* | 11:22/km* | 101 bpm | N/A | N/A | ton-2026-feb-09.jpg, _1.jpg |
 | 2026-02-10 | Morning Run | 1.80 km | 17:29 | 9:40/km | 108 bpm | N/A | N/A | ton-2026-feb-10.jpg |
 | 2026-02-12 | Afternoon Run | 3.47 km† | 20:03* | 11:01/km* | 117 bpm | N/A | N/A | ton-2026-feb-12.jpg, _1.jpg |
+| 2026-02-16 | Morning Run + Afternoon Run | 3.34 km† | 16:47* | 9:22/km* | 109/119 bpm | N/A | N/A | ton-2026-feb-16.jpg, _1.jpg |
+| 2026-02-19 | Morning Run | 1.60 km | 16:42 | 10:23/km | 111 bpm | N/A | N/A | ton-2026-feb-19.jpg |
+| 2026-02-24 | Morning Run + Afternoon Run | 4.02 km† | 23:32* | 11:04/km* | 109/119 bpm | N/A | N/A | ton-2026-feb-24.jpg, _1.jpg |
+
 
 > **† หมายเหตุ:** เซสซั่นที่มี † คือผลรวมระยะทางจากหลายเซ็กเมนต์ในวันเดียวกัน
 > **\* หมายเหตุ:** เวลา/เพซที่มี * คือค่าจากเซ็กเมนต์แรกเท่านั้น

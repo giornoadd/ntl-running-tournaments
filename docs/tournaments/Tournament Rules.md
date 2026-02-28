@@ -90,7 +90,7 @@ The competition resets every quarter. Results and rewards are distributed at the
 ## 🤖 AI-Assisted Operations
 
 Evidence processing and statistics are managed by AI agents:
-- **`/process-image`** — Auto-rename, validate, and update CSV stats
+- **`/coach-assistant`** — Auto-rename, validate, and update CSV stats
 - **`/running-coach`** — Personal coaching and running plan generation
 - **`/sports-analyst`** — Infographic content and tournament recaps
 

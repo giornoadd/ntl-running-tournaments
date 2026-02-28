@@ -17,19 +17,19 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **43.81 km** (Running 0.00 km + Walk 43.38 km) |
-| **Active Days** | 📅 15 days |
-| **Total Sessions** | 📋 15 sessions (Running 0 + Walk 15) |
-| **Average / Session** | 📏 2.92 km |
+| **Total Distance** | 🔥 **46.13 km** (Running 0.00 km + Walk 45.70 km) |
+| **Active Days** | 📅 16 days |
+| **Total Sessions** | 📋 16 sessions (Running 0 + Walk 16) |
+| **Average / Session** | 📏 2.88 km |
 | **Best Session** | 🏆 6.26 km (2026-01-24) |
-| **Evidence Files** | 📸 18 screenshots |
+| **Evidence Files** | 📸 19 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-02-18 |
+| **Last Active** | 2026-02-28 |
 
 ---
 
 ## 📅 2026-February
-> 6 sessions · 15.34 km total · 2.56 km avg · best 3.62 km
+> 7 sessions · 17.66 km total · 2.52 km avg · best 3.62 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -39,6 +39,7 @@
 | 4 | 2026-02-04 | Wed, Feb 04 | **2.11 km** | 🚶 Walk | [📸](sand-2026-feb-04.jpg) |
 | 5 | 2026-02-12 | Thu, Feb 12 | **2.23 km** | 🚶 Walk | [📸1](sand-2026-feb-12.jpg) [📸2](sand-2026-feb-12_1.jpg) |
 | 6 | 2026-02-18 | Wed, Feb 18 | **2.70 km** | 🚶 Afternoon Walk | [📸](sand-2026-feb-18.jpg) |
+| 7 | 2026-02-28 | Sat, Feb 28 | **2.32 km** | 🚶 Evening Walk | [📸](sand-2026-feb-28.jpg) |
 
 ## 📅 2026-January
 > 6 sessions · 20.66 km total · 3.44 km avg · best 6.26 km
@@ -62,4 +63,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk | [📸](sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-02-26 06:16*
+*Auto-generated on 2026-02-28 09:42*

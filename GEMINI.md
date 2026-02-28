@@ -28,7 +28,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - `activity_types.json`: OCR-verified activity types per member (walk/run detection).
 - **`/tests`**: 48 pytest tests covering config, dates, files, recalculation, and member READMEs.
 - **`/.agents`**: AI agent workflows and skills.
-  - `workflows/process-image.md`: Coach Assistant Agent — file processing & tournament ops.
+  - `workflows/coach-assistant.md`: Coach Assistant Agent — file processing & tournament ops.
   - `workflows/running-coach.md`: Running Coach Agent — personal coaching & running plans.
   - `workflows/sports-analyst.md`: Sports Analyst Agent — infographic & data viz content.
   - `workflows/tournament-reporter.md`: Tournament Reporter Agent — news & engagement content.
@@ -41,7 +41,7 @@ Four AI agents manage tournament operations via slash commands:
 
 | Agent | Command | Role |
 |---|---|---|
-| 🏟️ Coach Assistant | `/process-image` | Rename files, update CSV/stats, tournament operations |
+| 🏟️ Coach Assistant | `/coach-assistant` | Rename files, update CSV/stats, tournament operations |
 | 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
@@ -52,7 +52,7 @@ Four AI agents manage tournament operations via slash commands:
 
 ### 1. AI Agent Processing (Recommended)
 ```
-/process-image    # Process a single screenshot
+/coach-assistant    # Process a single screenshot
 /running-coach    # Analyze runs, create training plans
 /sports-analyst   # Generate infographics and recaps
 /tournament-reporter  # Write news and motivation content

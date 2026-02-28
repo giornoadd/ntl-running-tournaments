@@ -36,9 +36,9 @@ class TestBuildHeader:
         assert "2026-02-25" in header
 
     def test_notebooklm_header(self):
-        header = _build_header("notebooklm", "process-image", FIXED_TIME)
+        header = _build_header("notebooklm", "coach-assistant", FIXED_TIME)
         assert "NotebookLM" in header
-        assert "Process Image" in header
+        assert "Coach Assistant" in header
 
 
 class TestBuildEntry:

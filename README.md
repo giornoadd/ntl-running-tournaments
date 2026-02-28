@@ -3,40 +3,135 @@
 Welcome to the **Running Competition 2026** tracker!
 This repository automates the tracking, watermarking, and continuous statistics reporting for the friendly inter-team running and step competition between the **Mandalorian** and **IT System** teams.
 
-## 🏆 Current Status
-- **Quarter**: Q1 (Jan – Mar 2026)
-- **Status**: 🟢 Active (Week 9)
+---
 
-### Live Standings
+## 🏆 Live Standings — Q1 2026
+
+> 📅 **Q1 Status:** 🟢 Active — Week 9 (22–28 Feb) ends today, Week 10 starts 1 March  
+> 📊 Data as of: **28 February 2026** | Source: [`results/README.md`](results/README.md)
+
+### ⚔️ Team Battle
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 393.22 km | 481.20 km | 💻 IT System |
-| **Average / Person** | 39.32 km | 48.12 km | 💻 IT System |
+| **Total Distance (Q1)** | **419.25 km** | **512.79 km** | 💻 IT System |
+| **Average / Person** | **41.93 km** | **51.28 km** | 💻 IT System |
+| **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
-> IT System leads by **8.80 km/person** 🏆
+```
+📊 Share of combined 932.04 km:
+🪖 Manda  ████████████░░░░░░░░░░  45.0%
+💻 IT     ████████████████░░░░░░  55.0%
 
-### 🌟 Top 5 Individual Runners
+🏅 IT System leads by +9.35 km/person
+```
 
-| Rank | Name | Team | Distance |
-| :---: | :--- | :--- | ---: |
-| 🥇 1 | GIO | 🪖 Mandalorian | 241.35 km |
-| 🥈 2 | Jojo | 💻 IT System | 151.09 km |
-| 🥉 3 | O | 💻 IT System | 86.56 km |
-| 🏅 4 | Boy | 💻 IT System | 84.46 km |
-| 🏅 5 | Oat | 💻 IT System | 43.77 km |
+> Previous month: **January** — Manda: 208.94 km | IT System: 245.88 km → 💻 IT System won  
+> 📋 [2026-January breakdown](results/2026-January.md) · [2026-February breakdown](results/2026-February.md)
+
+---
+
+### 🌟 Top 5 Individual Runners — Q1 All-Time
+
+| Rank | Name | Team | Distance | Active Days |
+| :---: | :--- | :--- | ---: | :---: |
+| 🥇 1 | **GIO** | 🪖 Mandalorian | **294.73 km** | 45 |
+| 🥈 2 | **Jojo** | 💻 IT System | **165.72 km** | 33 |
+| 🥉 3 | **O** | 💻 IT System | **104.49 km** | 18 |
+| 🏅 4 | **Boy** | 💻 IT System | **92.46 km** | 15 |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | **46.13 km** | 16 |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
 ---
 
+### 👥 Full Roster — Q1 2026
+
+#### 🪖 Mandalorian
+
+| Member | Distance | Active Days |
+| :--- | ---: | :---: |
+| GIO | 294.73 km | 45 |
+| Sand | 46.13 km | 16 |
+| Boat | 36.83 km | 6 |
+| Chan | 28.29 km | 7 |
+| EM | 18.06 km | 3 |
+| Mos | 15.55 km | 5 |
+| Toro | 13.00 km | 3 |
+| Fuse | 12.76 km | 1 |
+| Peck | 0.00 km | — |
+| Neung | 0.00 km | — |
+| **Total** | **465.35 km** | |
+
+#### 💻 IT System
+
+| Member | Distance | Active Days |
+| :--- | ---: | :---: |
+| Jojo | 165.72 km | 33 |
+| O | 104.49 km | 18 |
+| Boy | 92.46 km | 15 |
+| Game | 44.89 km | 6 |
+| Oat | 43.77 km | 8 |
+| Ton | 41.62 km | 16 |
+| Palm | 39.12 km | 10 |
+| Oum | 16.70 km | 4 |
+| PAN | 4.21 km | 2 |
+| Tae | 0.00 km | — |
+| **Total** | **552.98 km** | |
+
+> ⚠️ Note: Team totals above = all-time Q1 cumulative including January. Team scores in standings use the CSV accumulation starting from Q1 Day 1.
+
+---
+
+## 📅 Tournament Calendar — Q1 2026
+
+| Quarter | Period | Weeks | Status |
+| :---: | :--- | :---: | :--- |
+| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 9 ends today)** |
+| **Q2** ⬜ | 1 Apr – 30 Jun 2026 | 13 | Upcoming |
+| **Q3** ⬜ | 1 Jul – 30 Sep 2026 | 13 | Upcoming |
+| **Q4** ⬜ | 1 Oct – 31 Dec 2026 | 13 | Upcoming |
+
+**Q1 Remaining Weeks:**
+
+| Week | Dates | Notes |
+| :---: | :--- | :--- |
+| **10** | 1 Mar – 7 Mar | ← Next week! |
+| 11 | 8 Mar – 14 Mar | |
+| 12 | 15 Mar – 21 Mar | |
+| 13 | 22 Mar – 28 Mar | |
+| — | 29 Mar – 31 Mar | ⚡ Q1 Final Sprint! |
+
+> ⚠️ **Q1 Deadline:** Submit all evidence by **31 March 2026, 23:59**  
+> 📣 Q1 results & rewards announced in early April
+
+---
+
+## 📏 Competition Rules — Key Points
+
+| Rule | Detail |
+| :--- | :--- |
+| **🏃 Run minimum** | ≥ 1.0 km per session |
+| **🚶 Walk minimum** | ≥ 2.0 km per session |
+| **📸 Submission** | Screenshot via LINE group within 24 hours |
+| **🏆 Team Scoring** | Average Distance = Total ÷ 10 members |
+| **🌟 Individual** | Top 5 by total accumulated distance |
+| **📅 Reset** | Distance resets every quarter (Q1–Q4) |
+| **❌ Prohibited** | Duplicate submissions, data tampering, micro-activities |
+
+**Losing team penalties:** Sponsor lunch for winning team + wear funny costume + display "Declaration of Defeat" sign 🤡
+
+📖 Full rules → [`docs/tournaments/Tournament Rules.md`](docs/tournaments/Tournament%20Rules.md)
+
+---
+
 ## 🤖 AI Agent System
 
-Four AI agents manage tournament operations:
+Four AI agents manage tournament operations via slash commands:
 
 | Agent | Command | Role |
 |---|---|---|
-| 🏟️ Coach Assistant | `/process-image` | Rename files, update CSV/stats, tournament ops |
+| 🏟️ Coach Assistant | `/coach-assistant` | Rename files, update CSV/stats, tournament ops |
 | 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
@@ -71,7 +166,7 @@ The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 
 2. **Process with AI Agent (Recommended):**
    ```
-   /process-image
+   /coach-assistant
    ```
    The agent will automatically: rename → extract stats → update CSV → regenerate READMEs.
 
@@ -100,5 +195,9 @@ The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 
 For architecture details, tournament rules, and the full E2E pipeline, see:
 
-👉 **[GEMINI.md](GEMINI.md)** — Project context for AI agents
+👉 **[GEMINI.md](GEMINI.md)** — Project context for AI agents  
 👉 **[docs/](docs/README.md)** — Full documentation index
+
+---
+
+*Last updated: 28 February 2026 — Auto-updated by Sports Analyst Agent*

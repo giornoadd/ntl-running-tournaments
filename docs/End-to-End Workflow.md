@@ -10,14 +10,14 @@ The tournament uses **3 AI agents** that automate most operations. Use these sla
 
 | Agent | Command | Use When |
 | :--- | :--- | :--- |
-| 🏟️ Coach Assistant | `/process-image` | New screenshot arrives — auto rename, extract data, update CSV |
+| 🏟️ Coach Assistant | `/coach-assistant` | New screenshot arrives — auto rename, extract data, update CSV |
 | 🏃 Running Coach | `/running-coach` | Analyze a member's run, set goals, create training plans |
 | 📈 Sports Analyst | `/sports-analyst` | Generate infographics, weekly recaps, personal stats cards |
 
 ### Typical Flow (Single Image):
 ```
 1. Drop screenshot into member_results/{Folder}/
-2. /process-image → Agent renames, extracts stats, updates CSV
+2. /coach-assistant → Agent renames, extracts stats, updates CSV
 3. /running-coach → Agent analyzes the run and gives feedback
 ```
 
@@ -44,7 +44,7 @@ python3 src/run_all.py
 ```
 
 > [!WARNING]
-> This re-watermarks ALL ~160+ images and can be slow. For processing **single files**, use the `/process-image` agent workflow instead.
+> This re-watermarks ALL ~160+ images and can be slow. For processing **single files**, use the `/coach-assistant` agent workflow instead.
 
 ---
 
