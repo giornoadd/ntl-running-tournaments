@@ -6,22 +6,42 @@ This document outlines the operational process of ingesting runner's evidence sc
 
 ## 🤖 AI Agent Workflows (Recommended)
 
-The tournament uses **3 AI agents** that automate most operations. Use these slash commands:
+The tournament uses **4 AI agents** that automate most operations. Use these slash commands:
 
 | Agent | Command | Use When |
 | :--- | :--- | :--- |
-| 🏟️ Coach Assistant | `/coach-assistant` | New screenshot arrives — auto rename, extract data, update CSV |
+| 🏟️ Coach Assistant | `/coach-assistant` | New screenshot arrives — rename, extract data, update CSV + stats |
 | 🏃 Running Coach | `/running-coach` | Analyze a member's run, set goals, create training plans |
-| 📈 Sports Analyst | `/sports-analyst` | Generate infographics, weekly recaps, personal stats cards |
+| 📈 Sports Analyst | `/sports-analyst` | Generate infographics, weekly recaps, personal stats cards, update README |
+| 📣 Tournament Reporter | `/tournament-reporter` | Write LINE/Facebook posts, standings boards, personal shoutouts |
 
-### Typical Flow (Single Image):
+All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) and use the Local Ollama (qwen3:8b) skill for text processing.
+
+---
+
+## Typical Flows
+
+### Single Image Submission:
 ```
 1. Drop screenshot into member_results/{Folder}/
-2. /coach-assistant → Agent renames, extracts stats, updates CSV
-3. /running-coach → Agent analyzes the run and gives feedback
+2. /coach-assistant → Agent renames, extracts stats, updates CSV + personal-statistics.md
+3. /running-coach   → Agent analyzes the run and gives feedback
 ```
 
-### All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a).
+### Weekly Update:
+```
+1. /sports-analyst       → Validate data + generate weekly recap + infographic
+2. /tournament-reporter  → Write LINE message / standings board
+3. Share in LINE group
+```
+
+### End of Quarter:
+```
+1. /coach-assistant      → Tournament summary + duplicate check
+2. /sports-analyst       → Quarter infographic + update README
+3. /tournament-reporter  → Write quarter recap post
+4. /coach-assistant      → Google Drive sync
+```
 
 ---
 
@@ -93,8 +113,26 @@ python3 src/generate_member_readmes.py
 
 This script:
 1. Parses all `results/yyyy-month.csv` files for each member's activities.
-2. Links evidence images from `member_results/` folders.
-3. Generates a `README.md` per member with all-time summary and monthly tables.
+2. Parses `personal-statistics.md` for advanced metrics (pace, cadence, HR, run/walk breakdown).
+3. Links evidence images from `member_results/` folders.
+4. Generates a `README.md` per member with all-time summary and monthly tables.
+
+### F. Check for Duplicates
+```bash
+python3 scripts/check_duplicates.py
+```
+
+This script checks for:
+- Same person, same date, multiple entries (likely duplicate submission)
+- Same person, exact same distance on different dates (possible copy/paste error)
+
+### G. Sync to Google Drive
+```bash
+python3 scripts/upload_to_drive.py
+```
+
+Uploads all files from `docs/`, `results/`, `member_results/`, and `resources/` to the shared Drive folder.
+- **Drive Folder:** [Running Competition 2026](https://drive.google.com/drive/folders/1FHh4VKxjO2zJF6Bx42UZgxv80cmpsEdG)
 
 ---
 
@@ -107,8 +145,9 @@ This script:
 | Tournament dashboard | `results/README.md` |
 | Member profiles | `member_results/{Folder}/README.md` |
 | Personal stats | `member_results/{Folder}/personal-statistics.md` |
-| running plans | `member_results/{Folder}/running-plan.md` |
+| Running plans | `member_results/{Folder}/running-plan.md` |
 | Infographic reports | `resources/tournaments-reports/` |
+| NotebookLM logs | `resources/notebooklm-log/` |
 
 ---
-*Last updated: 2026-02-25*
+*Last updated: 2026-02-28*

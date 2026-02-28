@@ -1,146 +1,159 @@
-# 🎨 Infographic Content: Week 9 Tournament Update
-> Tournament Reporter — Format 3 | 28 กุมภาพันธ์ 2026
+# 🎨 Infographic Content: Running Competition 2026 — Week 9 Finale!
+
+> 📅 สัปดาห์ที่ 9 | 22–28 กุมภาพันธ์ 2026
+> 🤖 สร้างโดย: Tournament Reporter Agent × NotebookLM
+> 📚 Source: NotebookLM notebook `b1637cb3-37a1-4cdf-8f55-36b8ae810a9a`
 
 ---
 
 ## Visual Layout Specification
 
 ### Header
-- **Title:** "Running Competition 2026 — Week 9 สิ้นสุดแล้ว! 🏁"
-- **Subtitle:** "สัปดาห์ที่ 9 | 22–28 กุมภาพันธ์ 2026"
-- **Style:** Dark theme, sports broadcast energy, flame/fire motif
-- **Accent Color:** Gold (week-end celebration) + Green (Manda) + Cyan (IT)
+- **Title:** "RUNNING COMPETITION 2026 ⚔️"
+- **Subtitle:** "Week 9 — 22–28 Feb | THE FINAL WEEK OF FEBRUARY!"
+- **Style:** Dark theme, neon sports energy, electric atmosphere
+- **Tagline:** "สัปดาห์สุดท้ายของเดือน! ใครจะครองสนาม?? 🔥"
 
 ---
 
-### Section 1: Team Battle ⚔️
+### Section 1: ⚔️ Team Battle
 
 ```
-┌─────────────────────────────────────────────┐
-│   🪖 Mandalorian    ⚔️    💻 IT System      │
-│     419.25 km             512.79 km         │
-│   avg 41.93 km/คน       avg 51.28 km/คน    │
-│                                             │
-│  🪖 ████████████░░░░░░░░░░  45%            │
-│  💻 ████████████████░░░░░░  55%            │
-│                                             │
-│  🏆 IT System นำ +9.35 km/person           │
-└─────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   🪖 MANDALORIAN     ⚔️      💻 IT SYSTEM          │
+│                                                     │
+│   📊 WEEK 9 ONLY:                                  │
+│      55.63 km                  53.68 km             │
+│   ████████████░░  vs  ███████████░░░               │
+│       50.9%                  49.1%                  │
+│   🏅 สัปดาห์นี้: 🪖 MANDALORIAN ชนะ! +1.95 km     │
+│                                                     │
+│   🏆 Q1 ACCUMULATE (ทั้ง Quarter):                 │
+│   💻 IT System    512.79 km (avg 51.28)  🏆 นำ     │
+│   🪖 Mandalorian  419.25 km (avg 41.92)             │
+│   Gap: IT System ยังนำ 9.35 km/คน                  │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-**Q1 Cumulative (Jan 1 – Feb 28)**
-- Total combined: **932.04 km** (ทั้ง 2 ทีมรวมกัน!)
-- Mandalorian Jan only: 208.94 km | Feb only: 210.31 km
-- IT System Jan only: 245.88 km | Feb only: 266.91 km
-
-**Week 9 Only (Feb 22–28):**
-- 🪖 Mandalorian: 39.76 km (35%)
-- 💻 IT System: 73.05 km (65%) 🔥 BEST WEEK IN Q1!
+**Week 9 Active: 🪖 4 คน** (GIO, Chan, Mos, Sand) **vs 💻 4 คน** (Boy, Jojo, O, Ton)
 
 ---
 
-### Section 2: Top Performers 🌟
+### Section 2: 🌟 Top 5 Runners — Week 9
 
-**Q1 All-Time Individual Rankings:**
-
-| Rank | Runner | Distance | Team | Highlight |
+| Rank | 🏃 Runner | 📏 Week 9 | 🏷️ Team | 📌 Highlight |
 |---|---|---|---|---|
-| 🥇 | **GIO** | **294.73 km** | 🪖 Mandalorian | 10K Club วันนี้! |
-| 🥈 | **Jojo** | **165.72 km** | 💻 IT System | Double 10km สัปดาห์นี้! |
-| 🥉 | **O** | **104.49 km** | 💻 IT System | 100km Club! |
-| 4 | **Boy** | **92.46 km** | 💻 IT System | 8km PR วันนี้ |
-| 5 | **Sand** | **46.13 km** | 🪖 Mandalorian | เดินสม่ำเสมอ 16 วัน |
+| 🥇 | **GIO** | **42.63 km** | 🪖 Mandalorian | 7 sessions! เครื่องจักรสังหาร! |
+| 🥈 | **Jojo** | **29.34 km** | 💻 IT System | Double 10K! สุดจัดปลัดบอก! |
+| 🥉 | **Boy** | **14.31 km** | 💻 IT System | 8km ปิดท้ายสัปดาห์ 🔥 |
+| 4️⃣ | **O** | **6.01 km** | 💻 IT System | ออกมากดแต้มไม่ยั้ง! |
+| 5️⃣ | **Ton** | **4.02 km** | 💻 IT System | ก้าวสำคัญดันแต้มรัวๆ |
 
-**Week 9 Stars:**
-| Rank | Runner | Week Distance | Achievement |
-|---|---|---|---|
-| 👑 | GIO | 37.41 km | MVP — 10km Block Long Run 🏆 |
-| 🔥 | Jojo | 29.34 km | 2x 10km Runs! |
-| ⚡ | Boy | 14.31 km | 8km Morning Run PR |
-| 🚶 | Chan | 3.47 km | Monday Warrior |
-| 🚶 | Sand | 2.32 km | Saturday finisher |
-| 🚶 | Mos | 2.26 km | Sunday starter |
-| 🏃 | O | 6.01 km | Sunday Long Run |
-| 🏃 | Ton | 4.02 km | On Off Ks comeback |
+**Also Active:** Chan (3.47km), Sand (2.32km), Mos (2.26km)
 
 ---
 
-### Section 3: Highlights 🔥
+### Section 3: 🔥 Highlights
 
-- 🏆 **GIO 10K CLUB!** — วิ่ง 10.06 km วันสุดท้ายของสัปดาห์ (10km Block Long Run) ครั้งแรกที่ทีม Mandalorian ทำ 10km+ ได้!
-- 🔥 **Jojo Double 10K!** — 10.00 km (Feb 24) + 10.01 km (Feb 27) = 20km ใน 3 วัน!
-- 💻 **IT System BEST WEEK** — 73.05 km สัปดาห์นี้ สถิติสูงสุดใน Q1!
-- 💡 **9/20 คน active** สัปดาห์นี้ — ทุกวันมีคนวิ่ง (7/7 days active streak!)
-- 🪖 **Mandalorian ชนะแค่ 1 สัปดาห์** (Week 7) — ต้องระดมพลัง Week 10!
-
----
-
-### Section 4: Fun Facts 😄
-
-> 🌏 **932 km รวม Q1 = กรุงเทพฯ ไปเชียงใหม่ 1 รอบครึ่ง!** 🛤️  
-> (กรุงเทพฯ → เชียงใหม่ ≈ 696 km)
-
-> 👟 **112 km Week 9 = เดินจากกรุงเทพฯ ถึงพัทยา แล้วกลับมาอีก รอบครึ่ง!** 🏖️
-
-> 🏃 **GIO คนเดียววิ่งรวม 294 km = กรุงเทพฯ ไปนครสวรรค์แล้ว!**  
-> (นครสวรรค์อยู่ห่างจากกรุงเทพฯ ~246 km 🗺️)
-
-> 📊 **Jojo วิ่งใน Q1 รวม 165 km = กรุงเทพฯ → จันทบุรี!** (ห่างประมาณ 164 km)
+- 🚀 **PB ALERT — JOJO THE RISING STAR!** ทำลายสถิติ Personal Best ทะลวง **10.00 km** (24 ก.พ.) แล้วกดอีก **10.01 km** (27 ก.พ.)! จากเดิน 2-3 km กลายเป็นสายวิ่ง 10K เต็มตัว! 🏃‍♂️💨
+- 🤖 **GIO THE MACHINE!** วิ่งทุกวันตลอดสัปดาห์ กดไป **42.63 km** คนเดียว = มากกว่า Full Marathon! เป็นเดอะแบกตัวจริงแห่ง Mandalorian 💪
+- 💥 **THE COMEBACK OF MOS!** คัมแบ็กกลับสู่สมรภูมิด้วย 2.26 km ปลุกขวัญกำลังใจให้ Mandalorian! 🐺
+- ⚡ **MANDALORIAN พลิกชนะสัปดาห์!** 55.63 vs 53.68 — ต่างกันแค่ 1.95 km สูสีจนหายใจไม่ทัน!
 
 ---
 
-### Section 5: Call to Action 📢
+### Section 4: 📊 Q1 Progress (ณ สิ้น Week 9)
 
 ```
-💪 Week 10 เริ่มแล้ว! (1–7 มีนาคม 2026)
+Q1 Progress: ████████████░░░░░░░░ Week 9/13 (69%)
 
-🎯 TARGET: Mandalorian ต้องวิ่งให้ได้มากกว่า IT System!
-🔥 Challenge: ใครจะทำ 50+ km ในสัปดาห์หน้า?
-👋 Peck, Neung, Tae — สัปดาห์ใหม่ โอกาสใหม่!
-⏳ Q1 เหลืออีก 31 วัน — ทุกก้าวยังมีความหมาย!
+🏆 Q1 OVERALL STANDINGS:
+💻 IT System    ████████████████████ 512.79 km  (avg 51.28)
+🪖 Mandalorian  ████████████████░░░░ 419.25 km  (avg 41.92)
 
-🏁 Q1 Deadline: 31 มีนาคม 2026, 23:59
+🏅 ALL-TIME TOP 5:
+🥇 GIO   (🪖) ████████████████████ 265.06 km
+🥈 Jojo  (💻) ██████████░░░░░░░░░░ 165.72 km
+🥉 Boy   (💻) █████░░░░░░░░░░░░░░░  92.46 km
+4. O     (💻) █████░░░░░░░░░░░░░░░  86.56 km
+5. Oat   (💻) ██░░░░░░░░░░░░░░░░░░  43.77 km
 ```
 
 ---
 
-### Section 6: Week 9 Activity Feed (for Timeline visual)
+### Section 5: 🤯 Fun Facts
 
-| วัน | กิจกรรมเด่น | Runner |
-|---|---|---|
-| อาทิตย์ 22 | Sunday Opener — 4 runners active! | Boy, Jojo, O, Mos |
-| จันทร์ 23 | Morning Walk + 6km Easy Run | GIO, Chan |
-| อังคาร 24 | 💯 FIRST 10K of Week! | Jojo (10.00 km) |
-| พุธ 25 | Over and Unders 400s + Walk | GIO |
-| พฤหัส 26 | Double session day | GIO (9.53 km) |
-| ศุกร์ 27 | 🔥 Double Feature: Jojo 10km + Boy 8km! | Jojo, Boy |
-| เสาร์ 28 | 🏆 GRAND FINALE: GIO 10km Block Long Run! | GIO, Sand |
+- 🌍 ทั้ง 2 ทีมวิ่งรวมกันแล้ว **932.04 km** = **กรุงเทพฯ → เวียงจันทน์ สปป.ลาว** เรียบร้อย! 🇹🇭🏃‍♂️🇱🇦
+- 👟 ก้าวรวมทุกคนทะลุ **1,166,000 ก้าว** แล้ว! ใช้เวลาเบิร์นไขมัน 120+ ชั่วโมง!
+- 🤝 สัปดาห์นี้มี 8 คน active จากทั้งหมด 20 คน — **แต่ 8 คนนี้กดไป 109+ km!** 
+- 🏃 GIO สัปดาห์เดียว 42.63 km = **Full Marathon + อีก 1.5 km!** สถิติสุดโหด
+- 👥 **17/20 Active Q1!** ยังเหลือ Peck, Neung (Manda) และ Tae (IT) ที่ยังไม่ออกมา — มาลุยกันเถอะ!
 
 ---
 
-## Image Generation Prompt
+### Section 6: 📣 Call to Action — Week 10
 
 ```
-Style: Dynamic sports broadcast infographic, ESPN/Fox Sports energy
-Background: Dark navy #0a0f1a with fire/flame gradient accents
-Layout: 1080x1920 vertical (phone wallpaper style)
-Colors: 
-  - Mandalorian = #4ade80 (green) with helmet icon 🪖
-  - IT System = #22d3ee (cyan) with laptop icon 💻
-  - Highlights = #f59e0b (gold/amber)
-  - MVP spotlight = gold glow
-
-Key Visual Elements:
-1. HEADER: "WEEK 9 สิ้นสุดแล้ว! 🏁" in huge bold text with fire effect
-2. TEAM BATTLE: Side-by-side with progress bars
-3. CROWN GRAPHIC: "👑 MVP GIO — 37.41 km" centered with gold border
-4. FIRE BADGE: "Jojo Double 10K 🔥" 
-5. FUN FACT BUBBLE: "932 km รวม = กรุงเทพฯ → เชียงใหม่ 1.5 รอบ!"
-6. CTA BANNER: "Week 10 เริ่มแล้ว! Q1 เหลือ 31 วัน! 🏁"
-7. Hashtags at bottom: #RunningComp2026 #Week9Done #ทุกก้าวมีค่า
+╔══════════════════════════════════════════════════╗
+║                                                  ║
+║   🚨 Q1 เหลืออีก ~31 วัน! (จบ 31 มี.ค.)       ║
+║                                                  ║
+║   🪖 Mandalorian: ต้องเร่งเครื่อง!              ║
+║      Gap 9.35 km/คน = ยังพลิกได้สบาย!           ║
+║      แค่ทุกคนวิ่งเพิ่ม 1 กม./วัน = พลิก!       ║
+║                                                  ║
+║   💻 IT System: รักษาฐาน! อย่าชะล่าใจ!         ║
+║                                                  ║
+║   ⚠️ คะแนนคือ "ระยะรวม ÷ 10" เสมอ!            ║
+║   คนที่ไม่วิ่ง = ตัวถ่วงค่าเฉลี่ยทีม!          ║
+║                                                  ║
+║   💡 วิ่งแค่ 1 km หรือเดิน 2 km ก็นับแล้ว!     ║
+║   ผูกเชือกรองเท้า แล้วพุ่งลุย WEEK 10! 🏃‍♂️💨  ║
+║                                                  ║
+║   #RunningCompetition2026 🔥                     ║
+╚══════════════════════════════════════════════════╝
 ```
 
 ---
 
-*📊 Data: `results/2026-February.csv` | Week 9: Feb 22–28, 2026*
-*🤖 Tournament Reporter Agent — 28 February 2026*
+## 🖼️ Image Generation Prompt
+
+```
+Create a dramatic sports infographic poster for "Running Competition 2026 — Week 9".
+
+Layout: Vertical 1080x1920px (Instagram Story / Social media format)
+Theme: Dark background (#0D0D0D) with electric neon accents and particle effects
+
+HEADER:
+- "RUNNING COMPETITION 2026" in bold metallic white font with slight glow
+- "⚔️ WEEK 9 — 22-28 FEB" in golden accent (#FFD700)
+- Tagline: "THE FINAL WEEK OF FEBRUARY" in small caps
+
+CENTER BATTLE:
+- LEFT: Mandalorian team with military olive green (#4A5C2A) neon glow
+  - Shield/helmet icon, "55.63 km" large bold, "Week Winner!" badge
+- RIGHT: IT System team with electric blue (#1A3A6B) cyan neon glow  
+  - Monitor/code icon, "53.68 km" large bold, "Q1 Leader!" trophy
+- BETWEEN: Crossed swords with electric sparks and "VS" text
+
+TOP PERFORMERS PANEL (glass morphism card):
+- 🥇 GIO: 42.63 km — with fire icon
+- 🥈 Jojo: 29.34 km — with star icon  
+- 🥉 Boy: 14.31 km — with lightning icon
+
+Q1 STANDINGS BAR:
+- IT System: 512.79 km (longer blue bar)
+- Mandalorian: 419.25 km (shorter green bar)
+- "Gap: 9.35 km/person" label
+
+BOTTOM:
+- "🚨 Q1: 31 DAYS LEFT!" countdown badge in red
+- "#RunningCompetition2026" hashtag
+- Premium sports broadcast quality, high energy atmosphere
+```
+
+---
+
+*Generated: 2026-02-28 10:53 | Agent: Tournament Reporter × NotebookLM | Sources: 2026-February.csv, results/README.md, NotebookLM KB*

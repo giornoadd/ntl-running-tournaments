@@ -2,23 +2,23 @@
 
 This directory contains the official rules, participant lists, and operational workflows for the **Running Competition 2026 — Mandalorian vs IT System**.
 
-## 📊 Live Standings (as of 25 Feb 2026 — Week 9)
+## 📊 Live Standings (as of 28 Feb 2026 — Week 9)
 
 | Team | Total Distance | Avg/Person | Active Members |
 | :--- | :--- | :--- | :--- |
-| 💻 **IT System** | **481.20 km** | **48.12 km** | 8 / 10 |
-| 🪖 **Mandalorian** | **393.22 km** | **39.32 km** | 8 / 10 |
+| 💻 **IT System** | **512.79 km** | **51.28 km** | 8 / 10 |
+| 🪖 **Mandalorian** | **419.25 km** | **41.92 km** | 8 / 10 |
 
-> **IT System leads by 8.80 km/person** 🏆
+> **IT System leads by 9.35 km/person** 🏆
 
 ### 🌟 Top 5 Individuals
 
 | Rank | Name | Team | Distance |
 | :---: | :--- | :--- | :--- |
-| 🥇 | GIO | 🪖 Mandalorian | 241.35 km |
-| 🥈 | Jojo | 💻 IT System | 151.09 km |
-| 🥉 | O | 💻 IT System | 86.56 km |
-| 🏅 4 | Boy | 💻 IT System | 84.46 km |
+| 🥇 1 | GIO | 🪖 Mandalorian | 265.06 km |
+| 🥈 2 | Jojo | 💻 IT System | 165.72 km |
+| 🥉 3 | Boy | 💻 IT System | 92.46 km |
+| 🏅 4 | O | 💻 IT System | 86.56 km |
 | 🏅 5 | Oat | 💻 IT System | 43.77 km |
 
 ---
@@ -45,14 +45,14 @@ Four AI agents manage the tournament operations:
 
 | Agent | Workflow | Role |
 | :--- | :--- | :--- |
-| 🏟️ **Coach Assistant** | `/coach-assistant` | Rename files, update CSV/stats, tournament operations |
+| 🏟️ **Coach Assistant** | `/coach-assistant` | Rename files, update CSV/stats, duplicate check, Drive sync |
 | 🏃 **Running Coach** | `/running-coach` | Post-run analysis, goal setting, running plans |
-| 📈 **Sports Analyst** | `/sports-analyst` | Infographic content, personal stats cards, recaps |
+| 📈 **Sports Analyst** | `/sports-analyst` | Infographic content, personal stats cards, recaps, README update |
 | 📣 **Tournament Reporter** | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
 
 👉 **[Full Agent Guide — How to Use](AI%20Agent%20System.md)**
 
-**Shared Skill:** All agents can query the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) via the `notebooklm-research` skill.
+**Shared Skills:** All agents can query the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) and use the Local Ollama (`qwen3:8b`) for Thai text processing.
 
 ---
-*Last updated: 2026-02-25*
+*Last updated: 2026-02-28*

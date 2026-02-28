@@ -7,11 +7,12 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 ## Agent Overview
 
 ```
-📸 /coach-assistant       →  รับภาพ → rename → update stats → สรุปผล
-🏃 /running-coach       →  วิเคราะห์การวิ่ง → ตั้งเป้า → แผนฝึก HM
-📈 /sports-analyst      →  Infographic → Personal card → Recap
-� /tournament-reporter →  ข่าว → LINE/Facebook → เชียร์ → motivation
-�📚 NotebookLM Skill     →  Research กฎ/กลยุทธ์ (shared ทุก agent)
+🏟️ /coach-assistant      →  รับภาพ → rename → update stats → สรุปผล → sync Drive
+🏃 /running-coach        →  วิเคราะห์การวิ่ง → ตั้งเป้า → แผนฝึก HM
+📈 /sports-analyst       →  Infographic → Personal card → Recap → อัพเดต README
+📣 /tournament-reporter  →  ข่าว → LINE/Facebook → เชียร์ → motivation
+📚 NotebookLM Skill      →  Research กฎ/กลยุทธ์ (shared ทุก agent)
+🦙 Local Ollama Skill    →  LLM ท้องถิ่น qwen3:8b (shared ทุก agent)
 ```
 
 ---
@@ -19,15 +20,17 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 ## 🏟️ Agent 1: Coach Assistant (`/coach-assistant`)
 
 ### Objective
-จัดการงาน operations ทั้งหมด — รับหลักฐานใหม่, rename ไฟล์, อัพเดตสถิติ, สรุปผล tournament
+จัดการงาน operations ทั้งหมด — รับหลักฐานใหม่, rename ไฟล์, อัพเดตสถิติ, สรุปผล tournament, ตรวจ duplicate, sync ขึ้น Google Drive
 
 ### Modes
 
 | Mode | Description |
 |---|---|
-| 📸 **Process Evidence** | รับ screenshot ใหม่ → rename → extract data → update CSV + stats |
-| 📊 **Tournament Summary** | สรุปคะแนนทีม, Top 5, active/inactive members |
-| 🔄 **Batch Processing** | ประมวลผลหลายรูปพร้อมกัน |
+| 📸 **Process Evidence** | รับ screenshot ใหม่ → rename → extract data → update CSV + stats → รัน scripts |
+| 📊 **Tournament Summary** | สรุปคะแนนทีม, Top 5, active/inactive members, weekly trend |
+| 🔄 **Batch Processing** | ประมวลผลหลายรูปพร้อมกัน รัน scripts ครั้งเดียวตอนจบ |
+| 🔍 **Duplicate Check** | ตรวจสอบข้อมูลซ้ำใน CSV (same date / same distance) |
+| ☁️ **Google Drive Sync** | อัพโหลดไฟล์ทั้งหมดขึ้น Drive folder `1FHh4VKxjO2zJF6Bx42UZgxv80cmpsEdG` |
 
 ### How to Use
 
@@ -40,6 +43,12 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 # Batch processing หลายรูป
 /coach-assistant ประมวลผลรูปใหม่ทั้งหมดใน member_results/
+
+# ตรวจ duplicate
+/coach-assistant ตรวจ duplicate
+
+# อัพโหลดขึ้น Drive
+/coach-assistant อัพโหลดไป Drive
 ```
 
 ### Output
@@ -62,7 +71,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 | 📊 **Post-Run Analysis** | วิเคราะห์เซสซั่นล่าสุด เทียบกับ 5 ครั้งก่อนหน้า + ตรวจว่าตามแผนไหม |
 | 🎯 **Goal Setting** | ถาม-ตอบกับนักกีฬาเพื่อตั้งเป้าหมายร่วมกัน |
 | 📋 **Progress Review** | รีวิวรายสัปดาห์/เดือน + เทียบแผน vs จริง |
-| 🏗️ **Plan Creation** | สร้าง `personal-statistics.md` + `running-plan.md` |
+| 🏗️ **Plan Creation** | สร้าง `personal-statistics.md` + `running-plan.md` ด้วย VDOT + Periodization ที่สมาชิกเลือก |
 
 ### How to Use
 
@@ -82,7 +91,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 ### Output
 - 📊 Post-Run Analysis (comparison table + coach advice)
-- 🎯 Updated goals in `running-plan.md`
+- 🎯 Updated goals in `README.md`
 - 📋 Progress report (plan vs actual)
 - 🏗️ New `personal-statistics.md` + `running-plan.md`
 
@@ -91,7 +100,9 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 ## 📈 Agent 3: Sports Analyst (`/sports-analyst`)
 
 ### Objective
-สร้าง content สำหรับ infographic, personal stats card, weekly/monthly recap — พร้อมแชร์ใน LINE group
+สร้าง content สำหรับ infographic, personal stats card, weekly/monthly recap — พร้อมแชร์ใน LINE group และอัพเดต README หลัก
+
+> ⚠️ ทุก content type ต้อง **validate ข้อมูล** (cross-check CSV vs personal-statistics) ก่อนเสมอ
 
 ### Content Types
 
@@ -100,7 +111,8 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 | 🏆 **Tournament Infographic** | ภาพรวม: Team standings, Top 5, contribution chart |
 | 👤 **Personal Stats Card** | สรุปสถิติรายบุคคล: progression, pace, achievements |
 | 📅 **Weekly/Monthly Recap** | MVP, scoreboard, activity feed |
-| 🎨 **Custom Visual** | เปรียบเทียบ, ranking, Head-to-Head |
+| 🎨 **Custom Visual** | เปรียบเทียบ, ranking, Head-to-Head, HM time prediction |
+| 📋 **Main README Update** | อัพเดต `README.md` หลักของ project ด้วยข้อมูลล่าสุด |
 
 ### How to Use
 
@@ -119,6 +131,9 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 # ทำ ranking ทุกคน
 /sports-analyst ranking สมาชิกทั้ง 20 คน
+
+# อัพเดต README หลัก
+/sports-analyst update README
 ```
 
 ### Output Location
@@ -135,46 +150,6 @@ resources/tournaments-reports/
 
 ---
 
-## 📚 Shared Skill: NotebookLM Research
-
-ทุก agent สามารถค้นคว้าข้อมูลการแข่งขันจาก [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) ได้
-
-### Example Queries
-
-| Agent | Query |
-|---|---|
-| Coach Assistant | "กฎการนับระยะทาง Run กับ Walk" |
-| Running Coach | "แผนฝึก Running Plan สำหรับมือใหม่" |
-| Sports Analyst | "สถิติการแข่งขันเดือนที่แล้ว" |
-
----
-
-## 🧠 Shared Skill: Local Ollama (qwen3:8b)
-
-ทุก agent สามารถใช้ Local LLM ผ่าน Ollama สำหรับ text processing โดยไม่ต้องใช้ API ภายนอก
-
-| Config | Value |
-|---|---|
-| Base URL | `http://localhost:11434/` |
-| Model | `qwen3:8b` |
-| .env vars | `OLLAMA_BASE_URL`, `OLLAMA_MODEL` |
-
-### Use Cases
-| Agent | Use Case |
-|---|---|
-| Coach Assistant | Validate activity type (run/walk), parse Thai dates |
-| Running Coach | Workout analysis, motivation text, plan suggestions |
-| Sports Analyst | Summarize stats, generate captions, trend analysis |
-| Tournament Reporter | LINE messages, Facebook posts, personal shoutouts |
-
-```bash
-# Prerequisites
-brew install ollama
-ollama serve
-ollama pull qwen3:8b
-```
-
-
 ## 📣 Agent 4: Tournament Reporter (`/tournament-reporter`)
 
 ### Objective
@@ -184,11 +159,11 @@ ollama pull qwen3:8b
 
 | Format | Description |
 |---|---|
-| 📱 **LINE Message** | ข้อความสั้น กระชับ สำหรับ LINE group |
+| 📱 **LINE Message** | ข้อความสั้น กระชับ ≤20 บรรทัด สำหรับ LINE group |
 | 📘 **Facebook Post** | เล่าเรื่องราว dramatic สำหรับ social media |
-| 🎨 **Infographic Content** | ข้อมูลพร้อมทำเป็นรูปภาพ |
-| 🏅 **Personal Shoutout** | เชียร์รายบุคคล — ทั้งฉลองและกระตุ้น |
-| 📊 **Standings Board** | กระดานคะแนนสำหรับ screenshot แชร์ |
+| 🎨 **Infographic Content** | ข้อมูลพร้อมสร้างเป็นรูปภาพ พร้อม image generation prompt |
+| 🏅 **Personal Shoutout** | เชียร์รายบุคคล — ทั้งฉลองและกระตุ้นคนที่ห่างหาย |
+| 📊 **Standings Board** | กระดานคะแนนสำเร็จรูปพร้อม screenshot แชร์ |
 
 ### How to Use
 
@@ -221,30 +196,81 @@ resources/tournaments-reports/
 
 ---
 
+## 📚 Shared Skill: NotebookLM Research
+
+ทุก agent สามารถค้นคว้าข้อมูลการแข่งขันจาก [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) ได้
+
+### Example Queries
+
+| Agent | Query |
+|---|---|
+| Coach Assistant | "กฎการนับระยะทาง Run กับ Walk" |
+| Running Coach | "แผนฝึก Running Plan สำหรับมือใหม่" |
+| Sports Analyst | "สถิติการแข่งขันเดือนที่แล้ว" |
+| Tournament Reporter | "highlights ที่น่าสนใจประจำสัปดาห์" |
+
+---
+
+## 🦙 Shared Skill: Local Ollama (qwen3:8b)
+
+ทุก agent สามารถใช้ Local LLM ผ่าน Ollama สำหรับ text processing โดยไม่ต้องใช้ API ภายนอก
+
+| Config | Value |
+|---|---|
+| Base URL | `http://localhost:11434/` |
+| Model | `qwen3:8b` |
+| .env vars | `OLLAMA_BASE_URL`, `OLLAMA_MODEL` |
+
+### Use Cases
+| Agent | Use Case |
+|---|---|
+| Coach Assistant | Validate activity type (run/walk), parse Thai dates |
+| Running Coach | Workout analysis, motivation text, plan suggestions |
+| Sports Analyst | Summarize stats, generate captions, trend analysis |
+| Tournament Reporter | LINE messages, Facebook posts, personal shoutouts |
+
+```bash
+# Prerequisites
+brew install ollama
+ollama serve
+ollama pull qwen3:8b
+```
+
+---
+
 ## 📋 Common Workflows
 
 ### Workflow 1: สมาชิกส่งหลักฐานใหม่
 ```
-1. /coach-assistant → rename + update stats
-2. /running-coach → วิเคราะห์ผลวิ่ง + คำแนะนำ
+1. /coach-assistant → rename + update stats + recalculate
+2. /running-coach   → วิเคราะห์ผลวิ่ง + คำแนะนำ
 ```
 
 ### Workflow 2: สรุปผลประจำสัปดาห์
 ```
-1. /sports-analyst → สรุปสัปดาห์ + MVP
-2. แชร์ใน LINE group
+1. /sports-analyst       → สรุปสัปดาห์ + MVP + validate data
+2. /tournament-reporter  → เขียน LINE message / standings board
+3. แชร์ใน LINE group
 ```
 
 ### Workflow 3: สมาชิกใหม่ / สร้างแผนฝึก
 ```
-1. /running-coach → สร้าง personal-statistics.md + running-plan.md
+1. /running-coach  → สร้าง personal-statistics.md + running-plan.md
 2. /sports-analyst → ทำ personal stats card
 ```
 
 ### Workflow 4: End of Quarter
 ```
-1. /coach-assistant → สรุปผล tournament
-2. /sports-analyst → ทำ infographic ไตรมาส
+1. /coach-assistant      → สรุปผล tournament + ตรวจ duplicate
+2. /sports-analyst       → ทำ infographic ไตรมาส + อัพเดต README
+3. /tournament-reporter  → เขียน recap สรุปไตรมาส
+4. /coach-assistant      → sync ขึ้น Google Drive
+```
+
+### Workflow 5: กระตุ้นสมาชิกที่ไม่ active
+```
+1. /coach-assistant      → ดูว่าใครยังไม่วิ่งเดือนนี้
+2. /tournament-reporter  → เขียน Personal Shoutout ให้แต่ละคน
 ```
 
 ---
@@ -257,4 +283,4 @@ resources/tournaments-reports/
 - [End-to-End Workflow](End-to-End%20Workflow.md)
 
 ---
-*Last updated: 2026-02-25*
+*Last updated: 2026-02-28*
