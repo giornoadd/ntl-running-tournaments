@@ -1,0 +1,5 @@
+# 2026-March Detailed Results
+
+| Date | Runners | Invalid (ผิดกติกา) | Mandalorian Daily | Mandalorian Accumulate | Mandalorian Avg | IT System Daily | IT System Accumulate | IT System Avg |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-03-01 | Mos: 2.24km |  | 2.24 | 428.32 | 42.83 | 0 | 524.30 | 52.43 |

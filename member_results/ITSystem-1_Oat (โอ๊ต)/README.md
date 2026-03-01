@@ -51,4 +51,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](running-pics/oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-02-28 22:36*
+*Auto-generated on 2026-03-01 19:28*
