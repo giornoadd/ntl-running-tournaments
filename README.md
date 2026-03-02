@@ -7,27 +7,27 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 **Q1 Status:** 🟢 Active — Week 9 (22–28 Feb) ends today, Week 10 starts 1 March  
-> 📊 Data as of: **28 February 2026** | Source: [`results/README.md`](results/README.md)
+> 📅 **Q1 Status:** 🟢 Active — Week 10 (1–7 Mar) | 4 weeks remaining  
+> 📊 Data as of: **2 March 2026** | Source: [`results/README.md`](results/README.md)
 
 ### ⚔️ Team Battle
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance (Q1)** | **419.25 km** | **512.79 km** | 💻 IT System |
-| **Average / Person** | **41.93 km** | **51.28 km** | 💻 IT System |
+| **Total Distance (Q1)** | **440.32 km** | **535.01 km** | 💻 IT System |
+| **Average / Person** | **44.03 km** | **53.50 km** | 💻 IT System |
 | **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
 ```
-📊 Share of combined 932.04 km:
-🪖 Manda  ████████████░░░░░░░░░░  45.0%
-💻 IT     ████████████████░░░░░░  55.0%
+📊 Share of combined 975.33 km:
+🪖 Manda  ██████████░░░░░░░░░░░░  45.1%
+💻 IT     ████████████████░░░░░░  54.9%
 
-🏅 IT System leads by +9.35 km/person
+🏅 IT System leads by +9.47 km/person
 ```
 
-> Previous month: **January** — Manda: 208.94 km | IT System: 245.88 km → 💻 IT System won  
-> 📋 [2026-January breakdown](results/2026-January.md) · [2026-February breakdown](results/2026-February.md)
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km  
+> 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
 
@@ -35,11 +35,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :---: |
-| 🥇 1 | **GIO** | 🪖 Mandalorian | **294.73 km** | 45 |
-| 🥈 2 | **Jojo** | 💻 IT System | **165.72 km** | 33 |
-| 🥉 3 | **O** | 💻 IT System | **104.49 km** | 18 |
+| 🥇 1 | **GIO** | 🪖 Mandalorian | **304.20 km** | 46 |
+| 🥈 2 | **Jojo** | 💻 IT System | **170.42 km** | 34 |
+| 🥉 3 | **O** | 💻 IT System | **110.50 km** | 19 |
 | 🏅 4 | **Boy** | 💻 IT System | **92.46 km** | 15 |
-| 🏅 5 | **Sand** | 🪖 Mandalorian | **46.13 km** | 16 |
+| 🏅 5 | **Palm** | 💻 IT System | **50.63 km** | 12 |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -51,35 +51,35 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
-| GIO | 294.73 km | 45 |
+| GIO | 304.20 km | 46 |
 | Sand | 46.13 km | 16 |
-| Boat | 36.83 km | 6 |
-| Chan | 28.29 km | 7 |
+| Boat | 43.66 km | 7 |
+| Chan | 30.82 km | 8 |
 | EM | 18.06 km | 3 |
-| Mos | 15.55 km | 5 |
+| Mos | 17.79 km | 6 |
 | Toro | 13.00 km | 3 |
 | Fuse | 12.76 km | 1 |
 | Peck | 0.00 km | — |
 | Neung | 0.00 km | — |
-| **Total** | **465.35 km** | |
+| **Total** | **486.42 km** | |
 
 #### 💻 IT System
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
-| Jojo | 165.72 km | 33 |
-| O | 104.49 km | 18 |
+| Jojo | 170.42 km | 34 |
+| O | 110.50 km | 19 |
 | Boy | 92.46 km | 15 |
+| Palm | 50.63 km | 12 |
 | Game | 44.89 km | 6 |
 | Oat | 43.77 km | 8 |
 | Ton | 41.62 km | 16 |
-| Palm | 39.12 km | 10 |
 | Oum | 16.70 km | 4 |
 | PAN | 4.21 km | 2 |
 | Tae | 0.00 km | — |
-| **Total** | **552.98 km** | |
+| **Total** | **575.20 km** | |
 
-> ⚠️ Note: Team totals above = all-time Q1 cumulative including January. Team scores in standings use the CSV accumulation starting from Q1 Day 1.
+> ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
 ---
 
@@ -87,7 +87,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Quarter | Period | Weeks | Status |
 | :---: | :--- | :---: | :--- |
-| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 9 ends today)** |
+| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 10)** |
 | **Q2** ⬜ | 1 Apr – 30 Jun 2026 | 13 | Upcoming |
 | **Q3** ⬜ | 1 Jul – 30 Sep 2026 | 13 | Upcoming |
 | **Q4** ⬜ | 1 Oct – 31 Dec 2026 | 13 | Upcoming |
@@ -96,7 +96,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Week | Dates | Notes |
 | :---: | :--- | :--- |
-| **10** | 1 Mar – 7 Mar | ← Next week! |
+| **10** | 1 Mar – 7 Mar | 📍 **Current Week** |
 | 11 | 8 Mar – 14 Mar | |
 | 12 | 15 Mar – 21 Mar | |
 | 13 | 22 Mar – 28 Mar | |
@@ -200,4 +200,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 
 ---
 
-*Last updated: 28 February 2026 — Auto-updated by Sports Analyst Agent*
+*Last updated: 2 March 2026 — Auto-updated by Sports Analyst Agent*
