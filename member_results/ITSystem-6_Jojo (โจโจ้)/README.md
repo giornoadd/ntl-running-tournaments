@@ -13,22 +13,51 @@
 | **Tracking App** | 📱 Huawei Health |
 | **Member Since** | 2026-01-05 |
 
+## 🎯 เป้าหมาย (Goals)
+
+| เป้าหมาย | รายละเอียด |
+|---|---|
+| **Main Goal** | 🏆 10K — Pace ดีขึ้น 30% ที่ HR Zone 2 |
+| **Current** | ⏱️ 10K @ 6:30/km (VDOT 35) |
+| **Target** | 🎯 10K @ 5:00/km ที่ Zone 2 (VDOT 45) |
+| **Target Date** | 📅 ตุลาคม 2026 |
+| **Weekly Frequency** | 3 วิ่ง + 2-3 เดิน + 1-2 พัก |
+
+## 🧪 Coaching Methods & Training Structure
+
+| Setting | Value |
+|---|---|
+| **Analysis Methods** | Jack Daniels' VDOT, Cadence & Stride Optimization |
+| **Periodization** | 🔵 Polarized Training (80/20 Method) |
+| **VDOT** | 35 → เป้า 42-45 |
+| **Key Focus** | Zone 2 Aerobic Efficiency |
+| **Selected On** | 2026-03-02 |
+
+> 💡 These methods and structure are used to design and adjust the training plan in `running-plan.md`.
+
 ## 📊 All-Time Summary
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **165.72 km** (Running 89.23 km + Walk 76.49 km) |
-| **Active Days** | 📅 33 days |
-| **Total Sessions** | 📋 33 sessions (Running 10 + Walk 23) |
-| **Average / Session** | 📏 5.02 km |
+| **Total Distance** | 🔥 **170.42 km** (Running 89.23 km + Walk 81.19 km) |
+| **Active Days** | 📅 34 days |
+| **Total Sessions** | 📋 34 sessions (Running 10 + Walk 24) |
+| **Average / Session** | 📏 5.01 km |
 | **Best Session** | 🏆 10.04 km (2026-01-08) |
 | **Best Pace** | ⚡ 6:30/km — Outdoor Run (2026-02-27) |
 | **Longest Run** | 🏅 10.04 km — Outdoor Run (2026-01-08) |
-| **Evidence Files** | 📸 33 screenshots |
+| **Evidence Files** | 📸 34 screenshots |
 | **First Active** | 2026-01-05 |
-| **Last Active** | 2026-02-27 |
+| **Last Active** | 2026-03-01 |
 
 ---
+
+## 📅 2026-March
+> 1 sessions · 4.70 km total · 4.70 km avg · best 4.70 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-01 | Sun, Mar 01 | **4.70 km** | 🚶 Indoor Walk | [📸](running-pics/jojo-2026-mar-01.jpg) |
 
 ## 📅 2026-February
 > 18 sessions · 91.71 km total · 5.10 km avg · best 10.01 km
@@ -76,4 +105,4 @@
 | 15 | 2026-01-31 | Sat, Jan 31 | **2.35 km** | 🚶 Indoor Walk | [📸](running-pics/jojo-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-03-01 19:28*
+*Auto-generated on 2026-03-02 06:36*
