@@ -3,4 +3,4 @@
 | Date | Runners | Invalid (ผิดกติกา) | Mandalorian Daily | Mandalorian Accumulate | Mandalorian Avg | IT System Daily | IT System Accumulate | IT System Avg |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-03-01 | Mos: 2.24km, Palm: 6.01km, Jojo: 4.70km |  | 2.24 | 428.32 | 42.83 | 10.71 | 535.01 | 53.50 |
-| 2026-03-02 | GIO: 9.47km |  | 9.47 | 437.79 | 43.78 | 0 | 535.01 | 53.50 |
+| 2026-03-02 | GIO: 9.47km, Chan: 2.53km |  | 12.00 | 440.32 | 44.03 | 0 | 535.01 | 53.50 |

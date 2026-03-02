@@ -13,28 +13,6 @@
 | **Tracking App** | 📱 Huawei Health |
 | **Member Since** | 2026-01-05 |
 
-## 🎯 เป้าหมาย (Goals)
-
-| เป้าหมาย | รายละเอียด |
-|---|---|
-| **Main Goal** | 🏆 10K — Pace ดีขึ้น 30% ที่ HR Zone 2 |
-| **Current** | ⏱️ 10K @ 6:30/km (VDOT 35) |
-| **Target** | 🎯 10K @ 5:00/km ที่ Zone 2 (VDOT 45) |
-| **Target Date** | 📅 ตุลาคม 2026 |
-| **Weekly Frequency** | 3 วิ่ง + 2-3 เดิน + 1-2 พัก |
-
-## 🧪 Coaching Methods & Training Structure
-
-| Setting | Value |
-|---|---|
-| **Analysis Methods** | Jack Daniels' VDOT, Cadence & Stride Optimization |
-| **Periodization** | 🔵 Polarized Training (80/20 Method) |
-| **VDOT** | 35 → เป้า 42-45 |
-| **Key Focus** | Zone 2 Aerobic Efficiency |
-| **Selected On** | 2026-03-02 |
-
-> 💡 These methods and structure are used to design and adjust the training plan in `running-plan.md`.
-
 ## 📊 All-Time Summary
 
 | Metric | Value |
@@ -105,4 +83,4 @@
 | 15 | 2026-01-31 | Sat, Jan 31 | **2.35 km** | 🚶 Indoor Walk | [📸](running-pics/jojo-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-03-02 06:36*
+*Auto-generated on 2026-03-02 10:40*

@@ -17,17 +17,24 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **28.29 km** (Running 7.99 km + Walk 20.30 km) |
-| **Active Days** | 📅 7 days |
-| **Total Sessions** | 📋 8 sessions (Running 3 + Walk 5) |
-| **Average / Session** | 📏 4.04 km |
+| **Total Distance** | 🔥 **30.82 km** (Running 7.99 km + Walk 22.83 km) |
+| **Active Days** | 📅 8 days |
+| **Total Sessions** | 📋 9 sessions (Running 3 + Walk 6) |
+| **Average / Session** | 📏 3.85 km |
 | **Best Session** | 🏆 6.03 km (2026-01-11) |
 | **Longest Run** | 🏅 3.47 km — Outdoor Running (วิ่งกลางแจ้ง) (2026-02-23) |
-| **Evidence Files** | 📸 8 screenshots |
+| **Evidence Files** | 📸 9 screenshots |
 | **First Active** | 2025-12-24 |
-| **Last Active** | 2026-02-23 |
+| **Last Active** | 2026-03-02 |
 
 ---
+
+## 📅 2026-March
+> 1 sessions · 2.53 km total · 2.53 km avg · best 2.53 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-02 | Mon, Mar 02 | **2.53 km** | 🚶 Morning Walk | [📸](running-pics/chan-2026-mar-02.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 10.35 km total · 3.45 km avg · best 3.50 km
@@ -55,4 +62,4 @@
 | 2 | 2025-12-30 | Tue, Dec 30 | **3.61 km** | 🚶 Walking (เดิน) | [📸](running-pics/chan-2025-dec-30.png) |
 
 ---
-*Auto-generated on 2026-03-02 06:36*
+*Auto-generated on 2026-03-02 10:40*
