@@ -50,8 +50,8 @@
 | **Peak Long Run** | 📏 19 km (Runna app — Week 23, 30 พ.ค.) |
 | **Plan Start** | 🗓️ 22 ธันวาคม 2025 (Week 1) |
 | **Plan Duration** | 📆 27 สัปดาห์ (Wk 1-27, 22 ธ.ค. 2025 — 28 มิ.ย. 2026) |
-| **Current Week** | 💪 **Week 10/27** — Strength Phase (23 ก.พ. — 5 เม.ย.) |
-| **Weeks Remaining** | ⏳ 17 สัปดาห์ (Race: 27 มิ.ย. 2026) |
+| **Current Week** | 💪 **Week 11/27** — Strength Phase (23 ก.พ. — 5 เม.ย.) |
+| **Weeks Remaining** | ⏳ 16 สัปดาห์ (Race: 27 มิ.ย. 2026) |
 | **ความถี่เป้าหมาย** | 4-5 ครั้ง/สัปดาห์ (Running + Strength) |
 | **ความถี่จริง (ล่าสุด)** | 📊 ~5.4 ครั้ง/สัปดาห์ (Running + Walk) |
 | **Injury/ข้อจำกัด** | ไม่มี ✅ |
@@ -158,4 +158,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](running-pics/gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-03-03 08:59*
+*Auto-generated on 2026-03-03 09:11*
