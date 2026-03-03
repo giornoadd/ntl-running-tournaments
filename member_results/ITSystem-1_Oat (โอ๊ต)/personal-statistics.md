@@ -12,5 +12,7 @@
 | 2026-02-01 | Indoor Run (วิ่งในร่ม) | 7.05 km | 1:03:02 | 8'57"/km | 123/N/A bpm | N/A | 117 spm | oat-2026-feb-01.jpg |
 | 2026-02-02 | Indoor Run (วิ่งในร่ม) | 7.02 km | 1:18:12 | 11'08"/km | 116/N/A bpm | N/A | 101 spm | oat-2026-feb-02.jpg |
 | 2026-02-04 | Indoor Run (วิ่งในร่ม) | 3.03 km | 38:13 | 12'37"/km | 109/N/A bpm | N/A | 89 spm | oat-2026-feb-04.jpg |
+| 2026-03-03 | Indoor Run (วิ่งในร่ม) | 5.10 km | 58:56 | 11'33"/km | 141/N/A bpm | N/A | 113 spm | oat-2026-mar-03.jpg |
+| 2026-03-03 | Functional Training (ฝึกเพื่อการใช้งาน) | — | 30:15 | — | 134/N/A bpm | N/A | — | oat-2026-mar-03_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

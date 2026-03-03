@@ -17,17 +17,48 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **18.06 km** |
-| **Active Days** | 📅 3 days |
-| **Average / Session** | 📏 6.02 km |
+| **Total Distance** | 🔥 **23.21 km** |
+| **Active Days** | 📅 4 days |
+| **Average / Session** | 📏 5.80 km |
 | **Best Session** | 🏆 9.66 km (2026-02-01) |
 | **Best Pace** | ⚡ 8:20/km — Outdoor Run (วิ่งกลางแจ้ง) (2026-02-01) |
 | **Longest Run** | 🏅 9.66 km — Outdoor Run (วิ่งกลางแจ้ง) (2026-02-01) |
-| **Evidence Files** | 📸 3 screenshots |
+| **Evidence Files** | 📸 4 screenshots |
 | **First Active** | 2026-01-24 |
-| **Last Active** | 2026-02-01 |
+| **Last Active** | 2026-03-03 |
+| **VDOT** | 📐 30-31 (Easy Pace: 9:15-10:15/km) |
+| **Fitness Level** | 🟠 Intermediate (Consistent Pacer) |
+
+## 🎯 เป้าหมาย (Goals)
+
+| Goal | Target |
+| :--- | :--- |
+| 🏁 **Running Goal** | Half Marathon 21.1 km |
+| ⏱️ **เวลาเป้า** | Sub 3:05 (Negative Split) |
+| 📅 **Target Date** | สัปดาห์ที่ 20 (ก.ค. 2026) |
+| 📏 **Weekly เป้า** | 3 ครั้ง/สัปดาห์ |
+| 🏅 **Strava Challenge** | 50 runs/year (4/50 ✅) |
+
+## 🧪 Coaching Methods & Training Structure
+
+| Setting | Value |
+| :--- | :--- |
+| **Analysis Methods** | Jack Daniels' VDOT, Cadence & Stride Optimization |
+| **Periodization** | 🟢 Linear Periodization (Base → Build → Peak → Taper) |
+| **Selected On** | 2026-03-03 |
+| **Plan Duration** | 20 สัปดาห์ (มี.ค. - ก.ค. 2026) |
+| **Strategy** | Consistent Pacer → Endurance Builder |
+
+> 💡 These methods and structure are used to design and adjust the training plan in `running-plan.md`.
 
 ---
+
+## 📅 2026-March
+> 1 sessions · 5.15 km total · 5.15 km avg · best 5.15 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-03 | Tue, Mar 03 | **5.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/em-2026-mar-03.jpg) |
 
 ## 📅 2026-February
 > 1 sessions · 9.66 km total · 9.66 km avg · best 9.66 km
@@ -45,4 +76,4 @@
 | 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](running-pics/em-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-03-03 09:11*
+*Auto-generated on 2026-03-03 20:13*

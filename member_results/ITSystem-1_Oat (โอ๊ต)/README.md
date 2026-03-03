@@ -17,18 +17,47 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **43.77 km** (Running 38.73 km + Walk 5.04 km) |
-| **Active Days** | 📅 8 days |
-| **Total Sessions** | 📋 8 sessions (Running 7 + Walk 1) |
-| **Average / Session** | 📏 5.47 km |
+| **Total Distance** | 🔥 **48.87 km** (Running 43.83 km + Walk 5.04 km) |
+| **Active Days** | 📅 9 days |
+| **Total Sessions** | 📋 10 sessions (Running 9 + Walk 1) |
+| **Average / Session** | 📏 5.43 km |
 | **Best Session** | 🏆 7.05 km (2026-02-01) |
 | **Longest Run** | 🏅 7.05 km — Indoor Run (วิ่งในร่ม) (2026-02-01) |
 | **Avg Running Cadence** | 🦶 111 spm |
-| **Evidence Files** | 📸 8 screenshots |
+| **Evidence Files** | 📸 10 screenshots |
 | **First Active** | 2026-01-15 |
-| **Last Active** | 2026-02-04 |
+| **Last Active** | 2026-03-03 |
+
+## 🎯 เป้าหมาย (Goals)
+
+| Goal | Target |
+| :--- | :--- |
+| 🏁 **Running Goal** | Half Marathon 21.1 km |
+| ⏱️ **เวลาเป้า** | ~3:30-3:45 ชม. (Galloway pace) |
+| 📅 **Target Date** | สัปดาห์ที่ 24 (ส.ค. 2026) |
+| 🦶 **Cadence เป้า** | 145 spm (จาก 111 spm) |
+| 📏 **Weekly ปัจจุบัน** | 2-3 ครั้ง/สัปดาห์ |
+
+## 🧪 Coaching Methods & Training Structure
+
+| Setting | Value |
+| :--- | :--- |
+| **Analysis Methods** | Jack Daniels' VDOT, Cadence & Stride Optimization |
+| **Periodization** | 🟡 Galloway Method (Run-Walk-Run) |
+| **Selected On** | 2026-03-03 |
+| **Plan Duration** | 24 สัปดาห์ (มี.ค. - ส.ค. 2026) |
+| **Run-Walk Progression** | R2:W1 → R3:W1 → R4:W0.5 → R5:W0.5 |
+
+> 💡 These methods and structure are used to design and adjust the training plan in `running-plan.md`.
 
 ---
+
+## 📅 2026-March
+> 1 sessions · 5.10 km total · 5.10 km avg · best 5.10 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-03 | Tue, Mar 03 | **5.10 km** | 🏃 Indoor Run (วิ่งในร่ม) + Functional Training (ฝึกเพื่อการใช้งาน) | [📸1](running-pics/oat-2026-mar-03.jpg) [📸2](running-pics/oat-2026-mar-03_1.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 17.10 km total · 5.70 km avg · best 7.05 km
@@ -51,4 +80,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](running-pics/oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-03-03 09:11*
+*Auto-generated on 2026-03-03 20:13*
