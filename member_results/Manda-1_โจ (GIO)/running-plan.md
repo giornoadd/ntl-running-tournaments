@@ -233,7 +233,7 @@
 
 ### 🗓️ Week 11: Mar 2 - Mar 8 (สัปดาห์เพิ่มความเข้มข้นทางความเร็ว)
 * **Mon 2:** ✅ `Upper Body Lift + 6km Easy Run + Morning Walk` *(จริง: 6.06 km, Pace 7:53/km, HR 155 bpm, Zone 3, Cadence 149 spm + Walk 3.41 km, HR 117 bpm)*
-* **Tue 3:** `Tempo 2km Repeats (7.5km)` **(Key Speed Workout!)** วิ่งจังหวะกึ่งอึดกึ่งเร็ว 2 กิโลเมตร ให้อยู่ใน Zone 3 ปลายๆ คุมจังหวะก้าวให้คมชัด
+* **Tue 3:** ✅ `Tempo 2km Repeats (7.5km)` **(Key Speed Workout!)** *(จริง: 7.92 km, Pace 7:52/km, 1h 2m 23s, HR 147 bpm, Zone 3, Cadence 149 spm)* วิ่งจังหวะกึ่งอึดกึ่งเร็ว 2 กิโลเมตร ให้อยู่ใน Zone 3 ปลายๆ คุมจังหวะก้าวให้คมชัด
 * **Wed 4:** `Lower Body Strength` (โฟกัสสะโพก (Glutes) แหล่งพลังงานสำคัญที่สุดของนักวิ่ง)
 * **Thu 5:** `800m into 400m Intervals (6.5km)` ฝึกคลายความล้า (Lactate clearance) หลังจากเร่ง 800m
 * **Fri 6:** 🧘🏻‍♂️ *Rest Day* (พักร่าง 100%)

@@ -20,8 +20,8 @@
 | 6 | 1 Feb – 7 Feb | Sun – Sat | |
 | 7 | 8 Feb – 14 Feb | Sun – Sat | Valentine's Day 💕 |
 | 8 | 15 Feb – 21 Feb | Sun – Sat | |
-| **9** | **22 Feb – 28 Feb** | **Sun – Sat** | 📍 **Current Week** |
-| 10 | 1 Mar – 7 Mar | Sun – Sat | |
+| 9 | 22 Feb – 28 Feb | Sun – Sat | |
+| **10** | **1 Mar – 7 Mar** | **Sun – Sat** | 📍 **Current Week** |
 | 11 | 8 Mar – 14 Mar | Sun – Sat | |
 | 12 | 15 Mar – 21 Mar | Sun – Sat | |
 | 13 | 22 Mar – 28 Mar | Sun – Sat | |
