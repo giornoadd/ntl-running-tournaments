@@ -8,25 +8,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ## 🏆 Live Standings — Q1 2026
 
 > 📅 **Q1 Status:** 🟢 Active — Week 10 (1–7 Mar) | 4 weeks remaining  
-> 📊 Data as of: **3 March 2026 20:22** | Source: [`results/README.md`](results/README.md)
+> 📊 Data as of: **5 March 2026** | Source: [`results/README.md`](results/README.md)
 
 ### ⚔️ Team Battle
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance (Q1)** | **467.47 km** | **550.12 km** | 💻 IT System |
-| **Average / Person** | **46.75 km** | **55.01 km** | 💻 IT System |
+| **Total Distance (Q1)** | **488.54 km** | **574.91 km** | 💻 IT System |
+| **Average / Person** | **48.85 km** | **57.49 km** | 💻 IT System |
 | **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
 ```
-📊 Share of combined 1,017.59 km:
-🪖 Manda  ██████████░░░░░░░░░░░░  45.9%
-💻 IT     ████████████████░░░░░░  54.1%
+📊 Share of combined 1,063.45 km:
+🪖 Manda  █████████░░░░░░░░░░░░░  45.9%
+💻 IT     ███████████████░░░░░░░  54.1%
 
-🏅 IT System leads by +8.27 km/person
+🏅 IT System leads by +8.64 km/person
 ```
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 41.39 km | IT: 25.82 km  
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 62.46 km | IT: 50.61 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
@@ -35,11 +35,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Total Distance | Active Days |
 | :---: | :--- | :--- | ---: | :---: |
-| 🥇 1 | **GIO** | 🪖 Mandalorian | **316.49 km** | 48 |
-| 🥈 2 | **Jojo** | 💻 IT System | **180.43 km** | 35 |
-| 🥉 3 | **O** | 💻 IT System | **110.50 km** | 19 |
-| 🏅 4 | **Boy** | 💻 IT System | **92.46 km** | 15 |
-| 🏅 5 | **Palm** | 💻 IT System | **50.63 km** | 12 |
+| 🥇 1 | **GIO** | 🪖 Mandalorian | **330.55 km** | 50 |
+| 🥈 2 | **Jojo** | 💻 IT System | **182.77 km** | 36 |
+| 🥉 3 | **O** | 💻 IT System | **122.51 km** | 21 |
+| 🏅 4 | **Boy** | 💻 IT System | **97.84 km** | 16 |
+| 🏅 5 | **Oat** | 💻 IT System | **53.93 km** | 10 |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -51,33 +51,33 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
-| GIO | 316.49 km | 48 |
-| Sand | 48.37 km | 17 |
+| GIO | 330.55 km | 50 |
+| Sand | 50.44 km | 18 |
 | Boat | 43.66 km | 7 |
-| Chan | 30.82 km | 8 |
+| Chan | 35.76 km | 9 |
 | EM | 23.21 km | 4 |
 | Mos | 20.74 km | 7 |
 | Toro | 17.52 km | 4 |
 | Fuse | 12.76 km | 1 |
 | Peck | 0.00 km | — |
 | Neung | 0.00 km | — |
-| **Total** | **513.57 km** | |
+| **Total** | **534.64 km** | |
 
 #### 💻 IT System
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
-| Jojo | 180.43 km | 35 |
-| O | 110.50 km | 19 |
-| Boy | 92.46 km | 15 |
+| Jojo | 182.77 km | 36 |
+| O | 122.51 km | 21 |
+| Boy | 97.84 km | 16 |
+| Oat | 53.93 km | 10 |
 | Palm | 50.63 km | 12 |
-| Oat | 48.87 km | 9 |
 | Game | 44.89 km | 6 |
 | Ton | 41.62 km | 16 |
 | Oum | 16.70 km | 4 |
 | PAN | 4.21 km | 2 |
 | Tae | 0.00 km | — |
-| **Total** | **590.31 km** | |
+| **Total** | **615.10 km** | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -200,4 +200,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 
 ---
 
-*Last updated: 3 March 2026 — Auto-updated by Sports Analyst Agent*
+*Last updated: 5 March 2026 — Auto-updated by Sports Analyst Agent*

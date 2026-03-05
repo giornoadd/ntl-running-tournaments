@@ -23,5 +23,7 @@
 | 2026-02-21 | Outdoor Run | 6.07 km | N/A | N/A | N/A | N/A | N/A | o-2026-feb-21.jpg |
 | 2026-02-22 | Outdoor Run | 6.01 km | N/A | N/A | N/A | N/A | N/A | o-2026-feb-22.jpg |
 | 2026-02-28 | Outdoor Run | 6.01 km | 51:13 | 8:31/km | N/A | N/A | N/A | o-2026-feb-28.jpg |
+| 2026-03-03 | Outdoor Run (วิ่งริมแม่น้ำ) | 6.00 km | 44:18 | 7:23/km | N/A | N/A | N/A | o-2026-mar-03.jpg |
+| 2026-03-04 | Outdoor Run (วิ่งริมแม่น้ำ) | 6.01 km | 50:32 | 8:24/km | N/A | N/A | N/A | o-2026-mar-04.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md)

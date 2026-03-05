@@ -76,5 +76,7 @@
 | 2026-03-02 | Morning Walk | 3.41 km | 45:20 | N/A | 117 bpm | Zone 2 Endurance | N/A | gio-2026-mar-02.jpg |
 | 2026-03-03 | Tempo 2km Repeats | 7.92 km | 1:02:23 | 7:52/km | 147 bpm | Zone 3 Tempo | 149 spm | gio-2026-mar-03.jpg |
 | 2026-03-03 | Morning Walk | 4.37 km | 58m 15s | N/A | N/A | N/A | N/A | gio-2026-mar-03_1.jpg |
+| 2026-03-05 | 800m into 400m Intervals | 8.36 km | 1:05:28 | 7:50/km | 152 bpm | Zone 3 Tempo | 140 spm | gio-2026-mar-05.jpg |
+| 2026-03-05 | Morning Walk | 5.70 km | 1:15:52 | N/A | 114 bpm | Zone 2 Endurance | N/A | gio-2026-mar-05_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Running Plan)](running-plan.md)

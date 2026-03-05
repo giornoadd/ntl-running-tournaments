@@ -17,17 +17,25 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **110.50 km** |
-| **Active Days** | 📅 19 days |
-| **Average / Session** | 📏 5.82 km |
+| **Total Distance** | 🔥 **122.51 km** |
+| **Active Days** | 📅 21 days |
+| **Average / Session** | 📏 5.83 km |
 | **Best Session** | 🏆 7.01 km (2026-01-25) |
 | **Best Pace** | ⚡ 7:16/km — Outdoor Run (2025-12-31) |
 | **Longest Run** | 🏅 7.01 km — Outdoor Run (2026-01-25) |
-| **Evidence Files** | 📸 19 screenshots |
+| **Evidence Files** | 📸 21 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-02-28 |
+| **Last Active** | 2026-03-04 |
 
 ---
+
+## 📅 2026-March
+> 2 sessions · 12.01 km total · 6.00 km avg · best 6.01 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-03 | Tue, Mar 03 | **6.00 km** | 🏃 Outdoor Run (วิ่งริมแม่น้ำ) | [📸](running-pics/o-2026-mar-03.jpg) |
+| 2 | 2026-03-04 | Wed, Mar 04 | **6.01 km** | 🏃 Outdoor Run (วิ่งริมแม่น้ำ) | [📸](running-pics/o-2026-mar-04.jpg) |
 
 ## 📅 2026-February
 > 10 sessions · 57.48 km total · 5.75 km avg · best 7.00 km
@@ -67,4 +75,4 @@
 | 3 | 2025-12-31 | Wed, Dec 31 | **6.02 km** | 🏃 Outdoor Run | [📸](running-pics/o-2025-dec-31.png) |
 
 ---
-*Auto-generated on 2026-03-03 20:13*
+*Auto-generated on 2026-03-05 11:58*
