@@ -1,0 +1,128 @@
+# 🏆 Running Competition 2026 — Week 10 Recap
+📅 ช่วง: 1–5 มีนาคม 2026 | Data as of: 6 มี.ค. 2026
+
+---
+
+## ✅ Data Validation
+```
+✅ Cross-check complete — 20 members verified
+✅ All entries comply with competition rules (Run ≥ 1km, Walk ≥ 2km)
+⚠️ Note: Sand 2.07 km walk (Mar 4) — just above minimum, valid
+✅ CSV totals match recalculate_csv.py output
+```
+
+---
+
+## ⚔️ Team Battle — Q1 2026
+
+┌──────────────────────────────────────────────────┐
+│   🪖 Mandalorian    ⚔️    💻 IT System           │
+│     500.89 km              584.92 km              │
+│     50.09 avg              58.49 avg              │
+│                                                    │
+│   📊 Team Progress:                               │
+│   Manda ████████████████░░░░ 46.1%                │
+│   IT    ███████████████████░ 53.9%                 │
+│                                                    │
+│   🏅 Leader: 💻 IT System by +8.40 km/person      │
+└──────────────────────────────────────────────────┘
+
+### 📈 March Momentum — Mandalorian Fighting Back! 🔥
+
+| Metric | 🪖 Mandalorian | 💻 IT System | March Leader |
+|---|---|---|---|
+| **March Total** | **74.81 km** | 60.62 km | 🪖 **Mandalorian!** |
+| **March Daily Avg** | 14.96 km/day | 12.12 km/day | 🪖 +2.84/day |
+| **Active Members** | 8/10 (80%) | 6/10 (60%) | 🪖 More Active! |
+
+> 🔥 **Mandalorian กำลัง comeback!** เดือน มี.ค. นำ IT System อยู่ +14.19 km!
+
+---
+
+## 🌟 Top 5 Individual Runners (All-Time Q1)
+
+| Rank | 🏃 Runner | Team | 📏 Distance | 📈 March Progress |
+|---|---|---|---|---|
+| 🥇 | **Gio** | 🪖 Mandalorian | **300.88 km** | +35.82 km 🔥 |
+| 🥈 | **Jojo** | 💻 IT System | **192.78 km** | +27.06 km 🔥 |
+| 🥉 | **O** | 💻 IT System | **104.58 km** | +12.01 km |
+| 🏅 | **Boy** | 💻 IT System | **97.84 km** | — |
+| 🏅 | **Oat** | 💻 IT System | **53.93 km** | +10.16 km |
+
+---
+
+## 📊 Team Contribution — Q1 Total
+
+### 🪖 Mandalorian (500.89 km)
+
+| Member | Distance | Contribution | Sessions | Mar Active |
+|---|---|---|---|---|
+| **Gio** 🔥 | 330.55 km | ████████████████████ 66.0% | 50 days | ✅ |
+| Sand | 57.71 km | ████░░░░░░░░░░░░░░░░ 11.5% | 19 days | ✅ |
+| Boat | 48.74 km | ███░░░░░░░░░░░░░░░░░ 9.7% | 8 days | ✅ |
+| Chan | 35.76 km | ██░░░░░░░░░░░░░░░░░░ 7.1% | 9 days | ✅ |
+| Em | 23.21 km | █░░░░░░░░░░░░░░░░░░░ 4.6% | 4 days | ✅ |
+| Mos | 20.74 km | █░░░░░░░░░░░░░░░░░░░ 4.1% | 7 days | ✅ |
+| Toro | 17.52 km | █░░░░░░░░░░░░░░░░░░░ 3.5% | 4 days | ✅ |
+| Fuse | 12.76 km | █░░░░░░░░░░░░░░░░░░░ 2.5% | 1 day | ❌ |
+| Peck | 0.00 km | ░░░░░░░░░░░░░░░░░░░░ 0% | — | ❌ |
+| Neung | 0.00 km | ░░░░░░░░░░░░░░░░░░░░ 0% | — | ❌ |
+
+### 💻 IT System (584.92 km)
+
+| Member | Distance | Contribution | Sessions | Mar Active |
+|---|---|---|---|---|
+| **Jojo** 🔥 | 192.78 km | ████████████████░░░░ 33.0% | 37 days | ✅ |
+| O | 122.51 km | ██████████░░░░░░░░░░ 20.9% | 21 days | ✅ |
+| Boy | 97.84 km | ████████░░░░░░░░░░░░ 16.7% | 16 days | ✅ |
+| Oat | 53.93 km | ████░░░░░░░░░░░░░░░░ 9.2% | 10 days | ✅ |
+| Palm | 50.63 km | ████░░░░░░░░░░░░░░░░ 8.7% | 12 days | ✅ |
+| Game | 44.89 km | ███░░░░░░░░░░░░░░░░░ 7.7% | 6 days | ❌ |
+| Ton | 41.62 km | ███░░░░░░░░░░░░░░░░░ 7.1% | 16 days | ❌ |
+| Oum | 16.70 km | █░░░░░░░░░░░░░░░░░░░ 2.9% | 4 days | ❌ |
+| PAN | 4.21 km | ░░░░░░░░░░░░░░░░░░░░ 0.7% | 2 days | ❌ |
+| Tae | 0.00 km | ░░░░░░░░░░░░░░░░░░░░ 0% | — | ❌ |
+
+---
+
+## 🔥 Week 10 Highlights (1–5 มี.ค.)
+
+- 🏆 **MVP of the Week: GIO** — 35.82 km ใน 5 เซสซั่น (3 วัน) รวม 4 runs + 1 walk 🔥🔥🔥
+- 🆕 **Boat กลับมาแล้ว!** — หลังหายไป 6 วัน วิ่ง 5.08 km พร้อม HR data ครั้งแรก! 💓
+- 🏆 **Sand PR ใหม่!** — 7.27 km ทำลายสถิติเดิม 6.26 km (+16%) 🎉
+- ⚡ **Jojo NEW BEST PACE** — 6:27/km ที่ 10 km! เร็วขึ้นทุกสัปดาห์ 📈
+- 📊 **Mandalorian 8/10 active** — มากกว่า IT System (6/10) ในเดือน มี.ค.!
+- 🔥 **3 มี.ค. = วันที่วิ่งเยอะที่สุด** — 8 คนวิ่ง รวม 43.28 km!
+
+## 📅 March Activity Feed
+
+| วันที่ | 🪖 Mandalorian | 💻 IT System | รวม |
+|---|---|---|---|
+| 1 มี.ค. | Mos 2.24km | Palm 6.01km, Jojo 4.70km | 12.95 km |
+| 2 มี.ค. | GIO 9.47km, Chan 2.53km, Sand 2.24km | Jojo 10.01km | 24.25 km |
+| **3 มี.ค.** 🔥 | **GIO 12.29km, Toro 4.52km, EM 5.15km, Sand 7.27km, Mos 2.95km** | **Oat 5.10km, O 6.00km** | **43.28 km** |
+| 4 มี.ค. | Sand 2.07km, Chan 4.94km | Oat 5.06km, Jojo 2.34km, O 6.01km, Boy 5.38km | 25.80 km |
+| 5 มี.ค. | GIO 14.06km, Boat 5.08km | Jojo 10.01km | 29.15 km |
+
+## 📅 Activity Heatmap (Week 10)
+
+| Mon (3/2) | Tue (3/3) | Wed (3/4) | Thu (3/5) | Fri | Sat (3/1) | Sun |
+|---|---|---|---|---|---|---|
+| 4 runners | **8 runners** 🔥 | 6 runners | 4 runners | — | 3 runners | — |
+
+---
+
+## 🏁 Q1 Countdown
+
+| Item | Detail |
+|---|---|
+| **Current Week** | Week 10 of 13 |
+| **Remaining** | ~25 days (ถึง 31 มี.ค.) |
+| **Gap to Close** | Mandalorian ต้องวิ่งเพิ่มอีก 84 km เพื่อเสมอ |
+| **Mandalorian Pace** | ถ้าวิ่ง 3.36 km/person/day → ปิด gap ได้! |
+
+> 🎙️ **"เดือน มี.ค. Mandalorian กำลัง on fire! 🔥 8 จาก 10 คนลงสนาม! ถ้ารักษา momentum นี้ไว้ได้ — gap 84 km ไม่ใช่เรื่องเพ้อฝัน! สู้ต่ออีก 25 วัน! 💪⚔️"**
+
+---
+
+*Generated by Sports Analyst Agent — 2026-03-06*

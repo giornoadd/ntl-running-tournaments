@@ -40,5 +40,6 @@
 | 2026-03-01 | Indoor Walk | 4.70 km | 1:00:44 | 12:55/km | N/A | N/A | N/A | jojo-2026-mar-01.jpg |
 | 2026-03-02 | Outdoor Run | 10.01 km | 1:04:58 | 6:29/km | N/A | N/A | N/A | jojo-2026-mar-02.jpg |
 | 2026-03-04 | Indoor Walk | 2.34 km | 0:31:03 | 13:16/km | N/A | N/A | N/A | jojo-2026-mar-04.jpg |
+| 2026-03-05 | Outdoor Run | 10.01 km | 1:04:35 | 6:27/km | N/A | N/A | N/A | jojo-2026-mar-05.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md)
