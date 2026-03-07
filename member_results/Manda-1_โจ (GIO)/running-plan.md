@@ -237,7 +237,7 @@
 * **Wed 4:** ✅ `Lower Body Strength` (โฟกัสสะโพก (Glutes) แหล่งพลังงานสำคัญที่สุดของนักวิ่ง)
 * **Thu 5:** ✅ `800m into 400m Intervals (6.5km)` **(Key Speed Workout!)** *(จริง: 8.36 km, Pace 7:50/km, 1h 5m 28s, HR 152 bpm, Zone 3, Cadence 140 spm)* ฝึกคลายความล้า (Lactate clearance) หลังจากเร่ง 800m 🔥
 * **Fri 6:** 🧘🏻‍♂️ *Rest Day* (พักร่าง 100%)
-* **Sat 7:** `10km Long Run` คุมจังหวะวิ่งให้ชิล สนทนาได้ เพื่อสอนให้ร่างกายใช้ไขมัน
+* **Sat 7:** ✅ `10km Long Run` *(จริง: 10.03 km, Pace 8:23/km, 1h 24m 11s, HR 146/158 bpm, Zone 2-3, Cadence 152 spm)* คุม Zone 2-3 ได้ดี! 🔥
 * **Sun 8:** `Strength Supersets`
 
 ### 🗓️ Week 12: Mar 9 - Mar 15 (สัปดาห์ทดสอบและผ่อนระยะลดการตึงเครียด)
