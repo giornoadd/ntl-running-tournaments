@@ -14,5 +14,6 @@
 | 2026-02-23 | Outdoor Running (วิ่งกลางแจ้ง) | 3.47 km | 43:44 | 12'36"/km | 127/N/A bpm | N/A | N/A | chan-2026-feb-23.jpg |
 | 2026-03-02 | Morning Walk | 2.53 km | 37:36 | 14'51"/km | 111/N/A bpm | N/A | N/A | chan-2026-mar-02.jpg |
 | 2026-03-04 | Morning Walk | 4.94 km | 1:05:13 | 13'11"/km | 118/N/A bpm | N/A | N/A | chan-2026-mar-04.jpg |
+| 2026-03-08 | Morning Walk | 5.47 km | 01:20:13 | 14'40"/km | 117/N/A bpm | N/A | N/A | chan-2026-mar-08.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

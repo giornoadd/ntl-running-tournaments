@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **17.52 km** |
-| **Active Days** | 📅 4 days |
-| **Average / Session** | 📏 4.38 km |
-| **Best Session** | 🏆 4.52 km (2026-03-03) |
+| **Total Distance** | 🔥 **23.04 km** |
+| **Active Days** | 📅 5 days |
+| **Average / Session** | 📏 4.61 km |
+| **Best Session** | 🏆 5.52 km (2026-03-08) |
 | **Best Pace** | ⚡ 6:29/km — Evening Run (วิ่งตอนเย็น) (2026-02-13) |
-| **Longest Run** | 🏅 4.52 km — Evening Run (วิ่งตอนเย็น) (2026-03-03) |
+| **Longest Run** | 🏅 5.52 km — 5.5km Long Run (2026-03-08) |
 | **Avg Running Cadence** | 🦶 153 spm |
-| **Evidence Files** | 📸 4 screenshots |
+| **Evidence Files** | 📸 5 screenshots |
 | **First Active** | 2026-01-24 |
-| **Last Active** | 2026-03-03 |
+| **Last Active** | 2026-03-08 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -53,11 +53,12 @@
 ---
 
 ## 📅 2026-March
-> 1 sessions · 4.52 km total · 4.52 km avg · best 4.52 km
+> 2 sessions · 10.04 km total · 5.02 km avg · best 5.52 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-03 | Tue, Mar 03 | **4.52 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/toro-2026-mar-03.jpg) |
+| 2 | 2026-03-08 | Sun, Mar 08 | **5.52 km** | 🏃 5.5km Long Run | [📸](running-pics/toro-2026-mar-08.jpg) |
 
 ## 📅 2026-February
 > 1 sessions · 4.34 km total · 4.34 km avg · best 4.34 km
@@ -75,4 +76,4 @@
 | 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](running-pics/toro-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-03-08 08:36*
+*Auto-generated on 2026-03-08 21:17*

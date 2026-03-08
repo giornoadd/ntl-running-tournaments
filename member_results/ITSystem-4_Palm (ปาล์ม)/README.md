@@ -17,25 +17,26 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **50.63 km** (Running 29.10 km + Walk 21.53 km) |
-| **Active Days** | 📅 12 days |
-| **Total Sessions** | 📋 12 sessions (Running 8 + Walk 4) |
-| **Average / Session** | 📏 4.22 km |
+| **Total Distance** | 🔥 **55.64 km** (Running 34.11 km + Walk 21.53 km) |
+| **Active Days** | 📅 13 days |
+| **Total Sessions** | 📋 13 sessions (Running 9 + Walk 4) |
+| **Average / Session** | 📏 4.28 km |
 | **Best Session** | 🏆 6.01 km (2026-03-01) |
-| **Best Pace** | ⚡ 11:09/km — Treadmill Running (2026-01-19) |
-| **Longest Run** | 🏅 4.01 km — Treadmill Running (2026-01-18) |
-| **Evidence Files** | 📸 12 screenshots |
+| **Best Pace** | ⚡ 11:08/km — 5km Long Session (2026-03-08) |
+| **Longest Run** | 🏅 5.01 km — 5km Long Session (2026-03-08) |
+| **Evidence Files** | 📸 13 screenshots |
 | **First Active** | 2026-01-12 |
-| **Last Active** | 2026-03-01 |
+| **Last Active** | 2026-03-08 |
 
 ---
 
 ## 📅 2026-March
-> 1 sessions · 6.01 km total · 6.01 km avg · best 6.01 km
+> 2 sessions · 11.02 km total · 5.51 km avg · best 6.01 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-01 | Sun, Mar 01 | **6.01 km** | 🚶 Walking (Thawi Watthana) | [📸](running-pics/palm-2026-mar-01.jpg) |
+| 2 | 2026-03-08 | Sun, Mar 08 | **5.01 km** | 🏃 5km Long Session | [📸](running-pics/palm-2026-mar-08.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 14.52 km total · 4.84 km avg · best 5.50 km
@@ -61,4 +62,4 @@
 | 8 | 2026-01-31 | Sat, Jan 31 | **4.01 km** | 🏃 Treadmill Running | [📸](running-pics/palm-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-03-08 08:36*
+*Auto-generated on 2026-03-08 21:17*

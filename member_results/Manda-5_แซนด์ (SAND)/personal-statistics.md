@@ -25,6 +25,7 @@
 | 2026-03-04 | Afternoon Walk | 2.07 km | 28:38 | ~13:50/km | N/A | N/A | N/A | sand-2026-mar-04.jpg |
 | 2026-03-05 | Evening Walk | 2.56 km | 28:25 | ~11:06/km | N/A | N/A | N/A | sand-2026-mar-05.jpg |
 | 2026-03-08 | Afternoon Walk | 7.12 km | 1h 41m | ~14:11/km | N/A | N/A | N/A | sand-2026-mar-08.jpg |
+| 2026-03-08 | City Walk | 2.86 km | 34m 47s | ~12:10/km | N/A | N/A | N/A | sand-2026-mar-08_1.jpg |
 
 > **† หมายเหตุ:** เซสซั่นที่มี † คือผลรวมจากหลายเซ็กเมนต์ในวันเดียวกัน
 

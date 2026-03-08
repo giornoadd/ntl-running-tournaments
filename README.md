@@ -14,19 +14,19 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance (Q1)** | **535.93 km** | **626.44 km** | 💻 IT System |
-| **Average / Person** | **53.59 km** | **62.64 km** | 💻 IT System |
+| **Total Distance (Q1)** | **556.94 km** | **631.45 km** | 💻 IT System |
+| **Average / Person** | **55.69 km** | **63.14 km** | 💻 IT System |
 | **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
 ```
-📊 Share of combined 1,162.37 km:
-🪖 Manda  █████████░░░░░░░░░░░░░  46.1%
-💻 IT     ███████████░░░░░░░░░░░  53.9%
+📊 Share of combined 1,188.39 km:
+🪖 Manda  █████████░░░░░░░░░░░░░  46.9%
+💻 IT     ███████████░░░░░░░░░░░  53.1%
 
-🏅 IT System leads by +9.05 km/person
+🏅 IT System leads by +7.45 km/person
 ```
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 109.85 km | IT: 102.14 km 🪖  
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 130.86 km | IT: 107.15 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
@@ -39,7 +39,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 🥈 2 | **Jojo** | 💻 IT System | **192.78 km** | 37 |
 | 🥉 3 | **O** | 💻 IT System | **144.91 km** | 22 |
 | 🏅 4 | **Boy** | 💻 IT System | **111.92 km** | 18 |
-| 🏅 5 | **Sand** | 🪖 Mandalorian | **67.39 km** | 21 |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | **70.25 km** | 22 |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -52,16 +52,16 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
 | GIO | 347.23 km | 52 |
-| Sand | 67.39 km | 21 |
+| Sand | 70.25 km | 22 |
 | Boat | 57.42 km | 9 |
-| Chan | 35.76 km | 9 |
-| EM | 23.21 km | 4 |
+| Chan | 41.23 km | 10 |
+| EM | 30.37 km | 5 |
+| Toro | 23.04 km | 5 |
 | Mos | 20.74 km | 7 |
-| Toro | 17.52 km | 4 |
 | Fuse | 12.76 km | 1 |
 | Peck | 0.00 km | — |
 | Neung | 0.00 km | — |
-| **Total** | **582.03 km** | |
+| **Total** | **603.04 km** | |
 
 #### 💻 IT System
 
@@ -71,13 +71,13 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | O | 144.91 km | 22 |
 | Boy | 111.92 km | 18 |
 | Oat | 58.97 km | 11 |
-| Palm | 50.63 km | 12 |
+| Palm | 55.64 km | 13 |
 | Game | 44.89 km | 6 |
 | Ton | 41.62 km | 16 |
 | Oum | 16.70 km | 4 |
 | PAN | 4.21 km | 2 |
 | Tae | 0.00 km | — |
-| **Total** | **666.63 km** | |
+| **Total** | **671.64 km** | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
