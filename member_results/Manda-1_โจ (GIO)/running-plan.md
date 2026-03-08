@@ -131,7 +131,7 @@
 |---|---|---|---|---|---|
 | 🏗️ **Foundation** | Wk 1-4 | 22 ธ.ค. — 18 ม.ค. | 5-7 km | สร้างฐาน Aerobic + คุ้นชินกับตาราง | ✅ 3/4 pass, 1 ⚠️ |
 | 📈 **Base Building** | Wk 5-9 | 19 ม.ค. — 22 ก.พ. | 8-9 km | ขยายระยะ + เริ่ม Speed Work | ✅ 5/5 pass |
-| 💪 **Strength Phase** | Wk 10-15 | 23 ก.พ. — 5 เม.ย. | 10-12 km | เพิ่มความเข้มข้น + Hybrid Training | 🔄 Wk 10 |
+| 💪 **Strength Phase** | Wk 10-15 | 23 ก.พ. — 5 เม.ย. | 10-12 km | เพิ่มความเข้มข้น + Hybrid Training | 🔄 Wk 12 |
 | 🔝 **Peak Phase** | Wk 16-23 | 6 เม.ย. — 31 พ.ค. | 13-19 km | ดันระยะสูงสุด + Race Practice | 📅 |
 | 🏁 **Taper & Race** | Wk 24-27 | 1 มิ.ย. — 28 มิ.ย. | 17→14→11 km | ลดระยะ เตรียมวันแข่ง | 📅 |
 
@@ -240,14 +240,17 @@
 * **Sat 7:** ✅ `10km Long Run` *(จริง: 10.03 km, Pace 8:23/km, 1h 24m 11s, HR 146/158 bpm, Zone 2-3, Cadence 152 spm)* คุม Zone 2-3 ได้ดี! 🔥
 * **Sun 8:** `Strength Supersets`
 
-### 🗓️ Week 12: Mar 9 - Mar 15 (สัปดาห์ทดสอบและผ่อนระยะลดการตึงเครียด)
+### 🗓️ Week 12: Mar 9 - Mar 15 🔄 (สัปดาห์ทดสอบและผ่อนระยะ ลดความตึงเครียด)
 * สัปดาห์นี้แอปจงใจปรับลดระยะ Long Run ลง (หล่นมาที่ 6km) ให้กล้ามเนื้อได้ซ่อมแซมใหญ่ เรียกว่า Cut-back week
-* **Mon 9:** `5.5km Easy Run`
+* **Mon 9:** `5.5km Easy Run` (Pace แบบคุยได้ ไม่เร็วกว่า 7:45/km)
 * **Tue 10:** `Legs & Core Strength`
-* **Wed 11:** `2 Mile Time Trial (4.9km)` **(Test Day!)** ใส่เต็มที่ 3.2 กิโลเมตร เพื่อให้แอประบุสมรรถภาพปัจจุบันและปรับ Pace แนะนำในสัปดาห์ต่อๆ ไปให้แม่นยำขึ้น
-* **Thu 12:** `Stronger Upper Body + 5km Easy Run`
+* **Wed 11:** `2 Mile Time Trial (4.9km)` **(Test Day! โชว์ของ!)**
+  * Warm-up: 1.2km (Pace สบายๆ ไม่เร็วกว่า 7:45/km) + เดินพัก 3 นาที
+  * **Test:** 3.22km Time Trial **(เป้าหมาย Pace 6:40/km)** + เดินพัก 3 นาที
+  * Cool-down: 500m (วิ่งให้ช้าที่สุด)
+* **Thu 12:** `Stronger Upper Body + 5km Easy Run` (Pace แบบคุยได้ ไม่เร็วกว่า 7:45/km)
 * **Fri 13:** `Full Body Strength Session`
-* **Sat 14:** `6km Long Run` (วิ่งให้จบแบบความรู้สึกยังอยากวิ่งต่อ)
+* **Sat 14:** `6km Long Run` (วิ่งให้จบแบบความรู้สึกยังอยากวิ่งต่อ Conversational pace)
 * **Sun 15:** 🧘🏻‍♂️ *Rest Day*
 
 ### 🗓️ Week 13: Mar 16 - Mar 22 (สัปดาห์ไต่ระดับความอึดครั้งใหม่)

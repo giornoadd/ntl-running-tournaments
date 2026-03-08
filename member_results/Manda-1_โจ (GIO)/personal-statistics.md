@@ -80,5 +80,7 @@
 | 2026-03-05 | Morning Walk | 5.70 km | 1:15:52 | N/A | 114 bpm | Zone 2 Endurance | N/A | gio-2026-mar-05_1.jpg |
 | 2026-03-07 | 10km Long Run | 10.03 km | 1:24:11 | 8:23/km | 146/158 bpm | Zone 2-3 | 152 spm | gio-2026-mar-07.jpg |
 | 2026-03-07 | Morning Walk | 6.65 km | 1:27:04 | N/A | 117 bpm | Zone 2 Endurance | N/A | gio-2026-mar-07_1.jpg |
+| 2026-03-09 | 5.5km Easy Run | 5.57 km | 40:07 | 7:11/km | 155 bpm | Zone 3 Tempo | 155 spm | gio-2026-mar-09.jpg |
+| 2026-03-09 | Morning Walk | 3.83 km | 53:50 | N/A | 114 bpm | Zone 2 Endurance | N/A | gio-2026-mar-09_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Running Plan)](running-plan.md)

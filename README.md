@@ -8,25 +8,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ## 🏆 Live Standings — Q1 2026
 
 > 📅 **Q1 Status:** 🟢 Active — Week 11 (8–14 Mar) | 3 weeks remaining  
-> 📊 Data as of: **8 March 2026** | Source: [`results/README.md`](results/README.md)
+> 📊 Data as of: **9 March 2026** | Source: [`results/README.md`](results/README.md)
 
 ### ⚔️ Team Battle
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance (Q1)** | **556.94 km** | **631.45 km** | 💻 IT System |
-| **Average / Person** | **55.69 km** | **63.14 km** | 💻 IT System |
+| **Total Distance (Q1)** | **566.34 km** | **631.45 km** | 💻 IT System |
+| **Average / Person** | **56.63 km** | **63.14 km** | 💻 IT System |
 | **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
 ```
-📊 Share of combined 1,188.39 km:
-🪖 Manda  █████████░░░░░░░░░░░░░  46.9%
-💻 IT     ███████████░░░░░░░░░░░  53.1%
+📊 Share of combined 1,197.79 km:
+🪖 Manda  █████████░░░░░░░░░░░░░  47.3%
+💻 IT     ███████████░░░░░░░░░░░  52.7%
 
-🏅 IT System leads by +7.45 km/person
+🏅 IT System leads by +6.51 km/person
 ```
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 130.86 km | IT: 107.15 km 🪖  
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 140.26 km | IT: 107.15 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
@@ -35,7 +35,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Total Distance | Active Days |
 | :---: | :--- | :--- | ---: | :---: |
-| 🥇 1 | **GIO** | 🪖 Mandalorian | **347.23 km** | 52 |
+| 🥇 1 | **GIO** | 🪖 Mandalorian | **356.63 km** | 54 |
 | 🥈 2 | **Jojo** | 💻 IT System | **192.78 km** | 37 |
 | 🥉 3 | **O** | 💻 IT System | **144.91 km** | 22 |
 | 🏅 4 | **Boy** | 💻 IT System | **111.92 km** | 18 |
@@ -51,7 +51,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
-| GIO | 347.23 km | 52 |
+| GIO | 356.63 km | 54 |
 | Sand | 70.25 km | 22 |
 | Boat | 57.42 km | 9 |
 | Chan | 41.23 km | 10 |
@@ -61,7 +61,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Fuse | 12.76 km | 1 |
 | Peck | 0.00 km | — |
 | Neung | 0.00 km | — |
-| **Total** | **603.04 km** | |
+| **Total** | **613.18 km** | |
 
 #### 💻 IT System
 
@@ -200,4 +200,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 
 ---
 
-*Last updated: 8 March 2026 — Auto-updated by Sports Analyst Agent*
+*Last updated: 9 March 2026 — Auto-updated by Sports Analyst Agent*
