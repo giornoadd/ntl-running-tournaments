@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **53.93 km** (Running 48.89 km + Walk 5.04 km) |
-| **Active Days** | 📅 10 days |
-| **Total Sessions** | 📋 11 sessions (Running 10 + Walk 1) |
-| **Average / Session** | 📏 5.39 km |
+| **Total Distance** | 🔥 **58.97 km** (Running 48.89 km + Walk 10.08 km) |
+| **Active Days** | 📅 11 days |
+| **Total Sessions** | 📋 12 sessions (Running 10 + Walk 2) |
+| **Average / Session** | 📏 5.36 km |
 | **Best Session** | 🏆 7.05 km (2026-02-01) |
 | **Longest Run** | 🏅 7.05 km — Indoor Run (วิ่งในร่ม) (2026-02-01) |
 | **Avg Running Cadence** | 🦶 111 spm |
-| **Evidence Files** | 📸 11 screenshots |
+| **Evidence Files** | 📸 12 screenshots |
 | **First Active** | 2026-01-15 |
-| **Last Active** | 2026-03-04 |
+| **Last Active** | 2026-03-07 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -53,12 +53,13 @@
 ---
 
 ## 📅 2026-March
-> 2 sessions · 10.16 km total · 5.08 km avg · best 5.10 km
+> 3 sessions · 15.20 km total · 5.07 km avg · best 5.10 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-03 | Tue, Mar 03 | **5.10 km** | 🏃 Indoor Run (วิ่งในร่ม) + Functional Training (ฝึกเพื่อการใช้งาน) | [📸1](running-pics/oat-2026-mar-03.jpg) [📸2](running-pics/oat-2026-mar-03_1.jpg) |
 | 2 | 2026-03-04 | Wed, Mar 04 | **5.06 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](running-pics/oat-2026-mar-04.jpg) |
+| 3 | 2026-03-07 | Sat, Mar 07 | **5.04 km** | 🚶 4km Long Run-Walk | [📸](running-pics/oat-2026-mar-07.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 17.10 km total · 5.70 km avg · best 7.05 km
@@ -81,4 +82,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](running-pics/oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-03-07 10:39*
+*Auto-generated on 2026-03-08 08:36*

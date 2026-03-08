@@ -25,5 +25,6 @@
 | 2026-02-28 | Outdoor Run | 6.01 km | 51:13 | 8:31/km | N/A | N/A | N/A | o-2026-feb-28.jpg |
 | 2026-03-03 | Outdoor Run (วิ่งริมแม่น้ำ) | 6.00 km | 44:18 | 7:23/km | N/A | N/A | N/A | o-2026-mar-03.jpg |
 | 2026-03-04 | Outdoor Run (วิ่งริมแม่น้ำ) | 6.01 km | 50:32 | 8:24/km | N/A | N/A | N/A | o-2026-mar-04.jpg |
+| 2026-03-08 | Half Marathon Race (ฮาล์ฟมาราธอน) | 22.40 km | 2:57:43 | 8:00/km | N/A | N/A | N/A | o-2026-mar-08.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md)

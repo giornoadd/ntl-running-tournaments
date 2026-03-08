@@ -1,4 +1,4 @@
-# 📊 Personal running statistics (All Activities)
+ป# 📊 Personal running statistics (All Activities)
 
 > สถิติการวิ่ง/เดินทั้งหมดของ Oat (โอ๊ต) เรียงตั้งแต่แรกจนถึงปัจจุบัน
 
@@ -15,5 +15,6 @@
 | 2026-03-03 | Indoor Run (วิ่งในร่ม) | 5.10 km | 58:56 | 11'33"/km | 141/N/A bpm | N/A | 113 spm | oat-2026-mar-03.jpg |
 | 2026-03-03 | Functional Training (ฝึกเพื่อการใช้งาน) | — | 30:15 | — | 134/N/A bpm | N/A | — | oat-2026-mar-03_1.jpg |
 | 2026-03-04 | Indoor Run (วิ่งในร่ม) | 5.06 km | 56:12 | 11'06"/km | 143/N/A bpm | N/A | 117 spm | oat-2026-mar-04.jpg |
+| 2026-03-07 | 4km Long Run-Walk | 5.04 km | 56:24 | 11'11"/km | 138/N/A bpm | N/A | 117 spm | oat-2026-mar-07.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

@@ -7,26 +7,26 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 **Q1 Status:** 🟢 Active — Week 10 (1–7 Mar) | 4 weeks remaining  
-> 📊 Data as of: **7 March 2026** | Source: [`results/README.md`](results/README.md)
+> 📅 **Q1 Status:** 🟢 Active — Week 11 (8–14 Mar) | 3 weeks remaining  
+> 📊 Data as of: **8 March 2026** | Source: [`results/README.md`](results/README.md)
 
 ### ⚔️ Team Battle
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance (Q1)** | **520.13 km** | **591.92 km** | 💻 IT System |
-| **Average / Person** | **52.01 km** | **59.19 km** | 💻 IT System |
+| **Total Distance (Q1)** | **535.93 km** | **626.44 km** | 💻 IT System |
+| **Average / Person** | **53.59 km** | **62.64 km** | 💻 IT System |
 | **Active Members** | 8/10 | 9/10 | 💻 IT System |
 
 ```
-📊 Share of combined 1,112.05 km:
-🪖 Manda  █████████░░░░░░░░░░░░░  46.8%
-💻 IT     ███████████░░░░░░░░░░░  53.2%
+📊 Share of combined 1,162.37 km:
+🪖 Manda  █████████░░░░░░░░░░░░░  46.1%
+💻 IT     ███████████░░░░░░░░░░░  53.9%
 
-🏅 IT System leads by +7.18 km/person
+🏅 IT System leads by +9.05 km/person
 ```
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 94.05 km | IT: 67.62 km 🪖  
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 109.85 km | IT: 102.14 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
@@ -37,9 +37,9 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | :---: | :--- | :--- | ---: | :---: |
 | 🥇 1 | **GIO** | 🪖 Mandalorian | **347.23 km** | 52 |
 | 🥈 2 | **Jojo** | 💻 IT System | **192.78 km** | 37 |
-| 🥉 3 | **Boy** | 💻 IT System | **104.84 km** | 17 |
-| 🏅 4 | **O** | 💻 IT System | **122.51 km** | 21 |
-| 🏅 5 | **Oat** | 💻 IT System | **53.93 km** | 10 |
+| 🥉 3 | **O** | 💻 IT System | **144.91 km** | 22 |
+| 🏅 4 | **Boy** | 💻 IT System | **111.92 km** | 18 |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | **67.39 km** | 21 |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -52,8 +52,8 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
 | GIO | 347.23 km | 52 |
-| Sand | 60.27 km | 20 |
-| Boat | 48.74 km | 8 |
+| Sand | 67.39 km | 21 |
+| Boat | 57.42 km | 9 |
 | Chan | 35.76 km | 9 |
 | EM | 23.21 km | 4 |
 | Mos | 20.74 km | 7 |
@@ -61,23 +61,23 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Fuse | 12.76 km | 1 |
 | Peck | 0.00 km | — |
 | Neung | 0.00 km | — |
-| **Total** | **566.99 km** | |
+| **Total** | **582.03 km** | |
 
 #### 💻 IT System
 
 | Member | Distance | Active Days |
 | :--- | ---: | :---: |
 | Jojo | 192.78 km | 37 |
-| O | 122.51 km | 21 |
-| Boy | 104.84 km | 17 |
-| Oat | 53.93 km | 10 |
+| O | 144.91 km | 22 |
+| Boy | 111.92 km | 18 |
+| Oat | 58.97 km | 11 |
 | Palm | 50.63 km | 12 |
 | Game | 44.89 km | 6 |
 | Ton | 41.62 km | 16 |
 | Oum | 16.70 km | 4 |
 | PAN | 4.21 km | 2 |
 | Tae | 0.00 km | — |
-| **Total** | **632.11 km** | |
+| **Total** | **666.63 km** | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -96,8 +96,8 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Week | Dates | Notes |
 | :---: | :--- | :--- |
-| **10** | 1 Mar – 7 Mar | 📍 **Current Week** |
-| 11 | 8 Mar – 14 Mar | |
+| 10 | 1 Mar – 7 Mar | |
+| **11** | **8 Mar – 14 Mar** | 📍 **Current Week** |
 | 12 | 15 Mar – 21 Mar | |
 | 13 | 22 Mar – 28 Mar | |
 | — | 29 Mar – 31 Mar | ⚡ Q1 Final Sprint! |
@@ -200,4 +200,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 
 ---
 
-*Last updated: 7 March 2026 — Auto-updated by Sports Analyst Agent*
+*Last updated: 8 March 2026 — Auto-updated by Sports Analyst Agent*
