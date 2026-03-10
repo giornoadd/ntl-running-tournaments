@@ -39,8 +39,19 @@ export const RosterDetailPage: React.FC = () => {
 
     const parseMd = (text?: string) => {
         if (!text) return "*No data available*";
+
+        // Fix markdown links with unescaped spaces or parentheses that break the parser
+        // specifically targeting the [📸] image evidence links
+        const preprocessedText = text.replace(
+            /\[(📸[^\]]*)\]\((.*?\.(?:jpg|jpeg|png|gif|webp|JPG|JPEG|PNG))\)/g,
+            (_match, p1, p2) => {
+                const encoded = p2.replace(/ /g, "%20").replace(/\(/g, "%28").replace(/\)/g, "%29");
+                return `[${p1}](${encoded})`;
+            }
+        );
+
         // ADD_ATTR: ['target'] is necessary so DOMPurify doesn't strip target="_blank"
-        return DOMPurify.sanitize(marked.parse(text) as string, { ADD_ATTR: ['target'] });
+        return DOMPurify.sanitize(marked.parse(preprocessedText) as string, { ADD_ATTR: ['target'] });
     };
 
     const isManda = member.team === 'Mandalorian';
