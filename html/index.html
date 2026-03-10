@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Running Competition 2026: Mandalorian vs IT System tracking portal.">
+    <title>Running Competition 2026</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar glass-panel">
+            <div class="logo">
+                <span class="icon">🏃</span>
+                <span class="text">Run 2026</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="active" data-view="standings">
+                    <span class="nav-icon">🏆</span> Standings
+                </li>
+                <li data-view="members">
+                    <span class="nav-icon">👥</span> Roster
+                </li>
+                <li data-view="history">
+                    <span class="nav-icon">📜</span> History
+                </li>
+            </ul>
+            
+            <div class="last-updated">
+                <p>Last Updated:</p>
+                <div id="last-updated-text">--</div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1 id="page-title" class="gradient-text">Live Standings</h1>
+                <div class="status-badge glow-pulse">🟢 Q1 Active</div>
+            </header>
+
+            <!-- dynamic views -->
+            <div id="view-standings" class="view active-view fade-in">
+                <section class="stats-overview glass-panel">
+                    <div class="stat-box">
+                        <div class="stat-label">Total Distance</div>
+                        <div class="stat-value" id="global-total-distance">0 km</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Combined Progress</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar progress-manda" id="progress-manda" style="width: 50%"></div>
+                            <div class="progress-bar progress-it" id="progress-it" style="width: 50%"></div>
+                        </div>
+                        <div class="progress-labels">
+                            <span class="label-manda">🪖 Manda: <span id="manda-percent">50%</span></span>
+                            <span class="label-it">💻 IT: <span id="it-percent">50%</span></span>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="team-battle-grid" id="team-battle-grid">
+                    <!-- Cards Reactively Generated -->
+                </section>
+                
+                <section class="table-section glass-panel mt-2">
+                    <h2>🌟 Top 5 Individuals</h2>
+                    <div class="table-responsive">
+                        <table id="top-runners-table" class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Runner</th>
+                                    <th>Team</th>
+                                    <th>Total Distance</th>
+                                    <th>Active Days</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <div id="view-members" class="view fade-in" style="display: none;">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Mandalorian">🪖 Mandalorian</button>
+                    <button class="filter-btn" data-filter="IT System">💻 IT System</button>
+                </div>
+                <section class="roster-grid" id="roster-grid">
+                    <!-- Roster Cards Reactively Generated -->
+                </section>
+            </div>
+
+            <div id="view-history" class="view fade-in" style="display: none;">
+                <section class="history-timeline glass-panel" id="history-timeline">
+                    <!-- History Events Reactively Generated -->
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Data Payload loaded asynchronously -->
+    <script src="data.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
