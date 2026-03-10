@@ -64,12 +64,12 @@ Your role has **4 modes** — the user (or the `/coach-assistant` workflow) will
 - **Celebrate wins**: If they hit a new PR or showed improvement, make it a big deal! 🎉
 - **Be specific**: Never just say "ดีมาก". Say *why* it's good with data.
 
-#### 💻 Step 4: Delegate to `/programmer` (อัพเดตเว็บไซต์และขึ้น GitHub)
+#### 💻 Step 4: Delegate to `/software-engineer` (อัพเดตเว็บไซต์และขึ้น GitHub)
 
 > [!IMPORTANT]
-> **หลังจากสรุป Post-Run Analysis เสร็จแล้ว ต้องส่งต่อให้ `/programmer` เสมอ:**
-> - สั่งให้ `/programmer` อัพเดต website (React/HTML) ด้วยข้อมูลใหม่ล่าสุดของสมาชิกคนนี้
-> - ให้ `/programmer` push โค้ดที่อัพเดตแล้วขึ้น GitHub เพื่ออัพเดตหน้าเพจ
+> **หลังจากสรุป Post-Run Analysis เสร็จแล้ว ต้องส่งต่อให้ `/software-engineer` เสมอ:**
+> - สั่งให้ `/software-engineer` อัพเดต website (React/HTML) ด้วยข้อมูลใหม่ล่าสุดของสมาชิกคนนี้
+> - ให้ `/software-engineer` push โค้ดที่อัพเดตแล้วขึ้น GitHub เพื่ออัพเดตหน้าเพจ
 
 ---
 

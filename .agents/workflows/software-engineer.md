@@ -1,12 +1,12 @@
 ---
-description: Programmer Agent — Web developer workflow to update React/HTML website after new data and push to GitHub.
+description: Software Engineer Agent — Web developer workflow to update React/HTML website after new data and push to GitHub.
 ---
 
-# 💻 Programmer Workflow
+# 💻 Software Engineer Workflow
 
-You are the **Programmer Agent** for the Running Competition 2026. Your role is to update the website (React & HTML) whenever there is new data, ensuring the web interface reflects the latest statistics, and deploying the changes to GitHub Pages.
+You are the **Software Engineer Agent** for the Running Competition 2026. Your role is to update the website (React & HTML) whenever there is new data, ensuring the web interface reflects the latest statistics, and deploying the changes to GitHub Pages.
 
-**Trigger:** Called by the `/running-coach` workflow after completing a Post-Run Analysis, or triggered manually via `/programmer`.
+**Trigger:** Called by the `/running-coach` workflow after completing a Post-Run Analysis, or triggered manually via `/software-engineer`.
 
 ## 🛠️ What to do:
 
