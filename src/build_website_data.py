@@ -81,6 +81,29 @@ def count_images_and_get_dates(folder_path, nickname_lower):
     recent_images = [f"../member_results/{os.path.basename(folder_path)}/running-pics/{img}" for img in files[:5]]
     return count, recent_images
 
+def find_image_files_for_date(folder_path, nickname_lower, date_str):
+    """Find specific image paths for a given nickname and date."""
+    pics_dir = os.path.join(folder_path, "running-pics")
+    matches = []
+    if not os.path.isdir(pics_dir):
+        return matches
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        mon_abbr = dt.strftime("%b").lower()  # 'jan', 'feb', etc.
+        day = dt.strftime("%d")
+        year = dt.strftime("%Y")
+    except ValueError:
+        return []
+    prefix = f"{nickname_lower}-{year}-{mon_abbr}-{day}"
+    for f in os.listdir(pics_dir):
+        f_lower = f.lower()
+        if f_lower.endswith(('.jpg', '.jpeg', '.png')):
+            name_part = os.path.splitext(f)[0].lower()
+            if name_part == prefix or name_part.startswith(prefix + '_'):
+                matches.append(f"../member_results/{os.path.basename(folder_path)}/running-pics/{f}")
+    matches.sort()
+    return matches
+
 def load_personal_stats_details(folder_path):
     stats_path = os.path.join(folder_path, "personal-statistics.md")
     details = {
@@ -149,12 +172,17 @@ def build_data():
     # {nickname_lower: {month_label: [(date_str, distance)]}}
     member_data = defaultdict(lambda: defaultdict(list))
     
-    # Also collect flattened activities for the global history
-    all_activities = []
+    # Also collect formatted history data mapped by date, resembling results/*.md
+    # schema: { 
+    #   "date": "2026-03-01", 
+    #   "month": "2026-March", 
+    #   "runners_list": [...],
+    #   "mando_daily": 0, "it_daily": 0
+    # }
+    grouped_activities = {}
 
     for csv_path in csv_files:
         basename = os.path.splitext(os.path.basename(csv_path))[0]
-        # Only parse 2026 data for Q1 standings
         if not basename.startswith("2026"):
             continue
             
@@ -167,18 +195,67 @@ def build_data():
                 date_str = row[0].strip()
                 runners_str = row[1] if len(row) > 1 else ""
                 runners = parse_runners(runners_str)
+                
+                if date_str not in grouped_activities:
+                    grouped_activities[date_str] = {
+                        "date": date_str,
+                        "month": basename,
+                        "runners_list": [],
+                        "mando_daily": 0.0,
+                        "it_daily": 0.0,
+                    }
 
                 for name, dist in runners:
                     member_data[name.lower()][basename].append((date_str, dist))
-                    all_activities.append({
-                        "date": date_str,
+                    
+                    user_folder = ""
+                    team_name = ""
+                    for raw_f, (d_name, t_name, team) in FOLDER_MAP.items():
+                        if d_name.lower() == name.lower():
+                            user_folder = os.path.join(MEMBER_RESULTS_DIR, raw_f)
+                            team_name = team
+                            break
+                            
+                    images = find_image_files_for_date(user_folder, name.lower(), date_str) if user_folder else []
+                    
+                    grouped_activities[date_str]["runners_list"].append({
                         "name": name,
                         "distance": dist,
-                        "month": basename
+                        "team": team_name,
+                        "images": images
                     })
+                    
+                    if team_name == "Mandalorian":
+                        grouped_activities[date_str]["mando_daily"] += dist
+                    elif team_name == "IT System":
+                        grouped_activities[date_str]["it_daily"] += dist
     
-    # Sort global activities mostly recent
-    all_activities.sort(key=lambda x: x["date"], reverse=True)
+    # Sort grouped activities by date
+    sorted_dates = sorted(grouped_activities.keys())
+    
+    # Calculate Accumulates
+    mando_accum = 0.0
+    it_accum = 0.0
+    history_array = []
+    
+    for d in sorted_dates:
+        act = grouped_activities[d]
+        mando_accum += act["mando_daily"]
+        it_accum += act["it_daily"]
+        
+        act["mando_accum"] = round(mando_accum, 2)
+        act["it_accum"] = round(it_accum, 2)
+        act["mando_avg"] = round(mando_accum / 10, 2) # Div by 10 members
+        act["it_avg"] = round(it_accum / 10, 2)
+        
+        # Format daily totals nicely
+        act["mando_daily"] = round(act["mando_daily"], 2)
+        act["it_daily"] = round(act["it_daily"], 2)
+        
+        history_array.append(act)
+
+    # Reverse to show newest first for the history view
+    history_array.reverse()
     
     # Build complete rosters
     roster = []
@@ -212,6 +289,26 @@ def build_data():
         stats_details = load_personal_stats_details(folder_path) if os.path.isdir(folder_path) else None
         image_count, recent_images = count_images_and_get_dates(folder_path, nickname_lower) if os.path.isdir(folder_path) else (0, [])
         
+        md_readme = ""
+        md_stats = ""
+        md_plan = ""
+
+        if os.path.isdir(folder_path):
+            def get_fixed_md(filename):
+                file_path = os.path.join(folder_path, filename)
+                if not os.path.isfile(file_path):
+                    return ""
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                # Replace relative (running-pics/...) to (../member_results/<folder>/running-pics/...)
+                fix_path = f"../member_results/{folder_name}/running-pics/"
+                content = content.replace("(running-pics/", f"({fix_path}")
+                return content
+                
+            md_readme = get_fixed_md("README.md")
+            md_stats = get_fixed_md("personal-statistics.md")
+            md_plan = get_fixed_md("running-plan.md")
+        
         member_obj = {
             "nickname": display_name,
             "thai_name": thai_name,
@@ -220,7 +317,12 @@ def build_data():
             "active_days": active_days,
             "image_count": image_count,
             "recent_images": recent_images,
-            "stats_details": stats_details
+            "stats_details": stats_details,
+            "markdown": {
+                "readme": md_readme,
+                "statistics": md_stats,
+                "plan": md_plan
+            }
         }
         roster.append(member_obj)
         
@@ -239,10 +341,10 @@ def build_data():
         "last_updated": last_updated,
         "teams": teams,
         "roster": roster,
-        "recent_activities": all_activities[:50] # Send only top 50
+        "activities": history_array
     }
     
-    js_content = f"// Auto-generated by build_website_data.py\nconst COMPETITION_DATA = {json.dumps(final_data, indent=2, ensure_ascii=False)};\n"
+    js_content = f"// Auto-generated by build_website_data.py\nwindow.COMPETITION_DATA = {json.dumps(final_data, indent=2, ensure_ascii=False)};\n"
     
     output_path = os.path.join(HTML_DIR, "data.js")
     with open(output_path, "w", encoding="utf-8") as f:

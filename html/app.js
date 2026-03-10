@@ -15,34 +15,46 @@ document.addEventListener("DOMContentLoaded", () => {
     const pageTitle = document.getElementById('page-title');
 
     // --- Routing & Navigation ---
+    function switchView(viewName) {
+        // Update active link if there's a matching nav item
+        navLinks.forEach(l => {
+            l.classList.remove('active');
+            if (l.dataset.view === viewName) {
+                l.classList.add('active');
+            }
+        });
+
+        // Switch views
+        const targetViewId = 'view-' + viewName;
+        views.forEach(view => {
+            view.style.display = 'none';
+            view.classList.remove('active-view');
+        });
+
+        const targetView = document.getElementById(targetViewId);
+        if (targetView) {
+            targetView.style.display = 'block';
+            // Trigger reflow for animation
+            void targetView.offsetWidth;
+            targetView.classList.add('active-view');
+        }
+
+        // Update title cleanly
+        const titles = {
+            'standings': 'Live Standings',
+            'members': 'Full Roster',
+            'history': 'Activity History',
+            'roster-detail': 'Roster Profile'
+        };
+
+        if (titles[viewName]) {
+            pageTitle.innerText = titles[viewName];
+        }
+    }
+
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            // Update active link
-            navLinks.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
-
-            // Switch views
-            const targetViewId = 'view-' + link.dataset.view;
-            views.forEach(view => {
-                view.style.display = 'none';
-                view.classList.remove('active-view');
-            });
-
-            const targetView = document.getElementById(targetViewId);
-            if (targetView) {
-                targetView.style.display = 'block';
-                // Trigger reflow for animation
-                void targetView.offsetWidth;
-                targetView.classList.add('active-view');
-            }
-
-            // Update title
-            const titles = {
-                'standings': 'Live Standings',
-                'members': 'Full Roster',
-                'history': 'Activity History'
-            };
-            pageTitle.innerText = titles[link.dataset.view];
+            switchView(link.dataset.view);
         });
     });
 
@@ -55,9 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
         renderTeamBattle();
         renderTopRunners();
         renderRosterGrid('all');
-        renderHistory();
+        initHistory();
 
         setupFilters();
+    }
+
+    // Attach Back Button Handler
+    const backBtn = document.getElementById('btn-back-roster');
+    if (backBtn) {
+        backBtn.addEventListener('click', () => {
+            switchView('roster');
+        });
     }
 
     function renderStandingsOverview() {
@@ -188,24 +208,74 @@ document.addEventListener("DOMContentLoaded", () => {
                 imagesHtml += '</div>';
             }
 
-            const html = `
-                <div class="member-card glass-panel ${teamCls}">
-                    <h3>${r.nickname} <span style="font-size:1rem; opacity:0.6; font-weight: normal;">${r.thai_name}</span></h3>
-                    <div style="font-size:0.85rem; margin-bottom: 12px; opacity:0.8;">
-                        ${teamIcon} ${r.team}
-                    </div>
-                    <div class="member-dist gradient-text">${r.total_distance.toFixed(2)} <span style="font-size:1rem">km</span></div>
-                    
-                    <div style="font-size:0.9rem;">
-                        📅 Active Days: <strong>${r.active_days}</strong><br>
-                        📸 Screenshots: <strong>${r.image_count}</strong>
-                    </div>
-                    ${detailHtml}
-                    ${imagesHtml}
+            const card = document.createElement('div');
+            card.className = `member-card glass-panel fade-in ${teamCls}`;
+            card.style.cursor = 'pointer';
+            card.style.transition = 'transform 0.2s';
+            card.addEventListener('mouseenter', () => card.style.transform = 'scale(1.02)');
+            card.addEventListener('mouseleave', () => card.style.transform = 'scale(1)');
+
+            // Fix: send relative index in the global data.roster array
+            const globalIndex = data.roster.indexOf(r);
+            card.addEventListener('click', () => openRosterDetail(globalIndex));
+
+            card.innerHTML = `
+                <h3>${r.nickname} <span style="font-size:1rem; opacity:0.6; font-weight: normal;">${r.thai_name}</span></h3>
+                <div style="font-size:0.85rem; margin-bottom: 12px; opacity:0.8;">
+                    ${teamIcon} ${r.team}
                 </div>
+                <div class="member-dist gradient-text">${r.total_distance.toFixed(2)} <span style="font-size:1rem">km</span></div>
+                
+                <div style="font-size:0.9rem;">
+                    📅 Active Days: <strong>${r.active_days}</strong><br>
+                    📸 Screenshots: <strong>${r.image_count}</strong>
+                </div>
+                ${detailHtml}
+                ${imagesHtml}
             `;
-            grid.innerHTML += html;
+            grid.appendChild(card);
         });
+    }
+
+    function openRosterDetail(memberIndex) {
+        const m = data.roster[memberIndex];
+        if (!m) return;
+
+        switchView('roster-detail');
+
+        const isManda = m.team === 'Mandalorian';
+        const teamIcon = isManda ? '🪖' : '💻';
+        const teamCls = isManda ? 'badge-manda' : 'badge-it';
+
+        // Set Header
+        const header = document.getElementById('detail-header');
+        header.innerHTML = `
+            <div style="font-size: 2.5rem; font-family: var(--font-heading); font-weight: 800; margin-bottom: 8px;">
+                ${m.nickname} <span style="color: var(--text-muted); font-size: 1.2rem; font-weight: normal;">(${m.thai_name})</span>
+            </div>
+            <div class="team-badge ${teamCls}" style="display: inline-block; padding: 4px 12px; font-size: 1rem;">
+                ${teamIcon} ${m.team}
+            </div>
+            <div style="margin-top: 15px; font-size: 1.1rem; opacity: 0.9;">
+                🔥 <strong>${m.total_distance.toFixed(2)} km</strong> run over <strong>${m.active_days}</strong> active days.
+            </div>
+        `;
+
+        // Render Markdown safely
+        const mdObj = m.markdown || {};
+        const divReadme = document.getElementById('detail-readme');
+        const divPlan = document.getElementById('detail-plan');
+        const divStats = document.getElementById('detail-stats');
+
+        // Use marked.parse if available (which we added via CDN)
+        const parseMd = text => window.marked ? window.marked.parse(text || "*No data available*") : "<p>Markdown parser not loaded.</p>";
+
+        divReadme.innerHTML = `<h2 style="margin-top:0">👤 Profile README</h2>` + parseMd(mdObj.readme);
+        divStats.innerHTML = `<h2 style="margin-top:0">📊 Statistics</h2>` + parseMd(mdObj.statistics);
+        divPlan.innerHTML = `<h2 style="margin-top:0">📝 Running Plan</h2>` + parseMd(mdObj.plan);
+
+        // Scroll to top
+        window.scrollTo(0, 0);
     }
 
     function setupFilters() {
@@ -219,26 +289,188 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function renderHistory() {
-        const timeline = document.getElementById('history-timeline');
-        timeline.innerHTML = '<h2 style="font-family: var(--font-heading); margin-bottom:20px;">📜 Recent Activity</h2>';
+    let currentHistoryFilter = 'all';
+    let historyPage = 1;
+    const HISTORY_PAGE_SIZE = 20;
+    let filteredHistory = [];
 
-        if (!data.recent_activities || data.recent_activities.length === 0) {
-            timeline.innerHTML += '<p style="color:var(--text-muted);">No recent activities found.</p>';
+    function setupHistoryFilters() {
+        const filterBar = document.getElementById('history-filter-bar');
+
+        // Extract distinct months from data to add them as filters
+        const months = new Set();
+        data.activities.forEach(a => months.add(a.month));
+
+        // Add month buttons dynamically
+        Array.from(months).sort().forEach(m => {
+            const btn = document.createElement('button');
+            btn.className = 'filter-btn';
+            btn.dataset.filter = m;
+            btn.innerText = m;
+            filterBar.appendChild(btn);
+        });
+
+        const btns = filterBar.querySelectorAll('.filter-btn');
+        btns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                btns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                currentHistoryFilter = btn.dataset.filter;
+                historyPage = 1;
+                renderHistory(true);
+            });
+        });
+
+        // Setup infinite scroll
+        const mainContent = document.querySelector('.main-content');
+        if (mainContent) {
+            mainContent.addEventListener('scroll', () => {
+                if (document.getElementById('view-history').style.display === 'block') {
+                    if ((mainContent.clientHeight + mainContent.scrollTop) >= mainContent.scrollHeight - 200) {
+                        loadMoreHistory();
+                    }
+                }
+            });
+        }
+    }
+
+    function initHistory() {
+        if (!data.activities) data.activities = [];
+        setupHistoryFilters();
+        renderHistory(true);
+    }
+
+    function renderHistory(reset = false) {
+        const timeline = document.getElementById('history-timeline');
+
+        if (reset) {
+            timeline.innerHTML = '<h2 style="font-family: var(--font-heading); margin-bottom:20px;">📜 Recent Activity</h2>';
+
+            // Apply filter
+            if (currentHistoryFilter === 'all') {
+                filteredHistory = data.activities;
+            } else if (currentHistoryFilter === 'Q1') {
+                // Assuming all 2026-Jan/Feb/Mar are Q1
+                filteredHistory = data.activities.filter(a => a.month.includes('Jan') || a.month.includes('Feb') || a.month.includes('Mar'));
+            } else {
+                // Exact month filter
+                filteredHistory = data.activities.filter(a => a.month === currentHistoryFilter);
+            }
+        }
+
+        if (filteredHistory.length === 0) {
+            timeline.innerHTML += '<p style="color:var(--text-muted);">No activities found for this filter.</p>';
+            document.getElementById('history-loading').style.display = 'none';
             return;
         }
 
-        data.recent_activities.forEach(act => {
+        const startIndex = (historyPage - 1) * HISTORY_PAGE_SIZE;
+        const endIndex = startIndex + HISTORY_PAGE_SIZE;
+        const pageItems = filteredHistory.slice(startIndex, endIndex);
+
+        pageItems.forEach(act => {
+            // Build the mini-table for this date
+            let runnersHtml = '';
+            act.runners_list.forEach(r => {
+                const isManda = r.team === 'Mandalorian';
+                const teamIcon = isManda ? '🪖' : '💻';
+                const teamCls = isManda ? 'badge-manda' : 'badge-it';
+
+                let runnerImages = '';
+                if (r.images && r.images.length > 0) {
+                    runnerImages = '<div style="display:flex; gap:4px; margin-top:4px;">';
+                    r.images.forEach(img => {
+                        runnerImages += `<img src="${img}" style="width:30px; height:30px; border-radius:4px; object-fit:cover; border:1px solid rgba(255,255,255,0.1)">`;
+                    });
+                    runnerImages += '</div>';
+                }
+
+                runnersHtml += `
+                    <tr>
+                        <td><strong>${r.name}</strong> <span class="team-badge ${teamCls}" style="margin-left:8px; padding:2px 6px; font-size:0.7rem;">${teamIcon}</span></td>
+                        <td><strong>${r.distance.toFixed(2)}</strong> km</td>
+                        <td>${runnerImages}</td>
+                    </tr>
+                `;
+            });
+
             const html = `
-                <div class="timeline-item flex">
-                    <div class="timeline-date">${act.date}</div>
-                    <div class="timeline-content">
-                        <strong>${act.name}</strong> recorded <span style="color: var(--accent); font-weight:800; font-size:1.1rem;">${act.distance.toFixed(2)} km</span>
+                <div class="timeline-item timeline-group">
+                    <div class="timeline-group-header">
+                        <h3>📅 ${act.date}</h3>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 20px; margin-top: 16px;">
+                        
+                        <!-- Runners Table -->
+                        <div class="table-responsive" style="padding:0; margin:0; overflow-x:auto;">
+                            <table class="data-table" style="font-size: 0.9rem;">
+                                <thead>
+                                    <tr>
+                                        <th>Runner</th>
+                                        <th>Dist</th>
+                                        <th>Evidence</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${runnersHtml}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Daily Scoreboard -->
+                        <div class="daily-scoreboard glass-panel" style="padding: 16px; align-self: start;">
+                            <div style="font-weight:600; font-size: 0.85rem; color:var(--text-muted); text-transform:uppercase; margin-bottom: 12px; letter-spacing:1px;">Daily Summary</div>
+                            
+                            <div style="display:flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span>🪖 Manda Today:</span>
+                                <strong>+${act.mando_daily.toFixed(2)} km</strong>
+                            </div>
+                            <div style="display:flex; justify-content: space-between; margin-bottom: 16px; border-bottom:1px solid rgba(255,255,255,0.05); padding-bottom:16px;">
+                                <span>💻 IT Today:</span>
+                                <strong>+${act.it_daily.toFixed(2)} km</strong>
+                            </div>
+
+                            <div style="display:flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem; opacity: 0.8;">
+                                <span>Manda Total:</span>
+                                <span>${act.mando_accum.toFixed(2)} km</span>
+                            </div>
+                            <div style="display:flex; justify-content: space-between; font-size: 0.85rem; opacity: 0.8;">
+                                <span>IT Total:</span>
+                                <span>${act.it_accum.toFixed(2)} km</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             `;
             timeline.innerHTML += html;
         });
+
+        // Toggle loader visibility
+        if (endIndex >= filteredHistory.length) {
+            document.getElementById('history-loading').style.display = 'none';
+        } else {
+            document.getElementById('history-loading').style.display = 'block';
+        }
+    }
+
+    let isLoadingHistory = false;
+    function loadMoreHistory() {
+        if (isLoadingHistory) return;
+
+        const endIndex = historyPage * HISTORY_PAGE_SIZE;
+        if (endIndex < filteredHistory.length) {
+            isLoadingHistory = true;
+            historyPage++;
+
+            // brief simulated delay for "loading" feel
+            setTimeout(() => {
+                renderHistory(false);
+                isLoadingHistory = false;
+            }, 300);
+        }
     }
 
     // Run
