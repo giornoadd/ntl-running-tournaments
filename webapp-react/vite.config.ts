@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/ntl-running-tournaments/html/',
+  base: command === 'build' ? '/ntl-running-tournaments/html/' : '/',
   build: {
     outDir: '../html',
     emptyOutDir: true,
@@ -17,4 +17,4 @@ export default defineConfig({
       ]
     }
   }
-})
+}))

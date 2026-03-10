@@ -7,8 +7,11 @@ import { RosterDetailPage } from './presentation/pages/RosterDetailPage';
 import { HistoryPage } from './presentation/pages/HistoryPage';
 
 export const App = () => {
+  // Vite sets BASE_URL to '/' in dev and '/ntl-running-tournaments/html/' in production
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+
   return (
-    <BrowserRouter basename="/ntl-running-tournaments/html">
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<StandingsPage />} />
