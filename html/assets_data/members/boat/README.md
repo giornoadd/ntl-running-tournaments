@@ -55,27 +55,27 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-03-05 | Thu, Mar 05 | **5.08 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-mar-05.jpg) |
-| 2 | 2026-03-07 | Sat, Mar 07 | **8.68 km** | 🏃 7km Long Run | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-mar-07.jpg) |
+| 1 | 2026-03-05 | Thu, Mar 05 | **5.08 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg) |
+| 2 | 2026-03-07 | Sat, Mar 07 | **8.68 km** | 🏃 7km Long Run | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg) |
 
 ## 📅 2026-February
 > 4 sessions · 25.16 km total · 6.29 km avg · best 7.41 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-11 | Wed, Feb 11 | **5.46 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-feb-11.jpg) |
-| 2 | 2026-02-14 | Sat, Feb 14 | **7.41 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-feb-14.jpg) |
-| 3 | 2026-02-21 | Sat, Feb 21 | **5.46 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-feb-21.jpg) |
-| 4 | 2026-02-28 | Sat, Feb 28 | **6.83 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-feb-28.jpg) |
+| 1 | 2026-02-11 | Wed, Feb 11 | **5.46 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-11.jpg) |
+| 2 | 2026-02-14 | Sat, Feb 14 | **7.41 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-14.jpg) |
+| 3 | 2026-02-21 | Sat, Feb 21 | **5.46 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-21.jpg) |
+| 4 | 2026-02-28 | Sat, Feb 28 | **6.83 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-28.jpg) |
 
 ## 📅 2026-January
 > 3 sessions · 18.50 km total · 6.17 km avg · best 7.30 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **6.52 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-jan-24.jpg) |
-| 2 | 2026-01-27 | Tue, Jan 27 | **4.68 km** | 🚶 Evening Walk (เดินเย็น) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-jan-27.jpg) |
-| 3 | 2026-01-31 | Sat, Jan 31 | **7.30 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](../member_results/Manda-2_โบ๊ท (Boat)/running-pics/boat-2026-jan-31.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **6.52 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg) |
+| 2 | 2026-01-27 | Tue, Jan 27 | **4.68 km** | 🚶 Evening Walk (เดินเย็น) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg) |
+| 3 | 2026-01-31 | Sat, Jan 31 | **7.30 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG) |
 
 ---
 *Auto-generated on 2026-03-11 02:25*

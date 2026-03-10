@@ -33,7 +33,7 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🚶 Morning Walk (เดินเช้า) | [📸](../member_results/Manda-8_ฟิวส์ (fuse)/running-pics/fuse-2026-jan-24.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🚶 Morning Walk (เดินเช้า) | [📸](/assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) |
 
 ---
 *Auto-generated on 2026-03-11 02:25*

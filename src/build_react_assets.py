@@ -84,12 +84,18 @@ def main():
         def replace_md_links(match):
             original_path = "../" + match.group(1)
             new_path = copy_file_to_assets(original_path)
-            # Standardize URL resolution locally for the React application runtime
             return f"]({new_path})"
 
         md_dict = member.get('markdown', {})
         for key in md_dict:
-            md_dict[key] = re.sub(r'\]\(\.\./([^)]+)\)', replace_md_links, md_dict[key])
+            # The old regex [^)]+ fails when paths contain parentheses like (Boat).
+            # Instead, match links ending with known file extensions (jpg, jpeg, png, gif, webp, md).
+            # This handles nested parens in folder names.
+            md_dict[key] = re.sub(
+                r'\]\(\.\./(.+?\.(?:jpg|jpeg|png|gif|webp|JPEG|JPG|PNG|md))\)',
+                replace_md_links,
+                md_dict[key]
+            )
             
             # Save the physical static markdown
             md_filename = 'README.md' if key == 'readme' else ('personal-statistics.md' if key == 'statistics' else 'running-plan.md')

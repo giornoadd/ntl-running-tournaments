@@ -57,23 +57,23 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-03-03 | Tue, Mar 03 | **4.52 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](../member_results/Manda-3_ต้อ (TORO)/running-pics/toro-2026-mar-03.jpg) |
-| 2 | 2026-03-08 | Sun, Mar 08 | **5.52 km** | 🏃 5.5km Long Run | [📸](../member_results/Manda-3_ต้อ (TORO)/running-pics/toro-2026-mar-08.jpg) |
+| 1 | 2026-03-03 | Tue, Mar 03 | **4.52 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg) |
+| 2 | 2026-03-08 | Sun, Mar 08 | **5.52 km** | 🏃 5.5km Long Run | [📸](/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg) |
 
 ## 📅 2026-February
 > 1 sessions · 4.34 km total · 4.34 km avg · best 4.34 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-13 | Fri, Feb 13 | **4.34 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](../member_results/Manda-3_ต้อ (TORO)/running-pics/toro-2026-feb-13.jpg) |
+| 1 | 2026-02-13 | Fri, Feb 13 | **4.34 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg) |
 
 ## 📅 2026-January
 > 2 sessions · 8.66 km total · 4.33 km avg · best 4.47 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **4.47 km** | 🏃 วิ่งตอนเย็น วันเสาร์ (Evening Run) | [📸](../member_results/Manda-3_ต้อ (TORO)/running-pics/toro-2026-jan-24.jpg) |
-| 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](../member_results/Manda-3_ต้อ (TORO)/running-pics/toro-2026-jan-25.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.47 km** | 🏃 วิ่งตอนเย็น วันเสาร์ (Evening Run) | [📸](/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.19 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG) |
 
 ---
 *Auto-generated on 2026-03-11 02:25*
