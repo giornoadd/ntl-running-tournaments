@@ -63,9 +63,9 @@ export const RosterDetailPage: React.FC = () => {
         }
 
         // Fix markdown links with unescaped spaces or parentheses that break the parser
-        // specifically targeting the [📸] image evidence links
+        // specifically targeting any markdown links containing spaces or parens in the URL
         const preprocessedText = textToParse.replace(
-            /\[(📸[^\]]*)\]\((.*?\.(?:jpg|jpeg|png|gif|webp|JPG|JPEG|PNG))\)/g,
+            /\[(.*?)\]\((.*?)\)/g,
             (_match, p1, p2) => {
                 const encoded = p2.replace(/ /g, "%20").replace(/\(/g, "%28").replace(/\)/g, "%29");
                 return `[${p1}](${encoded})`;
