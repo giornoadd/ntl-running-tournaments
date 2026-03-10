@@ -29,8 +29,26 @@ export class StaticCompetitionRepository implements ICompetitionRepository {
     }
 
     async getMemberByNickname(nickname: string): Promise<Member | undefined> {
-        const data = await this.getCompetitionData();
-        return data.roster.find(m => m.nickname.toLowerCase() === nickname.toLowerCase());
+        // Fetch specific roster json dynamically
+        const basePath = import.meta.env.BASE_URL || '/';
+        
+        // Sanitize string identically to the Python generation script 
+        // English alphanumeric, hyphen, underscore
+        const nicknameSafe = nickname.toLowerCase().replace(/[^a-z0-9_\-\.]/g, '');
+        const dataUrl = `${basePath.endsWith('/') ? basePath : basePath + '/'}rosters/${nicknameSafe}.json`;
+        
+        try {
+            const response = await fetch(dataUrl);
+            if (!response.ok) {
+                console.warn(`Roster data for ${nicknameSafe} not found. Status: ${response.status}`);
+                return undefined;
+            }
+            const member: Member = await response.json();
+            return member;
+        } catch (error) {
+            console.error(`Error fetching member roster data for ${nickname}:`, error);
+            return undefined;
+        }
     }
 
     async getActivitiesByMonth(monthFilter: string): Promise<DailySummary[]> {
