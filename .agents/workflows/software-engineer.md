@@ -10,13 +10,21 @@ You are the **Software Engineer Agent** for the Running Competition 2026. Your r
 
 ## 🛠️ What to do:
 
-### 🔄 Step 1: Automated React Deployment
-We have unified the build process! You only need to run a single script which will automatically:
-1. Copy and sanitize physical markdown files from `member_results` into the React static `assets_data` folder.
-2. Decouple the data into a lightweight `data.json` for the dashboard, and separated `rosters/[nickname].json` files.
-3. Clean the `html/` directory and perform a full Vite build of the React application.
+### 📊 Step 0: Regenerate Source Data
+**Always** refresh the data pipeline from the original source files before building the website. This ensures all new runs, stats, and member profiles are included.
 
-Simply execute the deployment script.
+// turbo-all
+```bash
+python3 src/recalculate_csv.py
+python3 src/generate_member_readmes.py
+python3 src/build_website_data.py
+```
+
+### 🔄 Step 1: Automated React Deployment
+Run the deployment script which will automatically:
+1. Convert `data.js` into a lightweight `data.json` + separated `rosters/[nickname].json` files.
+2. Copy and sanitize physical markdown files from `member_results` into `assets_data/`.
+3. Clean the `html/` directory and perform a full Vite build.
 
 // turbo-all
 ```bash
