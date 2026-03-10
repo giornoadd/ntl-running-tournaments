@@ -33,25 +33,25 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-03-01 | Sun, Mar 01 | **2.24 km** | 🚶 Morning Walk | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg) |
-| 2 | 2026-03-03 | Tue, Mar 03 | **2.95 km** | 🚶 Evening Walk (เดินตอนเย็น) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg) |
+| 1 | 2026-03-01 | Sun, Mar 01 | **2.24 km** | 🚶 Morning Walk | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg) |
+| 2 | 2026-03-03 | Tue, Mar 03 | **2.95 km** | 🚶 Evening Walk (เดินตอนเย็น) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg) |
 
 ## 📅 2026-February
 > 2 sessions · 4.85 km total · 2.42 km avg · best 2.59 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-11 | Wed, Feb 11 | **2.59 km** | 🚶 Walking (เดิน) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-11.jpg) |
-| 2 | 2026-02-22 | Sun, Feb 22 | **2.26 km** | 🚶 Walking (เดิน) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-22.jpg) |
+| 1 | 2026-02-11 | Wed, Feb 11 | **2.59 km** | 🚶 Walking (เดิน) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-11.jpg) |
+| 2 | 2026-02-22 | Sun, Feb 22 | **2.26 km** | 🚶 Walking (เดิน) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-22.jpg) |
 
 ## 📅 2026-January
 > 3 sessions · 10.70 km total · 3.57 km avg · best 4.61 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-19 | Mon, Jan 19 | **3.13 km** | 🚶 Walking (เดิน) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg) |
-| 2 | 2026-01-20 | Tue, Jan 20 | **2.96 km** | 🚶 Walking (เดิน) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg) |
-| 3 | 2026-01-21 | Wed, Jan 21 | **4.61 km** | 🚶 Walking (เดิน) | [📸](/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg) |
+| 1 | 2026-01-19 | Mon, Jan 19 | **3.13 km** | 🚶 Walking (เดิน) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg) |
+| 2 | 2026-01-20 | Tue, Jan 20 | **2.96 km** | 🚶 Walking (เดิน) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg) |
+| 3 | 2026-01-21 | Wed, Jan 21 | **4.61 km** | 🚶 Walking (เดิน) | [📸](assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg) |
 
 ---
-*Auto-generated on 2026-03-11 05:37*
+*Auto-generated on 2026-03-11 06:45*

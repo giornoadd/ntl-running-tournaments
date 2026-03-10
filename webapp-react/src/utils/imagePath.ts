@@ -1,14 +1,14 @@
 export const resolveImagePath = (imgPath: string): string => {
-    if (!imgPath || !imgPath.startsWith('../member_results/')) {
-        return imgPath;
+    if (!imgPath) return imgPath;
+
+    // Paths from JSON are relative like "assets_data/member_results/..."
+    // Prepend Vite's BASE_URL to make them absolute for the current environment:
+    //   Dev:  "/" + "assets_data/..." = "/assets_data/..."
+    //   Prod: "/ntl-running-tournaments/html/" + "assets_data/..." = correct GitHub Pages URL
+    if (imgPath.startsWith('assets_data/')) {
+        const base = import.meta.env.BASE_URL || '/';
+        return `${base.endsWith('/') ? base : base + '/'}${imgPath}`;
     }
 
-    // When hosted on GitHub Pages, the site lives in a sub-path "/ntl-running-tournaments/html/"
-    // So the absolute path to member_results is "/ntl-running-tournaments/member_results/"
-    if (window.location.hostname.includes('github.io')) {
-        return imgPath.replace('../member_results/', '/ntl-running-tournaments/member_results/');
-    }
-
-    // For absolute root (like Vite dev server or standard localhost)
-    return imgPath.replace('../member_results/', '/member_results/');
+    return imgPath;
 };

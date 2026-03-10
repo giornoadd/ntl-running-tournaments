@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11 06:41:18",
+  "last_updated": "2026-03-11 06:53:10",
   "teams": {
     "Mandalorian": {
       "total_distance": 584.74,
@@ -25,11 +25,11 @@
       "active_days": 51,
       "image_count": 67,
       "recent_images": [
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg",
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg",
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
       ],
       "stats_details": {
         "run_dist": 305.24000000000007,
@@ -53,11 +53,11 @@
       "active_days": 37,
       "image_count": 37,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-05.jpg",
-        "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-04.jpg",
-        "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg",
-        "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-01.jpg",
-        "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-31.jpg"
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-05.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-04.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-01.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-31.jpg"
       ],
       "stats_details": {
         "run_dist": 109.25000000000001,
@@ -81,11 +81,11 @@
       "active_days": 19,
       "image_count": 22,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-08.jpg",
-        "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-04.jpg",
-        "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-03.jpg",
-        "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG",
-        "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-26.JPEG"
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-08.jpg",
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-04.jpg",
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-03.jpg",
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG",
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-26.JPEG"
       ],
       "stats_details": {
         "run_dist": 144.91,
@@ -109,11 +109,11 @@
       "active_days": 18,
       "image_count": 18,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg",
-        "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-07.jpg",
-        "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-04.jpg",
-        "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg",
-        "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-28.jpg"
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg",
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-07.jpg",
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-04.jpg",
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg",
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-28.jpg"
       ],
       "stats_details": {
         "run_dist": 110.82000000000001,
@@ -137,11 +137,11 @@
       "active_days": 20,
       "image_count": 26,
       "recent_images": [
-        "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg",
-        "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg",
-        "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
-        "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg",
-        "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-04.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-04.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
@@ -165,11 +165,11 @@
       "active_days": 11,
       "image_count": 12,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg",
-        "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg",
-        "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg",
-        "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg",
-        "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg"
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg"
       ],
       "stats_details": {
         "run_dist": 48.89000000000001,
@@ -193,11 +193,11 @@
       "active_days": 9,
       "image_count": 9,
       "recent_images": [
-        "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg",
-        "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg",
-        "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG",
-        "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg",
-        "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg"
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg"
       ],
       "stats_details": {
         "run_dist": 52.739999999999995,
@@ -221,11 +221,11 @@
       "active_days": 13,
       "image_count": 13,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg",
-        "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg",
-        "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg",
-        "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg",
-        "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-27.jpg"
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-27.jpg"
       ],
       "stats_details": {
         "run_dist": 34.10999999999999,
@@ -249,11 +249,11 @@
       "active_days": 16,
       "image_count": 24,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg",
-        "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
-        "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg",
-        "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29.jpg",
-        "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27_1.jpg"
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27_1.jpg"
       ],
       "stats_details": {
         "run_dist": 39.620000000000005,
@@ -277,11 +277,11 @@
       "active_days": 6,
       "image_count": 6,
       "recent_images": [
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
       ],
       "stats_details": {
         "run_dist": 37.0,
@@ -305,11 +305,11 @@
       "active_days": 8,
       "image_count": 11,
       "recent_images": [
-        "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-08.jpg",
-        "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-04.jpg",
-        "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-02.jpg",
-        "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25_1.jpg",
-        "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25.jpg"
+        "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-04.jpg",
+        "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-02.jpg",
+        "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25_1.jpg",
+        "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25.jpg"
       ],
       "stats_details": {
         "run_dist": 7.99,
@@ -333,11 +333,11 @@
       "active_days": 5,
       "image_count": 5,
       "recent_images": [
-        "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg",
-        "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg",
-        "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG",
-        "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg",
-        "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg"
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG",
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg",
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg"
       ],
       "stats_details": {
         "run_dist": 23.04,
@@ -361,11 +361,11 @@
       "active_days": 4,
       "image_count": 8,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
-        "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG",
-        "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG",
-        "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png",
-        "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_2.png"
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_2.png"
       ],
       "stats_details": {
         "run_dist": 44.89,
@@ -389,11 +389,11 @@
       "active_days": 7,
       "image_count": 7,
       "recent_images": [
-        "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg",
-        "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg",
-        "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg",
-        "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg",
-        "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg"
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
@@ -417,11 +417,11 @@
       "active_days": 4,
       "image_count": 5,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg",
-        "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg",
-        "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg",
-        "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-14.png",
-        "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-feb-19.jpg"
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-14.png",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-feb-19.jpg"
       ],
       "stats_details": {
         "run_dist": 11.489999999999998,
@@ -445,7 +445,7 @@
       "active_days": 1,
       "image_count": 1,
       "recent_images": [
-        "/assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
       ],
       "stats_details": {
         "run_dist": 0.0,
@@ -469,8 +469,8 @@
       "active_days": 2,
       "image_count": 2,
       "recent_images": [
-        "/assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-08.JPG",
-        "/assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-07.JPG"
+        "assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-08.JPG",
+        "assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-07.JPG"
       ],
       "stats_details": {
         "run_dist": 0.0,
@@ -563,7 +563,7 @@
           "distance": 6.63,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg"
           ]
         },
         {
@@ -571,8 +571,8 @@
           "distance": 5.41,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
           ]
         },
         {
@@ -580,8 +580,8 @@
           "distance": 4.1,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
           ]
         }
       ],
@@ -601,7 +601,7 @@
           "distance": 2.26,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg"
           ]
         }
       ],
@@ -621,8 +621,8 @@
           "distance": 5.57,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
           ]
         },
         {
@@ -630,8 +630,8 @@
           "distance": 3.83,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
           ]
         }
       ],
@@ -651,8 +651,8 @@
           "distance": 7.12,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg"
           ]
         },
         {
@@ -660,8 +660,8 @@
           "distance": 2.86,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg"
           ]
         },
         {
@@ -669,7 +669,7 @@
           "distance": 5.52,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg"
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg"
           ]
         },
         {
@@ -677,7 +677,7 @@
           "distance": 7.16,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg"
           ]
         },
         {
@@ -685,7 +685,7 @@
           "distance": 5.47,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-08.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-08.jpg"
           ]
         },
         {
@@ -693,7 +693,7 @@
           "distance": 7.08,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg"
           ]
         },
         {
@@ -701,7 +701,7 @@
           "distance": 22.4,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-08.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-08.jpg"
           ]
         },
         {
@@ -709,7 +709,7 @@
           "distance": 5.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg"
           ]
         }
       ],
@@ -729,8 +729,8 @@
           "distance": 10.03,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
           ]
         },
         {
@@ -738,8 +738,8 @@
           "distance": 6.65,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
           ]
         },
         {
@@ -747,7 +747,7 @@
           "distance": 8.68,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg"
           ]
         },
         {
@@ -755,7 +755,7 @@
           "distance": 7.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-07.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-07.jpg"
           ]
         },
         {
@@ -763,7 +763,7 @@
           "distance": 5.04,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg"
           ]
         }
       ],
@@ -783,8 +783,8 @@
           "distance": 5.7,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05_1.jpg"
           ]
         },
         {
@@ -792,8 +792,8 @@
           "distance": 8.36,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05_1.jpg"
           ]
         },
         {
@@ -801,7 +801,7 @@
           "distance": 5.08,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg"
           ]
         },
         {
@@ -809,7 +809,7 @@
           "distance": 2.56,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg"
           ]
         },
         {
@@ -817,7 +817,7 @@
           "distance": 10.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-05.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-05.jpg"
           ]
         }
       ],
@@ -837,7 +837,7 @@
           "distance": 2.07,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-04.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-04.jpg"
           ]
         },
         {
@@ -845,7 +845,7 @@
           "distance": 4.94,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-04.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-04.jpg"
           ]
         },
         {
@@ -853,7 +853,7 @@
           "distance": 5.06,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg"
           ]
         },
         {
@@ -861,7 +861,7 @@
           "distance": 2.34,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-04.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-04.jpg"
           ]
         },
         {
@@ -869,7 +869,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-04.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-04.jpg"
           ]
         },
         {
@@ -877,7 +877,7 @@
           "distance": 5.38,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-04.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-04.jpg"
           ]
         }
       ],
@@ -897,8 +897,8 @@
           "distance": 7.92,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03_1.jpg"
           ]
         },
         {
@@ -906,8 +906,8 @@
           "distance": 4.37,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-03_1.jpg"
           ]
         },
         {
@@ -915,7 +915,7 @@
           "distance": 4.52,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg"
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg"
           ]
         },
         {
@@ -923,7 +923,7 @@
           "distance": 5.15,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg"
           ]
         },
         {
@@ -931,7 +931,7 @@
           "distance": 7.27,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-03.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-03.jpg"
           ]
         },
         {
@@ -939,7 +939,7 @@
           "distance": 2.95,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg"
           ]
         },
         {
@@ -947,8 +947,8 @@
           "distance": 5.1,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg",
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg",
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg"
           ]
         },
         {
@@ -956,7 +956,7 @@
           "distance": 6.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-03.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-03.jpg"
           ]
         }
       ],
@@ -976,8 +976,8 @@
           "distance": 9.47,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-02.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-02_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-02.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-02_1.jpg"
           ]
         },
         {
@@ -985,7 +985,7 @@
           "distance": 2.53,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-02.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-mar-02.jpg"
           ]
         },
         {
@@ -993,7 +993,7 @@
           "distance": 2.24,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-02.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-02.jpg"
           ]
         },
         {
@@ -1001,7 +1001,7 @@
           "distance": 10.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg"
           ]
         }
       ],
@@ -1021,7 +1021,7 @@
           "distance": 2.24,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg"
           ]
         },
         {
@@ -1029,7 +1029,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg"
           ]
         },
         {
@@ -1037,7 +1037,7 @@
           "distance": 4.7,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-01.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-01.jpg"
           ]
         }
       ],
@@ -1057,8 +1057,8 @@
           "distance": 4.12,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28_1.jpg"
           ]
         },
         {
@@ -1066,8 +1066,8 @@
           "distance": 10.06,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-28_1.jpg"
           ]
         },
         {
@@ -1075,7 +1075,7 @@
           "distance": 2.32,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-28.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-28.jpg"
           ]
         },
         {
@@ -1083,7 +1083,7 @@
           "distance": 6.83,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-28.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-28.jpg"
           ]
         },
         {
@@ -1091,7 +1091,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-28.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-28.jpg"
           ]
         },
         {
@@ -1099,7 +1099,7 @@
           "distance": 5.5,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-28.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-28.jpg"
           ]
         }
       ],
@@ -1119,7 +1119,7 @@
           "distance": 10.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-27.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-27.jpg"
           ]
         },
         {
@@ -1127,7 +1127,7 @@
           "distance": 8.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-27.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-27.jpg"
           ]
         }
       ],
@@ -1147,8 +1147,8 @@
           "distance": 3.47,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26_1.jpg"
           ]
         },
         {
@@ -1156,8 +1156,8 @@
           "distance": 6.06,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-26_1.jpg"
           ]
         }
       ],
@@ -1177,8 +1177,8 @@
           "distance": 5.88,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25_1.jpg"
           ]
         },
         {
@@ -1186,8 +1186,8 @@
           "distance": 3.58,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-25_1.jpg"
           ]
         },
         {
@@ -1195,7 +1195,7 @@
           "distance": 4.62,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-25.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-25.jpg"
           ]
         }
       ],
@@ -1215,7 +1215,7 @@
           "distance": 10.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-24.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-24.jpg"
           ]
         },
         {
@@ -1223,8 +1223,8 @@
           "distance": 4.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-24.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-24_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-24.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-24_1.jpg"
           ]
         }
       ],
@@ -1244,8 +1244,8 @@
           "distance": 9.46,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-23.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-23_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-23.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-23_1.jpg"
           ]
         },
         {
@@ -1253,7 +1253,7 @@
           "distance": 3.47,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-23.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-23.jpg"
           ]
         }
       ],
@@ -1273,7 +1273,7 @@
           "distance": 2.26,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-22.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-22.jpg"
           ]
         },
         {
@@ -1281,7 +1281,7 @@
           "distance": 6.31,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-22.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-22.jpg"
           ]
         },
         {
@@ -1289,7 +1289,7 @@
           "distance": 4.71,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-22.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-22.jpg"
           ]
         },
         {
@@ -1297,7 +1297,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-22.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-22.jpg"
           ]
         }
       ],
@@ -1317,7 +1317,7 @@
           "distance": 5.46,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-21.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-21.jpg"
           ]
         },
         {
@@ -1325,8 +1325,8 @@
           "distance": 14.18,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-21.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-21_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-21.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-21_1.jpg"
           ]
         },
         {
@@ -1334,7 +1334,7 @@
           "distance": 7.47,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-21.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-21.jpg"
           ]
         },
         {
@@ -1342,7 +1342,7 @@
           "distance": 6.07,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-21.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-21.jpg"
           ]
         }
       ],
@@ -1362,8 +1362,8 @@
           "distance": 8.45,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-20.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-20.png"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-20.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-20.png"
           ]
         },
         {
@@ -1371,7 +1371,7 @@
           "distance": 4.68,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-20.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-20.jpg"
           ]
         }
       ],
@@ -1391,7 +1391,7 @@
           "distance": 3.29,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-feb-19.jpg"
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-feb-19.jpg"
           ]
         },
         {
@@ -1399,7 +1399,7 @@
           "distance": 1.6,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-19.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-19.jpg"
           ]
         }
       ],
@@ -1419,8 +1419,8 @@
           "distance": 8.58,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-18.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-18_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-18.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-18_1.jpg"
           ]
         },
         {
@@ -1428,7 +1428,7 @@
           "distance": 2.7,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-18.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-18.jpg"
           ]
         },
         {
@@ -1436,7 +1436,7 @@
           "distance": 4.68,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-18.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-18.jpg"
           ]
         }
       ],
@@ -1456,7 +1456,7 @@
           "distance": 3.38,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-17.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-17.jpg"
           ]
         },
         {
@@ -1464,7 +1464,7 @@
           "distance": 4.74,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-17.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-17.jpg"
           ]
         }
       ],
@@ -1484,7 +1484,7 @@
           "distance": 3.5,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-16.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-feb-16.jpg"
           ]
         },
         {
@@ -1492,8 +1492,8 @@
           "distance": 7.29,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-16.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-16_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-16.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-16_1.jpg"
           ]
         },
         {
@@ -1501,7 +1501,7 @@
           "distance": 4.65,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-16.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-16.jpg"
           ]
         },
         {
@@ -1509,8 +1509,8 @@
           "distance": 3.34,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-16.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-16_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-16.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-16_1.jpg"
           ]
         }
       ],
@@ -1530,7 +1530,7 @@
           "distance": 2.26,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-15.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-15.jpg"
           ]
         },
         {
@@ -1538,7 +1538,7 @@
           "distance": 4.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-15.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-15.jpg"
           ]
         }
       ],
@@ -1558,7 +1558,7 @@
           "distance": 7.41,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-14.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-14.jpg"
           ]
         },
         {
@@ -1566,8 +1566,8 @@
           "distance": 10.78,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-14.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-14_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-14.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-14_1.jpg"
           ]
         },
         {
@@ -1575,7 +1575,7 @@
           "distance": 6.37,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-14.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-14.jpg"
           ]
         },
         {
@@ -1583,7 +1583,7 @@
           "distance": 4.54,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-14.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-14.jpg"
           ]
         }
       ],
@@ -1603,7 +1603,7 @@
           "distance": 4.34,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg"
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg"
           ]
         },
         {
@@ -1611,7 +1611,7 @@
           "distance": 7.09,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-13.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-13.jpg"
           ]
         },
         {
@@ -1619,7 +1619,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-13.jpg"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-13.jpg"
           ]
         }
       ],
@@ -1639,8 +1639,8 @@
           "distance": 7.27,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-12.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-12_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-12.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-12_1.jpg"
           ]
         },
         {
@@ -1648,8 +1648,8 @@
           "distance": 2.23,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-12.jpg",
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-12_1.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-12.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-12_1.jpg"
           ]
         },
         {
@@ -1657,7 +1657,7 @@
           "distance": 4.42,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-12.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-12.jpg"
           ]
         },
         {
@@ -1665,8 +1665,8 @@
           "distance": 3.47,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-12.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-12_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-12.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-12_1.jpg"
           ]
         }
       ],
@@ -1686,7 +1686,7 @@
           "distance": 5.46,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-11.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-feb-11.jpg"
           ]
         },
         {
@@ -1694,8 +1694,8 @@
           "distance": 7.45,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-11.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-11_1.JPG"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-11.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-11_1.JPG"
           ]
         },
         {
@@ -1703,7 +1703,7 @@
           "distance": 2.59,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-11.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-feb-11.jpg"
           ]
         }
       ],
@@ -1723,7 +1723,7 @@
           "distance": 2.33,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-10.JPG"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-10.JPG"
           ]
         },
         {
@@ -1731,7 +1731,7 @@
           "distance": 1.8,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-10.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-10.jpg"
           ]
         }
       ],
@@ -1751,8 +1751,8 @@
           "distance": 7.08,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-09.JPEG",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-09_1.JPEG"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-09.JPEG",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-09_1.JPEG"
           ]
         },
         {
@@ -1760,7 +1760,7 @@
           "distance": 10.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-09.JPG"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-09.JPG"
           ]
         },
         {
@@ -1768,8 +1768,8 @@
           "distance": 3.47,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-09.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-09_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-09.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-09_1.jpg"
           ]
         }
       ],
@@ -1789,7 +1789,7 @@
           "distance": 6.39,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-08.JPG"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-08.JPG"
           ]
         },
         {
@@ -1797,7 +1797,7 @@
           "distance": 4.41,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-08.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-08.jpg"
           ]
         },
         {
@@ -1805,7 +1805,7 @@
           "distance": 5.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-08.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-08.JPEG"
           ]
         },
         {
@@ -1813,7 +1813,7 @@
           "distance": 2.05,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-08.JPG"
+            "assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-08.JPG"
           ]
         }
       ],
@@ -1833,8 +1833,8 @@
           "distance": 11.44,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07_1.jpg"
           ]
         },
         {
@@ -1842,7 +1842,7 @@
           "distance": 7.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-07.JPG"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-07.JPG"
           ]
         },
         {
@@ -1850,7 +1850,7 @@
           "distance": 6.62,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-07.JPG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-07.JPG"
           ]
         },
         {
@@ -1858,7 +1858,7 @@
           "distance": 2.16,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-07.JPG"
+            "assets_data/member_results/ITSystem-10_PAN/running-pics/pan-2026-feb-07.JPG"
           ]
         },
         {
@@ -1866,7 +1866,7 @@
           "distance": 5.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-07.JPEG"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-07.JPEG"
           ]
         }
       ],
@@ -1886,7 +1886,7 @@
           "distance": 5.4,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-06.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-06.jpg"
           ]
         },
         {
@@ -1894,7 +1894,7 @@
           "distance": 7.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-06.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-06.JPEG"
           ]
         }
       ],
@@ -1914,7 +1914,7 @@
           "distance": 6.24,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-05.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-05.jpg"
           ]
         },
         {
@@ -1922,7 +1922,7 @@
           "distance": 4.36,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-05.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-05.jpg"
           ]
         },
         {
@@ -1930,8 +1930,8 @@
           "distance": 2.82,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-05.JPG",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-05_1.JPG"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-05.JPG",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-05_1.JPG"
           ]
         }
       ],
@@ -1951,7 +1951,7 @@
           "distance": 2.11,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-04.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-04.jpg"
           ]
         },
         {
@@ -1959,7 +1959,7 @@
           "distance": 6.19,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-04.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-04.jpg"
           ]
         },
         {
@@ -1967,7 +1967,7 @@
           "distance": 3.24,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-04.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-04.jpg"
           ]
         },
         {
@@ -1975,7 +1975,7 @@
           "distance": 6.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-04.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-feb-04.JPEG"
           ]
         },
         {
@@ -1983,7 +1983,7 @@
           "distance": 3.03,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-04.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-04.jpg"
           ]
         },
         {
@@ -1991,7 +1991,7 @@
           "distance": 4.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-04.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-feb-04.jpg"
           ]
         }
       ],
@@ -2011,7 +2011,7 @@
           "distance": 7.71,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-03.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-03.jpg"
           ]
         },
         {
@@ -2019,7 +2019,7 @@
           "distance": 2.23,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-03.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-03.jpg"
           ]
         },
         {
@@ -2027,7 +2027,7 @@
           "distance": 2.11,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-03.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-03.jpg"
           ]
         },
         {
@@ -2035,7 +2035,7 @@
           "distance": 1.75,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-03.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-03.jpg"
           ]
         }
       ],
@@ -2055,7 +2055,7 @@
           "distance": 6.02,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-02.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-02.jpg"
           ]
         },
         {
@@ -2063,7 +2063,7 @@
           "distance": 2.45,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-02.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-02.jpg"
           ]
         },
         {
@@ -2071,7 +2071,7 @@
           "distance": 6.41,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-02.JPEG"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-02.JPEG"
           ]
         },
         {
@@ -2079,7 +2079,7 @@
           "distance": 7.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-02.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-02.jpg"
           ]
         }
       ],
@@ -2099,7 +2099,7 @@
           "distance": 9.66,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-feb-01.JPEG"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-feb-01.JPEG"
           ]
         },
         {
@@ -2107,7 +2107,7 @@
           "distance": 3.62,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-01.JPEG"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-feb-01.JPEG"
           ]
         },
         {
@@ -2115,7 +2115,7 @@
           "distance": 5.22,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-01.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-feb-01.jpg"
           ]
         },
         {
@@ -2123,7 +2123,7 @@
           "distance": 4.27,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-01.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-feb-01.jpg"
           ]
         },
         {
@@ -2131,7 +2131,7 @@
           "distance": 7.05,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-01.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-feb-01.jpg"
           ]
         },
         {
@@ -2139,7 +2139,7 @@
           "distance": 2.4,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-01.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-feb-01.jpg"
           ]
         }
       ],
@@ -2159,7 +2159,7 @@
           "distance": 8.41,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-31.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-31.jpg"
           ]
         },
         {
@@ -2167,7 +2167,7 @@
           "distance": 7.3,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG"
           ]
         },
         {
@@ -2175,7 +2175,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG"
           ]
         },
         {
@@ -2183,7 +2183,7 @@
           "distance": 4.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg"
           ]
         },
         {
@@ -2191,7 +2191,7 @@
           "distance": 2.35,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-31.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-31.jpg"
           ]
         }
       ],
@@ -2211,7 +2211,7 @@
           "distance": 6.04,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg"
           ]
         },
         {
@@ -2219,8 +2219,8 @@
           "distance": 3.91,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg"
           ]
         }
       ],
@@ -2240,7 +2240,7 @@
           "distance": 6.09,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-29.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-29.jpg"
           ]
         },
         {
@@ -2248,7 +2248,7 @@
           "distance": 4.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg"
           ]
         },
         {
@@ -2256,7 +2256,7 @@
           "distance": 6.4,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-29.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-29.jpg"
           ]
         },
         {
@@ -2264,7 +2264,7 @@
           "distance": 6.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg"
           ]
         },
         {
@@ -2272,8 +2272,8 @@
           "distance": 3.47,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg"
           ]
         }
       ],
@@ -2293,7 +2293,7 @@
           "distance": 2.13,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-28.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-28.jpg"
           ]
         },
         {
@@ -2301,7 +2301,7 @@
           "distance": 5.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-28.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-28.jpg"
           ]
         }
       ],
@@ -2321,7 +2321,7 @@
           "distance": 4.68,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg"
           ]
         },
         {
@@ -2329,7 +2329,7 @@
           "distance": 8.45,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG"
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG"
           ]
         },
         {
@@ -2337,7 +2337,7 @@
           "distance": 3.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-27.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-27.jpg"
           ]
         },
         {
@@ -2345,7 +2345,7 @@
           "distance": 6.31,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-27.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-27.jpg"
           ]
         },
         {
@@ -2353,7 +2353,7 @@
           "distance": 5.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-27.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-27.jpg"
           ]
         },
         {
@@ -2361,8 +2361,8 @@
           "distance": 4.15,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27.jpg",
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27_1.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27.jpg",
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27_1.jpg"
           ]
         }
       ],
@@ -2382,7 +2382,7 @@
           "distance": 5.02,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-26.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-26.jpg"
           ]
         },
         {
@@ -2390,7 +2390,7 @@
           "distance": 6.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-26.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-26.JPEG"
           ]
         },
         {
@@ -2398,7 +2398,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-26.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-26.jpg"
           ]
         },
         {
@@ -2406,7 +2406,7 @@
           "distance": 1.11,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-26.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-26.jpg"
           ]
         }
       ],
@@ -2426,7 +2426,7 @@
           "distance": 4.19,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG"
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG"
           ]
         },
         {
@@ -2434,7 +2434,7 @@
           "distance": 4.25,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG"
           ]
         },
         {
@@ -2442,7 +2442,7 @@
           "distance": 3.44,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-25.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-25.jpg"
           ]
         },
         {
@@ -2450,8 +2450,8 @@
           "distance": 3.29,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25.jpg",
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25_1.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25.jpg",
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-25_1.jpg"
           ]
         },
         {
@@ -2459,7 +2459,7 @@
           "distance": 7.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-25.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-25.JPEG"
           ]
         }
       ],
@@ -2479,7 +2479,7 @@
           "distance": 12.76,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
           ]
         },
         {
@@ -2487,7 +2487,7 @@
           "distance": 8.04,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-24.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-24.jpg"
           ]
         },
         {
@@ -2495,7 +2495,7 @@
           "distance": 6.52,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg"
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg"
           ]
         },
         {
@@ -2503,8 +2503,8 @@
           "distance": 6.26,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-24.jpg",
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-24_1.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-24.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-24_1.jpg"
           ]
         },
         {
@@ -2512,7 +2512,7 @@
           "distance": 4.47,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg"
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg"
           ]
         },
         {
@@ -2520,7 +2520,7 @@
           "distance": 4.15,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
           ]
         },
         {
@@ -2528,7 +2528,7 @@
           "distance": 6.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-24.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-24.JPEG"
           ]
         },
         {
@@ -2536,7 +2536,7 @@
           "distance": 5.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-24.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-24.jpg"
           ]
         },
         {
@@ -2544,7 +2544,7 @@
           "distance": 3.17,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-24.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-24.jpg"
           ]
         }
       ],
@@ -2564,7 +2564,7 @@
           "distance": 8.03,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-23.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-23.jpg"
           ]
         },
         {
@@ -2572,7 +2572,7 @@
           "distance": 4.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-23.JPEG"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-23.JPEG"
           ]
         }
       ],
@@ -2592,7 +2592,7 @@
           "distance": 5.46,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-22.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-22.jpg"
           ]
         },
         {
@@ -2600,7 +2600,7 @@
           "distance": 10.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-22.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-22.jpg"
           ]
         },
         {
@@ -2608,7 +2608,7 @@
           "distance": 1.16,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-22.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-22.jpg"
           ]
         }
       ],
@@ -2628,7 +2628,7 @@
           "distance": 5.44,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-21.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-21.jpg"
           ]
         },
         {
@@ -2636,7 +2636,7 @@
           "distance": 4.61,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg"
           ]
         },
         {
@@ -2644,7 +2644,7 @@
           "distance": 5.04,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-21.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-21.jpg"
           ]
         },
         {
@@ -2652,7 +2652,7 @@
           "distance": 6.16,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG"
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG"
           ]
         },
         {
@@ -2660,7 +2660,7 @@
           "distance": 2.39,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg"
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg"
           ]
         }
       ],
@@ -2680,7 +2680,7 @@
           "distance": 5.43,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-20.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-20.jpg"
           ]
         },
         {
@@ -2688,7 +2688,7 @@
           "distance": 2.96,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg"
           ]
         },
         {
@@ -2696,7 +2696,7 @@
           "distance": 4.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-20.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-20.jpg"
           ]
         },
         {
@@ -2704,7 +2704,7 @@
           "distance": 1.15,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-20.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-20.jpg"
           ]
         }
       ],
@@ -2724,7 +2724,7 @@
           "distance": 5.44,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-19.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-19.jpg"
           ]
         },
         {
@@ -2732,7 +2732,7 @@
           "distance": 3.13,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg"
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg"
           ]
         },
         {
@@ -2740,7 +2740,7 @@
           "distance": 2.42,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG"
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG"
           ]
         },
         {
@@ -2748,7 +2748,7 @@
           "distance": 3.03,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-19.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-19.jpg"
           ]
         },
         {
@@ -2756,7 +2756,7 @@
           "distance": 2.15,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-19.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-19.jpg"
           ]
         },
         {
@@ -2764,7 +2764,7 @@
           "distance": 2.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-19.jpg"
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-19.jpg"
           ]
         }
       ],
@@ -2784,7 +2784,7 @@
           "distance": 5.03,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-18.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-18.jpg"
           ]
         },
         {
@@ -2792,7 +2792,7 @@
           "distance": 6.5,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-18.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-18.jpg"
           ]
         },
         {
@@ -2800,7 +2800,7 @@
           "distance": 4.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-18.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-18.jpg"
           ]
         },
         {
@@ -2808,8 +2808,8 @@
           "distance": 5.81,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg",
-            "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg"
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg",
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg"
           ]
         },
         {
@@ -2817,7 +2817,7 @@
           "distance": 2.28,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-18.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-18.jpg"
           ]
         }
       ],
@@ -2837,7 +2837,7 @@
           "distance": 6.04,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-17.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-17.jpg"
           ]
         },
         {
@@ -2845,7 +2845,7 @@
           "distance": 5.03,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-17.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-17.jpg"
           ]
         },
         {
@@ -2853,7 +2853,7 @@
           "distance": 2.27,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-17.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-17.jpg"
           ]
         }
       ],
@@ -2873,7 +2873,7 @@
           "distance": 3.08,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-16.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-16.jpg"
           ]
         }
       ],
@@ -2893,7 +2893,7 @@
           "distance": 4.06,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-15.jpg"
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-15.jpg"
           ]
         },
         {
@@ -2901,7 +2901,7 @@
           "distance": 2.35,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-15.jpg"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-15.jpg"
           ]
         }
       ],
@@ -2921,7 +2921,7 @@
           "distance": 3.51,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-14.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-14.jpg"
           ]
         },
         {
@@ -2929,7 +2929,7 @@
           "distance": 2.95,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-14.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-14.jpg"
           ]
         },
         {
@@ -2937,7 +2937,7 @@
           "distance": 5.21,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-14.png"
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-14.png"
           ]
         }
       ],
@@ -2957,7 +2957,7 @@
           "distance": 4.55,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-13.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-13.jpg"
           ]
         },
         {
@@ -2965,7 +2965,7 @@
           "distance": 3.23,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-13.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-13.jpg"
           ]
         },
         {
@@ -2973,7 +2973,7 @@
           "distance": 10.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-13.png"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-13.png"
           ]
         }
       ],
@@ -2993,7 +2993,7 @@
           "distance": 3.01,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-12.jpg"
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-12.jpg"
           ]
         }
       ],
@@ -3013,7 +3013,7 @@
           "distance": 6.08,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-11.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-11.jpg"
           ]
         },
         {
@@ -3021,7 +3021,7 @@
           "distance": 6.03,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-11.jpg"
+            "assets_data/member_results/Manda-9_Chan/running-pics/chan-2026-jan-11.jpg"
           ]
         },
         {
@@ -3029,7 +3029,7 @@
           "distance": 2.27,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-11.png"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-11.png"
           ]
         },
         {
@@ -3037,7 +3037,7 @@
           "distance": 6.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-11.png"
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-11.png"
           ]
         }
       ],
@@ -3057,7 +3057,7 @@
           "distance": 2.12,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-10.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-10.jpg"
           ]
         },
         {
@@ -3065,7 +3065,7 @@
           "distance": 2.24,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-10.png"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-10.png"
           ]
         }
       ],
@@ -3085,7 +3085,7 @@
           "distance": 2.55,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-08.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-08.jpg"
           ]
         },
         {
@@ -3093,7 +3093,7 @@
           "distance": 10.04,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-08.png"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-08.png"
           ]
         }
       ],
@@ -3113,7 +3113,7 @@
           "distance": 5.0,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-07.png"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-07.png"
           ]
         }
       ],
@@ -3133,8 +3133,8 @@
           "distance": 2.3,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06_1.jpg"
           ]
         },
         {
@@ -3142,8 +3142,8 @@
           "distance": 10.79,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06.jpg",
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06_1.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-06_1.jpg"
           ]
         }
       ],
@@ -3163,7 +3163,7 @@
           "distance": 4.53,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-05.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-05.jpg"
           ]
         },
         {
@@ -3171,7 +3171,7 @@
           "distance": 5.6,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png"
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png"
           ]
         },
         {
@@ -3179,7 +3179,7 @@
           "distance": 10.02,
           "team": "IT System",
           "images": [
-            "/assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-05.png"
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-05.png"
           ]
         }
       ],
@@ -3199,7 +3199,7 @@
           "distance": 6.03,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-03.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-03.jpg"
           ]
         }
       ],
@@ -3219,7 +3219,7 @@
           "distance": 2.23,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-02.JPEG"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-jan-02.JPEG"
           ]
         }
       ],
@@ -3239,7 +3239,7 @@
           "distance": 8.52,
           "team": "Mandalorian",
           "images": [
-            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-01.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-jan-01.jpg"
           ]
         }
       ],

@@ -56,24 +56,24 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-03-03 | Tue, Mar 03 | **5.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg) |
-| 2 | 2026-03-08 | Sun, Mar 08 | **7.16 km** | 🏃 7km Long Run | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg) |
-| 3 | 2026-03-11 | Wed, Mar 11 | **6.63 km** | 🏃 6km Long Run | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg) |
+| 1 | 2026-03-03 | Tue, Mar 03 | **5.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg) |
+| 2 | 2026-03-08 | Sun, Mar 08 | **7.16 km** | 🏃 7km Long Run | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg) |
+| 3 | 2026-03-11 | Wed, Mar 11 | **6.63 km** | 🏃 6km Long Run | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg) |
 
 ## 📅 2026-February
 > 1 sessions · 9.66 km total · 9.66 km avg · best 9.66 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-02-01 | Sun, Feb 01 | **9.66 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-feb-01.JPEG) |
+| 1 | 2026-02-01 | Sun, Feb 01 | **9.66 km** | 🏃 Outdoor Run (วิ่งกลางแจ้ง) | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-feb-01.JPEG) |
 
 ## 📅 2026-January
 > 2 sessions · 8.40 km total · 4.20 km avg · best 4.25 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG) |
-| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **4.15 km** | 🏃 Evening Run (วิ่งตอนเย็น) | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG) |
+| 2 | 2026-01-25 | Sun, Jan 25 | **4.25 km** | 🏃 Morning Run (วิ่งตอนเช้า) | [📸](assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG) |
 
 ---
-*Auto-generated on 2026-03-11 05:37*
+*Auto-generated on 2026-03-11 06:45*

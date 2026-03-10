@@ -25,7 +25,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
   <i>(🪖 Manda is crushing March!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 140.26 km | IT: 107.15 km 🪖  
+> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 158.66 km | IT: 107.15 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---

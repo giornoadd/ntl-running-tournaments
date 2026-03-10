@@ -59,7 +59,7 @@ def main():
         
         dest_full.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src_path, dest_full)
-        return str(Path('/assets_data') / dest_rel).replace('\\', '/')
+        return str(Path('assets_data') / dest_rel).replace('\\', '/')
 
     print("Sanitizing, separating JSON, and copying markdown assets...")
 
