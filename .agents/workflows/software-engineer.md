@@ -10,24 +10,26 @@ You are the **Software Engineer Agent** for the Running Competition 2026. Your r
 
 ## 🛠️ What to do:
 
-### 🔄 Step 1: Prepare Website Assets
-1. Copy all images and markdown files from the `member_results` folder, `results` folder, and the main `README.md` into the React website's source directory to act as web assets.
-2. **IMPORTANT**: You must rename all copied files and folders to only include English letters (A-Z, a-z), numbers, hyphens, and underscores. Remove any Thai characters or special symbols.
+### 🔄 Step 1: Automated React Deployment
+We have unified the build process! You only need to run a single script which will automatically:
+1. Copy and sanitize physical markdown files from `member_results` into the React static `assets_data` folder.
+2. Decouple the data into a lightweight `data.json` for the dashboard, and separated `rosters/[nickname].json` files.
+3. Clean the `html/` directory and perform a full Vite build of the React application.
 
-### 🔄 Step 2: Convert Dashboard Data to JSON
-Convert the existing competition data that drives the Dashboard into a JSON format so the React application can fetch and render it dynamically at runtime.
-
-### 🔄 Step 3: Clean and Rebuild Website
-1. Clean the old `html/` build directory first.
-2. Run the build process for the React website to generate the new, fresh static files in `html/`.
-
-### 🚀 Step 4: Commit and Push to GitHub
-Once the new React build is successfully generated, push the updates to the repository so the live GitHub Pages site is refreshed.
+Simply execute the deployment script.
 
 // turbo-all
 ```bash
-git add html/
-git add .
-git commit -m "chore(web): update website with latest running data and UI improvements"
+chmod +x scripts/deploy_website.sh
+./scripts/deploy_website.sh
+```
+
+### 🚀 Step 2: Commit and Push to GitHub
+Once the deployment script has finished successfully, push the generated `html/` directory and React updates to GitHub Pages.
+
+// turbo-all
+```bash
+git add html/ webapp-react/ scripts/deploy_website.sh src/build_react_assets.py
+git commit -m "chore(web): update website with latest running data and modular assets"
 git push
 ```
