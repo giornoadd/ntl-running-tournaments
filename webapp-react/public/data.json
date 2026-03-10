@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11 02:28:23",
+  "last_updated": "2026-03-11 06:41:18",
   "teams": {
     "Mandalorian": {
-      "total_distance": 568.6,
+      "total_distance": 584.74,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 56.86
+      "avg_distance": 58.47
     },
     "IT System": {
       "total_distance": 631.45,
@@ -21,22 +21,22 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 326.96,
-      "active_days": 49,
-      "image_count": 65,
+      "total_distance": 336.47,
+      "active_days": 51,
+      "image_count": 67,
       "recent_images": [
+        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg",
+        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
         "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg",
         "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07.jpg",
-        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-05_1.jpg"
+        "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-07_1.jpg"
       ],
       "stats_details": {
-        "run_dist": 299.83000000000004,
-        "walk_dist": 55.08,
-        "run_count": 51,
-        "walk_count": 15,
-        "total_sessions": 66,
+        "run_dist": 305.24000000000007,
+        "walk_dist": 59.18,
+        "run_count": 52,
+        "walk_count": 16,
+        "total_sessions": 68,
         "best_pace": 431,
         "best_pace_activity": "5.5km Easy Run",
         "best_pace_date": "2026-03-09",
@@ -270,6 +270,34 @@
       }
     },
     {
+      "nickname": "Em",
+      "thai_name": "เอ็ม",
+      "team": "Mandalorian",
+      "total_distance": 37.0,
+      "active_days": 6,
+      "image_count": 6,
+      "recent_images": [
+        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg",
+        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
+        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
+        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG",
+        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
+      ],
+      "stats_details": {
+        "run_dist": 37.0,
+        "walk_dist": 0.0,
+        "run_count": 6,
+        "walk_count": 0,
+        "total_sessions": 6,
+        "best_pace": 500,
+        "best_pace_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
+        "best_pace_date": "2026-02-01",
+        "longest_run_dist": 9.66,
+        "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
+        "longest_run_date": "2026-02-01"
+      }
+    },
+    {
       "nickname": "Chan",
       "thai_name": "พี่ฉันท์",
       "team": "Mandalorian",
@@ -295,34 +323,6 @@
         "longest_run_dist": 3.47,
         "longest_run_activity": "Outdoor Running (วิ่งกลางแจ้ง)",
         "longest_run_date": "2026-02-23"
-      }
-    },
-    {
-      "nickname": "Em",
-      "thai_name": "เอ็ม",
-      "team": "Mandalorian",
-      "total_distance": 30.37,
-      "active_days": 5,
-      "image_count": 5,
-      "recent_images": [
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG",
-        "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-feb-01.JPEG"
-      ],
-      "stats_details": {
-        "run_dist": 30.37,
-        "walk_dist": 0.0,
-        "run_count": 5,
-        "walk_count": 0,
-        "total_sessions": 5,
-        "best_pace": 500,
-        "best_pace_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
-        "best_pace_date": "2026-02-01",
-        "longest_run_dist": 9.66,
-        "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
-        "longest_run_date": "2026-02-01"
       }
     },
     {
@@ -554,6 +554,44 @@
     }
   ],
   "activities": [
+    {
+      "date": "2026-03-11",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "EM",
+          "distance": 6.63,
+          "team": "Mandalorian",
+          "images": [
+            "/assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg"
+          ]
+        },
+        {
+          "name": "GIO",
+          "distance": 5.41,
+          "team": "Mandalorian",
+          "images": [
+            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
+            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
+          ]
+        },
+        {
+          "name": "GIO",
+          "distance": 4.1,
+          "team": "Mandalorian",
+          "images": [
+            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
+            "/assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 16.14,
+      "it_daily": 0.0,
+      "mando_accum": 584.74,
+      "it_accum": 631.45,
+      "mando_avg": 58.47,
+      "it_avg": 63.14
+    },
     {
       "date": "2026-03-10",
       "month": "2026-March",
