@@ -10,27 +10,22 @@ declare global {
 export class StaticCompetitionRepository implements ICompetitionRepository {
 
     async getCompetitionData(): Promise<CompetitionData> {
-        // In a real app, this would be a fetch() call.
-        // Here, we wait for the globally injected COMPETITION_DATA from data.js
-        return new Promise((resolve, reject) => {
-            if (window.COMPETITION_DATA) {
-                resolve(window.COMPETITION_DATA);
-            } else {
-                // Poll briefly in case scripts loaded out of order
-                let retries = 0;
-                const interval = setInterval(() => {
-                    if (window.COMPETITION_DATA) {
-                        clearInterval(interval);
-                        resolve(window.COMPETITION_DATA);
-                    }
-                    retries++;
-                    if (retries > 10) {
-                        clearInterval(interval);
-                        reject(new Error("COMPETITION_DATA not found. Make sure data.js is loaded."));
-                    }
-                }, 100);
+        // Fetch data.json dynamically at runtime from the public directory.
+        // Vite will route this from base URL.
+        const basePath = import.meta.env.BASE_URL || '/';
+        const dataUrl = `${basePath.endsWith('/') ? basePath : basePath + '/'}data.json`;
+        
+        try {
+            const response = await fetch(dataUrl);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch data.json: ${response.statusText}`);
             }
-        });
+            const data: CompetitionData = await response.json();
+            return data;
+        } catch (error) {
+            console.error("Error fetching competition data:", error);
+            throw error;
+        }
     }
 
     async getMemberByNickname(nickname: string): Promise<Member | undefined> {
