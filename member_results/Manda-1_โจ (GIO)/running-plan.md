@@ -242,9 +242,9 @@
 
 ### 🗓️ Week 12: Mar 9 - Mar 15 🔄 (สัปดาห์ทดสอบและผ่อนระยะ ลดความตึงเครียด)
 * สัปดาห์นี้แอปจงใจปรับลดระยะ Long Run ลง (หล่นมาที่ 6km) ให้กล้ามเนื้อได้ซ่อมแซมใหญ่ เรียกว่า Cut-back week
-* **Mon 9:** `5.5km Easy Run` (Pace แบบคุยได้ ไม่เร็วกว่า 7:45/km)
-* **Tue 10:** `Legs & Core Strength`
-* **Wed 11:** `2 Mile Time Trial (4.9km)` **(Test Day! โชว์ของ!)**
+* **Mon 9:** ✅ `5.5km Easy Run + Morning Walk` *(จริง: 5.57 km, Pace 7:11/km, Zone 3 + Walk 3.83 km)*
+* **Tue 10:** ✅ `Legs & Core Strength`
+* **Wed 11:** ✅ `2 Mile Time Trial (4.9km)` **(Test Day! โชว์ของ!)** *(จริง: 5.41 km, Pace 7:33/km, HR 155 bpm, Zone 3)*
   * Warm-up: 1.2km (Pace สบายๆ ไม่เร็วกว่า 7:45/km) + เดินพัก 3 นาที
   * **Test:** 3.22km Time Trial **(เป้าหมาย Pace 6:40/km)** + เดินพัก 3 นาที
   * Cool-down: 500m (วิ่งให้ช้าที่สุด)

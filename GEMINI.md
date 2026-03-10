@@ -78,6 +78,6 @@ python3 src/generate_member_readmes.py  # Regenerate member profiles
 - **Frequency**: Quarterly (Q1–Q4).
 - **Accumulation**: Resets per year (tournament starts Jan 1).
 
-## Status
+## Status/Roadmap
 - **Current Quarter**: Q1 (Jan – Mar 2026)
 - **Status**: 🟢 Active (Week 9)

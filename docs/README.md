@@ -23,6 +23,21 @@ This directory contains the official rules, participant lists, and operational w
 
 ---
 
+## 📚 Standard Docs Suite
+
+- 📐 **[Technical Architecture](technical.md)**
+  Filesystem-as-Source-of-Truth architecture and Python pipeline logic.
+- 🚀 **[Getting Started](getting-started.md)**
+  Environment setup, Python dependencies, and manual run commands.
+- 🔐 **[Auth Flows & Permissions](auth-flows.md)**
+  API keys (Gemini Vision OCR), MCP integration, and access mapping.
+- 🗺️ **[C4 Architecture Diagrams](c4-diagrams.md)**
+  System Context and Container models for the AI Agent System.
+- 📖 **[Workflow Usage Guide](usage.md)**
+  Manuals for Agent slash commands and Python batch operation.
+
+---
+
 ## 📋 Tournament Documents
 
 - 🏆 **[Tournament Rules](tournaments/Tournament%20Rules.md)**
