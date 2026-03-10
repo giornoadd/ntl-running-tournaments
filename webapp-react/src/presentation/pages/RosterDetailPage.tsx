@@ -4,6 +4,7 @@ import { useRosterDetail } from '../hooks/useCompetitionData';
 import { Badge } from '../components/ui/Badge';
 import DOMPurify from 'dompurify';
 import { marked } from 'marked';
+import { resolveImagePath } from '../../utils/imagePath';
 
 // Intercept markdown links ending in image extensions and render them as actual images
 marked.use({
@@ -11,10 +12,8 @@ marked.use({
         link(token) {
             let { href, text, title } = token;
 
-            // Fix Vite Router pathing: Force relative links pointing to member_results to resolve from the absolute root
-            if (href.startsWith('../member_results/')) {
-                href = href.replace('../member_results/', '/member_results/');
-            }
+            // Fix Vite Router pathing: Force relative links to resolve properly
+            href = resolveImagePath(href);
 
             if (href.match(/\.(jpg|jpeg|png|gif|webp|JPG|JPEG|PNG)$/)) {
                 return `<a href="${href}" target="_blank" rel="noopener noreferrer" title="${title || text}"><img src="${href}" alt="${text}" class="w-16 h-16 object-cover inline-block rounded-lg shadow-sm border border-white/20 mx-1 transition-transform hover:scale-110" loading="lazy" /></a>`;

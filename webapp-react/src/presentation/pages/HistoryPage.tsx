@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useHistory } from '../hooks/useCompetitionData';
 import { Card } from '../components/ui/Card';
 import { Table, TableRow, TableCell } from '../components/ui/Table';
+import { resolveImagePath } from '../../utils/imagePath';
 
 export const HistoryPage: React.FC = () => {
     const [filter, setFilter] = useState('all');
@@ -77,7 +78,7 @@ export const HistoryPage: React.FC = () => {
                                         <TableCell>
                                             <div className="flex gap-2">
                                                 {run.images?.slice(0, 3).map((img, i) => {
-                                                    const cleanImg = img.startsWith('../member_results/') ? img.replace('../member_results/', '/member_results/') : img;
+                                                    const cleanImg = resolveImagePath(img);
                                                     return (
                                                         <img key={i} src={cleanImg} className="w-8 h-8 rounded object-cover border border-white/20" alt="run" />
                                                     )

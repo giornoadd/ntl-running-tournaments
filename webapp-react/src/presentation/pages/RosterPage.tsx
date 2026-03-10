@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useCompetitionData } from '../hooks/useCompetitionData';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
+import { resolveImagePath } from '../../utils/imagePath';
 
 export const RosterPage: React.FC = () => {
     const { data, loading } = useCompetitionData();
@@ -56,7 +57,7 @@ export const RosterPage: React.FC = () => {
                             {r.recent_images?.length > 0 && (
                                 <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
                                     {r.recent_images.slice(0, 4).map((img, i) => {
-                                        const cleanImg = img.startsWith('../member_results/') ? img.replace('../member_results/', '/member_results/') : img;
+                                        const cleanImg = resolveImagePath(img);
                                         return (
                                             <img key={i} src={cleanImg} alt="Run evidence" className="w-[40px] h-[40px] rounded-lg object-cover border border-white/10" />
                                         )
