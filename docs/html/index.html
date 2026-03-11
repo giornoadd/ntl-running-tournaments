@@ -14,7 +14,9 @@
       if (route) {
         params.delete('p');
         var remaining = params.toString();
-        var newUrl = route + (remaining ? '?' + remaining : '') + location.hash;
+        // Prepend the SPA base path so React Router's basename matches
+        var base = '/ntl-running-tournaments/html';
+        var newUrl = base + route + (remaining ? '?' + remaining : '') + location.hash;
         history.replaceState(null, '', newUrl);
       }
     })();
