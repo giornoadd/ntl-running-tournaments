@@ -148,7 +148,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🤖 AI Agent System
 
-Four AI agents manage tournament operations via slash commands:
+Six AI agents manage tournament operations via slash commands:
 
 | Agent | Command | Role |
 |---|---|---|
@@ -156,8 +156,12 @@ Four AI agents manage tournament operations via slash commands:
 | 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
+| 💻 Software Engineer | `/software-engineer` | Full data pipeline rebuild + React dashboard deploy |
+| 🔄 Update Dashboard | `/update-dashboard` | Quick dashboard rebuild — recalculate, build, push |
 
 📚 All agents share a [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) for research.
+
+🌐 **Live Dashboard:** [giornoadd.github.io/ntl-running-tournaments/html/](https://giornoadd.github.io/ntl-running-tournaments/html/)
 
 👉 **[Full Agent Guide](docs/AI%20Agent%20System.md)**
 

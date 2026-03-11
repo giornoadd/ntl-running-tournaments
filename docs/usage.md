@@ -30,10 +30,12 @@ Use the `/[slash command]` in your AI chat prompt to trigger the workflows defin
 
 | Agent Name | Trigger Command | Purpose & Output |
 | :--- | :--- | :--- |
-| **🏟️ Coach Assistant** | `/coach-assistant` | **Primary operations handler.** Use this to process a single dropped evidence screenshot. It handles OCR, file moving, stat aggregation, and personal/team statistic updates end-to-end. |
-| **🏃 Running Coach** | `/running-coach` | **Personalized training.** Reads a user's recent activity from `personal-statistics.md` and generates a structured weekly plan in their `running-plan.md` file. |
-| **📈 Sports Analyst** | `/sports-analyst` | **Visualization & Data.** Creates polished infographics, Top 5 tables, and standalone `.md` reports. Outputs strictly to `resources/tournaments-reports/`. |
-| **📣 Tournament Reporter** | `/tournament-reporter` | **Hype & Engagement.** Takes the raw data and creates stylized, motivational social media posts, LINE group recaps, and dramatic narratives. |
+| **🏟️ Coach Assistant** | `/coach-assistant` | **Primary operations handler.** Process a dropped evidence screenshot — OCR, file renaming, stat aggregation, CSV + personal-statistics updates. |
+| **🏃 Running Coach** | `/running-coach` | **Personalized training.** Post-run analysis, goal setting, progress reviews, and `running-plan.md` creation using VDOT & periodization methods. |
+| **📈 Sports Analyst** | `/sports-analyst` | **Visualization & Data.** Creates infographics, Top 5 tables, weekly/monthly recaps, README updates. Output: `resources/tournaments-reports/`. |
+| **📣 Tournament Reporter** | `/tournament-reporter` | **Hype & Engagement.** LINE messages, Facebook posts, standings boards, personal shoutouts — sports-broadcast energy! |
+| **💻 Software Engineer** | `/software-engineer` | **Full pipeline.** Regenerates data (CSV → data.js → data.json), builds React dashboard, deploys to GitHub Pages. |
+| **🔄 Update Dashboard** | `/update-dashboard` | **Quick rebuild.** Recalculate stats + build React app + push — lightweight alternative to `/software-engineer`. |
 
 ### Execution Example
 
@@ -41,4 +43,4 @@ Use the `/[slash command]` in your AI chat prompt to trigger the workflows defin
 USER: "I've dropped a new file in GIO's folder. @[/coach-assistant], please process."
 ```
 
-The system will autonomously execute the workflow: scan the directory, use the OCR python script for analysis, run renaming/watermarking shell commands, use search/replace tools for markdown files, and notify the user when the entry is finalized on the leaderboard.
+The system will autonomously execute the workflow: scan the directory, extract data from images, rename files, update CSV + personal-statistics, regenerate READMEs, rebuild the dashboard, and push to GitHub.

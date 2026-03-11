@@ -6,7 +6,7 @@ This document outlines the operational process of ingesting runner's evidence sc
 
 ## 🤖 AI Agent Workflows (Recommended)
 
-The tournament uses **4 AI agents** that automate most operations. Use these slash commands:
+The tournament uses **6 AI agents** that automate most operations. Use these slash commands:
 
 | Agent | Command | Use When |
 | :--- | :--- | :--- |
@@ -14,6 +14,8 @@ The tournament uses **4 AI agents** that automate most operations. Use these sla
 | 🏃 Running Coach | `/running-coach` | Analyze a member's run, set goals, create training plans |
 | 📈 Sports Analyst | `/sports-analyst` | Generate infographics, weekly recaps, personal stats cards, update README |
 | 📣 Tournament Reporter | `/tournament-reporter` | Write LINE/Facebook posts, standings boards, personal shoutouts |
+| 💻 Software Engineer | `/software-engineer` | Full data pipeline rebuild + React dashboard deploy to GitHub Pages |
+| 🔄 Update Dashboard | `/update-dashboard` | Quick dashboard rebuild — recalculate, build, push (no evidence processing) |
 
 All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a) and use the Local Ollama (qwen3:8b) skill for text processing.
 
@@ -24,15 +26,17 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 ### Single Image Submission:
 ```
 1. Drop screenshot into member_results/{Folder}/running-pics/
-2. /coach-assistant → Agent renames, extracts stats, updates CSV + personal-statistics.md
-3. /running-coach   → Agent analyzes the run and gives feedback
+2. /coach-assistant → Rename, extract stats, update CSV + personal-statistics.md
+3. /running-coach   → Analyze the run, give feedback
+4. /update-dashboard → Rebuild dashboard with new data + push to GitHub
 ```
 
 ### Weekly Update:
 ```
 1. /sports-analyst       → Validate data + generate weekly recap + infographic
 2. /tournament-reporter  → Write LINE message / standings board
-3. Share in LINE group
+3. /update-dashboard     → Refresh live dashboard
+4. Share in LINE group
 ```
 
 ### End of Quarter:
@@ -40,7 +44,8 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 1. /coach-assistant      → Tournament summary + duplicate check
 2. /sports-analyst       → Quarter infographic + update README
 3. /tournament-reporter  → Write quarter recap post
-4. /coach-assistant      → Google Drive sync
+4. /software-engineer    → Full pipeline rebuild + deploy
+5. /coach-assistant      → Google Drive sync
 ```
 
 ---
@@ -122,17 +127,19 @@ This script:
 python3 scripts/check_duplicates.py
 ```
 
-This script checks for:
-- Same person, same date, multiple entries (likely duplicate submission)
-- Same person, exact same distance on different dates (possible copy/paste error)
-
 ### G. Sync to Google Drive
 ```bash
 python3 scripts/upload_to_drive.py
 ```
 
-Uploads all files from `docs/`, `results/`, `member_results/`, and `resources/` to the shared Drive folder.
-- **Drive Folder:** [Running Competition 2026](https://drive.google.com/drive/folders/1FHh4VKxjO2zJF6Bx42UZgxv80cmpsEdG)
+Uploads all files to the shared Drive folder: [Running Competition 2026](https://drive.google.com/drive/folders/1FHh4VKxjO2zJF6Bx42UZgxv80cmpsEdG)
+
+### H. Build & Deploy Dashboard
+```bash
+./scripts/deploy_website.sh
+```
+
+This script: generates `data.js` → converts to `data.json` + roster files → builds React app → deploys to `docs/html/`. The dashboard reads all data dynamically — ACC-GAP, standings, roster profiles auto-update.
 
 ---
 
@@ -149,6 +156,8 @@ Uploads all files from `docs/`, `results/`, `member_results/`, and `resources/` 
 | Evidence screenshots | `member_results/{Folder}/running-pics/` |
 | Infographic reports | `resources/tournaments-reports/` |
 | NotebookLM logs | `resources/notebooklm-log/` |
+| **Live Dashboard** | `docs/html/` → [GitHub Pages](https://giornoadd.github.io/ntl-running-tournaments/html/) |
+| **Dashboard data** | `docs/html/data.js`, `webapp-react/public/data.json` |
 
 ---
-*Last updated: 2026-02-28*
+*Last updated: 2026-03-11*
