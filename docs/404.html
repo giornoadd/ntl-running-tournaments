@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages SPA redirect hack for project pages
+    // When GitHub Pages can't find a file, it serves this 404.html instead.
+    // We redirect to the SPA entry point (html/index.html) with the route
+    // encoded as a query parameter so the app can restore it.
+    var pathSegments = location.pathname.split('/');
+    // For project page: /ntl-running-tournaments/html/calendar
+    // pathSegments = ['', 'ntl-running-tournaments', 'html', 'calendar']
+    // We need to keep the repo name segment, and extract the route after /html/
+    var repo = '/ntl-running-tournaments';
+    var spaBase = repo + '/html/';
+    var fullPath = location.pathname;
+
+    // Extract the SPA route (everything after /ntl-running-tournaments/html/)
+    var route = '/';
+    if (fullPath.indexOf(spaBase) === 0) {
+      route = '/' + fullPath.slice(spaBase.length);
+    }
+
+    var search = location.search ? '&' + location.search.slice(1) : '';
+    location.replace(spaBase + '?p=' + encodeURIComponent(route) + search + location.hash);
+  </script>
+</head>
+
+<body>
+  <p>Redirecting&hellip;</p>
+</body>
+
+</html>
