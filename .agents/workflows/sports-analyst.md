@@ -352,6 +352,31 @@ Example: 8:30/km × 21.1 = 2:59:21 × 1.05 ≈ 3:08:18
 ---
 
 
+## Content Type 6: 📊 Dashboard Data Awareness (ข้อมูล Dashboard)
+
+**Trigger:** After updating CSVs, standings, or any competition data that feeds the live dashboard.
+
+> [!IMPORTANT]
+> The React dashboard at `docs/html/` reads **all data dynamically** from `data.json` — no hardcoded values.
+>
+> **Data Pipeline:**
+> ```
+> results/*.csv → build_website_data.py → data.js → build_react_assets.py → data.json
+> ```
+>
+> **Dashboard pages powered by data.json:**
+> - **StandingsPage**: Team totals, avg/person, progress bars
+> - **CalendarPage → ACC-GAP**: Weekly gap auto-computed from `activities[].mando_accum / it_accum`
+> - **CalendarPage → Avg Gap/Person**: Gap ÷ 10 members, shown in Q1 week table
+> - **History**: Daily activity feed with runner details
+> - **Roster**: Individual member profiles from `rosters/*.json`
+
+### After Any Data Update:
+Always run `/software-engineer` or `/update-dashboard` to rebuild and deploy the website so the dashboard reflects the latest data.
+
+---
+
+
 | Aspect | Guideline |
 |---|---|
 | **Language** | Thai (หัวข้อ) + English (data labels) |

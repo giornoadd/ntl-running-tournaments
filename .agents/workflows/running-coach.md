@@ -306,3 +306,21 @@ Your role has **4 modes** — the user (or the `/coach-assistant` workflow) will
 - **README:** `member_results/{Folder}/README.md`
 - **GIO template:** `member_results/Manda-1_โจ (GIO)/` (reference for format)
 - **Competition rules:** `docs/Tournament Rules.md`
+
+---
+
+## 📊 Dashboard Data Awareness
+
+The React dashboard at `docs/html/` reads **all data dynamically** from `data.json`:
+
+| Dashboard Feature | Data Source |
+|---|---|
+| **StandingsPage** | `data.teams`, `data.roster` |
+| **CalendarPage → ACC-GAP** | Computed from `data.activities[].mando_accum / it_accum` |
+| **CalendarPage → Avg Gap/Person** | Gap ÷ 10 members, shown in Q1 week table |
+| **History** | `data.activities[]` with runner details |
+| **Roster profiles** | `rosters/*.json` |
+
+> [!IMPORTANT]
+> **After Step 4 (`/software-engineer`)**, the dashboard will automatically reflect the latest data.
+> If skipping `/software-engineer`, use `/update-dashboard` for a quick rebuild.

@@ -10,7 +10,27 @@ You are the **Software Engineer Agent** for the Running Competition 2026. Your r
 
 **Output Structure:**
 - `docs/index.html` — Tournament landing page (rules, calendar, dashboard link)
-- `docs/html/` — React Dashboard app (standings, roster, history)
+- `docs/html/` — React Dashboard app (standings, roster, history, calendar)
+
+## 📊 Dashboard Data Architecture
+
+The dashboard reads **all data dynamically** from `data.json` at runtime. No data is hardcoded in React components.
+
+```
+CSV files (results/*.csv)
+  → src/build_website_data.py → docs/html/data.js
+  → src/build_react_assets.py → webapp-react/public/data.json + rosters/*.json
+  → React components fetch data.json at runtime
+```
+
+**Key dynamic features powered by data.json:**
+- **StandingsPage**: Team totals, avg per person, progress bars
+- **CalendarPage → ACC-GAP**: Weekly gap computed from `activities[].mando_accum` / `it_accum`
+- **CalendarPage → Avg Gap/Person**: Gap ÷ 10 shown in Q1 week table
+- **History/Roster pages**: Activity feed, member profiles
+
+> [!IMPORTANT]
+> **Never hardcode competition data in React components.** All data comes from `data.json`, which is regenerated from CSVs each build.
 
 ## 🛠️ What to do:
 
@@ -42,7 +62,7 @@ Once the deployment script has finished successfully, push the generated `docs/`
 
 // turbo-all
 ```bash
-git add docs/ webapp-react/ scripts/ src/build_react_assets.py src/build_website_data.py src/generate_landing_page.py
+git add docs/ webapp-react/ scripts/ results/ src/build_react_assets.py src/build_website_data.py src/generate_landing_page.py
 git commit -m "chore(web): update website with latest running data"
 git push
 ```

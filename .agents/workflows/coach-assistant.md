@@ -151,6 +151,13 @@ Validation warnings:
 - Walk < 2.0 km → ⚠️ Below minimum
 - Duplicate date → ⚠️ Already exists
 
+#### 8. Deploy to Dashboard (อัพเดต Dashboard)
+
+> [!IMPORTANT]
+> **หลังจาก process evidence เสร็จแล้ว ต้องอัพเดต Dashboard เสมอ:**
+> - Run `/update-dashboard` (quick rebuild + push) หรือ `/software-engineer` (full pipeline)
+> - Dashboard reads all data dynamically from `data.json` — rebuilding ensures ACC-GAP, standings, and activity feeds are up-to-date
+
 ---
 
 ## Mode 2: 📊 Tournament Summary (สรุปผล Tournament)
