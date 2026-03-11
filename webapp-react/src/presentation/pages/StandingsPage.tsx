@@ -17,6 +17,21 @@ export const StandingsPage: React.FC = () => {
     const itPct = totalDist > 0 ? (itDist / totalDist) * 100 : 50;
     const leadingTeam = mandoDist >= itDist ? "Mandalorian" : "IT System";
 
+    const mandoAvg = data.teams["Mandalorian"].avg_distance;
+    const itAvg = data.teams["IT System"].avg_distance;
+    const gap = itAvg - mandoAvg;
+    const absGap = Math.abs(gap);
+    const gapLeader = gap > 0 ? 'IT System' : 'Mandalorian';
+    const gapIcon = gap > 0 ? '💻' : '🪖';
+
+    // Calculate trend from activities (last 5 entries)
+    const sorted = [...data.activities].sort((a, b) => a.date.localeCompare(b.date));
+    const recentGaps = sorted.slice(-5).map(a => a.it_avg - a.mando_avg);
+    const olderGaps = sorted.slice(-10, -5).map(a => a.it_avg - a.mando_avg);
+    const recentAvg = recentGaps.length > 0 ? recentGaps.reduce((s, v) => s + v, 0) / recentGaps.length : 0;
+    const olderAvg = olderGaps.length > 0 ? olderGaps.reduce((s, v) => s + v, 0) / olderGaps.length : recentAvg;
+    const trendDelta = recentAvg - olderAvg; // negative = gap shrinking (Manda catching up)
+
     const top5 = [...data.roster].sort((a, b) => b.total_distance - a.total_distance).slice(0, 5);
 
     return (
@@ -39,6 +54,46 @@ export const StandingsPage: React.FC = () => {
                     <div className="h-full bg-manda/20 transition-all duration-1000 flex items-center px-4" style={{ width: `${mandoPct}%`, boxShadow: '0 0 20px rgba(0,255,136,0.3) inset' }}></div>
                     <div className="h-full bg-it/20 transition-all duration-1000 flex items-center px-4 justify-end" style={{ width: `${itPct}%`, boxShadow: '0 0 20px rgba(0,204,255,0.3) inset' }}></div>
                     <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-white/20 z-10"></div>
+                </div>
+            </Card>
+
+            {/* Average Gap Between Teams */}
+            <Card>
+                <h2 className="text-xl font-heading mb-4">📊 Team Average Gap <span className="text-sm font-normal text-textMuted">(per member)</span></h2>
+                <div className="grid grid-cols-3 gap-4 items-center">
+                    {/* Mandalorian Avg */}
+                    <div className="text-center">
+                        <div className="text-2xl font-black text-manda">{mandoAvg.toFixed(2)}</div>
+                        <div className="text-xs text-textMuted mt-1">🪖 km/member</div>
+                    </div>
+
+                    {/* Gap Display */}
+                    <div className="text-center">
+                        <div className={`text-3xl font-black ${gap > 0 ? 'text-it' : 'text-manda'}`}>
+                            {absGap.toFixed(2)}
+                        </div>
+                        <div className="text-xs text-textMuted mt-1">km gap</div>
+                        <div className="flex items-center justify-center gap-1 mt-2">
+                            <span className="text-xs">{gapIcon} {gapLeader} leads</span>
+                        </div>
+                    </div>
+
+                    {/* IT System Avg */}
+                    <div className="text-center">
+                        <div className="text-2xl font-black text-it">{itAvg.toFixed(2)}</div>
+                        <div className="text-xs text-textMuted mt-1">💻 km/member</div>
+                    </div>
+                </div>
+
+                {/* Trend indicator */}
+                <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-center gap-2">
+                    {trendDelta < -0.5 ? (
+                        <span className="text-sm text-manda">📉 Gap shrinking — Mandalorian closing in!</span>
+                    ) : trendDelta > 0.5 ? (
+                        <span className="text-sm text-it">📈 Gap widening — IT System pulling ahead!</span>
+                    ) : (
+                        <span className="text-sm text-textMuted">➡️ Gap stable — neck and neck!</span>
+                    )}
                 </div>
             </Card>
 
