@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 584.74 km | 631.45 km | 💻 **IT System** |
-| **Average / Person** | 58.47 km | 63.14 km | 💻 **IT System** |
+| **Total Distance** | 634.10 km | 646.86 km | 💻 **IT System** |
+| **Average / Person** | 63.41 km | 64.69 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **4.67 km/person** 🏆
+> 💻 **IT System** leads by **1.28 km/person** 🏆 Gap is closing! 🔥
 
 <p align="center">
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 158.66 km<br>
-  💻 IT System: 107.15 km<br>
-  <i>(🪖 Manda is crushing March!)</i>
+  🪖 Mandalorian: 193.73 km<br>
+  💻 IT System: 122.56 km<br>
+  <i>(🪖 Manda is crushing March! +71 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 208.94 km | IT: 245.88 km · **Feb** — Manda: 217.14 km | IT: 278.42 km · **Mar** — Manda: 158.66 km | IT: 107.15 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.82 km | IT: 278.42 km · **Mar** — Manda: 193.73 km | IT: 122.56 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ---
@@ -37,7 +37,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 🥇 1 | **GIO** | 🪖 Mandalorian | 366.14 km | 56 days |
 | 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 37 days |
 | 🥉 3 | **O** | 💻 IT System | 144.91 km | 22 days |
-| 🏅 4 | **Boy** | 💻 IT System | 111.92 km | 18 days |
+| 🏅 4 | **Boy** | 💻 IT System | 119.30 km | 19 days |
 | 🏅 5 | **Sand** | 🪖 Mandalorian | 72.51 km | 23 days |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
@@ -54,13 +54,13 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 57.42 km | 9d | |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 23.04 km | 5d | |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 37.00 km | 6d | |
-| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 72.51 km | 23d | 🏅 Entered Top 5! |
+| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 72.51 km | 23d | 🏅 Top 5! |
 | Manda-6 | 🏃🏻‍♂️ เป๊ก (peck) | 0.00 km | 0d | 💤 MIA |
 | Manda-7 | 🏃🏻‍♂️ หนึ่ง (Neung) | 0.00 km | 0d | 💤 MIA |
-| Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 12.76 km | 1d | |
+| Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 37.44 km | 5d | 🔥 +24.68 km today! |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
 | Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 20.74 km | 7d | |
-| **Team Total** | | **584.74 km** | | |
+| **Team Total** | | **634.10 km** | | |
 
 <br>
 
@@ -71,14 +71,14 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | ITSystem-1 | 🏃🏻‍♂️ โอ๊ต (Oat) | 58.97 km | 11d | |
 | ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 44.89 km | 6d | |
 | ITSystem-3 | 🏃🏻‍♂️ โอ (O) | 144.91 km | 22d | 🥉 Top 3! |
-| ITSystem-4 | 🏃🏻‍♂️ ปาล์ม (Palm) | 55.64 km | 13d | |
+| ITSystem-4 | 🏃🏻‍♂️ ปาล์ม (Palm) | 59.65 km | 14d | 🔥 +4.01 km today! |
 | ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 16.70 km | 4d | |
 | ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 192.78 km | 37d | 🥈 Top 2 |
 | ITSystem-7 | 🏃🏻‍♂️ เต (Tae) | 0.00 km | 0d | 💤 MIA |
-| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 111.92 km | 18d | 🏅 Top 4 |
+| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 119.30 km | 19d | 🏅 Top 4 |
 | ITSystem-9 | 🏃🏻‍♂️ ต้น (Ton) | 41.62 km | 16d | |
 | ITSystem-10 | 🏃🏻‍♂️ แพน (PAN) | 4.21 km | 2d | |
-| **Team Total** | | **631.45 km** | | |
+| **Team Total** | | **646.86 km** | | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -88,7 +88,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Quarter | Period | Weeks | Status |
 | :---: | :--- | :---: | :--- |
-| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 10)** |
+| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 11)** |
 | **Q2** ⬜ | 1 Apr – 30 Jun 2026 | 13 | Upcoming |
 | **Q3** ⬜ | 1 Jul – 30 Sep 2026 | 13 | Upcoming |
 | **Q4** ⬜ | 1 Oct – 31 Dec 2026 | 13 | Upcoming |
