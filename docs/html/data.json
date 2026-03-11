@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11 10:38:29",
+  "last_updated": "2026-03-11 10:44:08",
   "teams": {
     "Mandalorian": {
-      "total_distance": 584.74,
+      "total_distance": 609.42,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 58.47
+      "avg_distance": 60.94
     },
     "IT System": {
       "total_distance": 638.83,
@@ -270,6 +270,34 @@
       }
     },
     {
+      "nickname": "Fuse",
+      "thai_name": "ฟิวส์",
+      "team": "Mandalorian",
+      "total_distance": 37.44,
+      "active_days": 5,
+      "image_count": 6,
+      "recent_images": [
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03-run2.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24-run.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 25.84,
+        "walk_dist": 12.76,
+        "run_count": 5,
+        "walk_count": 1,
+        "total_sessions": 6,
+        "best_pace": 440,
+        "best_pace_activity": "Morning Run",
+        "best_pace_date": "2026-03-03",
+        "longest_run_dist": 7.38,
+        "longest_run_activity": "Morning Run",
+        "longest_run_date": "2026-02-07"
+      }
+    },
+    {
       "nickname": "Em",
       "thai_name": "เอ็ม",
       "team": "Mandalorian",
@@ -438,30 +466,6 @@
       }
     },
     {
-      "nickname": "Fuse",
-      "thai_name": "ฟิวส์",
-      "team": "Mandalorian",
-      "total_distance": 12.76,
-      "active_days": 1,
-      "image_count": 1,
-      "recent_images": [
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
-      ],
-      "stats_details": {
-        "run_dist": 0.0,
-        "walk_dist": 12.76,
-        "run_count": 0,
-        "walk_count": 1,
-        "total_sessions": 1,
-        "best_pace": null,
-        "best_pace_activity": "",
-        "best_pace_date": "",
-        "longest_run_dist": 0.0,
-        "longest_run_activity": "",
-        "longest_run_date": ""
-      }
-    },
-    {
       "nickname": "PAN",
       "thai_name": "แพน",
       "team": "IT System",
@@ -595,9 +599,9 @@
       ],
       "mando_daily": 16.14,
       "it_daily": 7.38,
-      "mando_accum": 584.74,
+      "mando_accum": 609.42,
       "it_accum": 638.83,
-      "mando_avg": 58.47,
+      "mando_avg": 60.94,
       "it_avg": 63.88
     },
     {
@@ -615,9 +619,9 @@
       ],
       "mando_daily": 2.26,
       "it_daily": 0.0,
-      "mando_accum": 568.6,
+      "mando_accum": 593.28,
       "it_accum": 631.45,
-      "mando_avg": 56.86,
+      "mando_avg": 59.33,
       "it_avg": 63.14
     },
     {
@@ -645,9 +649,9 @@
       ],
       "mando_daily": 9.4,
       "it_daily": 0.0,
-      "mando_accum": 566.34,
+      "mando_accum": 591.02,
       "it_accum": 631.45,
-      "mando_avg": 56.63,
+      "mando_avg": 59.1,
       "it_avg": 63.14
     },
     {
@@ -689,6 +693,14 @@
           ]
         },
         {
+          "name": "Fuse",
+          "distance": 5.91,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg"
+          ]
+        },
+        {
           "name": "Chan",
           "distance": 5.47,
           "team": "Mandalorian",
@@ -721,11 +733,11 @@
           ]
         }
       ],
-      "mando_daily": 28.13,
+      "mando_daily": 34.04,
       "it_daily": 34.49,
-      "mando_accum": 556.94,
+      "mando_accum": 581.62,
       "it_accum": 631.45,
-      "mando_avg": 55.69,
+      "mando_avg": 58.16,
       "it_avg": 63.14
     },
     {
@@ -777,9 +789,9 @@
       ],
       "mando_daily": 25.36,
       "it_daily": 12.04,
-      "mando_accum": 528.81,
+      "mando_accum": 547.58,
       "it_accum": 596.96,
-      "mando_avg": 52.88,
+      "mando_avg": 54.76,
       "it_avg": 59.7
     },
     {
@@ -831,9 +843,9 @@
       ],
       "mando_daily": 21.7,
       "it_daily": 10.01,
-      "mando_accum": 503.45,
+      "mando_accum": 522.22,
       "it_accum": 584.92,
-      "mando_avg": 50.34,
+      "mando_avg": 52.22,
       "it_avg": 58.49
     },
     {
@@ -891,9 +903,9 @@
       ],
       "mando_daily": 7.01,
       "it_daily": 18.79,
-      "mando_accum": 481.75,
+      "mando_accum": 500.52,
       "it_accum": 574.91,
-      "mando_avg": 48.17,
+      "mando_avg": 50.05,
       "it_avg": 57.49
     },
     {
@@ -943,6 +955,14 @@
           ]
         },
         {
+          "name": "Fuse",
+          "distance": 4.78,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg"
+          ]
+        },
+        {
           "name": "Mos",
           "distance": 2.95,
           "team": "Mandalorian",
@@ -968,11 +988,11 @@
           ]
         }
       ],
-      "mando_daily": 32.18,
+      "mando_daily": 36.96,
       "it_daily": 11.1,
-      "mando_accum": 474.74,
+      "mando_accum": 493.51,
       "it_accum": 556.12,
-      "mando_avg": 47.47,
+      "mando_avg": 49.35,
       "it_avg": 55.61
     },
     {
@@ -1015,9 +1035,9 @@
       ],
       "mando_daily": 14.24,
       "it_daily": 10.01,
-      "mando_accum": 442.56,
+      "mando_accum": 456.55,
       "it_accum": 545.02,
-      "mando_avg": 44.26,
+      "mando_avg": 45.65,
       "it_avg": 54.5
     },
     {
@@ -1051,9 +1071,9 @@
       ],
       "mando_daily": 2.24,
       "it_daily": 10.71,
-      "mando_accum": 428.32,
+      "mando_accum": 442.31,
       "it_accum": 535.01,
-      "mando_avg": 42.83,
+      "mando_avg": 44.23,
       "it_avg": 53.5
     },
     {
@@ -1113,9 +1133,9 @@
       ],
       "mando_daily": 23.33,
       "it_daily": 11.51,
-      "mando_accum": 426.08,
+      "mando_accum": 440.07,
       "it_accum": 524.3,
-      "mando_avg": 42.61,
+      "mando_avg": 44.01,
       "it_avg": 52.43
     },
     {
@@ -1141,9 +1161,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 18.01,
-      "mando_accum": 402.75,
+      "mando_accum": 416.74,
       "it_accum": 512.79,
-      "mando_avg": 40.27,
+      "mando_avg": 41.67,
       "it_avg": 51.28
     },
     {
@@ -1171,9 +1191,9 @@
       ],
       "mando_daily": 9.53,
       "it_daily": 0.0,
-      "mando_accum": 402.75,
+      "mando_accum": 416.74,
       "it_accum": 494.78,
-      "mando_avg": 40.27,
+      "mando_avg": 41.67,
       "it_avg": 49.48
     },
     {
@@ -1209,9 +1229,9 @@
       ],
       "mando_daily": 9.46,
       "it_daily": 4.62,
-      "mando_accum": 393.22,
+      "mando_accum": 407.21,
       "it_accum": 494.78,
-      "mando_avg": 39.32,
+      "mando_avg": 40.72,
       "it_avg": 49.48
     },
     {
@@ -1238,9 +1258,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 14.02,
-      "mando_accum": 383.76,
+      "mando_accum": 397.75,
       "it_accum": 490.16,
-      "mando_avg": 38.38,
+      "mando_avg": 39.77,
       "it_avg": 49.02
     },
     {
@@ -1267,9 +1287,9 @@
       ],
       "mando_daily": 12.93,
       "it_daily": 0.0,
-      "mando_accum": 383.76,
+      "mando_accum": 397.75,
       "it_accum": 476.14,
-      "mando_avg": 38.38,
+      "mando_avg": 39.77,
       "it_avg": 47.61
     },
     {
@@ -1311,9 +1331,9 @@
       ],
       "mando_daily": 2.26,
       "it_daily": 17.03,
-      "mando_accum": 370.83,
+      "mando_accum": 384.82,
       "it_accum": 476.14,
-      "mando_avg": 37.08,
+      "mando_avg": 38.48,
       "it_avg": 47.61
     },
     {
@@ -1356,9 +1376,9 @@
       ],
       "mando_daily": 19.64,
       "it_daily": 13.54,
-      "mando_accum": 368.57,
+      "mando_accum": 382.56,
       "it_accum": 459.11,
-      "mando_avg": 36.86,
+      "mando_avg": 38.26,
       "it_avg": 45.91
     },
     {
@@ -1385,9 +1405,9 @@
       ],
       "mando_daily": 8.45,
       "it_daily": 4.68,
-      "mando_accum": 348.93,
+      "mando_accum": 362.92,
       "it_accum": 445.57,
-      "mando_avg": 34.89,
+      "mando_avg": 36.29,
       "it_avg": 44.56
     },
     {
@@ -1413,9 +1433,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 4.89,
-      "mando_accum": 340.48,
+      "mando_accum": 354.47,
       "it_accum": 440.89,
-      "mando_avg": 34.05,
+      "mando_avg": 35.45,
       "it_avg": 44.09
     },
     {
@@ -1450,9 +1470,9 @@
       ],
       "mando_daily": 11.28,
       "it_daily": 4.68,
-      "mando_accum": 340.48,
+      "mando_accum": 354.47,
       "it_accum": 436.0,
-      "mando_avg": 34.05,
+      "mando_avg": 35.45,
       "it_avg": 43.6
     },
     {
@@ -1478,9 +1498,9 @@
       ],
       "mando_daily": 3.38,
       "it_daily": 4.74,
-      "mando_accum": 329.2,
+      "mando_accum": 343.19,
       "it_accum": 431.32,
-      "mando_avg": 32.92,
+      "mando_avg": 34.32,
       "it_avg": 43.13
     },
     {
@@ -1524,9 +1544,9 @@
       ],
       "mando_daily": 10.79,
       "it_daily": 7.99,
-      "mando_accum": 325.82,
+      "mando_accum": 339.81,
       "it_accum": 426.58,
-      "mando_avg": 32.58,
+      "mando_avg": 33.98,
       "it_avg": 42.66
     },
     {
@@ -1552,9 +1572,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 6.28,
-      "mando_accum": 315.03,
+      "mando_accum": 329.02,
       "it_accum": 418.59,
-      "mando_avg": 31.5,
+      "mando_avg": 32.9,
       "it_avg": 41.86
     },
     {
@@ -1597,9 +1617,9 @@
       ],
       "mando_daily": 18.19,
       "it_daily": 10.91,
-      "mando_accum": 315.03,
+      "mando_accum": 329.02,
       "it_accum": 412.31,
-      "mando_avg": 31.5,
+      "mando_avg": 32.9,
       "it_avg": 41.23
     },
     {
@@ -1633,9 +1653,9 @@
       ],
       "mando_daily": 4.34,
       "it_daily": 13.1,
-      "mando_accum": 296.84,
+      "mando_accum": 310.83,
       "it_accum": 401.4,
-      "mando_avg": 29.68,
+      "mando_avg": 31.08,
       "it_avg": 40.14
     },
     {
@@ -1680,9 +1700,9 @@
       ],
       "mando_daily": 9.5,
       "it_daily": 7.89,
-      "mando_accum": 292.5,
+      "mando_accum": 306.49,
       "it_accum": 388.3,
-      "mando_avg": 29.25,
+      "mando_avg": 30.65,
       "it_avg": 38.83
     },
     {
@@ -1717,9 +1737,9 @@
       ],
       "mando_daily": 15.5,
       "it_daily": 0.0,
-      "mando_accum": 283.0,
+      "mando_accum": 296.99,
       "it_accum": 380.41,
-      "mando_avg": 28.3,
+      "mando_avg": 29.7,
       "it_avg": 38.04
     },
     {
@@ -1745,9 +1765,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 4.13,
-      "mando_accum": 267.5,
+      "mando_accum": 281.49,
       "it_accum": 380.41,
-      "mando_avg": 26.75,
+      "mando_avg": 28.15,
       "it_avg": 38.04
     },
     {
@@ -1783,9 +1803,9 @@
       ],
       "mando_daily": 7.08,
       "it_daily": 13.48,
-      "mando_accum": 267.5,
+      "mando_accum": 281.49,
       "it_accum": 376.28,
-      "mando_avg": 26.75,
+      "mando_avg": 28.15,
       "it_avg": 37.63
     },
     {
@@ -1827,9 +1847,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 17.85,
-      "mando_accum": 260.42,
+      "mando_accum": 274.41,
       "it_accum": 362.8,
-      "mando_avg": 26.04,
+      "mando_avg": 27.44,
       "it_avg": 36.28
     },
     {
@@ -1843,6 +1863,14 @@
           "images": [
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07.jpg",
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-feb-07_1.jpg"
+          ]
+        },
+        {
+          "name": "Fuse",
+          "distance": 7.38,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-feb-07.jpg"
           ]
         },
         {
@@ -1878,11 +1906,11 @@
           ]
         }
       ],
-      "mando_daily": 11.44,
+      "mando_daily": 18.82,
       "it_daily": 20.79,
-      "mando_accum": 260.42,
+      "mando_accum": 274.41,
       "it_accum": 344.95,
-      "mando_avg": 26.04,
+      "mando_avg": 27.44,
       "it_avg": 34.49
     },
     {
@@ -1908,9 +1936,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 12.4,
-      "mando_accum": 248.98,
+      "mando_accum": 255.59,
       "it_accum": 324.16,
-      "mando_avg": 24.9,
+      "mando_avg": 25.56,
       "it_avg": 32.42
     },
     {
@@ -1945,9 +1973,9 @@
       ],
       "mando_daily": 6.24,
       "it_daily": 7.18,
-      "mando_accum": 248.98,
+      "mando_accum": 255.59,
       "it_accum": 311.76,
-      "mando_avg": 24.9,
+      "mando_avg": 25.56,
       "it_avg": 31.18
     },
     {
@@ -2005,9 +2033,9 @@
       ],
       "mando_daily": 2.11,
       "it_daily": 22.47,
-      "mando_accum": 242.74,
+      "mando_accum": 249.35,
       "it_accum": 304.58,
-      "mando_avg": 24.27,
+      "mando_avg": 24.94,
       "it_avg": 30.46
     },
     {
@@ -2049,9 +2077,9 @@
       ],
       "mando_daily": 9.94,
       "it_daily": 3.86,
-      "mando_accum": 240.63,
+      "mando_accum": 247.24,
       "it_accum": 282.11,
-      "mando_avg": 24.06,
+      "mando_avg": 24.72,
       "it_avg": 28.21
     },
     {
@@ -2093,9 +2121,9 @@
       ],
       "mando_daily": 8.47,
       "it_daily": 13.43,
-      "mando_accum": 230.69,
+      "mando_accum": 237.3,
       "it_accum": 278.25,
-      "mando_avg": 23.07,
+      "mando_avg": 23.73,
       "it_avg": 27.82
     },
     {
@@ -2153,9 +2181,9 @@
       ],
       "mando_daily": 13.28,
       "it_daily": 18.94,
-      "mando_accum": 222.22,
+      "mando_accum": 228.83,
       "it_accum": 264.82,
-      "mando_avg": 22.22,
+      "mando_avg": 22.88,
       "it_avg": 26.48
     },
     {
@@ -2205,9 +2233,9 @@
       ],
       "mando_daily": 15.71,
       "it_daily": 12.37,
-      "mando_accum": 208.94,
+      "mando_accum": 215.55,
       "it_accum": 245.88,
-      "mando_avg": 20.89,
+      "mando_avg": 21.56,
       "it_avg": 24.59
     },
     {
@@ -2234,9 +2262,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 9.95,
-      "mando_accum": 193.23,
+      "mando_accum": 199.84,
       "it_accum": 233.51,
-      "mando_avg": 19.32,
+      "mando_avg": 19.98,
       "it_avg": 23.35
     },
     {
@@ -2287,9 +2315,9 @@
       ],
       "mando_daily": 6.09,
       "it_daily": 19.88,
-      "mando_accum": 193.23,
+      "mando_accum": 199.84,
       "it_accum": 223.56,
-      "mando_avg": 19.32,
+      "mando_avg": 19.98,
       "it_avg": 22.36
     },
     {
@@ -2315,9 +2343,9 @@
       ],
       "mando_daily": 0.0,
       "it_daily": 7.13,
-      "mando_accum": 187.14,
+      "mando_accum": 193.75,
       "it_accum": 203.68,
-      "mando_avg": 18.71,
+      "mando_avg": 19.38,
       "it_avg": 20.37
     },
     {
@@ -2376,9 +2404,9 @@
       ],
       "mando_daily": 4.68,
       "it_daily": 26.93,
-      "mando_accum": 187.14,
+      "mando_accum": 193.75,
       "it_accum": 196.55,
-      "mando_avg": 18.71,
+      "mando_avg": 19.38,
       "it_avg": 19.65
     },
     {
@@ -2420,9 +2448,9 @@
       ],
       "mando_daily": 5.02,
       "it_daily": 13.14,
-      "mando_accum": 182.46,
+      "mando_accum": 189.07,
       "it_accum": 169.62,
-      "mando_avg": 18.25,
+      "mando_avg": 18.91,
       "it_avg": 16.96
     },
     {
@@ -2473,9 +2501,9 @@
       ],
       "mando_daily": 15.17,
       "it_daily": 7.01,
-      "mando_accum": 177.44,
+      "mando_accum": 184.05,
       "it_accum": 156.48,
-      "mando_avg": 17.74,
+      "mando_avg": 18.41,
       "it_avg": 15.65
     },
     {
@@ -2485,6 +2513,14 @@
         {
           "name": "Fuse",
           "distance": 12.76,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
+          ]
+        },
+        {
+          "name": "Fuse",
+          "distance": 6.61,
           "team": "Mandalorian",
           "images": [
             "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
@@ -2556,11 +2592,11 @@
           ]
         }
       ],
-      "mando_daily": 42.2,
+      "mando_daily": 48.81,
       "it_daily": 14.19,
-      "mando_accum": 162.27,
+      "mando_accum": 168.88,
       "it_accum": 149.47,
-      "mando_avg": 16.23,
+      "mando_avg": 16.89,
       "it_avg": 14.95
     },
     {
