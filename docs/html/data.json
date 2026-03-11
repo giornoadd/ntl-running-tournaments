@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11 10:44:08",
+  "last_updated": "2026-03-11 10:55:34",
   "teams": {
     "Mandalorian": {
       "total_distance": 609.42,
@@ -9,11 +9,11 @@
       "avg_distance": 60.94
     },
     "IT System": {
-      "total_distance": 638.83,
+      "total_distance": 642.84,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 63.88
+      "avg_distance": 64.28
     }
   },
   "roster": [
@@ -158,6 +158,34 @@
       }
     },
     {
+      "nickname": "Palm",
+      "thai_name": "ปาล์ม",
+      "team": "IT System",
+      "total_distance": 59.65,
+      "active_days": 14,
+      "image_count": 14,
+      "recent_images": [
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg",
+        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 38.11999999999999,
+        "walk_dist": 21.53,
+        "run_count": 10,
+        "walk_count": 4,
+        "total_sessions": 14,
+        "best_pace": 668,
+        "best_pace_activity": "5km Long Session",
+        "best_pace_date": "2026-03-08",
+        "longest_run_dist": 5.01,
+        "longest_run_activity": "5km Long Session",
+        "longest_run_date": "2026-03-08"
+      }
+    },
+    {
       "nickname": "Oat",
       "thai_name": "โอ๊ต",
       "team": "IT System",
@@ -211,34 +239,6 @@
         "longest_run_dist": 8.68,
         "longest_run_activity": "7km Long Run",
         "longest_run_date": "2026-03-07"
-      }
-    },
-    {
-      "nickname": "Palm",
-      "thai_name": "ปาล์ม",
-      "team": "IT System",
-      "total_distance": 55.64,
-      "active_days": 13,
-      "image_count": 13,
-      "recent_images": [
-        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg",
-        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg",
-        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg",
-        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-29.jpg",
-        "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-27.jpg"
-      ],
-      "stats_details": {
-        "run_dist": 34.10999999999999,
-        "walk_dist": 21.53,
-        "run_count": 9,
-        "walk_count": 4,
-        "total_sessions": 13,
-        "best_pace": 668,
-        "best_pace_activity": "5km Long Session",
-        "best_pace_date": "2026-03-08",
-        "longest_run_dist": 5.01,
-        "longest_run_activity": "5km Long Session",
-        "longest_run_date": "2026-03-08"
       }
     },
     {
@@ -595,14 +595,22 @@
           "images": [
             "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-11.jpg"
           ]
+        },
+        {
+          "name": "Palm",
+          "distance": 4.01,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg"
+          ]
         }
       ],
       "mando_daily": 16.14,
-      "it_daily": 7.38,
+      "it_daily": 11.39,
       "mando_accum": 609.42,
-      "it_accum": 638.83,
+      "it_accum": 642.84,
       "mando_avg": 60.94,
-      "it_avg": 63.88
+      "it_avg": 64.28
     },
     {
       "date": "2026-03-10",

@@ -17,5 +17,6 @@
 | 2026-02-28 | Walking | 5.50 km | 1:02:48 | 11:25/km | N/A | N/A | N/A | palm-2026-feb-28.jpg |
 | 2026-03-01 | Walking (Thawi Watthana) | 6.01 km | 1:07:46 | 11:17/km | N/A | N/A | N/A | palm-2026-mar-01.jpg |
 | 2026-03-08 | 5km Long Session | 5.01 km | 55:47 | 11:08/km | N/A | N/A | N/A | palm-2026-mar-08.jpg |
+| 2026-03-11 | Treadmill Running | 4.01 km | 46:35 | 11:38/km | N/A | N/A | N/A | palm-2026-mar-11.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)
