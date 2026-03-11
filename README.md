@@ -18,7 +18,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 > 💻 **IT System** leads by **1.28 km/person** 🏆 Gap is closing! 🔥
 
-<p align="center">
+<p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
   🪖 Mandalorian: 193.73 km<br>
   💻 IT System: 122.56 km<br>
@@ -27,6 +27,26 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 > Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.82 km | IT: 278.42 km · **Mar** — Manda: 193.73 km | IT: 122.56 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
+
+### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
+
+| Week | Dates | 🪖 Manda | 💻 IT | Gap (km) | Leader | Trend |
+| :---: | :--- | ---: | ---: | ---: | :--- | :---: |
+| 1 | 1–3 Jan | 16.78 | 0.00 | −16.78 | 🪖 Manda | 🟢 |
+| 2 | 4–10 Jan | 39.07 | 32.90 | −6.17 | 🪖 Manda | 🟡 |
+| 3 | 11–17 Jan | 74.54 | 73.14 | −1.40 | 🪖 Manda | 🟡 |
+| 4 | 18–24 Jan | 168.88 | 149.47 | −19.41 | 🪖 Manda | 🟢 |
+| 5 | 25–31 Jan | 215.55 | 245.88 | **+30.33** | 💻 IT | 🔴 |
+| 6 | 1–7 Feb | 274.41 | 344.95 | +70.54 | 💻 IT | 🔴 |
+| 7 | 8–14 Feb | 329.02 | 412.31 | +83.29 | 💻 IT | 🔴 |
+| 8 | 15–21 Feb | 382.56 | 459.11 | +76.55 | 💻 IT | 🟡 |
+| 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
+| 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
+| **11** | **8–14 Mar** | **609.42** | **642.84** | **+33.42** | 💻 IT | 📉📉 |
+| 12 | 15–21 Mar | — | — | — | — | ⏳ |
+| 13 | 22–28 Mar | — | — | — | — | ⏳ |
+
+> 📉 **Gap closing fast!** From peak **+84 km** (W9) down to **+33 km** (W11) — Mandalorian cut 51 km in 2 weeks! 🔥
 
 ---
 
