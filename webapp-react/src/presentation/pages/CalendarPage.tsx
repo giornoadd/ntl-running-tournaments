@@ -159,6 +159,134 @@ const WeekTable: React.FC<{ weeks: WeekData[]; currentWeek: number }> = ({ weeks
     </div>
 );
 
+interface GapData {
+    week: number;
+    dates: string;
+    manda: number;
+    it: number;
+    gap: number; // IT - Manda (positive = IT leads)
+}
+
+const gapData: GapData[] = [
+    { week: 1, dates: '1–3 Jan', manda: 16.78, it: 0.00, gap: -16.78 },
+    { week: 2, dates: '4–10 Jan', manda: 39.07, it: 32.90, gap: -6.17 },
+    { week: 3, dates: '11–17 Jan', manda: 74.54, it: 73.14, gap: -1.40 },
+    { week: 4, dates: '18–24 Jan', manda: 168.88, it: 149.47, gap: -19.41 },
+    { week: 5, dates: '25–31 Jan', manda: 215.55, it: 245.88, gap: 30.33 },
+    { week: 6, dates: '1–7 Feb', manda: 274.41, it: 344.95, gap: 70.54 },
+    { week: 7, dates: '8–14 Feb', manda: 329.02, it: 412.31, gap: 83.29 },
+    { week: 8, dates: '15–21 Feb', manda: 382.56, it: 459.11, gap: 76.55 },
+    { week: 9, dates: '22–28 Feb', manda: 440.07, it: 524.30, gap: 84.23 },
+    { week: 10, dates: '1–7 Mar', manda: 547.58, it: 596.96, gap: 49.38 },
+    { week: 11, dates: '8–14 Mar', manda: 609.42, it: 642.84, gap: 33.42 },
+];
+
+const AccGapCard: React.FC<{ currentWeek: number }> = ({ currentWeek }) => {
+    const maxAbsGap = Math.max(...gapData.map(d => Math.abs(d.gap)));
+    const peakGap = Math.max(...gapData.map(d => d.gap));
+    const latestGap = gapData[gapData.length - 1];
+
+    return (
+        <Card>
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-5 gap-3">
+                <h2 className="text-lg font-heading">📈 ACC-GAP: Weekly Gap Tracker</h2>
+                <div className="flex gap-3 text-xs">
+                    <span className="flex items-center gap-1">
+                        <span className="w-3 h-3 rounded-full bg-green-500 inline-block" /> 🪖 Manda leads
+                    </span>
+                    <span className="flex items-center gap-1">
+                        <span className="w-3 h-3 rounded-full bg-red-400 inline-block" /> 💻 IT leads
+                    </span>
+                </div>
+            </div>
+
+            {/* Visual Bar Chart */}
+            <div className="space-y-1.5 mb-6">
+                {gapData.map((d) => {
+                    const pct = (Math.abs(d.gap) / maxAbsGap) * 100;
+                    const isITLead = d.gap > 0;
+                    const isCurrent = d.week === currentWeek;
+                    const isPeak = d.gap === peakGap;
+
+                    return (
+                        <div key={d.week} className={`flex items-center gap-2 py-1 px-2 rounded-lg transition-colors ${isCurrent ? 'bg-accent/10 border border-accent/20' : 'hover:bg-white/5'}`}>
+                            <div className="w-8 text-xs font-bold text-right shrink-0">
+                                W{d.week}
+                            </div>
+
+                            {/* Left side (Manda leads) */}
+                            <div className="flex-1 flex justify-end">
+                                {!isITLead && (
+                                    <div
+                                        className="h-5 rounded-l-full bg-gradient-to-r from-green-600 to-green-400 transition-all duration-500"
+                                        style={{ width: `${pct}%`, minWidth: '4px' }}
+                                    />
+                                )}
+                            </div>
+
+                            {/* Center line */}
+                            <div className="w-px h-6 bg-white/20 shrink-0" />
+
+                            {/* Right side (IT leads) */}
+                            <div className="flex-1">
+                                {isITLead && (
+                                    <div
+                                        className="h-5 rounded-r-full bg-gradient-to-r from-red-400 to-red-600 transition-all duration-500"
+                                        style={{ width: `${pct}%`, minWidth: '4px' }}
+                                    />
+                                )}
+                            </div>
+
+                            <div className="w-20 text-xs text-right shrink-0">
+                                <span className={`font-semibold ${isITLead ? 'text-red-400' : 'text-green-400'}`}>
+                                    {isITLead ? '+' : ''}{d.gap.toFixed(1)}
+                                </span>
+                                {isPeak && <span className="ml-1 text-[9px] text-red-300">PEAK</span>}
+                                {isCurrent && <span className="ml-1 text-[9px] text-accent">NOW</span>}
+                            </div>
+                        </div>
+                    );
+                })}
+
+                {/* Future weeks */}
+                {[12, 13].map(w => (
+                    <div key={w} className="flex items-center gap-2 py-1 px-2 opacity-30">
+                        <div className="w-8 text-xs font-bold text-right shrink-0">W{w}</div>
+                        <div className="flex-1 flex justify-end" />
+                        <div className="w-px h-6 bg-white/20 shrink-0" />
+                        <div className="flex-1" />
+                        <div className="w-20 text-xs text-right shrink-0 text-textMuted">⏳</div>
+                    </div>
+                ))}
+            </div>
+
+            {/* Summary Stats */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+                <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+                    <div className="text-xl font-black text-red-400">+{peakGap.toFixed(1)}</div>
+                    <div className="text-[10px] text-textMuted mt-1">Peak Gap (W9)</div>
+                </div>
+                <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+                    <div className="text-xl font-black text-accent">+{latestGap.gap.toFixed(1)}</div>
+                    <div className="text-[10px] text-textMuted mt-1">Current Gap (W{latestGap.week})</div>
+                </div>
+                <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+                    <div className="text-xl font-black text-green-400">−{(peakGap - latestGap.gap).toFixed(1)}</div>
+                    <div className="text-[10px] text-textMuted mt-1">Gap Reduced</div>
+                </div>
+                <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+                    <div className="text-xl font-black">📉📉</div>
+                    <div className="text-[10px] text-textMuted mt-1">Trend: Closing</div>
+                </div>
+            </div>
+
+            <div className="text-center text-sm text-textMuted">
+                Gap = IT System accumulated − Mandalorian accumulated (km, per team avg / 10 members)
+            </div>
+        </Card>
+    );
+};
+
 export const CalendarPage: React.FC = () => {
     const currentWeek = getCurrentWeek();
     const [expandedQ, setExpandedQ] = React.useState<string>('Q1');
@@ -208,6 +336,9 @@ export const CalendarPage: React.FC = () => {
                     <WeekTable weeks={q.weeks} currentWeek={currentWeek} />
                 </Card>
             ))}
+
+            {/* ACC-GAP: Accumulated Gap */}
+            {expandedQ === 'Q1' && <AccGapCard currentWeek={currentWeek} />}
 
             {/* Year Summary */}
             <Card>
