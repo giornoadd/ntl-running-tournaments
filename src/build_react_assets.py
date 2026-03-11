@@ -15,7 +15,7 @@ def sanitize_name(name):
 
 def main():
     base_dir = Path(__file__).parent.parent.absolute()
-    html_data_js = base_dir / 'html' / 'data.js'
+    html_data_js = base_dir / 'docs' / 'html' / 'data.js'
     
     react_public = base_dir / 'webapp-react' / 'public'
     assets_out_dir = react_public / 'assets_data'
@@ -28,7 +28,7 @@ def main():
     rosters_out_dir.mkdir(parents=True, exist_ok=True)
     
     # 2. Read existing data.js and parse as JSON
-    print("Reading html/data.js...")
+    print("Reading docs/html/data.js...")
     with open(html_data_js, 'r', encoding='utf-8') as f:
         content = f.read()
 

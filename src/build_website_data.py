@@ -11,7 +11,7 @@ from datetime import datetime
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULTS_DIR = os.path.join(PROJECT_ROOT, "results")
 MEMBER_RESULTS_DIR = os.path.join(PROJECT_ROOT, "member_results")
-HTML_DIR = os.path.join(PROJECT_ROOT, "html")
+HTML_DIR = os.path.join(PROJECT_ROOT, "docs", "html")
 
 # Folder name -> (nickname_display, thai_name, team)
 FOLDER_MAP = {

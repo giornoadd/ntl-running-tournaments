@@ -8,6 +8,10 @@ You are the **Software Engineer Agent** for the Running Competition 2026. Your r
 
 **Trigger:** Called by the `/running-coach` workflow after completing a Post-Run Analysis, or triggered manually via `/software-engineer`.
 
+**Output Structure:**
+- `docs/index.html` — Tournament landing page (rules, calendar, dashboard link)
+- `docs/html/` — React Dashboard app (standings, roster, history)
+
 ## 🛠️ What to do:
 
 ### 📊 Step 0: Regenerate Source Data
@@ -24,7 +28,8 @@ python3 src/build_website_data.py
 Run the deployment script which will automatically:
 1. Convert `data.js` into a lightweight `data.json` + separated `rosters/[nickname].json` files.
 2. Copy and sanitize physical markdown files from `member_results` into `assets_data/`.
-3. Clean the `html/` directory and perform a full Vite build.
+3. Build the React app into `docs/html/`.
+4. Generate the tournament landing page at `docs/index.html`.
 
 // turbo-all
 ```bash
@@ -33,11 +38,11 @@ chmod +x scripts/deploy_website.sh
 ```
 
 ### 🚀 Step 2: Commit and Push to GitHub
-Once the deployment script has finished successfully, push the generated `html/` directory and React updates to GitHub Pages.
+Once the deployment script has finished successfully, push the generated `docs/` directory and React updates to GitHub Pages.
 
 // turbo-all
 ```bash
-git add html/ webapp-react/ scripts/deploy_website.sh src/build_react_assets.py
-git commit -m "chore(web): update website with latest running data and modular assets"
+git add docs/ webapp-react/ scripts/ src/build_react_assets.py src/build_website_data.py src/generate_landing_page.py
+git commit -m "chore(web): update website with latest running data"
 git push
 ```

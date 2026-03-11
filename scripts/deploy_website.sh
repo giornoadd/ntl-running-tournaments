@@ -16,4 +16,7 @@ npm install
 npm run build
 cd ..
 
-echo "✅ Build complete! Assets deployed to html/ directory."
+echo "🏠 Generating landing page at docs/index.html..."
+python3 src/generate_landing_page.py
+
+echo "✅ Build complete! Assets deployed to docs/ directory."
