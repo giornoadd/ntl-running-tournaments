@@ -6,6 +6,19 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>webapp-react</title>
+  <!-- GitHub Pages SPA redirect: restore route from ?p= query param set by 404.html -->
+  <script>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var route = params.get('p');
+      if (route) {
+        params.delete('p');
+        var remaining = params.toString();
+        var newUrl = route + (remaining ? '?' + remaining : '') + location.hash;
+        history.replaceState(null, '', newUrl);
+      }
+    })();
+  </script>
 </head>
 
 <body>
