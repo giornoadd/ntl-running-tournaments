@@ -17,6 +17,16 @@ export const Layout: React.FC = () => {
                     <NavItem to="/roster" icon="👥" label="Full Roster" />
                     <NavItem to="/history" icon="⏱️" label="History" />
                 </ul>
+
+                <div className="mt-auto pt-6 border-t border-white/10">
+                    <a
+                        href="/ntl-running-tournaments/docs/index.html"
+                        className="flex items-center gap-3 p-3 rounded-lg font-medium transition-colors text-lg text-textMuted hover:bg-white/5 hover:text-white"
+                    >
+                        <span className="text-xl">🏠</span>
+                        Tournament Home
+                    </a>
+                </div>
             </nav>
 
             {/* Mobile Nav Top Bar (Simplistic) */}
@@ -26,6 +36,7 @@ export const Layout: React.FC = () => {
                     <NavLink to="/">🏆</NavLink>
                     <NavLink to="/roster">👥</NavLink>
                     <NavLink to="/history">⏱️</NavLink>
+                    <a href="/ntl-running-tournaments/docs/index.html">🏠</a>
                 </div>
             </div>
 
