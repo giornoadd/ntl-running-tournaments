@@ -8,10 +8,10 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 584.74 km | 631.45 km | 💻 **IT System** |
-| **Average / Person** | 58.47 km | 63.14 km | 💻 **IT System** |
+| **Total Distance** | 584.74 km | 638.83 km | 💻 **IT System** |
+| **Average / Person** | 58.47 km | 63.88 km | 💻 **IT System** |
 
-> 💻 **IT System** leads by **4.67 km/person**
+> 💻 **IT System** leads by **5.41 km/person**
 
 ### 🌟 Top 5 Individual Runners
 
@@ -20,18 +20,18 @@ This directory contains the chronological statistics for the **Mandalorian vs IT
 | 🥇 1 | Gio | 🪖 Mandalorian | 336.47 km |
 | 🥈 2 | Jojo | 💻 IT System | 192.78 km |
 | 🥉 3 | O | 💻 IT System | 126.98 km |
-| 🏅 4 | Boy | 💻 IT System | 111.92 km |
+| 🏅 4 | Boy | 💻 IT System | 119.30 km |
 | 🏅 5 | Sand | 🪖 Mandalorian | 64.70 km |
 
 ### Quarterly Breakdown
 
 | Quarter | 🪖 Mandalorian | 💻 IT System | Winner |
 | :--- | ---: | ---: | :--- |
-| **Q1** | 584.74 km (58.47 avg) | 631.45 km (63.14 avg) | 💻 IT System |
+| **Q1** | 584.74 km (58.47 avg) | 638.83 km (63.88 avg) | 💻 IT System |
 
 ### Monthly Details
 
-- **2026-March** — Mandalorian: 158.66 km | IT System: 107.15 km | 🪖 Mandalorian
+- **2026-March** — Mandalorian: 158.66 km | IT System: 114.53 km | 🪖 Mandalorian
   - 📋 [2026-March.md](2026-March.md) | 📄 [2026-March.csv](2026-March.csv)
 - **2026-February** — Mandalorian: 217.14 km | IT System: 278.42 km | 💻 IT System
   - 📋 [2026-February.md](2026-February.md) | 📄 [2026-February.csv](2026-February.csv)
