@@ -21,7 +21,7 @@ export const Layout: React.FC = () => {
 
                 <div className="mt-auto pt-6 border-t border-white/10">
                     <a
-                        href="/ntl-running-tournaments/docs/index.html"
+                        href="/ntl-running-tournaments/"
                         className="flex items-center gap-3 p-3 rounded-lg font-medium transition-colors text-lg text-textMuted hover:bg-white/5 hover:text-white"
                     >
                         <span className="text-xl">🏠</span>
@@ -38,7 +38,7 @@ export const Layout: React.FC = () => {
                     <NavLink to="/roster">👥</NavLink>
                     <NavLink to="/history">⏱️</NavLink>
                     <NavLink to="/calendar">📅</NavLink>
-                    <a href="/ntl-running-tournaments/docs/index.html">🏠</a>
+                    <a href="/ntl-running-tournaments/">🏠</a>
                 </div>
             </div>
 

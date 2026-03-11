@@ -280,7 +280,7 @@ tr:hover {{ background: rgba(255,255,255,0.02); }}
 <div class="container">
 
   <!-- Dashboard Link -->
-  <a href="/ntl-running-tournaments/docs/html/index.html" class="cta-card">
+  <a href="/ntl-running-tournaments/html/index.html" class="cta-card">
     <div class="cta-title">📊 Open Live Dashboard →</div>
     <div class="cta-sub">Real-time standings, team stats, roster profiles & activity history</div>
   </a>
