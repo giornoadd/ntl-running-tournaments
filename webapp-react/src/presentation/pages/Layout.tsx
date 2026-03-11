@@ -16,6 +16,7 @@ export const Layout: React.FC = () => {
                     <NavItem to="/" icon="🏆" label="Standings" />
                     <NavItem to="/roster" icon="👥" label="Full Roster" />
                     <NavItem to="/history" icon="⏱️" label="History" />
+                    <NavItem to="/calendar" icon="📅" label="Calendar" />
                 </ul>
 
                 <div className="mt-auto pt-6 border-t border-white/10">
@@ -36,6 +37,7 @@ export const Layout: React.FC = () => {
                     <NavLink to="/">🏆</NavLink>
                     <NavLink to="/roster">👥</NavLink>
                     <NavLink to="/history">⏱️</NavLink>
+                    <NavLink to="/calendar">📅</NavLink>
                     <a href="/ntl-running-tournaments/docs/index.html">🏠</a>
                 </div>
             </div>
