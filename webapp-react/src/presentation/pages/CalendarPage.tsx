@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from '../components/ui/Card';
+import { StaticCompetitionRepository } from '../../infrastructure/repositories/StaticCompetitionRepository';
 
 interface WeekData {
     week: number | string;
@@ -32,6 +33,51 @@ const getCurrentWeek = (): number => {
     }
     return 11;
 };
+
+// Week date ranges for Q1 2026
+const Q1_WEEKS: { week: number; start: string; end: string; label: string }[] = [
+    { week: 1, start: '2026-01-01', end: '2026-01-03', label: '1–3 Jan' },
+    { week: 2, start: '2026-01-04', end: '2026-01-10', label: '4–10 Jan' },
+    { week: 3, start: '2026-01-11', end: '2026-01-17', label: '11–17 Jan' },
+    { week: 4, start: '2026-01-18', end: '2026-01-24', label: '18–24 Jan' },
+    { week: 5, start: '2026-01-25', end: '2026-01-31', label: '25–31 Jan' },
+    { week: 6, start: '2026-02-01', end: '2026-02-07', label: '1–7 Feb' },
+    { week: 7, start: '2026-02-08', end: '2026-02-14', label: '8–14 Feb' },
+    { week: 8, start: '2026-02-15', end: '2026-02-21', label: '15–21 Feb' },
+    { week: 9, start: '2026-02-22', end: '2026-02-28', label: '22–28 Feb' },
+    { week: 10, start: '2026-03-01', end: '2026-03-07', label: '1–7 Mar' },
+    { week: 11, start: '2026-03-08', end: '2026-03-14', label: '8–14 Mar' },
+    { week: 12, start: '2026-03-15', end: '2026-03-21', label: '15–21 Mar' },
+    { week: 13, start: '2026-03-22', end: '2026-03-28', label: '22–28 Mar' },
+];
+
+interface GapData {
+    week: number;
+    dates: string;
+    manda: number;
+    it: number;
+    gap: number; // IT - Manda (positive = IT leads)
+}
+
+function computeWeeklyGap(activities: { date: string; mando_accum: number; it_accum: number }[]): GapData[] {
+    const result: GapData[] = [];
+    for (const wk of Q1_WEEKS) {
+        // Find all activities within this week's date range
+        const weekActivities = activities.filter(a => a.date >= wk.start && a.date <= wk.end);
+        if (weekActivities.length === 0) continue;
+        // Sort by date descending to get the latest (highest accumulate)
+        weekActivities.sort((a, b) => b.date.localeCompare(a.date));
+        const latest = weekActivities[0];
+        result.push({
+            week: wk.week,
+            dates: wk.label,
+            manda: latest.mando_accum,
+            it: latest.it_accum,
+            gap: latest.it_accum - latest.mando_accum,
+        });
+    }
+    return result;
+}
 
 const q1Weeks: WeekData[] = [
     { week: 1, dates: '1 Jan – 3 Jan', period: 'Thu – Sat', notes: '🎉 Competition Kick-off!' },
@@ -112,79 +158,88 @@ const quarters: QuarterInfo[] = [
     { label: 'Q4', status: '⬜ Upcoming', statusColor: 'text-textMuted', period: 'October – December', weeks: q4Weeks },
 ];
 
-const WeekTable: React.FC<{ weeks: WeekData[]; currentWeek: number }> = ({ weeks, currentWeek }) => (
-    <div className="overflow-x-auto">
-        <table className="w-full text-left border-collapse text-sm">
-            <thead>
-                <tr className="border-b border-white/10 text-textMuted uppercase text-xs">
-                    <th className="pb-3 px-3 font-medium w-16">Week</th>
-                    <th className="pb-3 px-3 font-medium">Dates</th>
-                    <th className="pb-3 px-3 font-medium hidden sm:table-cell">Period</th>
-                    <th className="pb-3 px-3 font-medium">Notes</th>
-                </tr>
-            </thead>
-            <tbody className="divide-y divide-white/5">
-                {weeks.map((w) => {
-                    const isCurrent = w.week === currentWeek;
-                    return (
-                        <tr
-                            key={String(w.week)}
-                            className={`transition-colors ${isCurrent
-                                ? 'bg-accent/10 border-l-4 border-l-accent'
-                                : 'hover:bg-white/5'
-                                }`}
-                        >
-                            <td className={`py-3 px-3 font-bold ${isCurrent ? 'text-accent' : ''}`}>
-                                {w.week}
-                            </td>
-                            <td className={`py-3 px-3 ${isCurrent ? 'text-accent font-semibold' : ''}`}>
-                                {w.dates}
-                            </td>
-                            <td className={`py-3 px-3 hidden sm:table-cell ${isCurrent ? 'text-accent' : 'text-textMuted'}`}>
-                                {w.period}
-                            </td>
-                            <td className="py-3 px-3">
-                                {w.notes}
-                                {isCurrent && (
-                                    <span className="ml-2 inline-block px-2 py-0.5 rounded-full text-[10px] font-bold bg-accent text-black">
-                                        📍 NOW
-                                    </span>
+const WeekTable: React.FC<{ weeks: WeekData[]; currentWeek: number; gapData?: GapData[] }> = ({ weeks, currentWeek, gapData }) => {
+    const gapMap = new Map<number, GapData>();
+    if (gapData) {
+        for (const g of gapData) gapMap.set(g.week, g);
+    }
+    const showGap = gapData && gapData.length > 0;
+
+    return (
+        <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-sm">
+                <thead>
+                    <tr className="border-b border-white/10 text-textMuted uppercase text-xs">
+                        <th className="pb-3 px-3 font-medium w-16">Week</th>
+                        <th className="pb-3 px-3 font-medium">Dates</th>
+                        <th className="pb-3 px-3 font-medium hidden sm:table-cell">Period</th>
+                        {showGap && <th className="pb-3 px-3 font-medium text-right">Avg Gap/Person</th>}
+                        <th className="pb-3 px-3 font-medium">Notes</th>
+                    </tr>
+                </thead>
+                <tbody className="divide-y divide-white/5">
+                    {weeks.map((w) => {
+                        const isCurrent = w.week === currentWeek;
+                        const weekNum = typeof w.week === 'number' ? w.week : parseInt(String(w.week));
+                        const gap = gapMap.get(weekNum);
+                        const avgGap = gap ? gap.gap / 10 : null;
+
+                        return (
+                            <tr
+                                key={String(w.week)}
+                                className={`transition-colors ${isCurrent
+                                    ? 'bg-accent/10 border-l-4 border-l-accent'
+                                    : 'hover:bg-white/5'
+                                    }`}
+                            >
+                                <td className={`py-3 px-3 font-bold ${isCurrent ? 'text-accent' : ''}`}>
+                                    {w.week}
+                                </td>
+                                <td className={`py-3 px-3 ${isCurrent ? 'text-accent font-semibold' : ''}`}>
+                                    {w.dates}
+                                </td>
+                                <td className={`py-3 px-3 hidden sm:table-cell ${isCurrent ? 'text-accent' : 'text-textMuted'}`}>
+                                    {w.period}
+                                </td>
+                                {showGap && (
+                                    <td className="py-3 px-3 text-right">
+                                        {avgGap !== null ? (
+                                            <span className={`font-semibold text-xs px-2 py-0.5 rounded-full ${avgGap > 0 ? 'bg-red-400/15 text-red-400' : 'bg-green-400/15 text-green-400'}`}>
+                                                {avgGap > 0 ? '+' : ''}{avgGap.toFixed(1)} km
+                                            </span>
+                                        ) : (
+                                            <span className="text-textMuted text-xs">—</span>
+                                        )}
+                                    </td>
                                 )}
-                            </td>
-                        </tr>
-                    );
-                })}
-            </tbody>
-        </table>
-    </div>
-);
+                                <td className="py-3 px-3">
+                                    {w.notes}
+                                    {isCurrent && (
+                                        <span className="ml-2 inline-block px-2 py-0.5 rounded-full text-[10px] font-bold bg-accent text-black">
+                                            📍 NOW
+                                        </span>
+                                    )}
+                                </td>
+                            </tr>
+                        );
+                    })}
+                </tbody>
+            </table>
+        </div>
+    );
+};
 
-interface GapData {
-    week: number;
-    dates: string;
-    manda: number;
-    it: number;
-    gap: number; // IT - Manda (positive = IT leads)
-}
+const AccGapCard: React.FC<{ currentWeek: number; gapData: GapData[] }> = ({ currentWeek, gapData }) => {
+    if (gapData.length === 0) return null;
 
-const gapData: GapData[] = [
-    { week: 1, dates: '1–3 Jan', manda: 16.78, it: 0.00, gap: -16.78 },
-    { week: 2, dates: '4–10 Jan', manda: 39.07, it: 32.90, gap: -6.17 },
-    { week: 3, dates: '11–17 Jan', manda: 74.54, it: 73.14, gap: -1.40 },
-    { week: 4, dates: '18–24 Jan', manda: 168.88, it: 149.47, gap: -19.41 },
-    { week: 5, dates: '25–31 Jan', manda: 215.55, it: 245.88, gap: 30.33 },
-    { week: 6, dates: '1–7 Feb', manda: 274.41, it: 344.95, gap: 70.54 },
-    { week: 7, dates: '8–14 Feb', manda: 329.02, it: 412.31, gap: 83.29 },
-    { week: 8, dates: '15–21 Feb', manda: 382.56, it: 459.11, gap: 76.55 },
-    { week: 9, dates: '22–28 Feb', manda: 440.07, it: 524.30, gap: 84.23 },
-    { week: 10, dates: '1–7 Mar', manda: 547.58, it: 596.96, gap: 49.38 },
-    { week: 11, dates: '8–14 Mar', manda: 609.42, it: 642.84, gap: 33.42 },
-];
-
-const AccGapCard: React.FC<{ currentWeek: number }> = ({ currentWeek }) => {
     const maxAbsGap = Math.max(...gapData.map(d => Math.abs(d.gap)));
     const peakGap = Math.max(...gapData.map(d => d.gap));
+    const peakWeek = gapData.find(d => d.gap === peakGap);
     const latestGap = gapData[gapData.length - 1];
+    const gapReduced = peakGap - latestGap.gap;
+    const isClosing = gapData.length >= 2 && gapData[gapData.length - 1].gap < gapData[gapData.length - 2].gap;
+    const existingWeeks = new Set(gapData.map(d => d.week));
+    const futureWeeks = Q1_WEEKS.filter(w => !existingWeeks.has(w.week)).map(w => w.week);
 
     return (
         <Card>
@@ -249,7 +304,7 @@ const AccGapCard: React.FC<{ currentWeek: number }> = ({ currentWeek }) => {
                 })}
 
                 {/* Future weeks */}
-                {[12, 13].map(w => (
+                {futureWeeks.map(w => (
                     <div key={w} className="flex items-center gap-2 py-1 px-2 opacity-30">
                         <div className="w-8 text-xs font-bold text-right shrink-0">W{w}</div>
                         <div className="flex-1 flex justify-end" />
@@ -264,24 +319,24 @@ const AccGapCard: React.FC<{ currentWeek: number }> = ({ currentWeek }) => {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
                     <div className="text-xl font-black text-red-400">+{peakGap.toFixed(1)}</div>
-                    <div className="text-[10px] text-textMuted mt-1">Peak Gap (W9)</div>
+                    <div className="text-[10px] text-textMuted mt-1">Peak Gap (W{peakWeek?.week})</div>
                 </div>
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
                     <div className="text-xl font-black text-accent">+{latestGap.gap.toFixed(1)}</div>
                     <div className="text-[10px] text-textMuted mt-1">Current Gap (W{latestGap.week})</div>
                 </div>
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
-                    <div className="text-xl font-black text-green-400">−{(peakGap - latestGap.gap).toFixed(1)}</div>
+                    <div className="text-xl font-black text-green-400">−{gapReduced.toFixed(1)}</div>
                     <div className="text-[10px] text-textMuted mt-1">Gap Reduced</div>
                 </div>
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
-                    <div className="text-xl font-black">📉📉</div>
-                    <div className="text-[10px] text-textMuted mt-1">Trend: Closing</div>
+                    <div className="text-xl font-black">{isClosing ? '📉📉' : '📈'}</div>
+                    <div className="text-[10px] text-textMuted mt-1">Trend: {isClosing ? 'Closing' : 'Widening'}</div>
                 </div>
             </div>
 
             <div className="text-center text-sm text-textMuted">
-                Gap = IT System accumulated − Mandalorian accumulated (km, per team avg / 10 members)
+                Gap = IT System accumulated − Mandalorian accumulated (km) · Data from data.json
             </div>
         </Card>
     );
@@ -290,6 +345,15 @@ const AccGapCard: React.FC<{ currentWeek: number }> = ({ currentWeek }) => {
 export const CalendarPage: React.FC = () => {
     const currentWeek = getCurrentWeek();
     const [expandedQ, setExpandedQ] = React.useState<string>('Q1');
+    const [gapData, setGapData] = React.useState<GapData[]>([]);
+
+    React.useEffect(() => {
+        const repo = new StaticCompetitionRepository();
+        repo.getCompetitionData().then(data => {
+            const computed = computeWeeklyGap(data.activities);
+            setGapData(computed);
+        }).catch(err => console.error('Failed to load gap data:', err));
+    }, []);
 
     return (
         <div className="flex flex-col gap-6 fade-in">
@@ -333,12 +397,12 @@ export const CalendarPage: React.FC = () => {
                         </h2>
                         <span className={`text-sm font-semibold ${q.statusColor}`}>{q.status}</span>
                     </div>
-                    <WeekTable weeks={q.weeks} currentWeek={currentWeek} />
+                    <WeekTable weeks={q.weeks} currentWeek={currentWeek} gapData={q.label === 'Q1' ? gapData : undefined} />
                 </Card>
             ))}
 
             {/* ACC-GAP: Accumulated Gap */}
-            {expandedQ === 'Q1' && <AccGapCard currentWeek={currentWeek} />}
+            {expandedQ === 'Q1' && <AccGapCard currentWeek={currentWeek} gapData={gapData} />}
 
             {/* Year Summary */}
             <Card>
