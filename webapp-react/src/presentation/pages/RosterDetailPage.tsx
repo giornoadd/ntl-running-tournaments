@@ -1,135 +1,91 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useRosterDetail } from '../hooks/useCompetitionData';
 import { Badge } from '../components/ui/Badge';
 import DOMPurify from 'dompurify';
+import { marked } from 'marked';
+import { resolveImagePath } from '../../utils/imagePath';
 
-/**
- * Fetch a pre-rendered HTML file from assets_data/members/{nickname}/{file}.html
- * and return just the <body> inner HTML (stripping the wrapper document).
- */
-async function fetchHtmlContent(nickname: string, file: string): Promise<string> {
-    const basePath = import.meta.env.BASE_URL || '/';
-    const base = basePath.endsWith('/') ? basePath : basePath + '/';
-    const nicknameSafe = nickname.toLowerCase().replace(/[^a-z0-9_\-\.]/g, '');
-    const url = `${base}assets_data/members/${nicknameSafe}/${file}.html`;
+// Intercept markdown links ending in image extensions and render them as actual images
+marked.use({
+    renderer: {
+        link(token) {
+            let { href, text, title } = token;
 
-    try {
-        const response = await fetch(url);
-        if (!response.ok) return '';
-        const html = await response.text();
+            // Fix Vite Router pathing: Force relative links to resolve properly
+            href = resolveImagePath(href);
 
-        // Extract just the <body> content (skip the wrapper HTML/head/style)
-        const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
-        return bodyMatch ? bodyMatch[1] : html;
-    } catch {
-        return '';
+            if (href.match(/\.(jpg|jpeg|png|gif|webp|JPG|JPEG|PNG)$/)) {
+                return `<a href="${href}" target="_blank" rel="noopener noreferrer" title="${title || text}"><img src="${href}" alt="${text}" class="w-16 h-16 object-cover inline-block rounded-lg shadow-sm border border-white/20 mx-1 transition-transform hover:scale-110" loading="lazy" /></a>`;
+            }
+            return false; // fallback to default renderer
+        }
     }
-}
+});
 
 export const RosterDetailPage: React.FC = () => {
     const { nickname } = useParams<{ nickname: string }>();
     const navigate = useNavigate();
+    // In actual implementation we use decodeURIComponent depending on how router passes it, but router handles it mostly.
     const { member, loading } = useRosterDetail(nickname);
     const [activeTab, setActiveTab] = useState<'readme' | 'plan' | 'statistics'>('readme');
     const [selectedMonth, setSelectedMonth] = useState<string>('all');
-
-    // HTML content state for each tab
-    const [htmlContent, setHtmlContent] = useState<{ readme: string; plan: string; statistics: string }>({
-        readme: '', plan: '', statistics: ''
-    });
-    const [htmlLoading, setHtmlLoading] = useState(true);
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [nickname]);
 
-    // Fetch all three HTML files when nickname changes
-    useEffect(() => {
-        if (!nickname) return;
-        setHtmlLoading(true);
-        Promise.all([
-            fetchHtmlContent(nickname, 'README'),
-            fetchHtmlContent(nickname, 'running-plan'),
-            fetchHtmlContent(nickname, 'personal-statistics'),
-        ]).then(([readme, plan, statistics]) => {
-            setHtmlContent({ readme, plan, statistics });
-            setHtmlLoading(false);
-        });
-    }, [nickname]);
+    if (loading) return <div className="p-10 text-center text-textMuted">Loading profile...</div>;
+    if (!member) return <div className="p-10 text-center text-red-500">Member Not Found</div>;
 
-    // Extract available months from statistics HTML headings
+    const parseMd = (text?: string, monthFilter: string = 'all') => {
+        if (!text) return "*No data available*";
+
+        let textToParse = text;
+
+        if (monthFilter !== 'all') {
+            // Keep the initial headers and profile info, but filter the activity months
+            const headerSplit = text.split(/---\n/);
+            if (headerSplit.length > 1) {
+                const headerPart = headerSplit[0];
+                const sectionsPart = headerSplit.slice(1).join('---\n');
+
+                // Extract just the selected month section
+                const monthRegex = new RegExp(`(## 📅 ${monthFilter}[\\s\\S]*?)(?=## 📅|$)`);
+                const match = sectionsPart.match(monthRegex);
+
+                if (match) {
+                    textToParse = `${headerPart}---\n\n${match[1]}`;
+                } else {
+                    textToParse = `${headerPart}---\n\n*No activities found for this month.*`;
+                }
+            }
+        }
+
+        // Fix markdown links with unescaped spaces or parentheses that break the parser
+        // specifically targeting any markdown links containing spaces or parens in the URL
+        const preprocessedText = textToParse.replace(
+            /\[(.*?)\]\((.*?)\)/g,
+            (_match, p1, p2) => {
+                const encoded = p2.replace(/ /g, "%20").replace(/\(/g, "%28").replace(/\)/g, "%29");
+                return `[${p1}](${encoded})`;
+            }
+        );
+
+        // ADD_ATTR: ['target'] is necessary so DOMPurify doesn't strip target="_blank"
+        return DOMPurify.sanitize(marked.parse(preprocessedText) as string, { ADD_ATTR: ['target'] });
+    };
+
+    // Extract available months from statistics markdown
     const availableMonths: string[] = [];
-    if (htmlContent.statistics) {
-        const matches = htmlContent.statistics.matchAll(/id="[^"]*"[^>]*>📅\s*(20\d{2}-[a-zA-Z]+)/g);
+    if (member.markdown?.statistics) {
+        const matches = member.markdown.statistics.matchAll(/## 📅 (20\d{2}-[a-zA-Z]+)/g);
         for (const match of matches) {
             if (!availableMonths.includes(match[1])) {
                 availableMonths.push(match[1]);
             }
         }
     }
-
-    // Filter statistics HTML by month if needed
-    const getFilteredStatistics = useCallback((): string => {
-        if (!htmlContent.statistics) return '<p><em>No data available</em></p>';
-        if (selectedMonth === 'all') return htmlContent.statistics;
-
-        // Find the section for the selected month by splitting on <h2> headings
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(`<div>${htmlContent.statistics}</div>`, 'text/html');
-        const headings = doc.querySelectorAll('h2');
-
-        let targetHeading: Element | null = null;
-        for (const h of headings) {
-            if (h.textContent?.includes(selectedMonth)) {
-                targetHeading = h;
-                break;
-            }
-        }
-
-        if (!targetHeading) {
-            return '<p><em>No activities found for this month.</em></p>';
-        }
-
-        // Collect all elements before this heading (profile/summary info)
-        const allElements: Element[] = [];
-        const container = doc.body.firstElementChild;
-        if (!container) return htmlContent.statistics;
-
-        let foundHeader = false;
-        const headerParts: string[] = [];
-        const monthParts: string[] = [];
-
-        for (const child of container.children) {
-            if (child === targetHeading) {
-                foundHeader = true;
-                monthParts.push(child.outerHTML);
-                continue;
-            }
-            if (foundHeader) {
-                // Stop at the next h2
-                if (child.tagName === 'H2') break;
-                monthParts.push(child.outerHTML);
-            } else {
-                // Everything before the first h2 with 📅 is header content
-                if (child.tagName === 'H2' && child.textContent?.includes('📅')) {
-                    // Skip other month sections before our target
-                    continue;
-                }
-                headerParts.push(child.outerHTML);
-            }
-        }
-
-        return headerParts.join('\n') + '\n' + monthParts.join('\n');
-    }, [htmlContent.statistics, selectedMonth]);
-
-    const sanitize = (html: string) => {
-        if (!html) return '<p><em>No data available</em></p>';
-        return DOMPurify.sanitize(html, { ADD_ATTR: ['target'] });
-    };
-
-    if (loading || htmlLoading) return <div className="p-10 text-center text-textMuted">Loading profile...</div>;
-    if (!member) return <div className="p-10 text-center text-red-500">Member Not Found</div>;
 
     const isManda = member.team === 'Mandalorian';
     const teamIcon = isManda ? '🪖' : '💻';
@@ -192,9 +148,9 @@ export const RosterDetailPage: React.FC = () => {
             </div>
 
             <div className="glass-panel p-8 overflow-x-auto markdown-body">
-                {activeTab === 'readme' && <div dangerouslySetInnerHTML={{ __html: sanitize(htmlContent.readme) }} />}
-                {activeTab === 'plan' && <div dangerouslySetInnerHTML={{ __html: sanitize(htmlContent.plan) }} />}
-                {activeTab === 'statistics' && <div dangerouslySetInnerHTML={{ __html: sanitize(getFilteredStatistics()) }} />}
+                {activeTab === 'readme' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.readme) }} />}
+                {activeTab === 'plan' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.plan) }} />}
+                {activeTab === 'statistics' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.statistics, selectedMonth) }} />}
             </div>
         </div>
     );
