@@ -17,27 +17,28 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **59.65 km** (Running 38.12 km + Walk 21.53 km) |
-| **Active Days** | 📅 14 days |
-| **Total Sessions** | 📋 14 sessions (Running 10 + Walk 4) |
-| **Average / Session** | 📏 4.26 km |
+| **Total Distance** | 🔥 **62.17 km** (Running 38.12 km + Walk 24.05 km) |
+| **Active Days** | 📅 15 days |
+| **Total Sessions** | 📋 15 sessions (Running 10 + Walk 5) |
+| **Average / Session** | 📏 4.14 km |
 | **Best Session** | 🏆 6.01 km (2026-03-01) |
 | **Best Pace** | ⚡ 11:08/km — 5km Long Session (2026-03-08) |
 | **Longest Run** | 🏅 5.01 km — 5km Long Session (2026-03-08) |
-| **Evidence Files** | 📸 14 screenshots |
+| **Evidence Files** | 📸 15 screenshots |
 | **First Active** | 2026-01-12 |
 | **Last Active** | 2026-03-11 |
 
 ---
 
 ## 📅 2026-March
-> 3 sessions · 15.03 km total · 5.01 km avg · best 6.01 km
+> 4 sessions · 17.55 km total · 4.39 km avg · best 6.01 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-01 | Sun, Mar 01 | **6.01 km** | 🚶 Walking (Thawi Watthana) | [📸](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-01.jpg) |
 | 2 | 2026-03-08 | Sun, Mar 08 | **5.01 km** | 🏃 5km Long Session | [📸](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg) |
-| 3 | 2026-03-11 | Wed, Mar 11 | **4.01 km** | 🏃 Treadmill Running | [📸](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg) |
+| 3 | 2026-03-11 | Wed, Mar 11 | **4.01 km** | 🏃 Treadmill Running + Morning Walk | [📸1](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg) [📸2](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11_1.jpg) |
+| 4 | 2026-03-11 | Wed, Mar 11 | **2.52 km** | 🏃 Treadmill Running + Morning Walk | [📸1](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg) [📸2](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11_1.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 14.52 km total · 4.84 km avg · best 5.50 km
@@ -63,4 +64,4 @@
 | 8 | 2026-01-31 | Sat, Jan 31 | **4.01 km** | 🏃 Treadmill Running | [📸](assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-jan-31.jpg) |
 
 ---
-*Auto-generated on 2026-03-11 10:55*
+*Auto-generated on 2026-03-13 05:28*

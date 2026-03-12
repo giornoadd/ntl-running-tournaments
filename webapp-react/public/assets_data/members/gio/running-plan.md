@@ -248,7 +248,7 @@
   * Warm-up: 1.2km (Pace สบายๆ ไม่เร็วกว่า 7:45/km) + เดินพัก 3 นาที
   * **Test:** 3.22km Time Trial **(เป้าหมาย Pace 6:40/km)** + เดินพัก 3 นาที
   * Cool-down: 500m (วิ่งให้ช้าที่สุด)
-* **Thu 12:** `Stronger Upper Body + 5km Easy Run` (Pace แบบคุยได้ ไม่เร็วกว่า 7:45/km)
+* **Thu 12:** ✅ `Stronger Upper Body + 5km Easy Run` *(จริง: 5.04 km, Pace 7:38/km, HR 151 bpm, Zone 3 Tempo, Cadence 155 spm)*
 * **Fri 13:** `Full Body Strength Session`
 * **Sat 14:** `6km Long Run` (วิ่งให้จบแบบความรู้สึกยังอยากวิ่งต่อ Conversational pace)
 * **Sun 15:** 🧘🏻‍♂️ *Rest Day*
