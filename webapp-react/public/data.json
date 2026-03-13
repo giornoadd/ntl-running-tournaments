@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13 10:33:27",
+  "last_updated": "2026-03-13 22:42:18",
   "teams": {
     "Mandalorian": {
-      "total_distance": 620.95,
+      "total_distance": 629.0,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 62.1
+      "avg_distance": 62.9
     },
     "IT System": {
       "total_distance": 645.36,
@@ -133,22 +133,22 @@
       "nickname": "Sand",
       "thai_name": "แซนด์",
       "team": "Mandalorian",
-      "total_distance": 66.72,
-      "active_days": 21,
-      "image_count": 27,
+      "total_distance": 68.73,
+      "active_days": 22,
+      "image_count": 28,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
-        "walk_dist": 74.10000000000001,
+        "walk_dist": 76.11000000000001,
         "run_count": 0,
-        "walk_count": 24,
-        "total_sessions": 24,
+        "walk_count": 25,
+        "total_sessions": 25,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
@@ -357,28 +357,28 @@
       "nickname": "Toro",
       "thai_name": "ต้อ",
       "team": "Mandalorian",
-      "total_distance": 23.04,
-      "active_days": 5,
-      "image_count": 5,
+      "total_distance": 29.08,
+      "active_days": 6,
+      "image_count": 6,
       "recent_images": [
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-13.jpg",
         "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-08.jpg",
         "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-03.jpg",
         "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-25.JPEG",
-        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg",
-        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-feb-13.jpg"
+        "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-jan-24.jpg"
       ],
       "stats_details": {
-        "run_dist": 23.04,
+        "run_dist": 29.08,
         "walk_dist": 0.0,
-        "run_count": 5,
+        "run_count": 6,
         "walk_count": 0,
-        "total_sessions": 5,
+        "total_sessions": 6,
         "best_pace": 389,
         "best_pace_activity": "Evening Run (วิ่งตอนเย็น)",
         "best_pace_date": "2026-02-13",
-        "longest_run_dist": 5.52,
-        "longest_run_activity": "5.5km Long Run",
-        "longest_run_date": "2026-03-08"
+        "longest_run_dist": 6.04,
+        "longest_run_activity": "Evening Run (วิ่งตอนเย็น)",
+        "longest_run_date": "2026-03-13"
       }
     },
     {
@@ -558,6 +558,34 @@
     }
   ],
   "activities": [
+    {
+      "date": "2026-03-13",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "Sand",
+          "distance": 2.01,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg"
+          ]
+        },
+        {
+          "name": "Toro",
+          "distance": 6.04,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-13.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 8.05,
+      "it_daily": 0.0,
+      "mando_accum": 629.0,
+      "it_accum": 645.36,
+      "mando_avg": 62.9,
+      "it_avg": 64.54
+    },
     {
       "date": "2026-03-12",
       "month": "2026-March",
