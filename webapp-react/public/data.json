@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13 05:37:04",
+  "last_updated": "2026-03-13 10:29:28",
   "teams": {
     "Mandalorian": {
-      "total_distance": 618.93,
+      "total_distance": 620.95,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 61.89
+      "avg_distance": 62.1
     },
     "IT System": {
       "total_distance": 645.36,
@@ -133,22 +133,22 @@
       "nickname": "Sand",
       "thai_name": "แซนด์",
       "team": "Mandalorian",
-      "total_distance": 64.7,
-      "active_days": 20,
-      "image_count": 26,
+      "total_distance": 66.72,
+      "active_days": 21,
+      "image_count": 27,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-04.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-05.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
-        "walk_dist": 72.08000000000001,
+        "walk_dist": 74.10000000000001,
         "run_count": 0,
-        "walk_count": 23,
-        "total_sessions": 23,
+        "walk_count": 24,
+        "total_sessions": 24,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
@@ -579,13 +579,21 @@
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12.jpg",
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12_1.jpg"
           ]
+        },
+        {
+          "name": "Sand",
+          "distance": 2.02,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg"
+          ]
         }
       ],
-      "mando_daily": 9.51,
+      "mando_daily": 11.53,
       "it_daily": 0.0,
-      "mando_accum": 618.93,
+      "mando_accum": 620.95,
       "it_accum": 645.36,
-      "mando_avg": 61.89,
+      "mando_avg": 62.09,
       "it_avg": 64.54
     },
     {
