@@ -40,3 +40,5 @@ Composition:
 - In the center or bottom, a glowing line graph showing a sharp downward trend from the number "84" down to a tiny "12".
 - Text elements should be sharp and angular.
 - The background should be dark.
+
+![The Great Pursuit Infographic](great_pursuit_visual.png)
