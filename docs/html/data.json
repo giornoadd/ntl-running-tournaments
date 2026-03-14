@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-14 10:17:03",
+  "last_updated": "2026-03-14 23:15:12",
   "teams": {
     "Mandalorian": {
-      "total_distance": 640.8,
+      "total_distance": 646.95,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 64.08
+      "avg_distance": 64.7
     },
     "IT System": {
       "total_distance": 653.59,
@@ -242,6 +242,34 @@
       }
     },
     {
+      "nickname": "Em",
+      "thai_name": "เอ็ม",
+      "team": "Mandalorian",
+      "total_distance": 43.15,
+      "active_days": 7,
+      "image_count": 7,
+      "recent_images": [
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-14.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG"
+      ],
+      "stats_details": {
+        "run_dist": 43.15,
+        "walk_dist": 0.0,
+        "run_count": 7,
+        "walk_count": 0,
+        "total_sessions": 7,
+        "best_pace": 492,
+        "best_pace_activity": "6km Long Run",
+        "best_pace_date": "2026-03-14",
+        "longest_run_dist": 9.66,
+        "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
+        "longest_run_date": "2026-02-01"
+      }
+    },
+    {
       "nickname": "Ton",
       "thai_name": "ต้น",
       "team": "IT System",
@@ -295,34 +323,6 @@
         "longest_run_dist": 7.38,
         "longest_run_activity": "Morning Run",
         "longest_run_date": "2026-02-07"
-      }
-    },
-    {
-      "nickname": "Em",
-      "thai_name": "เอ็ม",
-      "team": "Mandalorian",
-      "total_distance": 37.0,
-      "active_days": 6,
-      "image_count": 6,
-      "recent_images": [
-        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-11.jpg",
-        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-08.jpg",
-        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-03.jpg",
-        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-25.JPEG",
-        "assets_data/member_results/Manda-4_EM/running-pics/em-2026-jan-24.JPEG"
-      ],
-      "stats_details": {
-        "run_dist": 37.0,
-        "walk_dist": 0.0,
-        "run_count": 6,
-        "walk_count": 0,
-        "total_sessions": 6,
-        "best_pace": 500,
-        "best_pace_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
-        "best_pace_date": "2026-02-01",
-        "longest_run_dist": 9.66,
-        "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
-        "longest_run_date": "2026-02-01"
       }
     },
     {
@@ -581,6 +581,14 @@
           ]
         },
         {
+          "name": "EM",
+          "distance": 6.15,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-4_EM/running-pics/em-2026-mar-14.jpg"
+          ]
+        },
+        {
           "name": "Boy",
           "distance": 8.23,
           "team": "IT System",
@@ -589,11 +597,11 @@
           ]
         }
       ],
-      "mando_daily": 11.8,
+      "mando_daily": 17.95,
       "it_daily": 8.23,
-      "mando_accum": 640.8,
+      "mando_accum": 646.95,
       "it_accum": 653.59,
-      "mando_avg": 64.08,
+      "mando_avg": 64.69,
       "it_avg": 65.36
     },
     {
