@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-14 09:53:10",
+  "last_updated": "2026-03-14 09:58:48",
   "teams": {
     "Mandalorian": {
-      "total_distance": 635.07,
+      "total_distance": 640.8,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 63.51
+      "avg_distance": 64.08
     },
     "IT System": {
       "total_distance": 653.59,
@@ -21,22 +21,22 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 352.05,
-      "active_days": 54,
-      "image_count": 70,
+      "total_distance": 357.78,
+      "active_days": 55,
+      "image_count": 71,
       "recent_images": [
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg"
       ],
       "stats_details": {
         "run_dist": 316.3500000000001,
-        "walk_dist": 63.65,
+        "walk_dist": 69.38,
         "run_count": 54,
-        "walk_count": 17,
-        "total_sessions": 71,
+        "walk_count": 18,
+        "total_sessions": 72,
         "best_pace": 431,
         "best_pace_activity": "5.5km Easy Run",
         "best_pace_date": "2026-03-09",
@@ -567,7 +567,17 @@
           "distance": 6.07,
           "team": "Mandalorian",
           "images": [
-            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg"
+          ]
+        },
+        {
+          "name": "GIO",
+          "distance": 5.73,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg"
           ]
         },
         {
@@ -579,11 +589,11 @@
           ]
         }
       ],
-      "mando_daily": 6.07,
+      "mando_daily": 11.8,
       "it_daily": 8.23,
-      "mando_accum": 635.07,
+      "mando_accum": 640.8,
       "it_accum": 653.59,
-      "mando_avg": 63.51,
+      "mando_avg": 64.08,
       "it_avg": 65.36
     },
     {
