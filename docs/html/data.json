@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-14 09:41:31",
+  "last_updated": "2026-03-14 09:46:21",
   "teams": {
     "Mandalorian": {
-      "total_distance": 629.0,
+      "total_distance": 635.07,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 62.9
+      "avg_distance": 63.51
     },
     "IT System": {
       "total_distance": 653.59,
@@ -21,22 +21,22 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 345.98,
-      "active_days": 53,
-      "image_count": 69,
+      "total_distance": 352.05,
+      "active_days": 54,
+      "image_count": 70,
       "recent_images": [
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-12.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11_1.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-11.jpg"
       ],
       "stats_details": {
-        "run_dist": 310.2800000000001,
+        "run_dist": 316.3500000000001,
         "walk_dist": 63.65,
-        "run_count": 53,
+        "run_count": 54,
         "walk_count": 17,
-        "total_sessions": 70,
+        "total_sessions": 71,
         "best_pace": 431,
         "best_pace_activity": "5.5km Easy Run",
         "best_pace_date": "2026-03-09",
@@ -135,13 +135,13 @@
       "team": "Mandalorian",
       "total_distance": 68.73,
       "active_days": 22,
-      "image_count": 28,
+      "image_count": 29,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-08_1.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
@@ -563,6 +563,14 @@
       "month": "2026-March",
       "runners_list": [
         {
+          "name": "GIO",
+          "distance": 6.07,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg"
+          ]
+        },
+        {
           "name": "Boy",
           "distance": 8.23,
           "team": "IT System",
@@ -571,11 +579,11 @@
           ]
         }
       ],
-      "mando_daily": 0.0,
+      "mando_daily": 6.07,
       "it_daily": 8.23,
-      "mando_accum": 629.0,
+      "mando_accum": 635.07,
       "it_accum": 653.59,
-      "mando_avg": 62.9,
+      "mando_avg": 63.51,
       "it_avg": 65.36
     },
     {
@@ -587,7 +595,8 @@
           "distance": 2.01,
           "team": "Mandalorian",
           "images": [
-            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg"
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg"
           ]
         },
         {
