@@ -40,3 +40,5 @@ GIO (Manda-1) คือหัวหอกทะลวงฟันอย่าง
 - A large, dramatic declining bar chart showing the gap dropping from 84.23km ➔ 49.38km ➔ 18.52km.
 - Text accents in bright neon colors (Red for Peak Gap, Green/Olive for Manda's comeback, Blue/Cyan for IT's defense).
 - Background should be dark, perhaps with a subtle motion-blur effect or running track lines fading into the distance to imply the "chase."
+
+![Mandalorian Pursuit Infographic](mandalorian_pursuit_infographic.png)
