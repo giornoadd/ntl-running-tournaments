@@ -215,6 +215,44 @@ body {{
   margin-top: 0.5rem;
 }}
 
+/* Infographic Highlight Card */
+.highlight-card {{
+  border-color: var(--accent);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 1), rgba(0, 204, 255, 0.08));
+  position: relative;
+  overflow: hidden;
+}}
+.highlight-card::before {{
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 4px;
+  background: linear-gradient(90deg, var(--manda), var(--accent));
+}}
+.impact-text {{
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.6;
+}}
+.pulse-btn {{
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: var(--accent);
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  border-radius: 999px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+  box-shadow: 0 0 15px rgba(0, 204, 255, 0.4);
+}}
+.pulse-btn:hover {{
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 0 25px rgba(0, 204, 255, 0.6);
+}}
+
 /* Tables */
 table {{
   width: 100%;
@@ -284,6 +322,21 @@ tr:hover {{ background: rgba(255,255,255,0.02); }}
     <div class="cta-title">📊 Open Live Dashboard →</div>
     <div class="cta-sub">Real-time standings, team stats, roster profiles & activity history</div>
   </a>
+
+  <!-- Latest Infographic Hit -->
+  <div class="card highlight-card">
+    <h2>🔥 The Great Pursuit (Week 9 ➔ 11)</h2>
+    <div class="infographic-content">
+      <p class="impact-text">
+        ทีม <b style="color:var(--manda)">Mandalorian</b> เครื่องร้อนจัด ตามบี้จากที่ตามหลังอยู่ +84 km ใน Week 9 ตอนนี้เหลือช่องว่างเพียงแค่ <span style="color:var(--accent); font-size:1.3em; font-weight: 800;">1.28 km ต่อคน</span> เท่านั้น! หายใจรดต้นคอกันแล้วครับ! 😱<br><br>
+        เสาร์-อาทิตย์นี้ใครพลาด คนนั้นแพ้! ทุกก้าวมีผลต่อระยะห่างนี้แน่นอน! ออกมาวิ่ง/เดินกันครับทุกคน!
+      </p>
+      <img src="img/great_pursuit_visual.png" alt="The Great Pursuit" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+      <div style="text-align: center;">
+        <a href="html/index.html" class="pulse-btn">ร่วมเป็นส่วนหนึ่งของตำนาน! 🏃‍♂️💨</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Tournament Rules -->
   <div class="card">
