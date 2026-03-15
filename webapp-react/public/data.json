@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-15 09:02:04",
+  "last_updated": "2026-03-15 20:03:33",
   "teams": {
     "Mandalorian": {
-      "total_distance": 657.05,
+      "total_distance": 659.08,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 65.71
+      "avg_distance": 65.91
     },
     "IT System": {
       "total_distance": 660.11,
@@ -382,6 +382,34 @@
       }
     },
     {
+      "nickname": "Mos",
+      "thai_name": "มอส",
+      "team": "Mandalorian",
+      "total_distance": 22.77,
+      "active_days": 8,
+      "image_count": 8,
+      "recent_images": [
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-15.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg",
+        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 0.0,
+        "walk_dist": 22.77,
+        "run_count": 0,
+        "walk_count": 8,
+        "total_sessions": 8,
+        "best_pace": null,
+        "best_pace_activity": "",
+        "best_pace_date": "",
+        "longest_run_dist": 0.0,
+        "longest_run_activity": "",
+        "longest_run_date": ""
+      }
+    },
+    {
       "nickname": "Game",
       "thai_name": "เกมส์",
       "team": "IT System",
@@ -407,34 +435,6 @@
         "longest_run_dist": 11.13,
         "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
         "longest_run_date": "2025-12-29"
-      }
-    },
-    {
-      "nickname": "Mos",
-      "thai_name": "มอส",
-      "team": "Mandalorian",
-      "total_distance": 20.74,
-      "active_days": 7,
-      "image_count": 7,
-      "recent_images": [
-        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-03.jpg",
-        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-01.jpg",
-        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-21.jpg",
-        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-20.jpg",
-        "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-jan-19.jpg"
-      ],
-      "stats_details": {
-        "run_dist": 0.0,
-        "walk_dist": 20.74,
-        "run_count": 0,
-        "walk_count": 7,
-        "total_sessions": 7,
-        "best_pace": null,
-        "best_pace_activity": "",
-        "best_pace_date": "",
-        "longest_run_dist": 0.0,
-        "longest_run_activity": "",
-        "longest_run_date": ""
       }
     },
     {
@@ -581,6 +581,14 @@
           ]
         },
         {
+          "name": "Mos",
+          "distance": 2.03,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-10_Mos/running-pics/mos-2026-mar-15.jpg"
+          ]
+        },
+        {
           "name": "Boy",
           "distance": 6.52,
           "team": "IT System",
@@ -589,11 +597,11 @@
           ]
         }
       ],
-      "mando_daily": 10.1,
+      "mando_daily": 12.13,
       "it_daily": 6.52,
-      "mando_accum": 657.05,
+      "mando_accum": 659.08,
       "it_accum": 660.11,
-      "mando_avg": 65.7,
+      "mando_avg": 65.91,
       "it_avg": 66.01
     },
     {
