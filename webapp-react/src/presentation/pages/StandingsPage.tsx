@@ -36,6 +36,10 @@ export const StandingsPage: React.FC = () => {
 
     return (
         <div className="flex flex-col gap-8 fade-in">
+            <div className="text-sm text-textMuted/80 text-right -mb-4 flex items-center justify-end gap-1">
+                <span>🔄</span> Last updated: {data.last_updated}
+            </div>
+
             {/* Team Battle Head to Head */}
             <Card>
                 <h2 className="text-xl font-heading mb-6">🏆 Current Leaders: <span className="text-accent">{leadingTeam}</span></h2>
