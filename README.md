@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 657.05 km | 660.11 km | 💻 **IT System** |
-| **Average / Person** | 65.70 km | 66.01 km | 💻 **IT System** |
+| **Total Distance** | 659.08 km | 660.11 km | 💻 **IT System** |
+| **Average / Person** | 65.91 km | 66.01 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **0.31 km/person** 🏆 IT System strikes back instantly! 🔥
+> 💻 **IT System** leads by **0.10 km/person** 🏆 IT System restricts the damage! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 216.98 km<br>
+  🪖 Mandalorian: 219.01 km<br>
   💻 IT System: 135.81 km<br>
-  <i>(🪖 Manda is crushing March! +81 km lead!)</i>
+  <i>(🪖 Manda is crushing March! +83.2 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 216.98 km | IT: 135.81 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 219.01 km | IT: 135.81 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -43,10 +43,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
-| **12** | **15–21 Mar** | **657.05** | **660.11** | **+3.06** | 💻 IT | 🔴 |
+| **12** | **15–21 Mar** | **659.08** | **660.11** | **+1.03** | 💻 IT | 🔴 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 🔴 **IT Takes It Back!** IT System reclaims the lead instantly, pulling ahead by **3.06 km**! 🔥
+> 🔴 **IT Holding The Line!** IT System is still in the lead, but the gap is closing to **1.03 km**! 🔥
 
 ---
 
@@ -79,8 +79,8 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Manda-7 | 🏃🏻‍♂️ หนึ่ง (Neung) | 0.00 km | 0d | 💤 MIA |
 | Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 37.44 km | 5d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
-| Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 20.74 km | 7d | |
-| **Team Total** | | **657.05 km** | | |
+| Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 22.77 km | 8d | |
+| **Team Total** | | **659.08 km** | | |
 
 <br>
 
