@@ -7,25 +7,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 Status: 🟢 In Progress — **Week 12** | Data as of: 2026-03-15
+> 📅 Status: 🟢 In Progress — **Week 12** | Data as of: 2026-03-16
 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 659.08 km | 660.11 km | 💻 **IT System** |
-| **Average / Person** | 65.91 km | 66.01 km | 💻 **IT System** |
+| **Total Distance** | 673.35 km | 660.11 km | 🪖 **Mandalorian** |
+| **Average / Person** | 67.33 km | 66.01 km | 🪖 **Mandalorian** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **0.10 km/person** 🏆 IT System restricts the damage! 🔥
+> 🪖 **Mandalorian** leads by **1.32 km/person** 🏆 Mandalorian reclaims the throne! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 219.01 km<br>
+  🪖 Mandalorian: 233.28 km<br>
   💻 IT System: 135.81 km<br>
-  <i>(🪖 Manda is crushing March! +83.2 km lead!)</i>
+  <i>(🪖 Manda is crushing March! +97.47 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 219.01 km | IT: 135.81 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 233.28 km | IT: 135.81 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -43,10 +43,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
-| **12** | **15–21 Mar** | **659.08** | **660.11** | **+1.03** | 💻 IT | 🔴 |
+| **12** | **15–21 Mar** | **673.35** | **660.11** | **-13.24** | 🪖 Manda | 🟢 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 🔴 **IT Holding The Line!** IT System is still in the lead, but the gap is closing to **1.03 km**! 🔥
+> 🟢 **Mandalorian Strikes Back!** Mandalorian has retaken the lead by **13.24 km**! 🔥
 
 ---
 
@@ -54,11 +54,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **Gio** | 🪖 Mandalorian | 367.88 km | 
-| 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 
-| 🥉 3 | **Boy** | 💻 IT System | 134.05 km | 
-| 🏅 4 | **O** | 💻 IT System | 126.98 km | 
-| 🏅 5 | **Sand** | 🪖 Mandalorian | 68.73 km | 
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 373.94 km | 63d |
+| 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 37d |
+| 🥉 3 | **Boy** | 💻 IT System | 134.05 km | 21d |
+| 🏅 4 | **O** | 💻 IT System | 126.98 km | 22d |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | 68.73 km | 25d |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -70,17 +70,17 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 397.55 km | 62d | 🥇 Overall Leader! |
+| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 403.61 km | 63d | 🥇 Overall Leader! |
 | Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 57.42 km | 9d | |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 29.08 km | 6d | 🏆 NEW PR 6.04 km! |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 43.15 km | 7d | |
 | Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 76.54 km | 25d | 🏅 Top 5! |
 | Manda-6 | 🏃🏻‍♂️ เป๊ก (peck) | 0.00 km | 0d | 💤 MIA |
 | Manda-7 | 🏃🏻‍♂️ หนึ่ง (Neung) | 0.00 km | 0d | 💤 MIA |
-| Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 37.44 km | 5d | |
+| Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 45.65 km | 6d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
 | Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 22.77 km | 8d | |
-| **Team Total** | | **659.08 km** | | |
+| **Team Total** | | **673.35 km** | | |
 
 <br>
 
@@ -224,4 +224,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 👉 **[docs/](docs/README.md)** — Full documentation index
 
 ---
-*Last updated: 2026-03-15*
+*Last updated: 2026-03-16*
