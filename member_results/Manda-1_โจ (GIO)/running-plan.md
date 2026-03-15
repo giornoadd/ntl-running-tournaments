@@ -249,8 +249,8 @@
   * **Test:** 3.22km Time Trial **(เป้าหมาย Pace 6:40/km)** + เดินพัก 3 นาที
   * Cool-down: 500m (วิ่งให้ช้าที่สุด)
 * **Thu 12:** ✅ `Stronger Upper Body + 5km Easy Run` *(จริง: 5.04 km, Pace 7:38/km, HR 151 bpm, Zone 3 Tempo, Cadence 155 spm)*
-* **Fri 13:** `Full Body Strength Session`
-* **Sat 14:** `6km Long Run` (วิ่งให้จบแบบความรู้สึกยังอยากวิ่งต่อ Conversational pace)
+* **Fri 13:** ✅ `Full Body Strength Session`
+* **Sat 14:** ✅ `6km Long Run` *(จริง: 6.07 km, Pace 8:55/km, 54m 13s)* (วิ่งให้จบแบบความรู้สึกยังอยากวิ่งต่อ Conversational pace)
 * **Sun 15:** 🧘🏻‍♂️ *Rest Day*
 
 ### 🗓️ Week 13: Mar 16 - Mar 22 (สัปดาห์ไต่ระดับความอึดครั้งใหม่)
