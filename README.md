@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 653.73 km | 653.59 km | 🪖 **Mandalorian** |
-| **Average / Person** | 65.37 km | 65.36 km | 🪖 **Mandalorian** |
+| **Total Distance** | 657.05 km | 653.59 km | 🪖 **Mandalorian** |
+| **Average / Person** | 65.70 km | 65.36 km | 🪖 **Mandalorian** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 🪖 **Mandalorian** leads by **0.01 km/person** 🏆 The Mandalorian strikes back! 🔥
+> 🪖 **Mandalorian** leads by **0.34 km/person** 🏆 The Mandalorian strikes back! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 213.66 km<br>
+  🪖 Mandalorian: 216.98 km<br>
   💻 IT System: 129.29 km<br>
-  <i>(🪖 Manda is crushing March! +84 km lead!)</i>
+  <i>(🪖 Manda is crushing March! +87 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 213.66 km | IT: 129.29 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 216.98 km | IT: 129.29 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -43,10 +43,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
-| **12** | **15–21 Mar** | **653.73** | **653.59** | **−0.14** | 🪖 Manda | 🟢 |
+| **12** | **15–21 Mar** | **657.05** | **653.59** | **−3.46** | 🪖 Manda | 🟢 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 📉 **Mandalorian Overtake!** From a peak gap of **+84 km** (W9), Mandalorian has completely closed the gap and is now leading by **0.14 km**! 🔥
+> 📉 **Mandalorian Overtake!** From a peak gap of **+84 km** (W9), Mandalorian has completely closed the gap and is now leading by **3.46 km**! 🔥
 
 ---
 
@@ -54,7 +54,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **Gio** | 🪖 Mandalorian | 364.56 km | 
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 367.88 km | 
 | 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 
 | 🥉 3 | **Boy** | 💻 IT System | 127.53 km | 
 | 🏅 4 | **O** | 💻 IT System | 126.98 km | 
