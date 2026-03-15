@@ -10,5 +10,6 @@
 | 2026-03-03 | Morning Run | 4.78 km | 1h 0m | 12:34/km | N/A | N/A | N/A | fuse-2026-mar-03.jpg |
 | 2026-03-03 | Morning Run | 1.16 km | 8m 32s | 7:20/km | N/A | N/A | N/A | fuse-2026-mar-03-run2.jpg |
 | 2026-03-08 | Morning Run | 5.91 km | 1h 2m | 10:35/km | N/A | N/A | N/A | fuse-2026-mar-08.jpg |
+| 2026-03-15 | Evening Run | 8.21 km | 1h 26m | 10:35/km | N/A | N/A | N/A | fuse-2026-mar-15.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

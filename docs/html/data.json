@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-15 20:03:33",
+  "last_updated": "2026-03-16 06:49:14",
   "teams": {
     "Mandalorian": {
-      "total_distance": 659.08,
+      "total_distance": 667.29,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 65.91
+      "avg_distance": 66.73
     },
     "IT System": {
       "total_distance": 660.11,
@@ -242,6 +242,34 @@
       }
     },
     {
+      "nickname": "Fuse",
+      "thai_name": "ฟิวส์",
+      "team": "Mandalorian",
+      "total_distance": 45.65,
+      "active_days": 6,
+      "image_count": 7,
+      "recent_images": [
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-15.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03-run2.jpg",
+        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG"
+      ],
+      "stats_details": {
+        "run_dist": 34.05,
+        "walk_dist": 12.76,
+        "run_count": 6,
+        "walk_count": 1,
+        "total_sessions": 7,
+        "best_pace": 440,
+        "best_pace_activity": "Morning Run",
+        "best_pace_date": "2026-03-03",
+        "longest_run_dist": 8.21,
+        "longest_run_activity": "Evening Run",
+        "longest_run_date": "2026-03-15"
+      }
+    },
+    {
       "nickname": "Em",
       "thai_name": "เอ็ม",
       "team": "Mandalorian",
@@ -295,34 +323,6 @@
         "longest_run_dist": 4.15,
         "longest_run_activity": "Morning Run",
         "longest_run_date": "2026-01-27"
-      }
-    },
-    {
-      "nickname": "Fuse",
-      "thai_name": "ฟิวส์",
-      "team": "Mandalorian",
-      "total_distance": 37.44,
-      "active_days": 5,
-      "image_count": 6,
-      "recent_images": [
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg",
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg",
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03-run2.jpg",
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG",
-        "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24-run.jpg"
-      ],
-      "stats_details": {
-        "run_dist": 25.84,
-        "walk_dist": 12.76,
-        "run_count": 5,
-        "walk_count": 1,
-        "total_sessions": 6,
-        "best_pace": 440,
-        "best_pace_activity": "Morning Run",
-        "best_pace_date": "2026-03-03",
-        "longest_run_dist": 7.38,
-        "longest_run_activity": "Morning Run",
-        "longest_run_date": "2026-02-07"
       }
     },
     {
@@ -589,6 +589,14 @@
           ]
         },
         {
+          "name": "Fuse",
+          "distance": 8.21,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-15.jpg"
+          ]
+        },
+        {
           "name": "Boy",
           "distance": 6.52,
           "team": "IT System",
@@ -597,11 +605,11 @@
           ]
         }
       ],
-      "mando_daily": 12.13,
+      "mando_daily": 20.34,
       "it_daily": 6.52,
-      "mando_accum": 659.08,
+      "mando_accum": 667.29,
       "it_accum": 660.11,
-      "mando_avg": 65.91,
+      "mando_avg": 66.73,
       "it_avg": 66.01
     },
     {

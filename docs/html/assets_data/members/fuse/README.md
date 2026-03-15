@@ -17,26 +17,27 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **37.44 km** (Running 25.84 km + Walk 12.76 km) |
-| **Active Days** | 📅 5 days |
-| **Total Sessions** | 📋 6 sessions (Running 5 + Walk 1) |
-| **Average / Session** | 📏 7.49 km |
+| **Total Distance** | 🔥 **45.65 km** (Running 34.05 km + Walk 12.76 km) |
+| **Active Days** | 📅 6 days |
+| **Total Sessions** | 📋 7 sessions (Running 6 + Walk 1) |
+| **Average / Session** | 📏 7.61 km |
 | **Best Session** | 🏆 12.76 km (2026-01-24) |
 | **Best Pace** | ⚡ 7:20/km — Morning Run (2026-03-03) |
-| **Longest Run** | 🏅 7.38 km — Morning Run (2026-02-07) |
-| **Evidence Files** | 📸 6 screenshots |
+| **Longest Run** | 🏅 8.21 km — Evening Run (2026-03-15) |
+| **Evidence Files** | 📸 7 screenshots |
 | **First Active** | 2026-01-24 |
-| **Last Active** | 2026-03-08 |
+| **Last Active** | 2026-03-15 |
 
 ---
 
 ## 📅 2026-March
-> 2 sessions · 10.69 km total · 5.35 km avg · best 5.91 km
+> 3 sessions · 18.90 km total · 6.30 km avg · best 8.21 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-03 | Tue, Mar 03 | **4.78 km** | 🏃 Morning Run + Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg) |
 | 2 | 2026-03-08 | Sun, Mar 08 | **5.91 km** | 🏃 Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg) |
+| 3 | 2026-03-15 | Sun, Mar 15 | **8.21 km** | 🏃 Evening Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-15.jpg) |
 
 ## 📅 2026-February
 > 1 sessions · 7.38 km total · 7.38 km avg · best 7.38 km
@@ -54,4 +55,4 @@
 | 2 | 2026-01-24 | Sat, Jan 24 | **6.61 km** | 🏃 Morning Walk (เดินเช้า) + Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) |
 
 ---
-*Auto-generated on 2026-03-15 20:01*
+*Auto-generated on 2026-03-16 06:49*
