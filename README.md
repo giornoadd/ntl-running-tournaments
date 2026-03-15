@@ -7,25 +7,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 Status: 🟢 In Progress — **Week 11** | Data as of: 2026-03-14
+> 📅 Status: 🟢 In Progress — **Week 12** | Data as of: 2026-03-15
 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 646.95 km | 653.59 km | 💻 **IT System** |
-| **Average / Person** | 64.70 km | 65.36 km | 💻 **IT System** |
+| **Total Distance** | 653.73 km | 653.59 km | 🪖 **Mandalorian** |
+| **Average / Person** | 65.37 km | 65.36 km | 🪖 **Mandalorian** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **0.66 km/person** 🏆 Gap is closing FAST! 🔥
+> 🪖 **Mandalorian** leads by **0.01 km/person** 🏆 The Mandalorian strikes back! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 206.88 km<br>
+  🪖 Mandalorian: 213.66 km<br>
   💻 IT System: 129.29 km<br>
-  <i>(🪖 Manda is crushing March! +77 km lead!)</i>
+  <i>(🪖 Manda is crushing March! +84 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 206.88 km | IT: 129.29 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 213.66 km | IT: 129.29 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -42,11 +42,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 8 | 15–21 Feb | 382.56 | 459.11 | +76.55 | 💻 IT | 🟡 |
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
-| **11** | **8–14 Mar** | **646.95** | **653.59** | **+6.64** | 💻 IT | 📉📉📉 |
-| 12 | 15–21 Mar | — | — | — | — | ⏳ |
+| 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
+| **12** | **15–21 Mar** | **653.73** | **653.59** | **−0.14** | 🪖 Manda | 🟢 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 📉 **Gap closing fast!** From peak **+84 km** (W9) down to **+6.6 km** (W11) — Mandalorian cut 78 km in 2 weeks! 🔥
+> 📉 **Mandalorian Overtake!** From a peak gap of **+84 km** (W9), Mandalorian has completely closed the gap and is now leading by **0.14 km**! 🔥
 
 ---
 
@@ -54,11 +54,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **GIO** | 🪖 Mandalorian | 387.45 km | 60 days |
-| 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 37 days |
-| 🥉 3 | **O** | 💻 IT System | 144.91 km | 22 days |
-| 🏅 4 | **Boy** | 💻 IT System | 127.53 km | 20 days |
-| 🏅 5 | **Sand** | 🪖 Mandalorian | 76.54 km | 25 days |
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 364.56 km | 
+| 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 
+| 🥉 3 | **Boy** | 💻 IT System | 127.53 km | 
+| 🏅 4 | **O** | 💻 IT System | 126.98 km | 
+| 🏅 5 | **Sand** | 🪖 Mandalorian | 68.73 km | 
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -118,8 +118,8 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Week | Dates | Notes |
 | :---: | :--- | :--- |
 | 10 | 1 Mar – 7 Mar | |
-| **11** | **8 Mar – 14 Mar** | 📍 **Current Week** |
-| 12 | 15 Mar – 21 Mar | |
+| 11 | 8 Mar – 14 Mar | |
+| **12** | **15 Mar – 21 Mar** | 📍 **Current Week** |
 | 13 | 22 Mar – 28 Mar | |
 | — | 29 Mar – 31 Mar | ⚡ Q1 Final Sprint! |
 
@@ -224,4 +224,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 👉 **[docs/](docs/README.md)** — Full documentation index
 
 ---
-*Last updated: 2026-03-14*
+*Last updated: 2026-03-15*
