@@ -24,5 +24,6 @@
 | 2026-03-08 | Morning Run | 7.08 km | 53m 55s | 7:37/km | N/A | N/A | N/A | boy-2026-mar-08.jpg |
 | 2026-03-11 | Morning Run | 7.38 km | 55m 12s | 7:29/km | N/A | N/A | N/A | boy-2026-mar-11.jpg |
 | 2026-03-14 | 7km Long Run | 8.23 km | 59m 10s | 7:11/km | N/A | N/A | N/A | boy-2026-mar-14.jpg |
+| 2026-03-15 | Morning Run | 6.52 km | 49m 59s | 7:40/km | N/A | N/A | N/A | boy-2026-mar-15.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

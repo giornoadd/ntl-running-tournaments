@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **127.53 km** |
-| **Active Days** | 📅 20 days |
+| **Total Distance** | 🔥 **134.05 km** |
+| **Active Days** | 📅 21 days |
 | **Average / Session** | 📏 6.38 km |
 | **Best Session** | 🏆 8.23 km (2026-03-14) |
 | **Best Pace** | ⚡ 6:20/km — Morning Run (2026-02-27) |
 | **Longest Run** | 🏅 8.23 km — 7km Long Run (2026-03-14) |
 | **Avg Running Cadence** | 🦶 160 spm |
-| **Evidence Files** | 📸 20 screenshots |
+| **Evidence Files** | 📸 21 screenshots |
 | **First Active** | 2026-01-07 |
-| **Last Active** | 2026-03-14 |
+| **Last Active** | 2026-03-15 |
 
 ---
 
 ## 📅 2026-March
-> 5 sessions · 35.07 km total · 7.01 km avg · best 8.23 km
+> 6 sessions · 41.59 km total · 6.93 km avg · best 8.23 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -40,6 +40,7 @@
 | 3 | 2026-03-08 | Sun, Mar 08 | **7.08 km** | 🏃 Morning Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg) |
 | 4 | 2026-03-11 | Wed, Mar 11 | **7.38 km** | 🏃 Morning Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-11.jpg) |
 | 5 | 2026-03-14 | Sat, Mar 14 | **8.23 km** | 🏃 7km Long Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-14.jpg) |
+| 6 | 2026-03-15 | Sun, Mar 15 | **6.52 km** | 🏃 Morning Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-15.jpg) |
 
 ## 📅 2026-February
 > 10 sessions · 65.44 km total · 6.54 km avg · best 8.00 km
@@ -69,4 +70,4 @@
 | 5 | 2026-01-29 | Thu, Jan 29 | **6.00 km** | 🏃 Outdoor Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg) |
 
 ---
-*Auto-generated on 2026-03-15 08:41*
+*Auto-generated on 2026-03-15 09:01*
