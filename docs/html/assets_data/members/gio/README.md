@@ -17,15 +17,15 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **403.61 km** (Running 329.19 km + Walk 72.70 km) |
+| **Total Distance** | 🔥 **403.61 km** (Running 329.19 km + Walk 76.12 km) |
 | **Active Days** | 📅 63 days |
-| **Total Sessions** | 📋 75 sessions (Running 56 + Walk 19) |
+| **Total Sessions** | 📋 76 sessions (Running 56 + Walk 20) |
 | **Average / Session** | 📏 6.41 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
 | **Best Pace** | ⚡ 7:02/km — 6km Easy Run (2026-03-16) |
 | **Longest Run** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
 | **Avg Running Cadence** | 🦶 145 spm |
-| **Evidence Files** | 📸 74 screenshots |
+| **Evidence Files** | 📸 75 screenshots |
 | **First Active** | 2025-10-17 |
 | **Last Active** | 2026-03-16 |
 
@@ -101,7 +101,7 @@
 | 15 | 2026-03-14 | Sat, Mar 14 | **5.73 km** | 🏃 6km Long Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg) |
 | 16 | 2026-03-15 | Sun, Mar 15 | **6.78 km** | 🏃 Sunday Morning Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15_1.jpg) |
 | 17 | 2026-03-15 | Sun, Mar 15 | **3.32 km** | 🏃 Sunday Morning Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15_1.jpg) |
-| 18 | 2026-03-16 | Mon, Mar 16 | **6.06 km** | 🏃 6km Easy Run | [📸](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg) |
+| 18 | 2026-03-16 | Mon, Mar 16 | **6.06 km** | 🏃 6km Easy Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg) |
 
 ## 📅 2026-February
 > 19 sessions · 145.12 km total · 7.64 km avg · best 14.18 km
@@ -173,4 +173,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](assets_data/member_results/Manda-1_GIO/running-pics/gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-03-16 06:50*
+*Auto-generated on 2026-03-16 06:52*

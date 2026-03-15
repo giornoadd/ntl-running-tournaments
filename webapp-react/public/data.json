@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16 06:50:55",
+  "last_updated": "2026-03-16 06:52:39",
   "teams": {
     "Mandalorian": {
       "total_distance": 673.35,
@@ -23,20 +23,20 @@
       "team": "Mandalorian",
       "total_distance": 373.94,
       "active_days": 58,
-      "image_count": 74,
+      "image_count": 75,
       "recent_images": [
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg"
       ],
       "stats_details": {
         "run_dist": 329.19000000000005,
-        "walk_dist": 72.69999999999999,
+        "walk_dist": 76.11999999999999,
         "run_count": 56,
-        "walk_count": 19,
-        "total_sessions": 75,
+        "walk_count": 20,
+        "total_sessions": 76,
         "best_pace": 422,
         "best_pace_activity": "6km Easy Run",
         "best_pace_date": "2026-03-16",
@@ -567,7 +567,8 @@
           "distance": 6.06,
           "team": "Mandalorian",
           "images": [
-            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg"
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg"
           ]
         }
       ],
