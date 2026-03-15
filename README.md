@@ -70,7 +70,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 387.45 km | 60d | 🥇 Overall Leader! |
+| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 397.55 km | 62d | 🥇 Overall Leader! |
 | Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 57.42 km | 9d | |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 29.08 km | 6d | 🏆 NEW PR 6.04 km! |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 43.15 km | 7d | |
@@ -80,7 +80,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 37.44 km | 5d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
 | Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 20.74 km | 7d | |
-| **Team Total** | | **646.95 km** | | |
+| **Team Total** | | **657.05 km** | | |
 
 <br>
 
@@ -90,15 +90,15 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | :--- | :--- | ---: | :---: | :--- |
 | ITSystem-1 | 🏃🏻‍♂️ โอ๊ต (Oat) | 58.97 km | 11d | |
 | ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 44.89 km | 6d | |
-| ITSystem-3 | 🏃🏻‍♂️ โอ (O) | 144.91 km | 22d | 🥉 Top 3! |
+| ITSystem-3 | 🏃🏻‍♂️ โอ (O) | 144.91 km | 22d | 🏅 Top 4! |
 | ITSystem-4 | 🏃🏻‍♂️ ปาล์ม (Palm) | 62.17 km | 15d | 🔥 +2.52 km walk! |
 | ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 16.70 km | 4d | |
-| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 192.78 km | 37d | 🥈 Top 2 |
+| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 192.78 km | 37d | 🥈 Top 2! |
 | ITSystem-7 | 🏃🏻‍♂️ เต (Tae) | 0.00 km | 0d | 💤 MIA |
-| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 127.53 km | 20d | 🏅 Top 4 |
+| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 134.05 km | 21d | 🥉 Top 3! |
 | ITSystem-9 | 🏃🏻‍♂️ ต้น (Ton) | 41.62 km | 16d | |
 | ITSystem-10 | 🏃🏻‍♂️ แพน (PAN) | 4.21 km | 2d | |
-| **Team Total** | | **653.59 km** | | |
+| **Team Total** | | **660.11 km** | | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
