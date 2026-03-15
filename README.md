@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 657.05 km | 653.59 km | 🪖 **Mandalorian** |
-| **Average / Person** | 65.70 km | 65.36 km | 🪖 **Mandalorian** |
+| **Total Distance** | 657.05 km | 660.11 km | 💻 **IT System** |
+| **Average / Person** | 65.70 km | 66.01 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 🪖 **Mandalorian** leads by **0.34 km/person** 🏆 The Mandalorian strikes back! 🔥
+> 💻 **IT System** leads by **0.31 km/person** 🏆 IT System strikes back instantly! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
   🪖 Mandalorian: 216.98 km<br>
-  💻 IT System: 129.29 km<br>
-  <i>(🪖 Manda is crushing March! +87 km lead!)</i>
+  💻 IT System: 135.81 km<br>
+  <i>(🪖 Manda is crushing March! +81 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 216.98 km | IT: 129.29 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 216.98 km | IT: 135.81 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -43,10 +43,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
-| **12** | **15–21 Mar** | **657.05** | **653.59** | **−3.46** | 🪖 Manda | 🟢 |
+| **12** | **15–21 Mar** | **657.05** | **660.11** | **+3.06** | 💻 IT | 🔴 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 📉 **Mandalorian Overtake!** From a peak gap of **+84 km** (W9), Mandalorian has completely closed the gap and is now leading by **3.46 km**! 🔥
+> 🔴 **IT Takes It Back!** IT System reclaims the lead instantly, pulling ahead by **3.06 km**! 🔥
 
 ---
 
@@ -56,7 +56,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | :---: | :--- | :--- | ---: | :--- |
 | 🥇 1 | **Gio** | 🪖 Mandalorian | 367.88 km | 
 | 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 
-| 🥉 3 | **Boy** | 💻 IT System | 127.53 km | 
+| 🥉 3 | **Boy** | 💻 IT System | 134.05 km | 
 | 🏅 4 | **O** | 💻 IT System | 126.98 km | 
 | 🏅 5 | **Sand** | 🪖 Mandalorian | 68.73 km | 
 
