@@ -17,10 +17,10 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **403.61 km** (Running 329.19 km + Walk 76.12 km) |
-| **Active Days** | 📅 63 days |
+| **Total Distance** | 🔥 **407.03 km** (Running 329.19 km + Walk 76.12 km) |
+| **Active Days** | 📅 64 days |
 | **Total Sessions** | 📋 76 sessions (Running 56 + Walk 20) |
-| **Average / Session** | 📏 6.41 km |
+| **Average / Session** | 📏 6.36 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
 | **Best Pace** | ⚡ 7:02/km — 6km Easy Run (2026-03-16) |
 | **Longest Run** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
@@ -80,7 +80,7 @@
 ---
 
 ## 📅 2026-March
-> 18 sessions · 108.88 km total · 6.05 km avg · best 10.03 km
+> 19 sessions · 112.30 km total · 5.91 km avg · best 10.03 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -102,6 +102,7 @@
 | 16 | 2026-03-15 | Sun, Mar 15 | **6.78 km** | 🏃 Sunday Morning Run + Morning Walk | [📸1](running-pics/gio-2026-mar-15.jpg) [📸2](running-pics/gio-2026-mar-15_1.jpg) |
 | 17 | 2026-03-15 | Sun, Mar 15 | **3.32 km** | 🏃 Sunday Morning Run + Morning Walk | [📸1](running-pics/gio-2026-mar-15.jpg) [📸2](running-pics/gio-2026-mar-15_1.jpg) |
 | 18 | 2026-03-16 | Mon, Mar 16 | **6.06 km** | 🏃 6km Easy Run + Morning Walk | [📸1](running-pics/gio-2026-mar-16.jpg) [📸2](running-pics/gio-2026-mar-16_1.jpg) |
+| 19 | 2026-03-16 | Mon, Mar 16 | **3.42 km** | 🏃 6km Easy Run + Morning Walk | [📸1](running-pics/gio-2026-mar-16.jpg) [📸2](running-pics/gio-2026-mar-16_1.jpg) |
 
 ## 📅 2026-February
 > 19 sessions · 145.12 km total · 7.64 km avg · best 14.18 km
@@ -173,4 +174,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](running-pics/gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-03-16 07:35*
+*Auto-generated on 2026-03-16 08:55*

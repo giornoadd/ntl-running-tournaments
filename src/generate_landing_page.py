@@ -340,7 +340,7 @@ tr:hover {{ background: rgba(255,255,255,0.02); }}
         เหลืออีกแค่ 15 วัน จบ Q1! IT System ห้ามยอมแพ้ Manda ห้ามประมาท!<br>
         💪 สู้ๆ ทุกคน! ทุกก้าวมีค่า เดิน 2 กม. ก็นับ!
       </p>
-      <img src="img/Gemini_Generated_Image_3wadbv3wadbv3wad.jpeg" alt="Möbius Testament" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+      <img src="img/giorno-stand.jpeg" alt="Möbius Testament" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
       <div style="text-align: center;">
         <a href="html/index.html" class="pulse-btn">ร่วมเป็นส่วนหนึ่งของตำนาน! 🏃‍♂️💨</a>
       </div>
