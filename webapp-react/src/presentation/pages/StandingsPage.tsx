@@ -55,7 +55,7 @@ export const StandingsPage: React.FC = () => {
                 </div>
 
                 <div className="w-full h-8 bg-black/40 rounded-full flex overflow-hidden border border-white/10 relative">
-                    <div className="h-full bg-manda/20 transition-all duration-1000 flex items-center px-4" style={{ width: `${mandoPct}%`, boxShadow: '0 0 20px rgba(0,255,136,0.3) inset' }}></div>
+                    <div className="h-full bg-manda/20 transition-all duration-1000 flex items-center px-4" style={{ width: `${mandoPct}%`, boxShadow: '0 0 20px rgba(242,169,0,0.3) inset' }}></div>
                     <div className="h-full bg-it/20 transition-all duration-1000 flex items-center px-4 justify-end" style={{ width: `${itPct}%`, boxShadow: '0 0 20px rgba(0,204,255,0.3) inset' }}></div>
                     <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-white/20 z-10"></div>
                 </div>

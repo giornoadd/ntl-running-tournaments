@@ -204,7 +204,7 @@ const WeekTable: React.FC<{ weeks: WeekData[]; currentWeek: number; gapData?: Ga
                                 {showGap && (
                                     <td className="py-3 px-3 text-right">
                                         {avgGap !== null ? (
-                                            <span className={`font-semibold text-xs px-2 py-0.5 rounded-full ${avgGap > 0 ? 'bg-red-400/15 text-red-400' : 'bg-green-400/15 text-green-400'}`}>
+                                            <span className={`font-semibold text-xs px-2 py-0.5 rounded-full ${avgGap > 0 ? 'bg-red-400/15 text-red-400' : 'bg-amber-400/15 text-amber-400'}`}>
                                                 {avgGap > 0 ? '+' : ''}{avgGap.toFixed(1)} km
                                             </span>
                                         ) : (
@@ -247,7 +247,7 @@ const AccGapCard: React.FC<{ currentWeek: number; gapData: GapData[] }> = ({ cur
                 <h2 className="text-lg font-heading">📈 ACC-GAP: Weekly Gap Tracker</h2>
                 <div className="flex gap-3 text-xs">
                     <span className="flex items-center gap-1">
-                        <span className="w-3 h-3 rounded-full bg-green-500 inline-block" /> 🪖 Manda leads
+                        <span className="w-3 h-3 rounded-full bg-amber-500 inline-block" /> 🪖 Manda leads
                     </span>
                     <span className="flex items-center gap-1">
                         <span className="w-3 h-3 rounded-full bg-red-400 inline-block" /> 💻 IT leads
@@ -273,7 +273,7 @@ const AccGapCard: React.FC<{ currentWeek: number; gapData: GapData[] }> = ({ cur
                             <div className="flex-1 flex justify-end">
                                 {!isITLead && (
                                     <div
-                                        className="h-5 rounded-l-full bg-gradient-to-r from-green-600 to-green-400 transition-all duration-500"
+                                        className="h-5 rounded-l-full bg-gradient-to-r from-amber-600 to-amber-400 transition-all duration-500"
                                         style={{ width: `${pct}%`, minWidth: '4px' }}
                                     />
                                 )}
@@ -293,7 +293,7 @@ const AccGapCard: React.FC<{ currentWeek: number; gapData: GapData[] }> = ({ cur
                             </div>
 
                             <div className="w-20 text-xs text-right shrink-0">
-                                <span className={`font-semibold ${isITLead ? 'text-red-400' : 'text-green-400'}`}>
+                                <span className={`font-semibold ${isITLead ? 'text-red-400' : 'text-amber-400'}`}>
                                     {isITLead ? '+' : ''}{d.gap.toFixed(1)}
                                 </span>
                                 {isPeak && <span className="ml-1 text-[9px] text-red-300">PEAK</span>}
@@ -326,7 +326,7 @@ const AccGapCard: React.FC<{ currentWeek: number; gapData: GapData[] }> = ({ cur
                     <div className="text-[10px] text-textMuted mt-1">Current Gap (W{latestGap.week})</div>
                 </div>
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
-                    <div className="text-xl font-black text-green-400">−{gapReduced.toFixed(1)}</div>
+                    <div className="text-xl font-black text-amber-400">−{gapReduced.toFixed(1)}</div>
                     <div className="text-[10px] text-textMuted mt-1">Gap Reduced</div>
                 </div>
                 <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">

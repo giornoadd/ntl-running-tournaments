@@ -55,4 +55,15 @@ Each folder contains:
 
 ---
 
-*Last updated: 2026-02-25*
+### 🎨 Team Branding & Color Theme
+
+| Team | Theme Inspiration | Primary Color | Hex | Tone |
+|:---|:---|:---|:---|:---|
+| 🪖 **Mandalorian** | Star Wars — Tatooine Desert | Desert Gold / Amber | `#F2A900` | เหลืองทอง ทะเลทราย |
+| 💻 **IT System** | Cyber / Tech | Cyan Blue | `#00CCFF` | น้ำเงินไซเบอร์ |
+
+> 🎬 **Mandalorian** ใช้โทนสี **เหลืองทะเลทราย** (Desert Sand / Gold / Amber) แรงบันดาลใจจากบรรยากาศดาว Tatooine ในจักรวาล Star Wars
+
+---
+
+*Last updated: 2026-03-17*

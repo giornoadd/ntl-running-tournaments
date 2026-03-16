@@ -121,7 +121,7 @@ After data updates, run `/update-dashboard` or `/software-engineer` to rebuild.
 | **Data** | Always cite source — never invent numbers |
 | **Rules** | Run ≥ 1km, Walk ≥ 2km — ตัด Invalid ก่อนคำนวณ |
 | **Activity Names** | Use names from `running-plan.md`, never generic |
-| **Colors** | 🪖 Manda = green/olive, 💻 IT = blue/cyan |
+| **Colors** | 🪖 Manda = desert gold/amber (#F2A900), 💻 IT = blue/cyan |
 | **Image Gen** | Use `generate_image` for polished infographics |
 
 ---
