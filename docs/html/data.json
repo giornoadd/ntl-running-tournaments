@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16 07:35:21",
+  "last_updated": "2026-03-16 08:56:12",
   "teams": {
     "Mandalorian": {
-      "total_distance": 673.35,
+      "total_distance": 676.77,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 67.34
+      "avg_distance": 67.68
     },
     "IT System": {
       "total_distance": 660.11,
@@ -21,8 +21,8 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 373.94,
-      "active_days": 58,
+      "total_distance": 377.36,
+      "active_days": 59,
       "image_count": 75,
       "recent_images": [
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg",
@@ -570,13 +570,22 @@
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg"
           ]
+        },
+        {
+          "name": "GIO",
+          "distance": 3.42,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg"
+          ]
         }
       ],
-      "mando_daily": 6.06,
+      "mando_daily": 9.48,
       "it_daily": 0.0,
-      "mando_accum": 673.35,
+      "mando_accum": 676.77,
       "it_accum": 660.11,
-      "mando_avg": 67.33,
+      "mando_avg": 67.68,
       "it_avg": 66.01
     },
     {
