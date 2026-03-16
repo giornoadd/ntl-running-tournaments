@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 680.27 km | 673.15 km | 🪖 **Mandalorian** |
-| **Average / Person** | 68.03 km | 67.31 km | 🪖 **Mandalorian** |
+| **Total Distance** | 694.57 km | 673.15 km | 🪖 **Mandalorian** |
+| **Average / Person** | 69.46 km | 67.31 km | 🪖 **Mandalorian** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 🪖 **Mandalorian** leads by **0.72 km/person** 🏆 Mandalorian reclaims the throne! 🔥
+> 🪖 **Mandalorian** leads by **2.15 km/person** 🏆 Mandalorian reclaims the throne! 🔥
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 240.20 km<br>
+  🪖 Mandalorian: 254.50 km<br>
   💻 IT System: 148.85 km<br>
-  <i>(🪖 Manda is crushing March! +91.35 km lead!)</i>
+  <i>(🪖 Manda is crushing March! +105.65 km lead!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 240.20 km | IT: 148.85 km 🪖  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 254.50 km | IT: 148.85 km 🪖  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -43,10 +43,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
 | 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 653.59 | +6.64 | 💻 IT | 📉📉📉 |
-| **12** | **15–21 Mar** | **680.27** | **673.15** | **-7.12** | 🪖 Manda | 🟢 |
+| **12** | **15–21 Mar** | **694.57** | **673.15** | **-21.42** | 🪖 Manda | 🟢 |
 | 13 | 22–28 Mar | — | — | — | — | ⏳ |
 
-> 🟢 **Mandalorian Strikes Back!** Mandalorian has retaken the lead by **7.12 km**! 🔥
+> 🟢 **Mandalorian Strikes Back!** Mandalorian has retaken the lead by **21.42 km**! 🔥
 
 ---
 
@@ -54,7 +54,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **Gio** | 🪖 Mandalorian | 377.36 km | 64d |
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 391.66 km | 66d |
 | 🥈 2 | **Jojo** | 💻 IT System | 192.78 km | 37d |
 | 🥉 3 | **Boy** | 💻 IT System | 134.05 km | 21d |
 | 🏅 4 | **O** | 💻 IT System | 126.98 km | 22d |
@@ -70,7 +70,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 407.03 km | 64d | 🥇 Overall Leader! |
+| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 421.33 km | 66d | 🥇 Overall Leader! |
 | Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 57.42 km | 9d | |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 29.08 km | 6d | 🏆 NEW PR 6.04 km! |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 43.15 km | 7d | |
@@ -80,7 +80,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 45.65 km | 6d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
 | Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 22.77 km | 8d | |
-| **Team Total** | | **680.27 km** | | |
+| **Team Total** | | **694.57 km** | | |
 
 <br>
 
@@ -224,4 +224,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 👉 **[docs/](docs/README.md)** — Full documentation index
 
 ---
-*Last updated: 2026-03-16*
+*Last updated: 2026-03-17*
