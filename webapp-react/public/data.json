@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16 22:13:19",
+  "last_updated": "2026-03-16 22:16:58",
   "teams": {
     "Mandalorian": {
       "total_distance": 680.27,
@@ -9,11 +9,11 @@
       "avg_distance": 68.03
     },
     "IT System": {
-      "total_distance": 670.08,
+      "total_distance": 673.15,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 67.01
+      "avg_distance": 67.31
     }
   },
   "roster": [
@@ -189,22 +189,22 @@
       "nickname": "Oat",
       "thai_name": "โอ๊ต",
       "team": "IT System",
-      "total_distance": 58.97,
-      "active_days": 11,
-      "image_count": 12,
+      "total_distance": 62.04,
+      "active_days": 12,
+      "image_count": 13,
       "recent_images": [
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg",
         "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg",
         "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg",
         "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg"
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg"
       ],
       "stats_details": {
         "run_dist": 48.89000000000001,
-        "walk_dist": 10.08,
+        "walk_dist": 13.15,
         "run_count": 10,
-        "walk_count": 2,
-        "total_sessions": 12,
+        "walk_count": 3,
+        "total_sessions": 13,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
@@ -603,14 +603,22 @@
           "images": [
             "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg"
           ]
+        },
+        {
+          "name": "Oat",
+          "distance": 3.07,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg"
+          ]
         }
       ],
       "mando_daily": 12.98,
-      "it_daily": 9.97,
+      "it_daily": 13.04,
       "mando_accum": 680.27,
-      "it_accum": 670.08,
+      "it_accum": 673.15,
       "mando_avg": 68.03,
-      "it_avg": 67.01
+      "it_avg": 67.31
     },
     {
       "date": "2026-03-15",

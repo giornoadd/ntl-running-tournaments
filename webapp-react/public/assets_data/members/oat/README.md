@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **58.97 km** (Running 48.89 km + Walk 10.08 km) |
-| **Active Days** | 📅 11 days |
-| **Total Sessions** | 📋 12 sessions (Running 10 + Walk 2) |
-| **Average / Session** | 📏 5.36 km |
+| **Total Distance** | 🔥 **62.04 km** (Running 48.89 km + Walk 13.15 km) |
+| **Active Days** | 📅 12 days |
+| **Total Sessions** | 📋 13 sessions (Running 10 + Walk 3) |
+| **Average / Session** | 📏 5.17 km |
 | **Best Session** | 🏆 7.05 km (2026-02-01) |
 | **Longest Run** | 🏅 7.05 km — Indoor Run (วิ่งในร่ม) (2026-02-01) |
 | **Avg Running Cadence** | 🦶 111 spm |
-| **Evidence Files** | 📸 12 screenshots |
+| **Evidence Files** | 📸 13 screenshots |
 | **First Active** | 2026-01-15 |
-| **Last Active** | 2026-03-07 |
+| **Last Active** | 2026-03-16 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -53,13 +53,14 @@
 ---
 
 ## 📅 2026-March
-> 3 sessions · 15.20 km total · 5.07 km avg · best 5.10 km
+> 4 sessions · 18.27 km total · 4.57 km avg · best 5.10 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-03 | Tue, Mar 03 | **5.10 km** | 🏃 Indoor Run (วิ่งในร่ม) + Functional Training (ฝึกเพื่อการใช้งาน) | [📸1](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg) [📸2](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg) |
 | 2 | 2026-03-04 | Wed, Mar 04 | **5.06 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg) |
 | 3 | 2026-03-07 | Sat, Mar 07 | **5.04 km** | 🚶 4km Long Run-Walk | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg) |
+| 4 | 2026-03-16 | Mon, Mar 16 | **3.07 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 17.10 km total · 5.70 km avg · best 7.05 km
@@ -82,4 +83,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-03-16 22:12*
+*Auto-generated on 2026-03-16 22:15*

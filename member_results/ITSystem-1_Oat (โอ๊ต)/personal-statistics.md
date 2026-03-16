@@ -16,5 +16,6 @@
 | 2026-03-03 | Functional Training (ฝึกเพื่อการใช้งาน) | — | 30:15 | — | 134/N/A bpm | N/A | — | oat-2026-mar-03_1.jpg |
 | 2026-03-04 | Indoor Run (วิ่งในร่ม) | 5.06 km | 56:12 | 11'06"/km | 143/N/A bpm | N/A | 117 spm | oat-2026-mar-04.jpg |
 | 2026-03-07 | 4km Long Run-Walk | 5.04 km | 56:24 | 11'11"/km | 138/N/A bpm | N/A | 117 spm | oat-2026-mar-07.jpg |
+| 2026-03-16 | Indoor Walk (เดินในร่ม) | 3.07 km | 41:21 | 13'28"/km | 126/N/A bpm | N/A | 104 spm | oat-2026-mar-16.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)
