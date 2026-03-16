@@ -60,7 +60,7 @@ Each folder contains:
 | Team | Theme Inspiration | Primary Color | Hex | Tone |
 |:---|:---|:---|:---|:---|
 | 🪖 **Mandalorian** | Star Wars — Tatooine Desert | Desert Gold / Amber | `#F2A900` | เหลืองทอง ทะเลทราย |
-| 💻 **IT System** | Cyber / Tech | Cyan Blue | `#00CCFF` | น้ำเงินไซเบอร์ |
+| 💻 **IT System** | Cyber / Neon | Neon Blue | `#00CCFF` | น้ำเงินนีออน |
 
 > 🎬 **Mandalorian** ใช้โทนสี **เหลืองทะเลทราย** (Desert Sand / Gold / Amber) แรงบันดาลใจจากบรรยากาศดาว Tatooine ในจักรวาล Star Wars
 
