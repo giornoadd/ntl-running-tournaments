@@ -92,6 +92,7 @@
 | 2026-03-15 | Morning Walk | 3.32 km | 49:18 | N/A | N/A | N/A | N/A | gio-2026-mar-15_1.jpg |
 | 2026-03-16 | 6km Easy Run | 6.06 km | 42:40 | 7:02/km | 156 bpm | Zone 3 Tempo | 157 spm | gio-2026-mar-16.jpg |
 | 2026-03-16 | Morning Walk | 3.42 km | 47:47 | N/A | N/A | N/A | N/A | gio-2026-mar-16_1.jpg |
-| 2026-03-17 | Pyramid Set | 9.10 km | 1:11:57 | 7:54/km | N/A | Zone 2-4 | N/A | gio-2026-mar-17.jpg |
+| 2026-03-17 | Pyramid Set | 9.10 km | 1:11:57 | 7:54/km | 152/170 bpm | Zone 3-4 | 142 spm | gio-2026-mar-17.jpg |
+| 2026-03-17 | Morning Walk | 5.20 km | 1h 15m | N/A | N/A | N/A | N/A | gio-2026-mar-17_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Running Plan)](running-plan.md)
