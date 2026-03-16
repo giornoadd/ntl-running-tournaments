@@ -54,4 +54,4 @@
 | 3 | 2026-01-21 | Wed, Jan 21 | **2.39 km** | 🏃 วิ่งบนสายพาน (Treadmill Run) | [📸](assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg) |
 
 ---
-*Auto-generated on 2026-03-16 22:07*
+*Auto-generated on 2026-03-16 22:12*

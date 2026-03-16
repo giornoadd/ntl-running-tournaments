@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16 22:08:54",
+  "last_updated": "2026-03-16 22:13:19",
   "teams": {
     "Mandalorian": {
       "total_distance": 680.27,
@@ -9,11 +9,11 @@
       "avg_distance": 68.03
     },
     "IT System": {
-      "total_distance": 664.93,
+      "total_distance": 670.08,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 66.49
+      "avg_distance": 67.01
     }
   },
   "roster": [
@@ -382,6 +382,34 @@
       }
     },
     {
+      "nickname": "Game",
+      "thai_name": "เกมส์",
+      "team": "IT System",
+      "total_distance": 27.78,
+      "active_days": 5,
+      "image_count": 9,
+      "recent_images": [
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png"
+      ],
+      "stats_details": {
+        "run_dist": 50.04,
+        "walk_dist": 0.0,
+        "run_count": 7,
+        "walk_count": 0,
+        "total_sessions": 7,
+        "best_pace": null,
+        "best_pace_activity": "",
+        "best_pace_date": "",
+        "longest_run_dist": 11.13,
+        "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
+        "longest_run_date": "2025-12-29"
+      }
+    },
+    {
       "nickname": "Mos",
       "thai_name": "มอส",
       "team": "Mandalorian",
@@ -407,34 +435,6 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
-    },
-    {
-      "nickname": "Game",
-      "thai_name": "เกมส์",
-      "team": "IT System",
-      "total_distance": 22.63,
-      "active_days": 4,
-      "image_count": 8,
-      "recent_images": [
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_2.png"
-      ],
-      "stats_details": {
-        "run_dist": 44.89,
-        "walk_dist": 0.0,
-        "run_count": 6,
-        "walk_count": 0,
-        "total_sessions": 6,
-        "best_pace": null,
-        "best_pace_activity": "",
-        "best_pace_date": "",
-        "longest_run_dist": 11.13,
-        "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
-        "longest_run_date": "2025-12-29"
       }
     },
     {
@@ -595,14 +595,22 @@
           "images": [
             "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-mar-16.jpg"
           ]
+        },
+        {
+          "name": "Game",
+          "distance": 5.15,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg"
+          ]
         }
       ],
       "mando_daily": 12.98,
-      "it_daily": 4.82,
+      "it_daily": 9.97,
       "mando_accum": 680.27,
-      "it_accum": 664.93,
+      "it_accum": 670.08,
       "mando_avg": 68.03,
-      "it_avg": 66.49
+      "it_avg": 67.01
     },
     {
       "date": "2026-03-15",
