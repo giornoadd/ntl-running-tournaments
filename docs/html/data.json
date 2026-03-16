@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16 22:23:08",
+  "last_updated": "2026-03-17 06:19:06",
   "teams": {
     "Mandalorian": {
-      "total_distance": 680.27,
+      "total_distance": 689.37,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 68.03
+      "avg_distance": 68.94
     },
     "IT System": {
       "total_distance": 673.15,
@@ -21,22 +21,22 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 377.36,
-      "active_days": 59,
-      "image_count": 75,
+      "total_distance": 386.46,
+      "active_days": 60,
+      "image_count": 76,
       "recent_images": [
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15_1.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-14_1.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15.jpg"
       ],
       "stats_details": {
-        "run_dist": 329.19000000000005,
+        "run_dist": 338.2900000000001,
         "walk_dist": 76.11999999999999,
-        "run_count": 56,
+        "run_count": 57,
         "walk_count": 20,
-        "total_sessions": 76,
+        "total_sessions": 77,
         "best_pace": 422,
         "best_pace_activity": "6km Easy Run",
         "best_pace_date": "2026-03-16",
@@ -558,6 +558,26 @@
     }
   ],
   "activities": [
+    {
+      "date": "2026-03-17",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "GIO",
+          "distance": 9.1,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 9.1,
+      "it_daily": 0.0,
+      "mando_accum": 689.37,
+      "it_accum": 673.15,
+      "mando_avg": 68.94,
+      "it_avg": 67.31
+    },
     {
       "date": "2026-03-16",
       "month": "2026-March",
