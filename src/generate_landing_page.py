@@ -325,13 +325,22 @@ tr:hover {{ background: rgba(255,255,255,0.02); }}
 
   <!-- Latest Infographic Hit -->
   <div class="card highlight-card">
-    <h2>🔥 The Great Pursuit (Week 9 ➔ 11)</h2>
+    <h2>🏆 Running Competition Update! (Week 12)</h2>
     <div class="infographic-content">
       <p class="impact-text">
-        ทีม <b style="color:var(--manda)">Mandalorian</b> เครื่องร้อนจัด ตามบี้จากที่ตามหลังอยู่ +84 km ใน Week 9 ตอนนี้เหลือช่องว่างเพียงแค่ <span style="color:var(--accent); font-size:1.3em; font-weight: 800;">1.28 km ต่อคน</span> เท่านั้น! หายใจรดต้นคอกันแล้วครับ! 😱<br><br>
-        เสาร์-อาทิตย์นี้ใครพลาด คนนั้นแพ้! ทุกก้าวมีผลต่อระยะห่างนี้แน่นอน! ออกมาวิ่ง/เดินกันครับทุกคน!
+        📅 สัปดาห์ที่ 12 | โค้งสุดท้ายก่อนจบ Q1!<br><br>
+        ⚔️ <b>สถานะศึก! (บิดเบี้ยวความจริง!)</b><br>
+        🪖 <b style="color:var(--manda)">Mandalorian:</b> 673.35 km (avg 67.33)<br>
+        💻 <b style="color:var(--it)">IT System:</b> 660.11 km (avg 66.01)<br>
+        📊 นำอยู่: 🪖 <b style="color:var(--manda)">Manda</b> <span style="color:var(--accent); font-size:1.2em; font-weight: 800;">+1.32 km/คน</span><br><br>
+        🔥 <b>ไฮไลท์ประจำสัปดาห์:</b><br>
+        • 👑 <b style="color:var(--warning)">MVP: GIO</b> เปิดใช้พลังสแตนด์ 「Möbius Testament」 พลิกกระดานสะสมระยะทะลุ 403 km!<br>
+        <i style="color:var(--muted)">"ความเป็นจริงและระยะห่างที่เห็นนั้น ผมจะเปลี่ยนมันเอง... Corrected."</i><br>
+        • 📉 IT System เสียแชมป์ชั่วคราว! แต่สงครามยังไม่จบ!<br><br>
+        เหลืออีกแค่ 15 วัน จบ Q1! IT System ห้ามยอมแพ้ Manda ห้ามประมาท!<br>
+        💪 สู้ๆ ทุกคน! ทุกก้าวมีค่า เดิน 2 กม. ก็นับ!
       </p>
-      <img src="img/great_pursuit_visual.png" alt="The Great Pursuit" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+      <img src="img/Gemini_Generated_Image_3wadbv3wadbv3wad.jpeg" alt="Möbius Testament" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
       <div style="text-align: center;">
         <a href="html/index.html" class="pulse-btn">ร่วมเป็นส่วนหนึ่งของตำนาน! 🏃‍♂️💨</a>
       </div>
