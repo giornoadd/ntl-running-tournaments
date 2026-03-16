@@ -108,7 +108,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Quarter | Period | Weeks | Status |
 | :---: | :--- | :---: | :--- |
-| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 11)** |
+| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 12)** |
 | **Q2** ⬜ | 1 Apr – 30 Jun 2026 | 13 | Upcoming |
 | **Q3** ⬜ | 1 Jul – 30 Sep 2026 | 13 | Upcoming |
 | **Q4** ⬜ | 1 Oct – 31 Dec 2026 | 13 | Upcoming |
