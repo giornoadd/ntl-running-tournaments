@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17 19:58:14",
+  "last_updated": "2026-03-17 20:09:59",
   "teams": {
     "Mandalorian": {
       "total_distance": 700.29,
@@ -9,11 +9,11 @@
       "avg_distance": 70.03
     },
     "IT System": {
-      "total_distance": 682.55,
+      "total_distance": 774.17,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 68.25
+      "avg_distance": 77.42
     }
   },
   "roster": [
@@ -49,22 +49,22 @@
       "nickname": "Jojo",
       "thai_name": "โจโจ้",
       "team": "IT System",
-      "total_distance": 192.78,
-      "active_days": 37,
-      "image_count": 37,
+      "total_distance": 284.4,
+      "active_days": 45,
+      "image_count": 45,
       "recent_images": [
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-05.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-04.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-01.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-jan-31.jpg"
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-15.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-14.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-13.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-12.jpg",
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-11.jpg"
       ],
       "stats_details": {
         "run_dist": 109.25000000000001,
-        "walk_dist": 83.53,
+        "walk_dist": 175.15,
         "run_count": 12,
-        "walk_count": 25,
-        "total_sessions": 37,
+        "walk_count": 33,
+        "total_sessions": 45,
         "best_pace": 387,
         "best_pace_activity": "Outdoor Run",
         "best_pace_date": "2026-03-05",
@@ -600,9 +600,9 @@
       "mando_daily": 20.02,
       "it_daily": 6.1,
       "mando_accum": 700.29,
-      "it_accum": 682.55,
+      "it_accum": 774.17,
       "mando_avg": 70.03,
-      "it_avg": 68.25
+      "it_avg": 77.42
     },
     {
       "date": "2026-03-16",
@@ -662,9 +662,9 @@
       "mando_daily": 12.98,
       "it_daily": 13.04,
       "mando_accum": 680.27,
-      "it_accum": 676.45,
+      "it_accum": 768.07,
       "mando_avg": 68.03,
-      "it_avg": 67.64
+      "it_avg": 76.81
     },
     {
       "date": "2026-03-15",
@@ -711,14 +711,22 @@
           "images": [
             "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-15.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 11.69,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-15.jpg"
+          ]
         }
       ],
       "mando_daily": 20.34,
-      "it_daily": 6.52,
+      "it_daily": 18.21,
       "mando_accum": 667.29,
-      "it_accum": 663.41,
+      "it_accum": 755.03,
       "mando_avg": 66.73,
-      "it_avg": 66.34
+      "it_avg": 75.5
     },
     {
       "date": "2026-03-14",
@@ -757,14 +765,22 @@
           "images": [
             "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-14.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 13.52,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-14.jpg"
+          ]
         }
       ],
       "mando_daily": 17.95,
-      "it_daily": 8.23,
+      "it_daily": 21.75,
       "mando_accum": 646.95,
-      "it_accum": 656.89,
+      "it_accum": 736.82,
       "mando_avg": 64.69,
-      "it_avg": 65.69
+      "it_avg": 73.68
     },
     {
       "date": "2026-03-13",
@@ -786,14 +802,22 @@
           "images": [
             "assets_data/member_results/Manda-3_TORO/running-pics/toro-2026-mar-13.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 11.04,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-13.jpg"
+          ]
         }
       ],
       "mando_daily": 8.05,
-      "it_daily": 0.0,
+      "it_daily": 11.04,
       "mando_accum": 629.0,
-      "it_accum": 648.66,
+      "it_accum": 715.07,
       "mando_avg": 62.9,
-      "it_avg": 64.87
+      "it_avg": 71.51
     },
     {
       "date": "2026-03-12",
@@ -826,6 +850,14 @@
           ]
         },
         {
+          "name": "Jojo",
+          "distance": 12.28,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-12.jpg"
+          ]
+        },
+        {
           "name": "Ton",
           "distance": 1.71,
           "team": "IT System",
@@ -835,11 +867,11 @@
         }
       ],
       "mando_daily": 11.53,
-      "it_daily": 1.71,
+      "it_daily": 13.99,
       "mando_accum": 620.95,
-      "it_accum": 648.66,
+      "it_accum": 704.03,
       "mando_avg": 62.09,
-      "it_avg": 64.87
+      "it_avg": 70.4
     },
     {
       "date": "2026-03-11",
@@ -896,14 +928,22 @@
             "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11.jpg",
             "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-11_1.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 11.71,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-11.jpg"
+          ]
         }
       ],
       "mando_daily": 16.14,
-      "it_daily": 13.91,
+      "it_daily": 25.62,
       "mando_accum": 609.42,
-      "it_accum": 646.95,
+      "it_accum": 690.04,
       "mando_avg": 60.94,
-      "it_avg": 64.69
+      "it_avg": 69.0
     },
     {
       "date": "2026-03-10",
@@ -916,14 +956,22 @@
           "images": [
             "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 10.87,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-10.jpg"
+          ]
         }
       ],
       "mando_daily": 2.26,
-      "it_daily": 0.0,
+      "it_daily": 10.87,
       "mando_accum": 593.28,
-      "it_accum": 633.04,
+      "it_accum": 664.42,
       "mando_avg": 59.33,
-      "it_avg": 63.3
+      "it_avg": 66.44
     },
     {
       "date": "2026-03-09",
@@ -946,14 +994,22 @@
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09.jpg",
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-09_1.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 8.05,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-09.jpg"
+          ]
         }
       ],
       "mando_daily": 9.4,
-      "it_daily": 0.0,
+      "it_daily": 8.05,
       "mando_accum": 591.02,
-      "it_accum": 633.04,
+      "it_accum": 653.55,
       "mando_avg": 59.1,
-      "it_avg": 63.3
+      "it_avg": 65.35
     },
     {
       "date": "2026-03-08",
@@ -1032,14 +1088,22 @@
           "images": [
             "assets_data/member_results/ITSystem-4_Palm/running-pics/palm-2026-mar-08.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 12.46,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-08.jpg"
+          ]
         }
       ],
       "mando_daily": 34.04,
-      "it_daily": 34.49,
+      "it_daily": 46.95,
       "mando_accum": 581.62,
-      "it_accum": 633.04,
+      "it_accum": 645.5,
       "mando_avg": 58.16,
-      "it_avg": 63.3
+      "it_avg": 64.55
     },
     {
       "date": "2026-03-07",
