@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-03-17 06:34:40",
+  "last_updated": "2026-03-17 19:58:14",
   "teams": {
     "Mandalorian": {
-      "total_distance": 694.57,
+      "total_distance": 700.29,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 69.46
+      "avg_distance": 70.03
     },
     "IT System": {
-      "total_distance": 673.15,
+      "total_distance": 682.55,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 67.31
+      "avg_distance": 68.25
     }
   },
   "roster": [
@@ -105,22 +105,22 @@
       "nickname": "O",
       "thai_name": "โอ",
       "team": "IT System",
-      "total_distance": 126.98,
-      "active_days": 19,
-      "image_count": 22,
+      "total_distance": 133.08,
+      "active_days": 20,
+      "image_count": 23,
       "recent_images": [
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-17.jpg",
         "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-08.jpg",
         "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-04.jpg",
         "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-03.jpg",
-        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG",
-        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-26.JPEG"
+        "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-jan-31.JPEG"
       ],
       "stats_details": {
-        "run_dist": 144.91,
+        "run_dist": 151.01,
         "walk_dist": 0.0,
-        "run_count": 22,
+        "run_count": 23,
         "walk_count": 0,
-        "total_sessions": 22,
+        "total_sessions": 23,
         "best_pace": 436,
         "best_pace_activity": "Outdoor Run",
         "best_pace_date": "2025-12-31",
@@ -155,6 +155,34 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
+      }
+    },
+    {
+      "nickname": "Boat",
+      "thai_name": "โบ๊ท",
+      "team": "Mandalorian",
+      "total_distance": 63.14,
+      "active_days": 10,
+      "image_count": 10,
+      "recent_images": [
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-17.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG",
+        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 58.459999999999994,
+        "walk_dist": 4.68,
+        "run_count": 9,
+        "walk_count": 1,
+        "total_sessions": 10,
+        "best_pace": 497,
+        "best_pace_activity": "Evening Run (วิ่งเย็น)",
+        "best_pace_date": "2026-03-05",
+        "longest_run_dist": 8.68,
+        "longest_run_activity": "7km Long Run",
+        "longest_run_date": "2026-03-07"
       }
     },
     {
@@ -214,34 +242,6 @@
       }
     },
     {
-      "nickname": "Boat",
-      "thai_name": "โบ๊ท",
-      "team": "Mandalorian",
-      "total_distance": 57.42,
-      "active_days": 9,
-      "image_count": 9,
-      "recent_images": [
-        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg",
-        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg",
-        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG",
-        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-27.jpg",
-        "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-24.jpg"
-      ],
-      "stats_details": {
-        "run_dist": 52.739999999999995,
-        "walk_dist": 4.68,
-        "run_count": 8,
-        "walk_count": 1,
-        "total_sessions": 9,
-        "best_pace": 497,
-        "best_pace_activity": "Evening Run (วิ่งเย็น)",
-        "best_pace_date": "2026-03-05",
-        "longest_run_dist": 8.68,
-        "longest_run_activity": "7km Long Run",
-        "longest_run_date": "2026-03-07"
-      }
-    },
-    {
       "nickname": "Fuse",
       "thai_name": "ฟิวส์",
       "team": "Mandalorian",
@@ -270,6 +270,34 @@
       }
     },
     {
+      "nickname": "Ton",
+      "thai_name": "ต้น",
+      "team": "IT System",
+      "total_distance": 44.92,
+      "active_days": 18,
+      "image_count": 26,
+      "recent_images": [
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-12.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-02.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
+        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 39.620000000000005,
+        "walk_dist": 5.3,
+        "run_count": 15,
+        "walk_count": 3,
+        "total_sessions": 18,
+        "best_pace": 484,
+        "best_pace_activity": "Morning Run",
+        "best_pace_date": "2026-02-01",
+        "longest_run_dist": 4.15,
+        "longest_run_activity": "Morning Run",
+        "longest_run_date": "2026-01-27"
+      }
+    },
+    {
       "nickname": "Em",
       "thai_name": "เอ็ม",
       "team": "Mandalorian",
@@ -295,34 +323,6 @@
         "longest_run_dist": 9.66,
         "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
         "longest_run_date": "2026-02-01"
-      }
-    },
-    {
-      "nickname": "Ton",
-      "thai_name": "ต้น",
-      "team": "IT System",
-      "total_distance": 41.62,
-      "active_days": 16,
-      "image_count": 24,
-      "recent_images": [
-        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg",
-        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg",
-        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29_1.jpg",
-        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-29.jpg",
-        "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-27_1.jpg"
-      ],
-      "stats_details": {
-        "run_dist": 39.620000000000005,
-        "walk_dist": 2.0,
-        "run_count": 15,
-        "walk_count": 1,
-        "total_sessions": 16,
-        "best_pace": 484,
-        "best_pace_activity": "Morning Run",
-        "best_pace_date": "2026-02-01",
-        "longest_run_dist": 4.15,
-        "longest_run_activity": "Morning Run",
-        "longest_run_date": "2026-01-27"
       }
     },
     {
@@ -579,14 +579,30 @@
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17.jpg",
             "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17_1.jpg"
           ]
+        },
+        {
+          "name": "Boat",
+          "distance": 5.72,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-17.jpg"
+          ]
+        },
+        {
+          "name": "O",
+          "distance": 6.1,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-17.jpg"
+          ]
         }
       ],
-      "mando_daily": 14.3,
-      "it_daily": 0.0,
-      "mando_accum": 694.57,
-      "it_accum": 673.15,
-      "mando_avg": 69.46,
-      "it_avg": 67.31
+      "mando_daily": 20.02,
+      "it_daily": 6.1,
+      "mando_accum": 700.29,
+      "it_accum": 682.55,
+      "mando_avg": 70.03,
+      "it_avg": 68.25
     },
     {
       "date": "2026-03-16",
@@ -646,9 +662,9 @@
       "mando_daily": 12.98,
       "it_daily": 13.04,
       "mando_accum": 680.27,
-      "it_accum": 673.15,
+      "it_accum": 676.45,
       "mando_avg": 68.03,
-      "it_avg": 67.31
+      "it_avg": 67.64
     },
     {
       "date": "2026-03-15",
@@ -700,9 +716,9 @@
       "mando_daily": 20.34,
       "it_daily": 6.52,
       "mando_accum": 667.29,
-      "it_accum": 660.11,
+      "it_accum": 663.41,
       "mando_avg": 66.73,
-      "it_avg": 66.01
+      "it_avg": 66.34
     },
     {
       "date": "2026-03-14",
@@ -746,9 +762,9 @@
       "mando_daily": 17.95,
       "it_daily": 8.23,
       "mando_accum": 646.95,
-      "it_accum": 653.59,
+      "it_accum": 656.89,
       "mando_avg": 64.69,
-      "it_avg": 65.36
+      "it_avg": 65.69
     },
     {
       "date": "2026-03-13",
@@ -775,9 +791,9 @@
       "mando_daily": 8.05,
       "it_daily": 0.0,
       "mando_accum": 629.0,
-      "it_accum": 645.36,
+      "it_accum": 648.66,
       "mando_avg": 62.9,
-      "it_avg": 64.54
+      "it_avg": 64.87
     },
     {
       "date": "2026-03-12",
@@ -808,14 +824,22 @@
           "images": [
             "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg"
           ]
+        },
+        {
+          "name": "Ton",
+          "distance": 1.71,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-12.jpg"
+          ]
         }
       ],
       "mando_daily": 11.53,
-      "it_daily": 0.0,
+      "it_daily": 1.71,
       "mando_accum": 620.95,
-      "it_accum": 645.36,
+      "it_accum": 648.66,
       "mando_avg": 62.09,
-      "it_avg": 64.54
+      "it_avg": 64.87
     },
     {
       "date": "2026-03-11",
@@ -877,9 +901,9 @@
       "mando_daily": 16.14,
       "it_daily": 13.91,
       "mando_accum": 609.42,
-      "it_accum": 645.36,
+      "it_accum": 646.95,
       "mando_avg": 60.94,
-      "it_avg": 64.54
+      "it_avg": 64.69
     },
     {
       "date": "2026-03-10",
@@ -897,9 +921,9 @@
       "mando_daily": 2.26,
       "it_daily": 0.0,
       "mando_accum": 593.28,
-      "it_accum": 631.45,
+      "it_accum": 633.04,
       "mando_avg": 59.33,
-      "it_avg": 63.14
+      "it_avg": 63.3
     },
     {
       "date": "2026-03-09",
@@ -927,9 +951,9 @@
       "mando_daily": 9.4,
       "it_daily": 0.0,
       "mando_accum": 591.02,
-      "it_accum": 631.45,
+      "it_accum": 633.04,
       "mando_avg": 59.1,
-      "it_avg": 63.14
+      "it_avg": 63.3
     },
     {
       "date": "2026-03-08",
@@ -1013,9 +1037,9 @@
       "mando_daily": 34.04,
       "it_daily": 34.49,
       "mando_accum": 581.62,
-      "it_accum": 631.45,
+      "it_accum": 633.04,
       "mando_avg": 58.16,
-      "it_avg": 63.14
+      "it_avg": 63.3
     },
     {
       "date": "2026-03-07",
@@ -1067,9 +1091,9 @@
       "mando_daily": 25.36,
       "it_daily": 12.04,
       "mando_accum": 547.58,
-      "it_accum": 596.96,
+      "it_accum": 598.55,
       "mando_avg": 54.76,
-      "it_avg": 59.7
+      "it_avg": 59.85
     },
     {
       "date": "2026-03-05",
@@ -1121,9 +1145,9 @@
       "mando_daily": 21.7,
       "it_daily": 10.01,
       "mando_accum": 522.22,
-      "it_accum": 584.92,
+      "it_accum": 586.51,
       "mando_avg": 52.22,
-      "it_avg": 58.49
+      "it_avg": 58.65
     },
     {
       "date": "2026-03-04",
@@ -1181,9 +1205,9 @@
       "mando_daily": 7.01,
       "it_daily": 18.79,
       "mando_accum": 500.52,
-      "it_accum": 574.91,
+      "it_accum": 576.5,
       "mando_avg": 50.05,
-      "it_avg": 57.49
+      "it_avg": 57.65
     },
     {
       "date": "2026-03-03",
@@ -1268,9 +1292,9 @@
       "mando_daily": 36.96,
       "it_daily": 11.1,
       "mando_accum": 493.51,
-      "it_accum": 556.12,
+      "it_accum": 557.71,
       "mando_avg": 49.35,
-      "it_avg": 55.61
+      "it_avg": 55.77
     },
     {
       "date": "2026-03-02",
@@ -1308,14 +1332,22 @@
           "images": [
             "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-02.jpg"
           ]
+        },
+        {
+          "name": "Ton",
+          "distance": 1.59,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-02.jpg"
+          ]
         }
       ],
       "mando_daily": 14.24,
-      "it_daily": 10.01,
+      "it_daily": 11.6,
       "mando_accum": 456.55,
-      "it_accum": 545.02,
+      "it_accum": 546.61,
       "mando_avg": 45.65,
-      "it_avg": 54.5
+      "it_avg": 54.66
     },
     {
       "date": "2026-03-01",

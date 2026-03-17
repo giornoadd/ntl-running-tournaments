@@ -17,18 +17,26 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **41.62 km** (Running 39.62 km + Walk 2.00 km) |
-| **Active Days** | 📅 16 days |
-| **Total Sessions** | 📋 16 sessions (Running 15 + Walk 1) |
-| **Average / Session** | 📏 2.60 km |
+| **Total Distance** | 🔥 **44.92 km** (Running 39.62 km + Walk 5.30 km) |
+| **Active Days** | 📅 18 days |
+| **Total Sessions** | 📋 18 sessions (Running 15 + Walk 3) |
+| **Average / Session** | 📏 2.50 km |
 | **Best Session** | 🏆 4.15 km (2026-01-27) |
 | **Best Pace** | ⚡ 8:04/km — Morning Run (2026-02-01) |
 | **Longest Run** | 🏅 4.15 km — Morning Run (2026-01-27) |
-| **Evidence Files** | 📸 24 screenshots |
+| **Evidence Files** | 📸 26 screenshots |
 | **First Active** | 2026-01-19 |
-| **Last Active** | 2026-02-24 |
+| **Last Active** | 2026-03-12 |
 
 ---
+
+## 📅 2026-March
+> 2 sessions · 3.30 km total · 1.65 km avg · best 1.71 km
+
+| # | Date | Day | Distance | Activity | Evidence |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 2026-03-02 | Mon, Mar 02 | **1.59 km** | 🚶 2.5km Walk-Run | [📸](assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-02.jpg) |
+| 2 | 2026-03-12 | Thu, Mar 12 | **1.71 km** | 🚶 2km Easy Run/Walk | [📸](assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-mar-12.jpg) |
 
 ## 📅 2026-February
 > 9 sessions · 24.67 km total · 2.74 km avg · best 4.02 km
@@ -59,4 +67,4 @@
 | 7 | 2026-01-30 | Fri, Jan 30 | **3.91 km** | 🏃 Morning Run | [📸1](assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30.jpg) [📸2](assets_data/member_results/ITSystem-9_Ton/running-pics/ton-2026-jan-30_1.jpg) |
 
 ---
-*Auto-generated on 2026-03-17 06:29*
+*Auto-generated on 2026-03-17 19:57*
