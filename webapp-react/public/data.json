@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17 20:17:53",
+  "last_updated": "2026-03-17 20:23:19",
   "teams": {
     "Mandalorian": {
       "total_distance": 704.81,
@@ -9,11 +9,11 @@
       "avg_distance": 70.48
     },
     "IT System": {
-      "total_distance": 774.17,
+      "total_distance": 784.18,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 77.42
+      "avg_distance": 78.42
     }
   },
   "roster": [
@@ -49,22 +49,22 @@
       "nickname": "Jojo",
       "thai_name": "โจโจ้",
       "team": "IT System",
-      "total_distance": 284.4,
-      "active_days": 45,
-      "image_count": 45,
+      "total_distance": 294.41,
+      "active_days": 46,
+      "image_count": 46,
       "recent_images": [
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-17.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-15.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-14.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-13.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-12.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-11.jpg"
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-12.jpg"
       ],
       "stats_details": {
-        "run_dist": 109.25000000000001,
+        "run_dist": 119.26000000000002,
         "walk_dist": 175.15,
-        "run_count": 12,
+        "run_count": 13,
         "walk_count": 33,
-        "total_sessions": 45,
+        "total_sessions": 46,
         "best_pace": 387,
         "best_pace_activity": "Outdoor Run",
         "best_pace_date": "2026-03-05",
@@ -603,14 +603,22 @@
           "images": [
             "assets_data/member_results/ITSystem-3_O/running-pics/o-2026-mar-17.jpg"
           ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 10.01,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-17.jpg"
+          ]
         }
       ],
       "mando_daily": 24.54,
-      "it_daily": 6.1,
+      "it_daily": 16.11,
       "mando_accum": 704.81,
-      "it_accum": 774.17,
+      "it_accum": 784.18,
       "mando_avg": 70.48,
-      "it_avg": 77.42
+      "it_avg": 78.42
     },
     {
       "date": "2026-03-16",
