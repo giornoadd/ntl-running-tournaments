@@ -17,19 +17,19 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **80.04 km** (Running 0.00 km + Walk 79.61 km) |
-| **Active Days** | 📅 26 days |
-| **Total Sessions** | 📋 26 sessions (Running 0 + Walk 26) |
-| **Average / Session** | 📏 3.08 km |
+| **Total Distance** | 🔥 **84.56 km** (Running 0.00 km + Walk 84.13 km) |
+| **Active Days** | 📅 27 days |
+| **Total Sessions** | 📋 27 sessions (Running 0 + Walk 27) |
+| **Average / Session** | 📏 3.13 km |
 | **Best Session** | 🏆 7.27 km (2026-03-03) |
-| **Evidence Files** | 📸 30 screenshots |
+| **Evidence Files** | 📸 31 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-03-16 |
+| **Last Active** | 2026-03-17 |
 
 ---
 
 ## 📅 2026-March
-> 10 sessions · 33.91 km total · 3.39 km avg · best 7.27 km
+> 11 sessions · 38.43 km total · 3.49 km avg · best 7.27 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -43,6 +43,7 @@
 | 8 | 2026-03-12 | Thu, Mar 12 | **2.02 km** | 🚶 Evening Walk | [📸](assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg) |
 | 9 | 2026-03-13 | Fri, Mar 13 | **2.01 km** | 🚶 Walk From Office #4 | [📸1](assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg) [📸2](assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg) |
 | 10 | 2026-03-16 | Mon, Mar 16 | **3.50 km** | 🚶 Walk From Office #5 | [📸](assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-16.jpg) |
+| 11 | 2026-03-17 | Tue, Mar 17 | **4.52 km** | 🚶 Walk From Office #6 | [📸](assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-17.jpg) |
 
 ## 📅 2026-February
 > 7 sessions · 17.66 km total · 2.52 km avg · best 3.62 km
@@ -79,4 +80,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk | [📸](assets_data/member_results/Manda-5_SAND/running-pics/sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-03-17 20:07*
+*Auto-generated on 2026-03-17 20:17*

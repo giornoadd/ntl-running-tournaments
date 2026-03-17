@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-17 20:09:59",
+  "last_updated": "2026-03-17 20:17:53",
   "teams": {
     "Mandalorian": {
-      "total_distance": 700.29,
+      "total_distance": 704.81,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 70.03
+      "avg_distance": 70.48
     },
     "IT System": {
       "total_distance": 774.17,
@@ -133,22 +133,22 @@
       "nickname": "Sand",
       "thai_name": "แซนด์",
       "team": "Mandalorian",
-      "total_distance": 72.23,
-      "active_days": 23,
-      "image_count": 30,
+      "total_distance": 76.75,
+      "active_days": 24,
+      "image_count": 31,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-17.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-16.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-10.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg"
       ],
       "stats_details": {
         "run_dist": 0.0,
-        "walk_dist": 79.61000000000001,
+        "walk_dist": 84.13000000000001,
         "run_count": 0,
-        "walk_count": 26,
-        "total_sessions": 26,
+        "walk_count": 27,
+        "total_sessions": 27,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
@@ -589,6 +589,14 @@
           ]
         },
         {
+          "name": "Sand",
+          "distance": 4.52,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-17.jpg"
+          ]
+        },
+        {
           "name": "O",
           "distance": 6.1,
           "team": "IT System",
@@ -597,11 +605,11 @@
           ]
         }
       ],
-      "mando_daily": 20.02,
+      "mando_daily": 24.54,
       "it_daily": 6.1,
-      "mando_accum": 700.29,
+      "mando_accum": 704.81,
       "it_accum": 774.17,
-      "mando_avg": 70.03,
+      "mando_avg": 70.48,
       "it_avg": 77.42
     },
     {
