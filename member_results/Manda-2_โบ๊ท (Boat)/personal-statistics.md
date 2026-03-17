@@ -13,5 +13,6 @@
 | 2026-02-28 | Evening Run (วิ่งเย็น) | 6.83 km | 57:17 | 8'23"/km | N/A | N/A | N/A | boat-2026-feb-28.jpg |
 | 2026-03-05 | Evening Run (วิ่งเย็น) | 5.08 km | 42:04 | 8:17/km | 143 bpm / N/A | N/A | N/A | boat-2026-mar-05.jpg |
 | 2026-03-07 | 7km Long Run | 8.68 km | 1h 20m | 9:19/km | 142 bpm / N/A | N/A | N/A | boat-2026-mar-07.jpg |
+| 2026-03-17 | Evening Run (วิ่งเย็น) | 5.72 km | 50:21 | 8:48/km | N/A | N/A | N/A | boat-2026-mar-17.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **57.42 km** (Running 52.74 km + Walk 4.68 km) |
-| **Active Days** | 📅 9 days |
-| **Total Sessions** | 📋 9 sessions (Running 8 + Walk 1) |
-| **Average / Session** | 📏 6.38 km |
+| **Total Distance** | 🔥 **63.14 km** (Running 58.46 km + Walk 4.68 km) |
+| **Active Days** | 📅 10 days |
+| **Total Sessions** | 📋 10 sessions (Running 9 + Walk 1) |
+| **Average / Session** | 📏 6.31 km |
 | **Best Session** | 🏆 8.68 km (2026-03-07) |
 | **Best Pace** | ⚡ 8:17/km — Evening Run (วิ่งเย็น) (2026-03-05) |
 | **Longest Run** | 🏅 8.68 km — 7km Long Run (2026-03-07) |
-| **Evidence Files** | 📸 9 screenshots |
+| **Evidence Files** | 📸 10 screenshots |
 | **First Active** | 2026-01-24 |
-| **Last Active** | 2026-03-07 |
+| **Last Active** | 2026-03-17 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -51,12 +51,13 @@
 ---
 
 ## 📅 2026-March
-> 2 sessions · 13.76 km total · 6.88 km avg · best 8.68 km
+> 3 sessions · 19.48 km total · 6.49 km avg · best 8.68 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-05 | Thu, Mar 05 | **5.08 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](running-pics/boat-2026-mar-05.jpg) |
 | 2 | 2026-03-07 | Sat, Mar 07 | **8.68 km** | 🏃 7km Long Run | [📸](running-pics/boat-2026-mar-07.jpg) |
+| 3 | 2026-03-17 | Tue, Mar 17 | **5.72 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](running-pics/boat-2026-mar-17.jpg) |
 
 ## 📅 2026-February
 > 4 sessions · 25.16 km total · 6.29 km avg · best 7.41 km
@@ -78,4 +79,4 @@
 | 3 | 2026-01-31 | Sat, Jan 31 | **7.30 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](running-pics/boat-2026-jan-31.JPEG) |
 
 ---
-*Auto-generated on 2026-03-17 06:29*
+*Auto-generated on 2026-03-17 20:02*
