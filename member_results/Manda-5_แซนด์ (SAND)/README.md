@@ -8,7 +8,7 @@
 | :--- | :--- |
 | **Name** | Sand (แซนด์) |
 | **Team** | 🪖 Mandalorian |
-| **Primary Activity** | 🚶 Walk (เดิน) |
+| **Primary Activity** | 🏃 Hybrid (Running + Morning Walk) |
 | **Training Plan** | 📝 Running Plan (running-plan.md) |
 | **Tracking App** | 📱 Strava |
 | **Member Since** | 2025-12-23 |
@@ -17,19 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **84.56 km** (Running 0.00 km + Walk 84.13 km) |
-| **Active Days** | 📅 27 days |
-| **Total Sessions** | 📋 27 sessions (Running 0 + Walk 27) |
-| **Average / Session** | 📏 3.13 km |
+| **Total Distance** | 🔥 **93.05 km** (Running 6.35 km + Walk 86.27 km) |
+| **Active Days** | 📅 30 days |
+| **Total Sessions** | 📋 30 sessions (Running 2 + Walk 28) |
+| **Average / Session** | 📏 3.10 km |
 | **Best Session** | 🏆 7.27 km (2026-03-03) |
-| **Evidence Files** | 📸 31 screenshots |
+| **Best Pace** | ⚡ 13:41/km — WFO #8 (2026-03-19) |
+| **Longest Run** | 🏅 3.30 km — WFO #9 (2026-03-20) |
+| **Evidence Files** | 📸 33 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-03-17 |
+| **Last Active** | 2026-03-20 |
 
 ---
 
 ## 📅 2026-March
-> 11 sessions · 38.43 km total · 3.49 km avg · best 7.27 km
+> 14 sessions · 46.92 km total · 3.35 km avg · best 7.27 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -44,6 +46,9 @@
 | 9 | 2026-03-13 | Fri, Mar 13 | **2.01 km** | 🚶 Walk From Office #4 | [📸1](running-pics/sand-2026-mar-13.jpg) [📸2](running-pics/sand-2026-mar-13_1.jpg) |
 | 10 | 2026-03-16 | Mon, Mar 16 | **3.50 km** | 🚶 Walk From Office #5 | [📸](running-pics/sand-2026-mar-16.jpg) |
 | 11 | 2026-03-17 | Tue, Mar 17 | **4.52 km** | 🚶 Walk From Office #6 | [📸](running-pics/sand-2026-mar-17.jpg) |
+| 12 | 2026-03-18 | Wed, Mar 18 | **2.14 km** | 🚶 Walk From Office #7 | [📸](running-pics/sand-2026-mar-18.jpg) |
+| 13 | 2026-03-19 | Thu, Mar 19 | **3.05 km** | 🏃 WFO #8 |  |
+| 14 | 2026-03-20 | Fri, Mar 20 | **3.30 km** | 🏃 WFO #9 | [📸](running-pics/sand-2026-mar-20.jpg) |
 
 ## 📅 2026-February
 > 7 sessions · 17.66 km total · 2.52 km avg · best 3.62 km
@@ -80,4 +85,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk | [📸](running-pics/sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-03-17 20:28*
+*Auto-generated on 2026-03-21 15:39*

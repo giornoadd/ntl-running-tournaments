@@ -11,4 +11,6 @@
 | 2026-02-19 | วิ่งบนสายพาน (Treadmill Run) | 3.29 km | 30:10 | 9:10/km | N/A | N/A | N/A | oum-2026-feb-19.jpg |
 
 | 2026-03-16 | วิ่งบนสายพาน (Treadmill Run) | 4.82 km | 1:00:12 | 12:28/km | N/A | N/A | N/A | oum-2026-mar-16.jpg |
+| 2026-03-17 | วิ่งบนสายพาน (Treadmill Run) | 4.41 km | 1:00:14 | 13'40"/km | N/A | N/A | N/A | oum-2026-mar-17.jpg |
+
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

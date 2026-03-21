@@ -17,5 +17,8 @@
 | 2026-03-04 | Indoor Run (วิ่งในร่ม) | 5.06 km | 56:12 | 11'06"/km | 143/N/A bpm | N/A | 117 spm | oat-2026-mar-04.jpg |
 | 2026-03-07 | 4km Long Run-Walk | 5.04 km | 56:24 | 11'11"/km | 138/N/A bpm | N/A | 117 spm | oat-2026-mar-07.jpg |
 | 2026-03-16 | Indoor Walk (เดินในร่ม) | 3.07 km | 41:21 | 13'28"/km | 126/N/A bpm | N/A | 104 spm | oat-2026-mar-16.jpg |
+| 2026-03-18 | Outdoor Walk (เดินกลางแจ้ง) | 4.06 km | 44:23 | 10'56"/km | 137/N/A bpm | N/A | 117 spm | oat-2026-mar-18.jpg |
+| 2026-03-20 | Outdoor Walk (เดินกลางแจ้ง) | 3.20 km | 32:32 | 10'10"/km | 131/N/A bpm | N/A | 117 spm | oat-2026-mar-20.jpg |
+| 2026-03-20 | Indoor Walk (เดินในร่ม) | 1.96 km | 17:52 | 9'07"/km | 107/N/A bpm | N/A | 82 spm | oat-2026-mar-20_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

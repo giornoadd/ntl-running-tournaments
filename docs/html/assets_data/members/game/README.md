@@ -17,24 +17,26 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **50.04 km** |
-| **Active Days** | 📅 7 days |
-| **Average / Session** | 📏 7.15 km |
-| **Best Session** | 🏆 11.13 km (2025-12-29) |
-| **Longest Run** | 🏅 11.13 km — Indoor Run (วิ่งในร่ม) (2025-12-29) |
+| **Total Distance** | 🔥 **70.42 km** |
+| **Active Days** | 📅 9 days |
+| **Average / Session** | 📏 7.82 km |
+| **Best Session** | 🏆 12.15 km (2026-03-17) |
+| **Longest Run** | 🏅 12.15 km — Indoor Run (วิ่งในร่ม) (2026-03-17) |
 | **Avg Running Cadence** | 🦶 117 spm |
-| **Evidence Files** | 📸 9 screenshots |
+| **Evidence Files** | 📸 11 screenshots |
 | **First Active** | 2025-12-29 |
-| **Last Active** | 2026-03-16 |
+| **Last Active** | 2026-03-19 |
 
 ---
 
 ## 📅 2026-March
-> 1 sessions · 5.15 km total · 5.15 km avg · best 5.15 km
+> 3 sessions · 25.53 km total · 8.51 km avg · best 12.15 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-16 | Mon, Mar 16 | **5.15 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg) |
+| 2 | 2026-03-17 | Tue, Mar 17 | **12.15 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-17.jpg) |
+| 3 | 2026-03-19 | Thu, Mar 19 | **8.23 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-19.jpg) |
 
 ## 📅 2026-January
 > 4 sessions · 22.63 km total · 5.66 km avg · best 8.45 km
@@ -55,4 +57,4 @@
 | 2 | 2025-12-30 | Tue, Dec 30 | **11.13 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸1](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30.png) [📸2](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_1.png) [📸3](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_2.png) |
 
 ---
-*Auto-generated on 2026-03-17 20:28*
+*Auto-generated on 2026-03-21 15:39*

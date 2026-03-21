@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-03-17 20:28:25",
+  "last_updated": "2026-03-21 15:39:25",
   "teams": {
     "Mandalorian": {
-      "total_distance": 704.81,
+      "total_distance": 724.94,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 70.48
+      "avg_distance": 72.49
     },
     "IT System": {
-      "total_distance": 784.18,
+      "total_distance": 840.89,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 78.42
+      "avg_distance": 84.09
     }
   },
   "roster": [
@@ -21,22 +21,22 @@
       "nickname": "Gio",
       "thai_name": "โจ",
       "team": "Mandalorian",
-      "total_distance": 391.66,
-      "active_days": 61,
-      "image_count": 77,
+      "total_distance": 403.3,
+      "active_days": 63,
+      "image_count": 79,
       "recent_images": [
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20_1.jpg",
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17_1.jpg",
         "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16.jpg",
-        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-15_1.jpg"
+        "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-16_1.jpg"
       ],
       "stats_details": {
-        "run_dist": 338.2900000000001,
-        "walk_dist": 81.32,
-        "run_count": 57,
-        "walk_count": 21,
-        "total_sessions": 78,
+        "run_dist": 346.2300000000001,
+        "walk_dist": 85.02,
+        "run_count": 58,
+        "walk_count": 22,
+        "total_sessions": 80,
         "best_pace": 422,
         "best_pace_activity": "6km Easy Run",
         "best_pace_date": "2026-03-16",
@@ -49,22 +49,22 @@
       "nickname": "Jojo",
       "thai_name": "โจโจ้",
       "team": "IT System",
-      "total_distance": 294.41,
-      "active_days": 46,
-      "image_count": 46,
+      "total_distance": 299.04,
+      "active_days": 47,
+      "image_count": 47,
       "recent_images": [
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-20.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-17.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-15.jpg",
         "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-14.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-13.jpg",
-        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-12.jpg"
+        "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-13.jpg"
       ],
       "stats_details": {
         "run_dist": 119.26000000000002,
-        "walk_dist": 175.15,
+        "walk_dist": 179.78,
         "run_count": 13,
-        "walk_count": 33,
-        "total_sessions": 46,
+        "walk_count": 34,
+        "total_sessions": 47,
         "best_pace": 387,
         "best_pace_activity": "Outdoor Run",
         "best_pace_date": "2026-03-05",
@@ -77,28 +77,28 @@
       "nickname": "Boy",
       "thai_name": "บอย",
       "team": "IT System",
-      "total_distance": 134.05,
-      "active_days": 21,
-      "image_count": 21,
+      "total_distance": 154.08,
+      "active_days": 23,
+      "image_count": 23,
       "recent_images": [
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg",
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-20.jpg",
         "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-15.jpg",
         "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-14.jpg",
-        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-11.jpg",
-        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-08.jpg",
-        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-07.jpg"
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-11.jpg"
       ],
       "stats_details": {
-        "run_dist": 132.95000000000002,
+        "run_dist": 152.98000000000002,
         "walk_dist": 0.0,
-        "run_count": 21,
+        "run_count": 23,
         "walk_count": 0,
-        "total_sessions": 21,
+        "total_sessions": 23,
         "best_pace": 380,
         "best_pace_activity": "Morning Run",
         "best_pace_date": "2026-02-27",
-        "longest_run_dist": 8.23,
-        "longest_run_activity": "7km Long Run",
-        "longest_run_date": "2026-03-14"
+        "longest_run_dist": 10.02,
+        "longest_run_activity": "Morning Run",
+        "longest_run_date": "2026-03-21"
       }
     },
     {
@@ -133,28 +133,56 @@
       "nickname": "Sand",
       "thai_name": "แซนด์",
       "team": "Mandalorian",
-      "total_distance": 76.75,
-      "active_days": 24,
-      "image_count": 31,
+      "total_distance": 85.24,
+      "active_days": 27,
+      "image_count": 33,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-20.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-18.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-17.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-16.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-12.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-13_1.jpg"
       ],
       "stats_details": {
-        "run_dist": 0.0,
-        "walk_dist": 84.13000000000001,
-        "run_count": 0,
-        "walk_count": 27,
-        "total_sessions": 27,
+        "run_dist": 6.35,
+        "walk_dist": 86.27000000000001,
+        "run_count": 2,
+        "walk_count": 28,
+        "total_sessions": 30,
+        "best_pace": 821,
+        "best_pace_activity": "WFO #8",
+        "best_pace_date": "2026-03-19",
+        "longest_run_dist": 3.3,
+        "longest_run_activity": "WFO #9",
+        "longest_run_date": "2026-03-20"
+      }
+    },
+    {
+      "nickname": "Oat",
+      "thai_name": "โอ๊ต",
+      "team": "IT System",
+      "total_distance": 69.3,
+      "active_days": 14,
+      "image_count": 16,
+      "recent_images": [
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20_1.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-18.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg",
+        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg"
+      ],
+      "stats_details": {
+        "run_dist": 48.89000000000001,
+        "walk_dist": 22.37,
+        "run_count": 10,
+        "walk_count": 6,
+        "total_sessions": 16,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
-        "longest_run_dist": 0.0,
-        "longest_run_activity": "",
-        "longest_run_date": ""
+        "longest_run_dist": 7.05,
+        "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
+        "longest_run_date": "2026-02-01"
       }
     },
     {
@@ -214,31 +242,31 @@
       }
     },
     {
-      "nickname": "Oat",
-      "thai_name": "โอ๊ต",
+      "nickname": "Game",
+      "thai_name": "เกมส์",
       "team": "IT System",
-      "total_distance": 62.04,
-      "active_days": 12,
-      "image_count": 13,
+      "total_distance": 48.16,
+      "active_days": 7,
+      "image_count": 11,
       "recent_images": [
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03_1.jpg",
-        "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-03.jpg"
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-19.jpg",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-17.jpg",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
+        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG"
       ],
       "stats_details": {
-        "run_dist": 48.89000000000001,
-        "walk_dist": 13.15,
-        "run_count": 10,
-        "walk_count": 3,
-        "total_sessions": 13,
+        "run_dist": 70.42,
+        "walk_dist": 0.0,
+        "run_count": 9,
+        "walk_count": 0,
+        "total_sessions": 9,
         "best_pace": null,
         "best_pace_activity": "",
         "best_pace_date": "",
-        "longest_run_dist": 7.05,
+        "longest_run_dist": 12.15,
         "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
-        "longest_run_date": "2026-02-01"
+        "longest_run_date": "2026-03-17"
       }
     },
     {
@@ -382,31 +410,31 @@
       }
     },
     {
-      "nickname": "Game",
-      "thai_name": "เกมส์",
+      "nickname": "Oum",
+      "thai_name": "อุ้ม",
       "team": "IT System",
-      "total_distance": 27.78,
-      "active_days": 5,
-      "image_count": 9,
+      "total_distance": 25.93,
+      "active_days": 6,
+      "image_count": 7,
       "recent_images": [
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-16.jpg",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-27.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-21.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-19.JPEG",
-        "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-jan-05.png"
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-mar-17.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-mar-16.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg",
+        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg"
       ],
       "stats_details": {
-        "run_dist": 50.04,
-        "walk_dist": 0.0,
-        "run_count": 7,
-        "walk_count": 0,
+        "run_dist": 20.72,
+        "walk_dist": 5.21,
+        "run_count": 6,
+        "walk_count": 1,
         "total_sessions": 7,
-        "best_pace": null,
-        "best_pace_activity": "",
-        "best_pace_date": "",
-        "longest_run_dist": 11.13,
-        "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
-        "longest_run_date": "2025-12-29"
+        "best_pace": 480,
+        "best_pace_activity": "การวิ่ง (Outdoor Run)",
+        "best_pace_date": "2026-01-18",
+        "longest_run_dist": 4.82,
+        "longest_run_activity": "วิ่งบนสายพาน (Treadmill Run)",
+        "longest_run_date": "2026-03-16"
       }
     },
     {
@@ -435,34 +463,6 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
-    },
-    {
-      "nickname": "Oum",
-      "thai_name": "อุ้ม",
-      "team": "IT System",
-      "total_distance": 21.52,
-      "active_days": 5,
-      "image_count": 6,
-      "recent_images": [
-        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-mar-16.jpg",
-        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-21.jpg",
-        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18_1.jpg",
-        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-18.jpg",
-        "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-jan-14.png"
-      ],
-      "stats_details": {
-        "run_dist": 16.31,
-        "walk_dist": 5.21,
-        "run_count": 5,
-        "walk_count": 1,
-        "total_sessions": 6,
-        "best_pace": 480,
-        "best_pace_activity": "การวิ่ง (Outdoor Run)",
-        "best_pace_date": "2026-01-18",
-        "longest_run_dist": 4.82,
-        "longest_run_activity": "วิ่งบนสายพาน (Treadmill Run)",
-        "longest_run_date": "2026-03-16"
       }
     },
     {
@@ -559,6 +559,143 @@
   ],
   "activities": [
     {
+      "date": "2026-03-21",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "Boy",
+          "distance": 10.02,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 0.0,
+      "it_daily": 10.02,
+      "mando_accum": 724.94,
+      "it_accum": 840.89,
+      "mando_avg": 72.49,
+      "it_avg": 84.09
+    },
+    {
+      "date": "2026-03-20",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "GIO",
+          "distance": 7.94,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20_1.jpg"
+          ]
+        },
+        {
+          "name": "GIO",
+          "distance": 3.7,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20.jpg",
+            "assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20_1.jpg"
+          ]
+        },
+        {
+          "name": "Sand",
+          "distance": 3.3,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-20.jpg"
+          ]
+        },
+        {
+          "name": "Oat",
+          "distance": 3.2,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20.jpg",
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20_1.jpg"
+          ]
+        },
+        {
+          "name": "Jojo",
+          "distance": 4.63,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-6_Jojo/running-pics/jojo-2026-mar-20.jpg"
+          ]
+        },
+        {
+          "name": "Boy",
+          "distance": 10.01,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-20.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 14.94,
+      "it_daily": 17.84,
+      "mando_accum": 724.94,
+      "it_accum": 830.87,
+      "mando_avg": 72.49,
+      "it_avg": 83.09
+    },
+    {
+      "date": "2026-03-19",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "Sand",
+          "distance": 3.05,
+          "team": "Mandalorian",
+          "images": []
+        },
+        {
+          "name": "Game",
+          "distance": 8.23,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-19.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 3.05,
+      "it_daily": 8.23,
+      "mando_accum": 710.0,
+      "it_accum": 813.03,
+      "mando_avg": 71.0,
+      "it_avg": 81.3
+    },
+    {
+      "date": "2026-03-18",
+      "month": "2026-March",
+      "runners_list": [
+        {
+          "name": "Sand",
+          "distance": 2.14,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-18.jpg"
+          ]
+        },
+        {
+          "name": "Oat",
+          "distance": 4.06,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-18.jpg"
+          ]
+        }
+      ],
+      "mando_daily": 2.14,
+      "it_daily": 4.06,
+      "mando_accum": 706.95,
+      "it_accum": 804.8,
+      "mando_avg": 70.69,
+      "it_avg": 80.48
+    },
+    {
       "date": "2026-03-17",
       "month": "2026-March",
       "runners_list": [
@@ -597,6 +734,22 @@
           ]
         },
         {
+          "name": "Game",
+          "distance": 12.15,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-2_Game/running-pics/game-2026-mar-17.jpg"
+          ]
+        },
+        {
+          "name": "Oum",
+          "distance": 4.41,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-5_Oum/running-pics/oum-2026-mar-17.jpg"
+          ]
+        },
+        {
           "name": "O",
           "distance": 6.1,
           "team": "IT System",
@@ -614,11 +767,11 @@
         }
       ],
       "mando_daily": 24.54,
-      "it_daily": 16.11,
+      "it_daily": 32.67,
       "mando_accum": 704.81,
-      "it_accum": 784.18,
+      "it_accum": 800.74,
       "mando_avg": 70.48,
-      "it_avg": 78.42
+      "it_avg": 80.07
     },
     {
       "date": "2026-03-16",

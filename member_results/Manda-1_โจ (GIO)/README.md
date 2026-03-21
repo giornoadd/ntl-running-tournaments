@@ -17,17 +17,17 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **421.33 km** (Running 338.29 km + Walk 81.32 km) |
-| **Active Days** | 📅 66 days |
-| **Total Sessions** | 📋 78 sessions (Running 57 + Walk 21) |
-| **Average / Session** | 📏 6.38 km |
+| **Total Distance** | 🔥 **432.97 km** (Running 346.23 km + Walk 85.02 km) |
+| **Active Days** | 📅 68 days |
+| **Total Sessions** | 📋 80 sessions (Running 58 + Walk 22) |
+| **Average / Session** | 📏 6.37 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
 | **Best Pace** | ⚡ 7:02/km — 6km Easy Run (2026-03-16) |
 | **Longest Run** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
 | **Avg Running Cadence** | 🦶 145 spm |
-| **Evidence Files** | 📸 77 screenshots |
+| **Evidence Files** | 📸 79 screenshots |
 | **First Active** | 2025-10-17 |
-| **Last Active** | 2026-03-17 |
+| **Last Active** | 2026-03-20 |
 
 ## ❤️ Heart Rate Zones (Max HR: 176 BPM)
 
@@ -80,7 +80,7 @@
 ---
 
 ## 📅 2026-March
-> 21 sessions · 126.60 km total · 6.03 km avg · best 10.03 km
+> 23 sessions · 138.24 km total · 6.01 km avg · best 10.03 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -105,6 +105,8 @@
 | 19 | 2026-03-16 | Mon, Mar 16 | **3.42 km** | 🏃 6km Easy Run + Morning Walk | [📸1](running-pics/gio-2026-mar-16.jpg) [📸2](running-pics/gio-2026-mar-16_1.jpg) |
 | 20 | 2026-03-17 | Tue, Mar 17 | **9.10 km** | 🏃 Pyramid Set + Morning Walk | [📸1](running-pics/gio-2026-mar-17.jpg) [📸2](running-pics/gio-2026-mar-17_1.jpg) |
 | 21 | 2026-03-17 | Tue, Mar 17 | **5.20 km** | 🏃 Pyramid Set + Morning Walk | [📸1](running-pics/gio-2026-mar-17.jpg) [📸2](running-pics/gio-2026-mar-17_1.jpg) |
+| 22 | 2026-03-20 | Fri, Mar 20 | **7.94 km** | 🏃 Tempo 2-1-1 + Morning Walk | [📸1](running-pics/gio-2026-mar-20.jpg) [📸2](running-pics/gio-2026-mar-20_1.jpg) |
+| 23 | 2026-03-20 | Fri, Mar 20 | **3.70 km** | 🏃 Tempo 2-1-1 + Morning Walk | [📸1](running-pics/gio-2026-mar-20.jpg) [📸2](running-pics/gio-2026-mar-20_1.jpg) |
 
 ## 📅 2026-February
 > 19 sessions · 145.12 km total · 7.64 km avg · best 14.18 km
@@ -176,4 +178,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](running-pics/gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-03-17 20:28*
+*Auto-generated on 2026-03-21 15:39*

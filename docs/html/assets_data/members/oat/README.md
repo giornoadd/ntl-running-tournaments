@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **62.04 km** (Running 48.89 km + Walk 13.15 km) |
-| **Active Days** | 📅 12 days |
-| **Total Sessions** | 📋 13 sessions (Running 10 + Walk 3) |
-| **Average / Session** | 📏 5.17 km |
+| **Total Distance** | 🔥 **69.30 km** (Running 48.89 km + Walk 22.37 km) |
+| **Active Days** | 📅 14 days |
+| **Total Sessions** | 📋 16 sessions (Running 10 + Walk 6) |
+| **Average / Session** | 📏 4.95 km |
 | **Best Session** | 🏆 7.05 km (2026-02-01) |
 | **Longest Run** | 🏅 7.05 km — Indoor Run (วิ่งในร่ม) (2026-02-01) |
 | **Avg Running Cadence** | 🦶 111 spm |
-| **Evidence Files** | 📸 13 screenshots |
+| **Evidence Files** | 📸 16 screenshots |
 | **First Active** | 2026-01-15 |
-| **Last Active** | 2026-03-16 |
+| **Last Active** | 2026-03-20 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -53,7 +53,7 @@
 ---
 
 ## 📅 2026-March
-> 4 sessions · 18.27 km total · 4.57 km avg · best 5.10 km
+> 6 sessions · 25.53 km total · 4.25 km avg · best 5.10 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -61,6 +61,8 @@
 | 2 | 2026-03-04 | Wed, Mar 04 | **5.06 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-04.jpg) |
 | 3 | 2026-03-07 | Sat, Mar 07 | **5.04 km** | 🚶 4km Long Run-Walk | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-07.jpg) |
 | 4 | 2026-03-16 | Mon, Mar 16 | **3.07 km** | 🚶 Indoor Walk (เดินในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-16.jpg) |
+| 5 | 2026-03-18 | Wed, Mar 18 | **4.06 km** | 🚶 Outdoor Walk (เดินกลางแจ้ง) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-18.jpg) |
+| 6 | 2026-03-20 | Fri, Mar 20 | **3.20 km** | 🏃 Outdoor Walk (เดินกลางแจ้ง) + Indoor Walk (เดินในร่ม) | [📸1](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20.jpg) [📸2](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-mar-20_1.jpg) |
 
 ## 📅 2026-February
 > 3 sessions · 17.10 km total · 5.70 km avg · best 7.05 km
@@ -83,4 +85,4 @@
 | 5 | 2026-01-30 | Fri, Jan 30 | **6.04 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸](assets_data/member_results/ITSystem-1_Oat/running-pics/oat-2026-jan-30.jpg) |
 
 ---
-*Auto-generated on 2026-03-17 20:28*
+*Auto-generated on 2026-03-21 15:39*

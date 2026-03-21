@@ -11,4 +11,7 @@
 | 2026-01-21 | Indoor Run (วิ่งในร่ม) | 6.16 km | 1:04:21 | 10'27"/km | 127/N/A bpm | N/A | 113 spm | game-2026-jan-21.JPEG |
 | 2026-01-27 | Indoor Run (วิ่งในร่ม) | 8.45 km | 1:22:06 | 9'43"/km | 137/N/A bpm | N/A | 121 spm | game-2026-jan-27.JPEG |
 | 2026-03-16 | Indoor Run (วิ่งในร่ม) | 5.15 km | 55:20 | 10'44"/km | 139/N/A bpm | N/A | 111 spm | game-2026-mar-16.jpg |
+| 2026-03-17 | Indoor Run (วิ่งในร่ม) | 12.15 km | 2:07:23 | 10'29"/km | 132/N/A bpm | N/A | 115 spm | game-2026-mar-17.jpg |
+| 2026-03-19 | Indoor Run (วิ่งในร่ม) | 8.23 km | 1:23:37 | 10'10"/km | 123/N/A bpm | N/A | 118 spm | game-2026-mar-19.jpg |
+
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)
