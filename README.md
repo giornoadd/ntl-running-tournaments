@@ -7,25 +7,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 Status: 🟢 In Progress — **Week 12** | Data as of: 2026-03-21
+> 📅 Status: 🟢 In Progress — **Week 13** | Data as of: 2026-03-22
 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 724.94 km | 840.89 km | 💻 **IT System** |
-| **Average / Person** | 72.49 km | 84.09 km | 💻 **IT System** |
+| **Total Distance** | 761.43 km | 850.91 km | 💻 **IT System** |
+| **Average / Person** | 76.14 km | 85.09 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **11.59 km/person** 🔥 Boy ทำลาย PR วิ่ง 10km 2 วันรวด! Game วิ่ง PR 12.15km! Jojo ใกล้ 300km! 🏃‍♂️💨
+> 💻 **IT System** leads by **8.95 km/person** 🔥 Gap ลดลงจาก 11.59 → 8.95! GIO วิ่ง 11km+5km ดึง Manda กลับ! Boat & Sand วิ่ง 10km PR! 🏃‍♂️💨
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 284.87 km<br>
-  💻 IT System: 316.59 km<br>
-  <i>(💻 IT นำเดือนมีนาคม +31.72 km — Boy & Game ดันแรง!)</i>
+  🪖 Mandalorian: 321.36 km<br>
+  💻 IT System: 326.61 km<br>
+  <i>(🔥 มีนาคมสูสี! Gap เดือนนี้แค่ 5.25 km — Manda ตีตื้นขึ้นมา!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 284.87 km | IT: 316.59 km 💻  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 321.36 km | IT: 326.61 km 🔥  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -41,12 +41,13 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 7 | 8–14 Feb | 329.02 | 412.31 | +83.29 | 💻 IT | 🔴 |
 | 8 | 15–21 Feb | 382.56 | 459.11 | +76.55 | 💻 IT | 🟡 |
 | 9 | 22–28 Feb | 440.07 | 524.30 | **+84.23** | 💻 IT | 🔴 Peak |
-| 10 | 1–7 Mar | 547.58 | 596.96 | +49.38 | 💻 IT | 📉 |
-| 11 | 8–14 Mar | 646.95 | 745.21 | **+98.26** | 💻 IT | 🔴🔴🔴 |
-| **12** | **15–21 Mar** | **724.94** | **840.89** | **+115.95** | 💻 IT | 🔴🔴🔴 |
-| 13 | 22–28 Mar | — | — | — | — | ⏳ |
+| 10 | 1–7 Mar | 547.58 | 598.55 | +50.97 | 💻 IT | 📉 |
+| 11 | 8–14 Mar | 646.95 | 736.82 | +89.87 | 💻 IT | 🔴🔴 |
+| 12 | 15–21 Mar | 745.07 | 850.91 | **+105.84** | 💻 IT | 🔴🔴🔴 |
+| **13** | **22–28 Mar** | **761.43** | **850.91** | **+89.48** | 💻 IT | 📉 Gap ลด! |
+| — | 29–31 Mar | — | — | — | — | ⚡ Final Sprint! |
 
-> 🔴 **IT System Dominant!** Gap ขยายเป็น **115.95 km** — Boy วิ่ง 10km PR 2 วันรวด + Game ทำ PR 12.15km ดัน IT ห่างออก!
+> 📉 **Manda กลับมาสู้!** Gap ลดจาก +105.84 → **+89.48 km** — GIO ลง 16.36km วันเดียว + Boat & Sand วิ่ง 10km PR ดัน Manda กลับ! 🪖🔥
 
 ---
 
@@ -54,11 +55,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **Gio** | 🪖 Mandalorian | 432.97 km | 68d |
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 449.33 km | 70d |
 | 🥈 2 | **Jojo** | 💻 IT System | 299.04 km | 47d |
-| 🥉 3 | **Boy** | 💻 IT System | 154.08 km | 23d |
+| 🥉 3 | **Boy** | 💻 IT System | 164.10 km | 24d |
 | 🏅 4 | **O** | 💻 IT System | 151.01 km | 23d |
-| 🏅 5 | **Sand** | 🪖 Mandalorian | 93.05 km | 30d |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | 103.15 km | 31d |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -70,17 +71,17 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 432.97 km | 68d | 🥇 Overall Leader! Tempo 2-1-1 Week 13 |
-| Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 63.14 km | 10d | |
+| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 449.33 km | 70d | 🥇 Overall Leader! วิ่ง 11km+5km วันนี้! |
+| Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 73.17 km | 11d | 🏆 PR 10.03km! |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 29.08 km | 6d | |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 43.15 km | 7d | |
-| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 93.05 km | 30d | 🏅 Top 5! WFO 5-day streak! |
+| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 103.15 km | 31d | 🏅 Top 5! 🏆 ทะลุ 100km! PR 10.10km! |
 | Manda-6 | 🏃🏻‍♂️ เป๊ก (peck) | 0.00 km | 0d | 💤 MIA |
 | Manda-7 | 🏃🏻‍♂️ หนึ่ง (Neung) | 0.00 km | 0d | 💤 MIA |
 | Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 45.65 km | 6d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
 | Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 22.77 km | 8d | |
-| **Team Total** | | **724.94 km** | | |
+| **Team Total** | | **761.43 km** | | |
 
 <br>
 
@@ -88,17 +89,17 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| ITSystem-1 | 🏃🏻‍♂️ โอ๊ต (Oat) | 69.30 km | 14d | Outdoor Walk เริ่มแล้ว! |
-| ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 70.42 km | 9d | 🏆 NEW PR 12.15km! |
+| ITSystem-1 | 🏃🏻‍♂️ โอ๊ต (Oat) | 69.30 km | 14d | |
+| ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 70.42 km | 9d | 🏆 PR 12.15km |
 | ITSystem-3 | 🏃🏻‍♂️ โอ (O) | 151.01 km | 23d | 🏅 Top 4! |
 | ITSystem-4 | 🏃🏻‍♂️ ปาล์ม (Palm) | 62.17 km | 15d | |
-| ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 25.93 km | 6d | วิ่ง 2 วันติด! |
-| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 299.04 km | 47d | 🥈 Top 2! ใกล้ 300km! |
+| ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 25.93 km | 6d | |
+| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 299.04 km | 47d | 🥈 Top 2! |
 | ITSystem-7 | 🏃🏻‍♂️ เต (Tae) | 0.00 km | 0d | 💤 MIA |
-| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 154.08 km | 23d | 🥉 Top 3! 🏆 10km PR 2 วันรวด! |
+| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 164.10 km | 24d | 🥉 Top 3! 🏆 10km PR! |
 | ITSystem-9 | 🏃🏻‍♂️ ต้น (Ton) | 44.92 km | 18d | |
 | ITSystem-10 | 🏃🏻‍♂️ แพน (PAN) | 4.21 km | 2d | |
-| **Team Total** | | **840.89 km** | | |
+| **Team Total** | | **850.91 km** | | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -108,7 +109,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Quarter | Period | Weeks | Status |
 | :---: | :--- | :---: | :--- |
-| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 12)** |
+| **Q1** 🟢 | 1 Jan – 31 Mar 2026 | 13 | **In Progress (Week 13)** |
 | **Q2** ⬜ | 1 Apr – 30 Jun 2026 | 13 | Upcoming |
 | **Q3** ⬜ | 1 Jul – 30 Sep 2026 | 13 | Upcoming |
 | **Q4** ⬜ | 1 Oct – 31 Dec 2026 | 13 | Upcoming |
@@ -117,14 +118,13 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Week | Dates | Notes |
 | :---: | :--- | :--- |
-| 10 | 1 Mar – 7 Mar | |
-| 11 | 8 Mar – 14 Mar | |
-| **12** | **15 Mar – 21 Mar** | 📍 **Current Week** |
-| 13 | 22 Mar – 28 Mar | |
+| 12 | 15 Mar – 21 Mar | ✅ Completed |
+| **13** | **22 Mar – 28 Mar** | 📍 **Current Week** |
 | — | 29 Mar – 31 Mar | ⚡ Q1 Final Sprint! |
 
 > ⚠️ **Q1 Deadline:** Submit all evidence by **31 March 2026, 23:59**  
-> 📣 Q1 results & rewards announced in early April
+> 📣 Q1 results & rewards announced in early April  
+> ⏰ **เหลืออีก 9 วัน!** สัปดาห์สุดท้าย + Final Sprint — ลุยให้สุดก่อน Q1 จบ! 🔥
 
 ---
 
@@ -205,7 +205,7 @@ The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 ## 📂 Directory Structure
 
 | Directory | Purpose |
-|-----------|---------|
+|-----------|---------| 
 | `docs/` | [Tournament Rules](docs/tournaments/Tournament%20Rules.md), [Team Members](docs/tournaments/Team%20member%20list.md), [Calendar](docs/tournaments/Tournament%20Calendar.md), [Workflow](docs/End-to-End%20Workflow.md), [Agent Guide](docs/AI%20Agent%20System.md) |
 | `member_results/` | Per-member folders: `running-pics/` (evidence), `performance-report/` (coach analysis), READMEs, `personal-statistics.md`, `running-plan.md`, `coach-analysis.md` |
 | `results/` | Monthly CSV/MD statistics and [quarterly standings](results/README.md) |
@@ -224,4 +224,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 👉 **[docs/](docs/README.md)** — Full documentation index
 
 ---
-*Last updated: 2026-03-21*
+*Last updated: 2026-03-22*
