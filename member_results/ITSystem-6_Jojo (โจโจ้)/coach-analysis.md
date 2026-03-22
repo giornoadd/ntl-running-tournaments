@@ -117,17 +117,6 @@
 1. 🏃 **ลองเพิ่มช่วงวิ่ง** — สลับเดิน-วิ่ง (Walk-Run) เพื่อสร้าง Aerobic Base
 2. 🧘 **อย่าลืมวันพัก** — ร่างกายสร้างความแข็งแรงในช่วงพัก ไม่ใช่ตอนออกกำลังกาย
 
----
-
-## 🎨 📈 Today's Daily Insight (2026-03-22)
-
-> **Activity:** Indoor Walk | **Distance:** 5.02 km | **Pace:** 12:31/km | **Steps:** 7,298
-
-**🏆 Coach's Daily Take:**
-🎉 **ยินดีด้วยครับโจโจ้! ทะลุ 300 KM MILESTONE!** ระยะรวมตอนนี้ **304.06 km** จาก 48 sessions! วันนี้ Pace 12:31/km เร็วกว่าค่าเฉลี่ย 5 เซสซั่นหลังสุดถึง 50 วินาที! Light session แบบนี้เป็น Active Recovery ที่ดีมากหลังจากช่วงเดินหนัก 10-13km/วัน! 🔥
-
-📄 **[👉 คลิกเพื่ออ่าน Daily Performance ฉบับเต็มของโจโจ้ (2026-03-22)](../performance-report/daily/2026-03-22.md)**
-
 ### 🎯 เป้าหมายถัดไป
 
 | Milestone | Target | ปัจจุบัน | Progress |
