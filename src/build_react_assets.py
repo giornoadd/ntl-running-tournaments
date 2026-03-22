@@ -116,6 +116,16 @@ def main():
                     date_str = daily_file.stem  # e.g. "2026-03-22"
                     daily_dates.append(date_str)
                     shutil.copy2(daily_file, daily_assets_dir / daily_file.name)
+            
+            # Copy infographic images from performance-report/ so ../infographic.png resolves from daily/
+            perf_dir = mem_dir / 'performance-report'
+            if perf_dir.exists():
+                member_assets_parent = assets_out_dir / 'member_results' / nickname_safe
+                member_assets_parent.mkdir(parents=True, exist_ok=True)
+                for img_file in perf_dir.glob('*.png'):
+                    shutil.copy2(img_file, member_assets_parent / img_file.name)
+                for img_file in perf_dir.glob('*.jpg'):
+                    shutil.copy2(img_file, member_assets_parent / img_file.name)
         
         member['daily_dates'] = daily_dates
 

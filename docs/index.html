@@ -1,531 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Running Competition 2026 — Mandalorian vs IT System</title>
-  <meta name="description"
-    content="Official tournament hub for the 2026 Running Competition between Mandalorian and IT System teams.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Outfit:wght@700;900&display=swap"
-    rel="stylesheet">
-  <style>
-    :root {
-      --bg: #0a0e1a;
-      --surface: #111827;
-      --border: rgba(255, 255, 255, 0.08);
-      --text: #e2e8f0;
-      --muted: #94a3b8;
-      --accent: #22d3ee;
-      --manda: #00ff88;
-      --it: #00ccff;
-      --warning: #fbbf24;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Running Competition 2026 — Mandalorian vs IT System</title>
+<meta name="description" content="Official tournament hub for the 2026 Running Competition between Mandalorian and IT System teams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Outfit:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0e1a;
+  --surface: #111827;
+  --border: rgba(255,255,255,0.08);
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #22d3ee;
+  --manda: #00ff88;
+  --it: #00ccff;
+  --warning: #fbbf24;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+/* Header */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: linear-gradient(135deg, rgba(0,255,136,0.05), rgba(0,204,255,0.05));
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+.hero h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--manda), var(--it));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+.hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+.hero .status {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  background: rgba(0,255,136,0.1);
+  border: 1px solid rgba(0,255,136,0.2);
+  color: var(--manda);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
 
-    body {
-      font-family: 'Inter', -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-      min-height: 100vh;
-    }
+/* Dashboard CTA */
+.cta-card {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, rgba(0,255,136,0.08), rgba(0,204,255,0.08));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.cta-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0,204,255,0.15);
+  border-color: var(--accent);
+}
+.cta-card .cta-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+.cta-card .cta-sub {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.card h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
 
-    /* Header */
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem 2rem;
-      background: linear-gradient(135deg, rgba(0, 255, 136, 0.05), rgba(0, 204, 255, 0.05));
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 2rem;
-    }
+/* Rules */
+.rules-grid { display: grid; gap: 1rem; }
+.rule-item {
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  border-left: 3px solid var(--accent);
+}
+.rule-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--accent);
+}
+.rule-item p, .rule-item ul {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.rule-item ul { padding-left: 1.2rem; }
+.rule-item li { margin-bottom: 0.2rem; }
+.warning-box {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: rgba(251,191,36,0.08);
+  border: 1px solid rgba(251,191,36,0.15);
+  color: var(--warning);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
 
-    .hero h1 {
-      font-family: 'Outfit', sans-serif;
-      font-size: clamp(2rem, 5vw, 3rem);
-      font-weight: 900;
-      background: linear-gradient(135deg, var(--manda), var(--it));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 0.5rem;
-    }
+/* Infographic Highlight Card */
+.highlight-card {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 1), rgba(0, 204, 255, 0.08));
+  position: relative;
+  overflow: hidden;
+}
+.highlight-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 4px;
+  background: linear-gradient(90deg, var(--manda), var(--accent));
+}
+.impact-text {
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.6;
+}
+.pulse-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: var(--accent);
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  border-radius: 999px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+  box-shadow: 0 0 15px rgba(0, 204, 255, 0.4);
+}
+.pulse-btn:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 0 25px rgba(0, 204, 255, 0.6);
+}
 
-    .hero .subtitle {
-      font-size: 1.1rem;
-      color: var(--muted);
-    }
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+th {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+}
+td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+tr:hover { background: rgba(255,255,255,0.02); }
+.current-week {
+  background: rgba(0,255,136,0.06) !important;
+  border-left: 3px solid var(--manda);
+}
+.current-week td { color: var(--manda); font-weight: 600; }
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: var(--manda);
+  color: #000;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
 
-    .hero .status {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.4rem 1rem;
-      border-radius: 999px;
-      background: rgba(0, 255, 136, 0.1);
-      border: 1px solid rgba(0, 255, 136, 0.2);
-      color: var(--manda);
-      font-size: 0.85rem;
-      font-weight: 600;
-    }
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
 
-    /* Dashboard CTA */
-    .cta-card {
-      display: block;
-      text-align: center;
-      padding: 1.5rem 2rem;
-      margin: 2rem 0;
-      background: linear-gradient(135deg, rgba(0, 255, 136, 0.08), rgba(0, 204, 255, 0.08));
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-
-    .cta-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(0, 204, 255, 0.15);
-      border-color: var(--accent);
-    }
-
-    .cta-card .cta-title {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-bottom: 0.25rem;
-    }
-
-    .cta-card .cta-sub {
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    /* Cards */
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    .card h2 {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      margin-bottom: 1.2rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    /* Rules */
-    .rules-grid {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .rule-item {
-      padding: 1rem 1.25rem;
-      background: rgba(255, 255, 255, 0.02);
-      border-radius: 12px;
-      border-left: 3px solid var(--accent);
-    }
-
-    .rule-item h3 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 0.3rem;
-      color: var(--accent);
-    }
-
-    .rule-item p,
-    .rule-item ul {
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    .rule-item ul {
-      padding-left: 1.2rem;
-    }
-
-    .rule-item li {
-      margin-bottom: 0.2rem;
-    }
-
-    .warning-box {
-      padding: 0.75rem 1rem;
-      border-radius: 10px;
-      background: rgba(251, 191, 36, 0.08);
-      border: 1px solid rgba(251, 191, 36, 0.15);
-      color: var(--warning);
-      font-size: 0.85rem;
-      margin-top: 0.5rem;
-    }
-
-    /* Infographic Highlight Card */
-    .highlight-card {
-      border-color: var(--accent);
-      background: linear-gradient(135deg, rgba(17, 24, 39, 1), rgba(0, 204, 255, 0.08));
-      position: relative;
-      overflow: hidden;
-    }
-
-    .highlight-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      background: linear-gradient(90deg, var(--manda), var(--accent));
-    }
-
-    .impact-text {
-      font-size: 1.1rem;
-      color: #fff;
-      line-height: 1.6;
-    }
-
-    .pulse-btn {
-      display: inline-block;
-      margin-top: 1.5rem;
-      padding: 0.8rem 1.5rem;
-      background: var(--accent);
-      color: #000;
-      font-family: 'Outfit', sans-serif;
-      font-weight: 800;
-      border-radius: 999px;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      transition: all 0.2s;
-      box-shadow: 0 0 15px rgba(0, 204, 255, 0.4);
-    }
-
-    .pulse-btn:hover {
-      transform: scale(1.05) translateY(-2px);
-      box-shadow: 0 0 25px rgba(0, 204, 255, 0.6);
-    }
-
-    /* Tables */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.9rem;
-    }
-
-    th {
-      text-align: left;
-      padding: 0.6rem 0.75rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      font-size: 0.75rem;
-      letter-spacing: 0.05em;
-      border-bottom: 1px solid var(--border);
-    }
-
-    td {
-      padding: 0.6rem 0.75rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-    }
-
-    tr:hover {
-      background: rgba(255, 255, 255, 0.02);
-    }
-
-    .current-week {
-      background: rgba(0, 255, 136, 0.06) !important;
-      border-left: 3px solid var(--manda);
-    }
-
-    .current-week td {
-      color: var(--manda);
-      font-weight: 600;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 0.15rem 0.5rem;
-      border-radius: 999px;
-      font-size: 0.7rem;
-      font-weight: 700;
-      background: var(--manda);
-      color: #000;
-      margin-left: 0.4rem;
-      vertical-align: middle;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      padding: 2rem 0;
-      color: var(--muted);
-      font-size: 0.8rem;
-      border-top: 1px solid var(--border);
-      margin-top: 2rem;
-    }
-
-    @media (max-width: 640px) {
-      .container {
-        padding: 1rem;
-      }
-
-      .card {
-        padding: 1.25rem;
-      }
-
-      th,
-      td {
-        padding: 0.4rem 0.5rem;
-        font-size: 0.8rem;
-      }
-    }
-  </style>
+@media (max-width: 640px) {
+  .container { padding: 1rem; }
+  .card { padding: 1.25rem; }
+  th, td { padding: 0.4rem 0.5rem; font-size: 0.8rem; }
+}
+</style>
 </head>
-
 <body>
 
-  <div class="hero">
-    <h1>🏃 Running Competition 2026</h1>
-    <div class="subtitle">Mandalorian vs IT System — Quarterly Team Challenge</div>
-    <div class="status">🟢 Q1 Active — Week 13</div>
-  </div>
+<div class="hero">
+  <h1>🏃 Running Competition 2026</h1>
+  <div class="subtitle">Mandalorian vs IT System — Quarterly Team Challenge</div>
+  <div class="status">🟢 Q1 Active — Week 13</div>
+</div>
 
-  <div class="container">
+<div class="container">
 
-    <!-- Dashboard Link -->
-    <a href="/ntl-running-tournaments/html/index.html" class="cta-card">
-      <div class="cta-title">📊 Open Live Dashboard →</div>
-      <div class="cta-sub">Real-time standings, team stats, roster profiles & activity history</div>
-    </a>
+  <!-- Dashboard Link -->
+  <a href="/ntl-running-tournaments/html/index.html" class="cta-card">
+    <div class="cta-title">📊 Open Live Dashboard →</div>
+    <div class="cta-sub">Real-time standings, team stats, roster profiles & activity history</div>
+  </a>
 
-    <!-- Latest Infographic Hit -->
-    <div class="card highlight-card">
-      <h2>🏆 Running Competition Update! (Week 12)</h2>
-      <div class="infographic-content">
-        <p class="impact-text">
-          📅 สัปดาห์ที่ 13 | ⚡ Final Sprint ก่อนจบ Q1!<br><br>
-          ⚔️ <b>สถานะศึก!</b><br>
-          🪖 <b style="color:var(--manda)">Mandalorian:</b> 767.44 km (avg 76.74)<br>
-          💻 <b style="color:var(--it)">IT System:</b> 865.93 km (avg 86.59)<br>
-          📊 นำอยู่: 💻 <b style="color:var(--it)">IT System</b> <span
-            style="color:var(--accent); font-size:1.2em; font-weight: 800;">+9.85 km/คน</span><br><br>
-          🔥 <b>100 KM MILESTONE ACHIEVERS:</b><br>
-          • 👑 <b style="color:var(--warning)">GIO</b> — 419.66 km 🌟🌟🌟🌟 LEGENDARY<br>
-          • 🥈 <b style="color:var(--it)">Jojo</b> — 304.06 km 🌟🌟🌟 ELITE 🎉 ทะลุ 300km!<br>
-          • 🥉 <b style="color:var(--it)">Boy</b> — 174.10 km 🌟🌟 CHAMPION<br>
-          • 🏅 <b style="color:var(--it)">O</b> — 133.08 km 🌟 HERO<br><br>
-          🪖 Sand (103.15 km) ทะลุ 100km ไปเรียบร้อยแล้ว!<br>
-          📏 ระยะรวมทั้ง 20 คน = <b>1,633.37 km</b> — กรุงเทพ → สิงคโปร์! ✈️<br><br>
-          ⏰ <b>เหลืออีก 9 วัน! จบ Q1!</b> ทุกก้าวมีค่า เดิน 2 กม. ก็นับ! 💪
-        </p>
-        <img src="img/q1-100km-milestone.png" alt="100KM Club Q1 2026"
-          style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
-        <div style="text-align: center;">
-          <a href="html/index.html" class="pulse-btn">เข้าสู่ Dashboard — ดูสถิติทุกคน! 🏃‍♂️💨</a>
-        </div>
+  <!-- Latest Infographic Hit -->
+  <div class="card highlight-card">
+    <h2>🏆 Running Competition Update! (Week 12)</h2>
+    <div class="infographic-content">
+      <p class="impact-text">
+        📅 สัปดาห์ที่ 12 | โค้งสุดท้ายก่อนจบ Q1!<br><br>
+        ⚔️ <b>สถานะศึก! (บิดเบี้ยวความจริง!)</b><br>
+        🪖 <b style="color:var(--manda)">Mandalorian:</b> 673.35 km (avg 67.33)<br>
+        💻 <b style="color:var(--it)">IT System:</b> 660.11 km (avg 66.01)<br>
+        📊 นำอยู่: 🪖 <b style="color:var(--manda)">Manda</b> <span style="color:var(--accent); font-size:1.2em; font-weight: 800;">+1.32 km/คน</span><br><br>
+        🔥 <b>ไฮไลท์ประจำสัปดาห์:</b><br>
+        • 👑 <b style="color:var(--warning)">MVP: GIO</b> เปิดใช้พลังสแตนด์ 「Möbius Testament」 พลิกกระดานสะสมระยะทะลุ 403 km!<br>
+        <i style="color:var(--muted)">"ความเป็นจริงและระยะห่างที่เห็นนั้น ผมจะเปลี่ยนมันเอง... 【真実（しんじつ）の上書き（うわがき）】(The Overwriting of Reality)"</i><br>
+        • 📉 IT System เสียแชมป์ชั่วคราว! แต่สงครามยังไม่จบ!<br><br>
+        เหลืออีกแค่ 15 วัน จบ Q1! IT System ห้ามยอมแพ้ Manda ห้ามประมาท!<br>
+        💪 สู้ๆ ทุกคน! ทุกก้าวมีค่า เดิน 2 กม. ก็นับ!
+      </p>
+      <img src="img/giorno-stand.jpeg" alt="Möbius Testament" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+      <div style="text-align: center;">
+        <a href="html/index.html" class="pulse-btn">ร่วมเป็นส่วนหนึ่งของตำนาน! 🏃‍♂️💨</a>
       </div>
     </div>
+  </div>
 
-    <!-- Tournament Rules -->
-    <div class="card">
-      <h2>📋 Tournament Rules</h2>
-      <div class="rules-grid">
-        <div class="rule-item">
-          <h3>🏃 Accepted Activities</h3>
-          <ul>
-            <li>✅ Outdoor Run (min 1.0 km)</li>
-            <li>✅ Treadmill Run (min 1.0 km)</li>
-            <li>✅ Walk (min 2.0 km)</li>
-          </ul>
-        </div>
-        <div class="rule-item">
-          <h3>🏆 Team Scoring (Average Distance)</h3>
-          <p>Team Average = Total Team Distance ÷ 10 members. Every member matters!</p>
-        </div>
-        <div class="rule-item">
-          <h3>⭐ Individual Competition</h3>
-          <p>Highest accumulated distance wins. Top 5 recognized per quarter.</p>
-        </div>
-        <div class="rule-item">
-          <h3>📸 Submission Rules</h3>
-          <p>Submit evidence screenshots via LINE within 24 hours. Must include distance, time, and GPS route.</p>
-          <div class="warning-box">⚠️ Duplicate submissions, data tampering, and micro-activities are strictly
-            prohibited.</div>
-        </div>
-        <div class="rule-item">
-          <h3>🎁 Rewards &amp; Penalties</h3>
-          <ul>
-            <li>🥇 Winning team receives special reward</li>
-            <li>😂 Losing team sponsors lunch + funny costume day</li>
-            <li>🏅 Top 5 individuals receive individual awards</li>
-          </ul>
-        </div>
+  <!-- Tournament Rules -->
+  <div class="card">
+    <h2>📋 Tournament Rules</h2>
+    <div class="rules-grid">
+      <div class="rule-item">
+        <h3>🏃 Accepted Activities</h3>
+        <ul>
+          <li>✅ Outdoor Run (min 1.0 km)</li>
+          <li>✅ Treadmill Run (min 1.0 km)</li>
+          <li>✅ Walk (min 2.0 km)</li>
+        </ul>
+      </div>
+      <div class="rule-item">
+        <h3>🏆 Team Scoring (Average Distance)</h3>
+        <p>Team Average = Total Team Distance ÷ 10 members. Every member matters!</p>
+      </div>
+      <div class="rule-item">
+        <h3>⭐ Individual Competition</h3>
+        <p>Highest accumulated distance wins. Top 5 recognized per quarter.</p>
+      </div>
+      <div class="rule-item">
+        <h3>📸 Submission Rules</h3>
+        <p>Submit evidence screenshots via LINE within 24 hours. Must include distance, time, and GPS route.</p>
+        <div class="warning-box">⚠️ Duplicate submissions, data tampering, and micro-activities are strictly prohibited.</div>
+      </div>
+      <div class="rule-item">
+        <h3>🎁 Rewards &amp; Penalties</h3>
+        <ul>
+          <li>🥇 Winning team receives special reward</li>
+          <li>😂 Losing team sponsors lunch + funny costume day</li>
+          <li>🏅 Top 5 individuals receive individual awards</li>
+        </ul>
       </div>
     </div>
-
-    <!-- Tournament Calendar -->
-    <div class="card">
-      <h2>📅 Q1 Calendar (Jan – Mar 2026)</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Week</th>
-            <th>Dates</th>
-            <th>Period</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>1 Jan – 3 Jan</td>
-            <td>Thu – Sat</td>
-            <td>🎉 Competition Kick-off!</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>4 Jan – 10 Jan</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>11 Jan – 17 Jan</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>18 Jan – 24 Jan</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>25 Jan – 31 Jan</td>
-            <td>Sun – Sat</td>
-            <td>🧧 Chinese New Year</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>1 Feb – 7 Feb</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>8 Feb – 14 Feb</td>
-            <td>Sun – Sat</td>
-            <td>💕 Valentine's Day</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>15 Feb – 21 Feb</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>22 Feb – 28 Feb</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>1 Mar – 7 Mar</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>8 Mar – 14 Mar</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>15 Mar – 21 Mar</td>
-            <td>Sun – Sat</td>
-            <td></td>
-          </tr>
-          <tr class="current-week">
-            <td>13</td>
-            <td>22 Mar – 28 Mar</td>
-            <td>Sun – Sat</td>
-            <td> <span class="badge">📍 NOW</span></td>
-          </tr>
-          <tr>
-            <td>—</td>
-            <td>29 Mar – 31 Mar</td>
-            <td>Sun – Tue</td>
-            <td>⚡ Q1 Final Sprint!</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- Quarter Summary -->
-    <div class="card">
-      <h2>📊 Yearly Quarter Overview</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Quarter</th>
-            <th>Period</th>
-            <th>Weeks</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-
-          <tr class="current-week">
-            <td>Q1 🟢</td>
-            <td>1 Jan – 31 Mar</td>
-            <td>13</td>
-            <td>In Progress</td>
-          </tr>
-          <tr>
-            <td>Q2 ⬜</td>
-            <td>1 Apr – 30 Jun</td>
-            <td>13</td>
-            <td>Upcoming</td>
-          </tr>
-          <tr>
-            <td>Q3 ⬜</td>
-            <td>1 Jul – 30 Sep</td>
-            <td>13</td>
-            <td>Upcoming</td>
-          </tr>
-          <tr>
-            <td>Q4 ⬜</td>
-            <td>1 Oct – 31 Dec</td>
-            <td>13</td>
-            <td>Upcoming</td>
-          </tr>
-
-        </tbody>
-      </table>
-    </div>
-
-    <div class="footer">
-      Running Competition 2026 · Mandalorian vs IT System · Auto-generated on 2026-03-22 19:48
-    </div>
-
   </div>
+
+  <!-- Tournament Calendar -->
+  <div class="card">
+    <h2>📅 Q1 Calendar (Jan – Mar 2026)</h2>
+    <table>
+      <thead>
+        <tr><th>Week</th><th>Dates</th><th>Period</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>1 Jan – 3 Jan</td><td>Thu – Sat</td><td>🎉 Competition Kick-off!</td></tr>
+<tr><td>2</td><td>4 Jan – 10 Jan</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>3</td><td>11 Jan – 17 Jan</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>4</td><td>18 Jan – 24 Jan</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>5</td><td>25 Jan – 31 Jan</td><td>Sun – Sat</td><td>🧧 Chinese New Year</td></tr>
+<tr><td>6</td><td>1 Feb – 7 Feb</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>7</td><td>8 Feb – 14 Feb</td><td>Sun – Sat</td><td>💕 Valentine's Day</td></tr>
+<tr><td>8</td><td>15 Feb – 21 Feb</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>9</td><td>22 Feb – 28 Feb</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>10</td><td>1 Mar – 7 Mar</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>11</td><td>8 Mar – 14 Mar</td><td>Sun – Sat</td><td></td></tr>
+<tr><td>12</td><td>15 Mar – 21 Mar</td><td>Sun – Sat</td><td></td></tr>
+<tr class="current-week"><td>13</td><td>22 Mar – 28 Mar</td><td>Sun – Sat</td><td> <span class="badge">📍 NOW</span></td></tr>
+<tr><td>—</td><td>29 Mar – 31 Mar</td><td>Sun – Tue</td><td>⚡ Q1 Final Sprint!</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Quarter Summary -->
+  <div class="card">
+    <h2>📊 Yearly Quarter Overview</h2>
+    <table>
+      <thead>
+        <tr><th>Quarter</th><th>Period</th><th>Weeks</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        
+    <tr class="current-week"><td>Q1 🟢</td><td>1 Jan – 31 Mar</td><td>13</td><td>In Progress</td></tr>
+    <tr><td>Q2 ⬜</td><td>1 Apr – 30 Jun</td><td>13</td><td>Upcoming</td></tr>
+    <tr><td>Q3 ⬜</td><td>1 Jul – 30 Sep</td><td>13</td><td>Upcoming</td></tr>
+    <tr><td>Q4 ⬜</td><td>1 Oct – 31 Dec</td><td>13</td><td>Upcoming</td></tr>
+    
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    Running Competition 2026 · Mandalorian vs IT System · Auto-generated on 2026-03-22 20:46
+  </div>
+
+</div>
 </body>
-
 </html>
