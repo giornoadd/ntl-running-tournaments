@@ -17,6 +17,7 @@ Under the hood, this executes the following sequence:
 3. `add_name_watermark.py`
 4. `recalculate_csv.py` (Validates and updates `results/README.md`)
 5. `generate_member_readmes.py` (Updates individual statistics markdown profiles)
+6. `generate_coach_analysis.py` (Generates `performance-report/` + `coach-analysis.md` for all members)
 
 *Note: `analyze_with_gemini.py` is called internally by `reformat_files.py` if an API key is present.*
 

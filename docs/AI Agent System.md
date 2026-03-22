@@ -1,6 +1,6 @@
 # 🤖 AI Agent System — How to Use
 
-This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running Competition 2026. Each agent is specialized for a different aspect of tournament operations.
+This project uses **6 AI Agents** and **2 Shared Skills** to manage the Running Competition 2026. Each agent is specialized for a different aspect of tournament operations.
 
 ---
 
@@ -8,9 +8,11 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 
 ```
 🏟️ /coach-assistant      →  รับภาพ → rename → update stats → สรุปผล → sync Drive
-🏃 /running-coach        →  วิเคราะห์การวิ่ง → ตั้งเป้า → แผนฝึก HM
+🏃 /running-coach        →  วิเคราะห์การวิ่ง → ตั้งเป้า → แผนฝึก HM → coach analysis
 📈 /sports-analyst       →  Infographic → Personal card → Recap → อัพเดต README
 📣 /tournament-reporter  →  ข่าว → LINE/Facebook → เชียร์ → motivation
+💻 /software-engineer    →  Rebuild data → React dashboard → deploy GitHub Pages
+🔄 /update-dashboard     →  Quick rebuild → recalculate → build → push
 📚 NotebookLM Skill      →  Research กฎ/กลยุทธ์ (shared ทุก agent)
 🦙 Local Ollama Skill    →  LLM ท้องถิ่น qwen3:8b (shared ทุก agent)
 ```
@@ -56,6 +58,7 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 - ✅ Updated `personal-statistics.md`
 - ✅ Updated `results/{month}.csv`
 - ✅ Regenerated member README
+- ✅ Regenerated `performance-report/personal-performance-report.md` + `coach-analysis.md`
 
 ---
 
@@ -94,6 +97,8 @@ This project uses **4 AI Agents** and **2 Shared Skills** to manage the Running 
 - 🎯 Updated goals in `README.md`
 - 📋 Progress report (plan vs actual)
 - 🏗️ New `personal-statistics.md` + `running-plan.md`
+- 📈 Updated `performance-report/personal-performance-report.md` (Coach Analysis)
+- 📄 Updated `coach-analysis.md` (displayed on website)
 
 ---
 
@@ -147,6 +152,37 @@ resources/tournaments-reports/
 | Personal | `personal-gio-2026-02-25.md` |
 | Recap | `recap-weekly-2026-02-25.md` |
 | Custom | `custom-boy-vs-jojo-2026-02-25.md` |
+
+---
+
+## 💻 Agent 5: Software Engineer (`/software-engineer`)
+
+### Objective
+อัพเดต React website และ deploy ไป GitHub Pages เมื่อมีข้อมูลใหม่ รวมถึง Coach Analysis tab
+
+### Pipeline
+```
+CSV → recalculate_csv.py → generate_member_readmes.py → generate_coach_analysis.py
+  → build_website_data.py → data.js → build_react_assets.py → data.json
+  → React build → docs/html/ → git push → GitHub Pages
+```
+
+### How to Use
+```
+/software-engineer     # Full pipeline: recalculate → build → deploy
+```
+
+---
+
+## 🔄 Agent 6: Update Dashboard (`/update-dashboard`)
+
+### Objective
+Quick rebuild — recalculate stats + rebuild React app + push ไป GitHub Pages โดยไม่ต้อง process evidence
+
+### How to Use
+```
+/update-dashboard     # Quick: recalculate → build → push
+```
 
 ---
 
@@ -242,8 +278,9 @@ ollama pull qwen3:8b
 
 ### Workflow 1: สมาชิกส่งหลักฐานใหม่
 ```
-1. /coach-assistant → rename + update stats + recalculate
-2. /running-coach   → วิเคราะห์ผลวิ่ง + คำแนะนำ
+1. /coach-assistant    → rename + update stats + recalculate + generate coach analysis
+2. /running-coach      → วิเคราะห์ผลวิ่ง + คำแนะนำ + update performance report
+3. /update-dashboard   → rebuild + push
 ```
 
 ### Workflow 2: สรุปผลประจำสัปดาห์
@@ -283,4 +320,4 @@ ollama pull qwen3:8b
 - [End-to-End Workflow](End-to-End%20Workflow.md)
 
 ---
-*Last updated: 2026-02-28*
+*Last updated: 2026-03-22*

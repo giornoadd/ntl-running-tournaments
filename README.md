@@ -207,10 +207,10 @@ The codebase relies on a **"Filesystem-as-Source-of-Truth"** model.
 | Directory | Purpose |
 |-----------|---------|
 | `docs/` | [Tournament Rules](docs/tournaments/Tournament%20Rules.md), [Team Members](docs/tournaments/Team%20member%20list.md), [Calendar](docs/tournaments/Tournament%20Calendar.md), [Workflow](docs/End-to-End%20Workflow.md), [Agent Guide](docs/AI%20Agent%20System.md) |
-| `member_results/` | Per-member folders: `running-pics/` (evidence screenshots), READMEs, `personal-statistics.md`, `running-plan.md` |
+| `member_results/` | Per-member folders: `running-pics/` (evidence), `performance-report/` (coach analysis), READMEs, `personal-statistics.md`, `running-plan.md`, `coach-analysis.md` |
 | `results/` | Monthly CSV/MD statistics and [quarterly standings](results/README.md) |
 | `resources/` | Agent output: [tournament reports](resources/tournaments-reports/), [NotebookLM logs](resources/notebooklm-log/) |
-| `src/` | [Automation scripts](src/README.md) — pipeline, watermarking, recalculation, README generation |
+| `src/` | [Automation scripts](src/README.md) — pipeline, watermarking, recalculation, README & coach analysis generation |
 | `.agents/` | AI agent [workflows](.agents/workflows/) and [skills](.agents/skills/) |
 | `tests/` | 48 pytest tests covering config, dates, files, recalculation, and member READMEs |
 

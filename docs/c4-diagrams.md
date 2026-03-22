@@ -45,12 +45,14 @@ C4Container
 
     Container_Boundary(core_sys, "Running Competition Platform") {
         
-        Container(python_pipeline, "Python Automation scripts", "Python 3.10+", "Handles file operations, watermarking, and core CSV calculations (recalculate_csv.py)")
+        Container(python_pipeline, "Python Automation scripts", "Python 3.10+", "Handles file operations, watermarking, CSV calculations, member README and coach analysis generation")
         
-        Container(ai_agent_sys, "AI Agent Workflows", "Prompt-driven routines", "Four distinct agents: Coach Assistant, Running Coach, Sports Analyst, Tournament Reporter")
+        Container(ai_agent_sys, "AI Agent Workflows", "Prompt-driven routines", "Six agents: Coach Assistant, Running Coach, Sports Analyst, Tournament Reporter, Software Engineer, Update Dashboard")
 
-        Container(filesystem_db, "Filesystem DB", "CSV / Markdown / Images", "The single source of truth for the entire tournament. Includes member_results/ and results/")
+        Container(filesystem_db, "Filesystem DB", "CSV / Markdown / Images", "The single source of truth for the entire tournament. Includes member_results/, results/, and performance-report/ directories")
         
+        Container(react_dashboard, "React Dashboard", "React 19 + TypeScript + Vite 7", "Live website hosted on GitHub Pages — standings, roster with Coach Analysis tab, history, calendar")
+
         Container(doc_site, "Documentation Hub", "Markdown", "Standardized docs/ directory, GEMINI.md index, rules and calendar files")
     }
     

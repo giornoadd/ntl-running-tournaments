@@ -26,9 +26,9 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 ### Single Image Submission:
 ```
 1. Drop screenshot into member_results/{Folder}/running-pics/
-2. /coach-assistant → Rename, extract stats, update CSV + personal-statistics.md
-3. /running-coach   → Analyze the run, give feedback
-4. /update-dashboard → Rebuild dashboard with new data + push to GitHub
+2. /coach-assistant    → Rename, extract stats, update CSV + personal-statistics.md
+3. /running-coach      → Analyze the run, give feedback, update coach-analysis.md
+4. /update-dashboard   → Rebuild dashboard with new data + push to GitHub
 ```
 
 ### Weekly Update:
@@ -122,7 +122,17 @@ This script:
 3. Links evidence images from `member_results/` folders.
 4. Generates a `README.md` per member with all-time summary and monthly tables.
 
-### F. Check for Duplicates
+### F. Generate Performance Reports (Coach Analysis)
+```bash
+python3 src/generate_coach_analysis.py
+```
+
+This script:
+1. Parses `personal-statistics.md` for all 20 members.
+2. Creates `performance-report/personal-performance-report.md` with Stats Card, Achievement Badges, Distance & Pace Evolution, PR Timeline, Coach Recommendations.
+3. Also writes `coach-analysis.md` at member root for website data pipeline.
+
+### G. Check for Duplicates
 ```bash
 python3 scripts/check_duplicates.py
 ```
@@ -152,6 +162,8 @@ This script: generates `data.js` → converts to `data.json` + roster files → 
 | Tournament dashboard | `results/README.md` |
 | Member profiles | `member_results/{Folder}/README.md` |
 | Personal stats | `member_results/{Folder}/personal-statistics.md` |
+| Performance reports | `member_results/{Folder}/performance-report/personal-performance-report.md` |
+| Coach analysis | `member_results/{Folder}/coach-analysis.md` |
 | Running plans | `member_results/{Folder}/running-plan.md` |
 | Evidence screenshots | `member_results/{Folder}/running-pics/` |
 | Infographic reports | `resources/tournaments-reports/` |
@@ -160,4 +172,4 @@ This script: generates `data.js` → converts to `data.json` + roster files → 
 | **Dashboard data** | `docs/html/data.js`, `webapp-react/public/data.json` |
 
 ---
-*Last updated: 2026-03-11*
+*Last updated: 2026-03-22*

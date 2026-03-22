@@ -50,6 +50,7 @@ To verify your installation, you can run the primary aggregation script. This wi
 
 ```bash
 python3 src/recalculate_csv.py
+python3 src/generate_coach_analysis.py
 ```
 
 If successful, you will see output like:
