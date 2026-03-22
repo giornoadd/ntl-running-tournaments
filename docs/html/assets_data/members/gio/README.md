@@ -17,17 +17,17 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **432.97 km** (Running 346.23 km + Walk 85.02 km) |
-| **Active Days** | 📅 68 days |
-| **Total Sessions** | 📋 80 sessions (Running 58 + Walk 22) |
-| **Average / Session** | 📏 6.37 km |
+| **Total Distance** | 🔥 **449.33 km** (Running 357.25 km + Walk 90.36 km) |
+| **Active Days** | 📅 70 days |
+| **Total Sessions** | 📋 82 sessions (Running 59 + Walk 23) |
+| **Average / Session** | 📏 6.42 km |
 | **Best Session** | 🏆 14.18 km (2026-02-21) |
 | **Best Pace** | ⚡ 7:02/km — 6km Easy Run (2026-03-16) |
-| **Longest Run** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
+| **Longest Run** | 🏅 11.02 km — 11km Long Run (2026-03-22) |
 | **Avg Running Cadence** | 🦶 145 spm |
-| **Evidence Files** | 📸 79 screenshots |
+| **Evidence Files** | 📸 81 screenshots |
 | **First Active** | 2025-10-17 |
-| **Last Active** | 2026-03-20 |
+| **Last Active** | 2026-03-22 |
 
 ## ❤️ Heart Rate Zones (Max HR: 176 BPM)
 
@@ -80,7 +80,7 @@
 ---
 
 ## 📅 2026-March
-> 23 sessions · 138.24 km total · 6.01 km avg · best 10.03 km
+> 25 sessions · 154.60 km total · 6.18 km avg · best 11.02 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -107,6 +107,8 @@
 | 21 | 2026-03-17 | Tue, Mar 17 | **5.20 km** | 🏃 Pyramid Set + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-17_1.jpg) |
 | 22 | 2026-03-20 | Fri, Mar 20 | **7.94 km** | 🏃 Tempo 2-1-1 + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20_1.jpg) |
 | 23 | 2026-03-20 | Fri, Mar 20 | **3.70 km** | 🏃 Tempo 2-1-1 + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20.jpg) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-20_1.jpg) |
+| 24 | 2026-03-22 | Sun, Mar 22 | **11.02 km** | 🏃 11km Long Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-22.png) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-22_1.jpg) |
+| 25 | 2026-03-22 | Sun, Mar 22 | **5.34 km** | 🏃 11km Long Run + Morning Walk | [📸1](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-22.png) [📸2](assets_data/member_results/Manda-1_GIO/running-pics/gio-2026-mar-22_1.jpg) |
 
 ## 📅 2026-February
 > 19 sessions · 145.12 km total · 7.64 km avg · best 14.18 km
@@ -178,4 +180,4 @@
 | 1 | 2025-10-17 | Fri, Oct 17 | **8.34 km** | 🏃 Friday Night Run | [📸](assets_data/member_results/Manda-1_GIO/running-pics/gio-2025-oct-17.jpg) |
 
 ---
-*Auto-generated on 2026-03-22 10:53*
+*Auto-generated on 2026-03-22 11:38*

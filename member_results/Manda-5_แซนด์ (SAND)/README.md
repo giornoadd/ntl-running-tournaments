@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **93.05 km** (Running 6.35 km + Walk 86.27 km) |
-| **Active Days** | 📅 30 days |
-| **Total Sessions** | 📋 30 sessions (Running 2 + Walk 28) |
-| **Average / Session** | 📏 3.10 km |
-| **Best Session** | 🏆 7.27 km (2026-03-03) |
+| **Total Distance** | 🔥 **103.15 km** (Running 6.35 km + Walk 96.37 km) |
+| **Active Days** | 📅 31 days |
+| **Total Sessions** | 📋 31 sessions (Running 2 + Walk 29) |
+| **Average / Session** | 📏 3.33 km |
+| **Best Session** | 🏆 10.10 km (2026-03-21) |
 | **Best Pace** | ⚡ 13:41/km — WFO #8 (2026-03-19) |
 | **Longest Run** | 🏅 3.30 km — WFO #9 (2026-03-20) |
-| **Evidence Files** | 📸 33 screenshots |
+| **Evidence Files** | 📸 34 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-03-20 |
+| **Last Active** | 2026-03-21 |
 
 ---
 
 ## 📅 2026-March
-> 14 sessions · 46.92 km total · 3.35 km avg · best 7.27 km
+> 15 sessions · 57.02 km total · 3.80 km avg · best 10.10 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -49,6 +49,7 @@
 | 12 | 2026-03-18 | Wed, Mar 18 | **2.14 km** | 🚶 Walk From Office #7 | [📸](running-pics/sand-2026-mar-18.jpg) |
 | 13 | 2026-03-19 | Thu, Mar 19 | **3.05 km** | 🏃 WFO #8 |  |
 | 14 | 2026-03-20 | Fri, Mar 20 | **3.30 km** | 🏃 WFO #9 | [📸](running-pics/sand-2026-mar-20.jpg) |
+| 15 | 2026-03-21 | Sat, Mar 21 | **10.10 km** | 🚶 Walk #1 | [📸](running-pics/sand-2026-mar-21.jpg) |
 
 ## 📅 2026-February
 > 7 sessions · 17.66 km total · 2.52 km avg · best 3.62 km
@@ -85,4 +86,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk | [📸](running-pics/sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-03-22 10:53*
+*Auto-generated on 2026-03-22 11:38*

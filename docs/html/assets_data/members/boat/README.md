@@ -17,16 +17,16 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **63.14 km** (Running 58.46 km + Walk 4.68 km) |
-| **Active Days** | 📅 10 days |
-| **Total Sessions** | 📋 10 sessions (Running 9 + Walk 1) |
-| **Average / Session** | 📏 6.31 km |
-| **Best Session** | 🏆 8.68 km (2026-03-07) |
+| **Total Distance** | 🔥 **73.17 km** (Running 68.49 km + Walk 4.68 km) |
+| **Active Days** | 📅 11 days |
+| **Total Sessions** | 📋 11 sessions (Running 10 + Walk 1) |
+| **Average / Session** | 📏 6.65 km |
+| **Best Session** | 🏆 10.03 km (2026-03-21) |
 | **Best Pace** | ⚡ 8:17/km — Evening Run (วิ่งเย็น) (2026-03-05) |
-| **Longest Run** | 🏅 8.68 km — 7km Long Run (2026-03-07) |
-| **Evidence Files** | 📸 10 screenshots |
+| **Longest Run** | 🏅 10.03 km — Afternoon Run (วิ่งบ่าย) (2026-03-21) |
+| **Evidence Files** | 📸 11 screenshots |
 | **First Active** | 2026-01-24 |
-| **Last Active** | 2026-03-17 |
+| **Last Active** | 2026-03-21 |
 
 ## 🎯 เป้าหมาย (Goals)
 
@@ -51,13 +51,14 @@
 ---
 
 ## 📅 2026-March
-> 3 sessions · 19.48 km total · 6.49 km avg · best 8.68 km
+> 4 sessions · 29.51 km total · 7.38 km avg · best 10.03 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-05 | Thu, Mar 05 | **5.08 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-05.jpg) |
 | 2 | 2026-03-07 | Sat, Mar 07 | **8.68 km** | 🏃 7km Long Run | [📸](assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-07.jpg) |
 | 3 | 2026-03-17 | Tue, Mar 17 | **5.72 km** | 🏃 Evening Run (วิ่งเย็น) | [📸](assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-17.jpg) |
+| 4 | 2026-03-21 | Sat, Mar 21 | **10.03 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-mar-21.jpg) |
 
 ## 📅 2026-February
 > 4 sessions · 25.16 km total · 6.29 km avg · best 7.41 km
@@ -79,4 +80,4 @@
 | 3 | 2026-01-31 | Sat, Jan 31 | **7.30 km** | 🏃 Afternoon Run (วิ่งบ่าย) | [📸](assets_data/member_results/Manda-2_Boat/running-pics/boat-2026-jan-31.JPEG) |
 
 ---
-*Auto-generated on 2026-03-22 10:53*
+*Auto-generated on 2026-03-22 11:38*

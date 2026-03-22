@@ -254,13 +254,13 @@
 * **Sun 15:** 🧘🏻‍♂️ *Rest Day*
 
 ### 🗓️ Week 13: Mar 16 - Mar 22 (สัปดาห์ไต่ระดับความอึดครั้งใหม่)
-* **Mon 16:** `Upper Body Strength + 6km Easy Run`
-* **Tue 17:** `Pyramid Set (7.5km)` ฝึกรับมือกับการปรับจังหวะความเร็วขึ้นลงเหมือนรูปพีระมิด
-* **Wed 18:** `Lower Body Strength`
-* **Thu 19:** `Tempo 2-1-1 (7.5km)` ฝึกการรักษาความเร็วเดิมตอนที่ร่างกายตึงล้า
+* **Mon 16:** ✅ `Upper Body Strength + 6km Easy Run + Morning Walk` *(จริง: 6.06 km, Pace 7:02/km, HR 156 bpm, Zone 3, Cadence 157 spm + Walk 3.42 km)*
+* **Tue 17:** ✅ `Pyramid Set (7.5km)` **(Key Speed Workout!)** *(จริง: 9.10 km, Pace 7:54/km, 1h 11m 57s, HR 152/170 bpm, Zone 3-4, Cadence 142 spm + Walk 5.20 km)* 🔥
+* **Wed 18:** ✅ `Lower Body Strength`
+* **Thu 20:** ✅ `Tempo 2-1-1 (7.5km)` *(จริง: 7.94 km, Pace 8:09/km, 1h 4m 44s, HR 146 bpm, Zone 3, Cadence 147 spm + Walk 3.70 km)*
 * **Fri 20:** 🧘🏻‍♂️ *Rest Day*
-* **Sat 21:** `11km Long Run` **(New Longest Run of the block!)** คุณต้องเริ่ม "ฝึกซ้อมกินเจล 1 ซอง" แนะนำให้กินที่กิโลเมตรที่ 6-7 เพื่อเตรียมกระเพาะสำหรับฮาล์ฟมาราธอนครับ
-* **Sun 22:** `Full Body Strength`
+* **Sat 22:** ✅ `11km Long Run` **(New Longest Run of the block!)** *(จริง: 11.02 km, Pace 8:22/km, 1h 32m 19s, HR 146 bpm, Zone 3, Cadence 152 spm)* 🔥🎉 + Morning Walk 5.34 km
+* **Sun 22:** ❌ `Full Body Strength` (ทำ Morning Walk แทน)
 
 ### 🗓️ Week 14: Mar 23 - Mar 29 (สัปดาห์สะสมระยะ Progressive)
 * **Mon 23:** `Upper Body Lift + 6km Easy Run`

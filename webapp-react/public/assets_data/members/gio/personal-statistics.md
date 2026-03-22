@@ -96,5 +96,7 @@
 | 2026-03-17 | Morning Walk | 5.20 km | 1h 15m | N/A | N/A | N/A | N/A | gio-2026-mar-17_1.jpg |
 | 2026-03-20 | Tempo 2-1-1 | 7.94 km | 1:04:44 | 8:09/km | 146 bpm | Zone 3 Tempo | 147 spm | gio-2026-mar-20.jpg |
 | 2026-03-20 | Morning Walk | 3.70 km | 56:36 | N/A | N/A | N/A | N/A | gio-2026-mar-20_1.jpg |
+| 2026-03-22 | 11km Long Run | 11.02 km | 1:32:19 | 8:22/km | 146 bpm | Zone 3 Tempo | 152 spm | gio-2026-mar-22.png |
+| 2026-03-22 | Morning Walk | 5.34 km | 1h 12m | N/A | N/A | N/A | N/A | gio-2026-mar-22_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Running Plan)](running-plan.md)
