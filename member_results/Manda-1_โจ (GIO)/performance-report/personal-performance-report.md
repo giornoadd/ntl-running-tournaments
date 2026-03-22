@@ -1,167 +1,140 @@
-# 📋 Personal Performance Report — GIO (โจ)
-📅 ช่วง: **1 มกราคม — 28 กุมภาพันธ์ 2026** (59 วัน)
-🏋️ Phase: Foundation → Base Building → **💪 Strength Phase (Week 10/27)**
-🏁 เป้าหมาย: **Half Marathon 21.1 km — 27 มิถุนายน 2026**
+# 📋 Personal Performance Report — Gio (โจ)
+📅 ช่วง: **2025-10-17 — 2026-03-20** (154 วัน)
+🏋️ Fitness Level: **🟠 Intermediate**
+🏁 Team: **🪖 Mandalorian**
 
-*จัดทำโดย: Running Coach AI · วันที่ 28 กุมภาพันธ์ 2026*
+*จัดทำโดย: Running Coach AI · วันที่ 2026-03-22*
 
 ---
 
 ## 👤 Personal Stats Card
 
-![GIO Personal Stats Card](gio-stats-card-2026-02-28.png)
-
 | เมตริก | ค่า |
 |:---|:---|
-| **ระยะทางรวม** | 🔥 **265.06 km** (Running 232.84 + Walk 32.22) |
-| **เซสซั่นทั้งหมด** | 📋 49 ครั้ง (Running 37 + Walk 12) |
-| **วันที่ออกกำลังกาย** | 📅 34/59 วัน (57.6%) |
-| **ความถี่** | 📊 ~5.8 เซสซั่น/สัปดาห์ |
-| **Best Pace** | ⚡ **7:27/km** — 6km Easy Run (23 ก.พ.) |
-| **Longest Run** | 🏅 10.79 km — Tuesday Night Run (6 ม.ค.) |
-| **Longest Long Run (Plan)** | 🏆 **10.06 km** — 10km Block Long Run (28 ก.พ.) |
-| **Best Distance Day** | 🔥 14.18 km (21 ก.พ.) |
-| **Avg HR** | ❤️ 150 bpm (Zone 3 Tempo) |
-| **Avg Cadence** | 🦶 144 spm |
+| **ระยะทางรวม** | 🔥 **431.25 km** (Running 346.2 + Walk 85.0) |
+| **เซสซั่นทั้งหมด** | 📋 80 ครั้ง (Running 58 + Walk 22) |
+| **วันที่ออกกำลังกาย** | 📅 52/154 วัน (33.8%) |
+| **ความถี่** | 📊 ~3.6 เซสซั่น/สัปดาห์ |
+| **Best Pace** | ⚡ **7:02/km** — 6km Easy Run (2026-03-16) |
+| **Longest Activity** | 🏅 10.79 km — Tuesday Night Run (2026-01-06) |
+| **Avg / Session** | 📏 5.39 km |
+| **Avg HR** | ❤️ 143 bpm |
+| **Avg Cadence** | 🦶 146 spm |
 
 ### 🏅 Achievement Badges
 
 | Badge | Achievement | Date |
 |:---|:---|:---|
-| 💯 **10K Club** | วิ่ง 10+ km สำเร็จ (10.06 km, 10.79 km) | ม.ค. - ก.พ. |
-| 📈 **Pace Crusher** | Pace ดีขึ้น 2:33/km (10:00 → 7:27, +20%) | ก.พ. 23 |
-| 🔥 **Week Warrior** | 3+ sessions ทุกสัปดาห์ ไม่เคยขาด | Wk 3-10 |
-| 💪 **Plan Master** | Plan Adherence 87.5% (7/8 weeks) | Wk 3-10 |
-| 🧱 **Volume Builder** | Weekly volume 8.5 → 45.7 km (+436%) | Wk 2-10 |
-| 🗓️ **Consistency King** | Active ต่อเนื่อง 9 สัปดาห์ | Wk 2-10 |
-| 🌅 **Early Bird** | Morning Walk ทุกวันที่วิ่งตั้งแต่ ก.พ. | ก.พ. 7+ |
-| 🌙 **Night Owl** | Tuesday Night Run 10.79 km | ม.ค. 6 |
+| 🎯 **First Activity** | ก้าวแรกสู่สนาม | 2025-10-17 |
+| 🏆 **200K Club** | ระยะรวมทะลุ 200 km! (431 km) | 2026-03-20 |
+| 🏔️ **10K Club** | ทะลุ 10km (10.79 km) | 2026-01-06 |
+| ⚡ **Pace Crusher** | Best Pace 7:02/km | 2026-03-16 |
+| 🗓️ **Consistency King** | ออกกำลังกาย 52 วัน! | 2026-03-20 |
+| 🔥 **Session Master** | 80 sessions สะสม! | 2026-03-20 |
+| 💪 **Double Day Hero** | 28 วันที่ออกกำลัง 2+ ครั้ง | 2026-03-20 |
 
 ---
 
-## ⚡ Pace & Distance Evolution
+## ⚡ Distance & Pace Evolution
 
-![Pace & Distance Evolution](gio-pace-evolution-2026-02-28.png)
+### 📏 Monthly Progression
 
-### Pace Journey — จาก 🐢 สู่ 🐇
+| Month | Sessions | Total Distance | Avg/Session | Best Activity | Avg Pace |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| **2025-Dec** | 6 | 25.6 km | 4.27 km | 8.51 km | 11:16/km |
+| **2025-Oct** | 1 | 8.3 km | 8.34 km | 8.34 km | 8:28/km |
+| **2026-Feb** | 29 | 145.1 km | 5.00 km | 10.06 km | 8:56/km |
+| **2026-Jan** | 20 | 113.9 km | 5.70 km | 10.79 km | 9:17/km |
+| **2026-Mar** | 24 | 138.2 km | 5.76 km | 10.03 km | 7:55/km |
+
+### 📊 Distance Build-up
+
+```
+2025-Dec:  ███░░░░░░░░░░░░░░░░░  25.6 km (6 sessions)
+```
+```
+2025-Oct:  █░░░░░░░░░░░░░░░░░░░  8.3 km (1 sessions)
+```
+```
+2026-Feb:  ████████████████████  145.1 km (29 sessions)
+```
+```
+2026-Jan:  ███████████████░░░░░  113.9 km (20 sessions)
+```
+```
+2026-Mar:  ███████████████████░  138.2 km (24 sessions)
+```
+
+> 📈 **Volume เพิ่มจาก 25.6 → 138.2 km/เดือน (+439%)**
+
+### 🏃 Pace Journey
 
 | ช่วง | Avg Pace | Best Pace | แนวโน้ม |
-|:---|:---|:---|:---|
-| ม.ค. ต้น (Wk 2-3) | 9:48/km | 8:39/km | — Baseline |
-| ม.ค. กลาง (Wk 4) | 8:49/km | 7:55/km | 📈 เร็วขึ้น |
-| ม.ค. ปลาย (Wk 5-6) | 8:46/km | 7:38/km | 📈 เร็วขึ้นต่อเนื่อง |
-| ก.พ. ต้น (Wk 7-8) | 7:51/km | 7:29/km | 📈🔥 Breakthrough! |
-| ก.พ. ปลาย (Wk 9-10) | 8:02/km | 7:27/km | 📈 PR ใหม่! |
+|:---|:---|:---|:---:|
+| 2025-Dec | 11:16/km | 8:40/km | — Baseline |
+| 2025-Oct | 8:28/km | 8:28/km | 📈 เร็วขึ้น |
+| 2026-Feb | 8:56/km | 7:27/km | 📈 เร็วขึ้น |
+| 2026-Jan | 9:17/km | 7:38/km | ➡️ คงที่ |
+| 2026-Mar | 7:55/km | 7:02/km | 📈 เร็วขึ้น |
 
-> ⚡ **Improvement: Pace เร็วขึ้น ~20% ใน 2 เดือน!**
-
-### Weekly Distance Build-up
-
-| สัปดาห์ | Running (km) | Walk (km) | รวม (km) | Phase |
-|:---|:---|:---|:---|:---|
-| Wk 2 | 8.52 | — | 8.52 | 🏗️ Foundation |
-| Wk 3 | 25.84 | — | 25.84 | 🏗️ Foundation |
-| Wk 4 | 19.21 | — | 19.21 | 🏗️ Foundation |
-| Wk 5 | 37.84 | — | 37.84 🔥 | 📈 Base |
-| Wk 6 | 19.53 | — | 19.53 | 📈 Base |
-| Wk 7 | 31.41 | 2.35 | 33.76 | 📈 Base |
-| Wk 8 | 32.93 | 4.49 | 37.42 | 📈 Cut-back |
-| Wk 9 | 33.93 | 9.67 | 43.60 | 💪 Strength |
-| **Wk 10** | **30.00** | **15.71** | **45.71** 🔥 | **💪 Strength** |
-
-> 📈 **Volume เพิ่มจาก 8.5 → 45.7 km/wk (+436%)**
-
----
-
-## 🗓️ Training Plan & Long Run Progression
-
-![Training Plan & Long Run Progression](gio-plan-adherence-2026-02-28.png)
-
-### 27-Week Journey — Overall Progress: **37% (Week 10/27)**
-
-| Phase | สัปดาห์ | Status | Long Run |
-|:---|:---|:---|:---|
-| 🏗️ Foundation | Wk 1-4 | ✅ 100% Complete | 5-7 km |
-| 📈 Base Building | Wk 5-9 | ✅ 100% Complete | 8-9 km |
-| **💪 Strength** | **Wk 10-15** | **🔄 17% (1/6)** | **10-12 km** |
-| 🔝 Peak | Wk 16-23 | 📅 Coming | 13-19 km |
-| 🏁 Taper & Race | Wk 24-27 | 📅 Coming | 17→11 km |
-
-### Long Run Staircase
-
-| Wk | กิจกรรม | ระยะ | Pace | HR | สถานะ |
-|:---|:---|:---|:---|:---|:---|
-| 4 | 5km Long Run | 5.03 km | 7:55/km | 154 bpm (Z3) | ✅ |
-| 5 | 8km Long Run | 8.04 km | 9:33/km | 138 bpm (Z2) | ✅🎉 First 8K! |
-| 6 | 8km Progressive | 8.41 km | 7:53/km | 163 bpm (Z4) | ✅ |
-| 7 | 9km Long Run | 9.09 km | 8:12/km | 162 bpm (Z4) | ✅🎉 First 9K! |
-| 8 | 6km Long Run | 6.09 km | 8:43/km | 151 bpm (Z3) | ✅ Cut-back |
-| 9 | 9km Long Run | 9.02 km | 9:11/km | 140 bpm (Z2) | ✅ Zone 2 ดีมาก! |
-| **10** | **10km Block LR** | **10.06 km** | **8:32/km** | **148 bpm (Z3)** | **✅🔥 NEW PR!** |
-
-> 🎉 **Long Run: 5km → 10km (+100%) ใน 6 สัปดาห์!**
-> 🏆 **Plan Adherence: 87.5% — 7/8 สัปดาห์ตามแผน!**
+> ⚡ **Pace Improvement: 38% เร็วขึ้นจากเริ่มต้น!**
 
 ---
 
 ## ❤️ Heart Rate & Cadence Development
 
-![Heart Rate & Cadence Development](gio-hr-cadence-2026-02-28.png)
+### ❤️ Heart Rate Trend
 
-### ❤️ HR Zone Distribution (27 sessions ที่มีข้อมูล)
-
-| Zone | ชื่อ | จำนวน | % | สถานะ |
-|:---|:---|:---|:---|:---|
-| Zone 2 | Endurance | 5 | 18.5% | ⚠️ ต่ำเกินไป |
-| **Zone 3** | **Tempo** | **16** | **59.3%** | ⚠️ สูงเกินไป |
-| Zone 4 | Threshold | 6 | 22.2% | OK |
-
-### The Magic Numbers — วิ่งเร็วขึ้น + หัวใจเต้นช้าลง!
-
-| ช่วง | Avg HR | Avg Pace | สัญญาณ |
-|:---|:---|:---|:---|
-| ม.ค. ต้น | ❤️ 160 bpm | 🐢 9:48/km | ยังปรับตัว |
-| ม.ค. ปลาย | ❤️ 150 bpm | 🏃 8:46/km | 📉 HR ลดลง ดี! |
-| ก.พ. ปลาย | ❤️ 149 bpm | 🐇 8:02/km | 📈🔥 Fitness ↑↑ |
-
-> 🎯 **Key Insight:** Pace เร็วขึ้น 20% + HR ลดลง 7% = **Aerobic Fitness กำลังพัฒนาชัดเจน!** 💪
+| ช่วง | Avg HR | จำนวน Sessions | สัญญาณ |
+|:---|:---|:---:|:---:|
+| 2025-Dec | ❤️ 124 bpm | 5 | — Baseline |
+| 2026-Feb | ❤️ 146 bpm | 19 | — Baseline |
+| 2026-Jan | ❤️ 153 bpm | 12 | 📈 HR เพิ่ม |
+| 2026-Mar | ❤️ 139 bpm | 17 | 📉 HR ลดลง (ดี!) |
 
 ### 🦶 Cadence Trend
 
-| ช่วง | Avg Cadence | เปลี่ยนแปลง | เป้าหมาย |
-|:---|:---|:---|:---|
-| ม.ค. (Wk 3-6) | 140 spm | — Baseline | 160-170 spm |
-| ก.พ. ต้น (Wk 7-8) | 145 spm | 📈 +3.5% | |
-| ก.พ. ปลาย (Wk 9-10) | 149 spm | 📈 +6.4% | |
-| **Best** | **157 spm** | | |
+| ช่วง | Avg Cadence | จำนวน Sessions | เป้าหมาย |
+|:---|:---|:---:|:---:|
+| 2026-Feb | 🦶 144 spm | 18 | 160-180 spm |
+| 2026-Jan | 🦶 143 spm | 7 | 160-180 spm |
+| 2026-Mar | 🦶 149 spm | 12 | 160-180 spm |
 
 ---
 
-## 🏁 Race Day Prediction — Half Marathon 21.1 km
+## 🏅 Personal Records Timeline
 
-![Race Day Prediction](gio-race-prediction-2026-02-28.png)
+| Date | Record | Value | Activity |
+|:---|:---|:---:|:---|
+| 2025-10-17 | 🏆 Distance PB | **8.34 km** | Friday Night Run |
+| 2025-10-17 | ⚡ Pace PB | **8:28/km** | Friday Night Run |
+| 2025-12-27 | 🏆 Distance PB | **8.51 km** | Saturday Morning Run |
+| 2026-01-01 | 🏆 Distance PB | **8.52 km** | Easy Run |
+| 2026-01-06 | 🏆 Distance PB | **10.79 km** | Tuesday Night Run |
+| 2026-01-14 | ⚡ Pace PB | **8:20/km** | Rolling 500s |
+| 2026-01-18 | ⚡ Pace PB | **7:55/km** | 5km Long Run |
+| 2026-01-29 | ⚡ Pace PB | **7:38/km** | Tempo 1200s |
+| 2026-02-09 | ⚡ Pace PB | **7:29/km** | 5km Easy Run |
+| 2026-02-23 | ⚡ Pace PB | **7:27/km** | 6km Easy Run |
+| 2026-03-09 | ⚡ Pace PB | **7:11/km** | 5.5km Easy Run |
+| 2026-03-16 | ⚡ Pace PB | **7:02/km** | 6km Easy Run |
 
-### ⏱️ Finish Time Estimates
+---
 
-| Scenario | Pace | Finish Time | ความเป็นไปได้ |
-|:---|:---|:---|:---|
-| 🟢 Conservative | 9:00/km | **3:19:30** | ✅ สบายๆ |
-| 🟡 **Realistic** | **8:30/km** | **3:08:18** | ✅ น่าจะทำได้ |
-| 🔴 Aggressive | 8:00/km | **2:57:06** | ⚠️ ต้องพัฒนาอีก |
-| ⭐ **Dream Goal** | **≤ 8:06/km** | **Sub-3 hours!** | 🎯 ท้าทาย |
+## 📅 Recent Sessions (Last 10)
 
-### ✅ Readiness Checklist (4/8 = 50% Ready)
-
-| Item | Status | Detail |
-|:---|:---|:---|
-| Long Run 10+ km | ✅ Done | 10.06 km (28 ก.พ.) |
-| Long Run 15+ km | ⬜ Pending | Week 19 (2 พ.ค.) |
-| Long Run 19 km | ⬜ Pending | Week 23 (30 พ.ค.) |
-| Pace < 8:30/km | ✅ Done | Best 7:27/km |
-| HR Zone 2 for Easy | ⚠️ Needs Work | ปัจจุบัน 59% Zone 3 |
-| Cadence > 140 spm | ✅ Done | 149 spm avg |
-| Nutrition Training | ⬜ Pending | เริ่มที่ 15 km |
-| Consistency 4+/wk | ✅ Done | 5.8x/wk avg |
+| Date | Activity | Distance | Pace | HR |
+|:---|:---|:---:|:---:|:---:|
+| 2026-03-14 | 6km Long Run | 6.07 km | 8:55/km | 138 bpm |
+| 2026-03-14 | Morning Walk | 5.73 km | N/A | 109 bpm |
+| 2026-03-15 | Sunday Morning Run | 6.78 km | 8:46/km | 139 bpm |
+| 2026-03-15 | Morning Walk | 3.32 km | N/A | N/A |
+| 2026-03-16 | 6km Easy Run | 6.06 km | 7:02/km | 156 bpm |
+| 2026-03-16 | Morning Walk | 3.42 km | N/A | N/A |
+| 2026-03-17 | Pyramid Set | 9.10 km | 7:54/km | 152 bpm |
+| 2026-03-17 | Morning Walk | 5.20 km | N/A | N/A |
+| 2026-03-20 | Tempo 2-1-1 | 7.94 km | 8:09/km | 146 bpm |
+| 2026-03-20 | Morning Walk | 3.70 km | N/A | N/A |
 
 ---
 
@@ -169,45 +142,28 @@
 
 ### ✅ สิ่งที่ทำได้ดีแล้ว — รักษาไว้!
 
-1. 💪 **วินัยสุดยอด** — Plan Adherence 87.5%, ไม่ขาด Long Run 6 สัปดาห์ติด
-2. ⚡ **Pace พัฒนา 20%** — จาก 10:00 → 7:27/km ใน 2 เดือน
-3. 📈 **Volume เพิ่มอย่างเป็นระบบ** — 8.5 → 45.7 km/wk ปลอดภัย
-4. 🚶 **Morning Walk เป็น Active Recovery ที่ดีมาก** — เพิ่ม Time on Feet โดยไม่เสี่ยงบาดเจ็บ
+1. 💪 **วินัยสม่ำเสมอ** — ออกกำลังกายมาแล้ว 52 วัน (3.6 ครั้ง/สัปดาห์)
+2. 📈 **Volume เพิ่มขึ้น 439%** — ทำเวลาเพิ่มระยะอย่างเป็นระบบ
+3. 🏅 **ระยะทางสูงสุด 10.79 km** — Tuesday Night Run
+4. ⚡ **Best Pace 7:02/km** — แสดงถึง Aerobic Fitness ที่ดี
+5. 🔥 **80 sessions สะสม** — ไม่ทิ้งกิจวัตร
 
-### ⚠️ 3 จุดที่ต้องปรับปรุงทันที
+### ⚠️ จุดที่ต้องปรับปรุง
 
-#### 1. ❤️ คุม Easy Run ให้ช้าลง — เป้า HR ≤ 143 bpm (Zone 2)
+1. 🧘 **อย่าลืมวันพัก** — ร่างกายสร้างความแข็งแรงในช่วงพัก ไม่ใช่ตอนออกกำลังกาย
 
-ปัจจุบัน 59% ของเซสซั่นอยู่ใน Zone 3 ซึ่งหนักเกินไปสำหรับ Easy Run ตามหลัก **Polarized Training (80/20)** ควรมีเซสซั่น Zone 2 อย่างน้อย 80%
+### 🎯 เป้าหมายถัดไป
 
-> 💡 **วิธีแก้:** ในวัน Easy Run ให้ลดความเร็วจนสามารถ "พูดคุยเป็นประโยคได้โดยไม่หอบ" คุม HR ≤ 143 bpm. อย่ากลัวช้า — **"วิ่งช้าเพื่อวิ่งเร็ว"** คือกุญแจสู่ Aerobic Base ที่แข็งแกร่ง
-
-#### 2. 🦶 เพิ่ม Cadence ทีละน้อย — เป้า 155-160 spm ใน Wk 15
-
-ปัจจุบัน 149 spm ยังห่างจากเป้า 160-170 spm ที่เหมาะสมสำหรับ Half Marathon
-
-> 💡 **วิธีแก้:** โฟกัส "ก้าวสั้นลง สับเท้าเร็วขึ้น" เพิ่ม +5% ต่อ Phase (ทุก 5 สัปดาห์). ลองใช้ Metronome App ตั้งที่ 155 spm ตอน Easy Run
-
-#### 3. 📱 ใส่ HR Monitor ทุกครั้ง
-
-10 เซสซั่นไม่มีข้อมูล HR → เสียโอกาสวิเคราะห์ ข้อมูลที่ครบจะช่วยปรับแผนได้แม่นยำขึ้น
-
-### 🔴 สิ่งที่ต้องเตรียมสำหรับ Phase ถัดไป
-
-| เรื่อง | ช่วงเวลา | รายละเอียด |
-|:---|:---|:---|
-| 🍬 Nutrition Training | Wk 13+ (Long Run 11-13 km) | ทดลองกินเจล 1 ซอง ที่ km 6-7 |
-| 🧠 Mental Prep | Wk 19+ (Long Run 15+ km) | ฝึกจิตใจสำหรับระยะที่ไม่เคยวิ่ง |
-| 👟 Race Gear | Wk 20 (16 km Race Practice) | ทดสอบรองเท้า + ชุดแข่ง + เจล |
-| 📊 2-Mile Time Trial | Wk 12 | ทดสอบ VDOT ปัจจุบันเพื่อปรับ Pace |
+| Milestone | Target | ปัจจุบัน | Progress |
+|:---|:---:|:---:|:---:|
+| 🏆 500K Club | 500 km | 431.3 km | ████████░░ 86% |
 
 ---
 
-> 🏆 **สรุป: คุณโจ อยู่ใน ON TRACK สุดๆ ครับ!**
-> ด้วยวินัย 87.5%, Pace ดีขึ้น 20%, Long Run ขยายจาก 5→10 km — ถ้ารักษาระดับนี้ไว้ **คุณโจจะวิ่งจบ Half Marathon 21.1 km ได้แน่นอนครับ!** 🔥✌️
+> 🏆 **สรุป: Gio มีระยะรวม 431.25 km จาก 80 sessions ใน 154 วัน — ถ้ารักษาวินัยนี้ไว้ จะพัฒนาได้อีกมาก!** 🔥✌️
 
 ---
 
-[🔙 กลับไปดูสถิติทั้งหมด (Personal Statistics)](../personal-statistics.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](../running-plan.md) | [🏠 กลับหน้าหลัก (Profile)](../README.md)
+*📊 Auto-generated on 2026-03-22 by Running Coach AI*
 
-*📊 Auto-generated on 2026-02-28 by Running Coach AI*
+[🔙 สถิติการวิ่ง](../personal-statistics.md) | [🏃🏻‍♂️ แผนฝึกซ้อม](../running-plan.md) | [🏠 Profile](../README.md)

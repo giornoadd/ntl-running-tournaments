@@ -1,13 +1,19 @@
-# 🏃 Coach Analysis — Peck (เป๊ก)
+# 📋 Personal Performance Report — Peck (เป๊ก)
+📅 อัพเดต: **2026-03-22**
+🏋️ Team: **🪖 Mandalorian**
 
-> วิเคราะห์พัฒนาการจาก Running Coach | อัพเดตล่าสุด: 2026-03-22
+*จัดทำโดย: Running Coach AI · 2026-03-22*
 
 ---
 
 ## 📊 ยังไม่มีข้อมูลกิจกรรม
 
-ยังไม่พบข้อมูลการวิ่ง/เดินสำหรับ Peck — เมื่อมีกิจกรรมแรก Coach Analysis จะถูกสร้างขึ้นอัตโนมัติ
+ยังไม่พบข้อมูลการวิ่ง/เดินสำหรับ Peck — เมื่อมีกิจกรรมแรก Performance Report จะถูกสร้างขึ้นอัตโนมัติ
 
-> 💪 **พร้อมเมื่อไหร่ ออกมาวิ่ง/เดินกันเลยครับ! ทีม 🪖 Mandalorian รอคุณอยู่!**
+> 💪 **พร้อมเมื่อไหร่ ออกมาวิ่ง/เดินกันเลย! ทีม 🪖 Mandalorian รอคุณอยู่!**
 
-[🏠 กลับหน้าหลัก (Profile)](README.md)
+---
+
+*📊 Auto-generated on 2026-03-22 by Running Coach AI*
+
+[🏠 Profile](assets_data/giornoadd/my-macos/running-comp/README.md) | [📊 Statistics](../personal-statistics.md)

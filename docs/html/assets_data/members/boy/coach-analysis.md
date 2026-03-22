@@ -1,104 +1,157 @@
-# 🏃 Coach Analysis — Boy (บอย)
+# 📋 Personal Performance Report — Boy (บอย)
+📅 ช่วง: **2026-01-07 — 2026-03-21** (73 วัน)
+🏋️ Fitness Level: **🔴 Advanced**
+🏁 Team: **💻 IT System**
 
-> วิเคราะห์พัฒนาการจาก Running Coach | อัพเดตล่าสุด: 2026-03-22
-
----
-
-## 📊 Performance Journey (เส้นทางพัฒนาการ)
-
-| Metric | 🗓️ Jan | 🗓️ Feb | 🗓️ Mar | 📈 Trend |
-|:---|:---:|:---:|:---:|:---:|
-| **Sessions** | 5 | 10 | 9 | ✅ สม่ำเสมอขึ้น |
-| **Total Distance** | 27.02 km | 65.44 km | 71.64 km | 📈 +165% จาก Jan |
-| **Avg / Session** | 5.40 km | 6.54 km | 7.96 km | 📈 +47% จาก Jan |
-| **Best Run** | 6.01 km | 8.00 km | 10.02 km | 🔥 +67% จาก Jan |
-| **Avg Pace** | ~6:44/km | ~7:14/km | ~7:20/km | ⚖️ คงที่ (ระยะเพิ่ม) |
-
-> 💡 **Insight:** ระยะทางเพิ่มขึ้นอย่างมาก แต่เพซยังคงคุมอยู่ในโซนเดิม — แสดงว่า **Endurance พัฒนาชัดเจน!**
+*จัดทำโดย: Running Coach AI · วันที่ 2026-03-22*
 
 ---
 
-## 🏆 Achievement Badges
+## 👤 Personal Stats Card
 
-| Badge | Description | Date Earned |
-|:---:|:---|:---:|
-| 🎯 | **First Run** — ก้าวแรกสู่สนาม | 2026-01-07 |
-| 📈 | **Distance Crusher** — ทำลายสถิติระยะทางส่วนตัว 3 ครั้ง | 2026-03-21 |
-| 💯 | **10K Club** — ทะลุ 10km ครั้งแรก | 2026-03-20 |
-| 🗓️ | **Consistency King** — วิ่งต่อเนื่อง 4+ สัปดาห์ติดต่อกัน | 2026-03-15 |
-| 🏔️ | **Distance King** — Longest Run 10.02 km (New PB!) | 2026-03-21 |
-| 🔥 | **Week Warrior** — 3+ sessions ในสัปดาห์เดียว (Mar W3) | 2026-03-15 |
-| 💪 | **Double Day Hero** — วิ่ง 2 เซสซั่นใน 1 วัน! | 2026-03-21 |
-
----
-
-## 📈 Key Improvements (การพัฒนาที่สำคัญ)
-
-### 🔥 Distance Progression
-```
-Jan:  ████████░░░░░░░░░░░░  27.02 km (5 sessions)
-Feb:  ████████████████░░░░  65.44 km (10 sessions)
-Mar:  █████████████████░░░  71.64 km (9 sessions) — ยังไม่จบเดือน!
-```
-
-### ⚡ Personal Records Timeline
-| Date | Milestone | Distance |
-|:---|:---|:---:|
-| 2026-01-07 | First Run Ever | 5.00 km |
-| 2026-02-27 | Best Pace Record | 6:20/km (8.00 km) |
-| 2026-03-20 | First 10K! 🎉 | 10.01 km |
-| 2026-03-21 | Longest Run on Strava! 🏆 | 10.02 km |
-
-### 📏 Average Distance per Session Growth
-- **Jan → Feb:** 5.40 → 6.54 km (+21%) ✅
-- **Feb → Mar:** 6.54 → 7.96 km (+22%) 📈
-- **Overall:** 5.40 → 7.96 km (**+47%** improvement!) 🔥
-
----
-
-## 🎯 Training Plan Status (สถานะแผนฝึกซ้อม)
-
-| Item | Status |
+| เมตริก | ค่า |
 |:---|:---|
-| **Plan** | 20-Week Half Marathon Plan |
-| **Periodization** | 🟢 Linear (Base → Build → Peak → Taper) |
-| **Fitness Level** | 🟠 Intermediate (upgraded from Beginner!) |
-| **Current Phase** | 🏗️ Phase 1: Base Building (Week 1-6) |
-| **Current Week** | Week 3 of 20 |
-| **Plan Adherence** | ⚠️ Over-reaching (running more than planned) |
+| **ระยะทางรวม** | 🔥 **163.00 km** |
+| **เซสซั่นทั้งหมด** | 📋 24 ครั้ง |
+| **วันที่ออกกำลังกาย** | 📅 23/73 วัน (31.5%) |
+| **ความถี่** | 📊 ~2.3 เซสซั่น/สัปดาห์ |
+| **Best Pace** | ⚡ **6:20/km** — Morning Run (2026-02-27) |
+| **Longest Activity** | 🏅 10.02 km — Morning Run (2026-03-21) |
+| **Avg / Session** | 📏 6.79 km |
+| **Avg HR** | ❤️ 163 bpm |
+| **Avg Cadence** | 🦶 161 spm |
 
-### Week 3 Plan vs Actual
-| Day | Plan | Actual | Status |
+### 🏅 Achievement Badges
+
+| Badge | Achievement | Date |
+|:---|:---|:---|
+| 🎯 **First Activity** | ก้าวแรกสู่สนาม | 2026-01-07 |
+| 💯 **100K Club** | ระยะรวมทะลุ 100 km! (163 km) | 2026-03-21 |
+| 🏔️ **10K Club** | ทะลุ 10km (10.02 km) | 2026-03-21 |
+| ⚡ **Pace Crusher** | Best Pace 6:20/km | 2026-02-27 |
+| 🗓️ **Consistency King** | ออกกำลังกาย 23 วัน! | 2026-03-21 |
+| 💪 **Dedicated Runner** | 24 sessions สะสม | 2026-03-21 |
+| 💪 **Double Day Hero** | 1 วันที่ออกกำลัง 2+ ครั้ง | 2026-03-21 |
+
+---
+
+## ⚡ Distance & Pace Evolution
+
+### 📏 Monthly Progression
+
+| Month | Sessions | Total Distance | Avg/Session | Best Activity | Avg Pace |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| **2026-Feb** | 10 | 64.3 km | 6.43 km | 8.00 km | 7:20/km |
+| **2026-Jan** | 5 | 27.0 km | 5.40 km | 6.01 km | 6:46/km |
+| **2026-Mar** | 9 | 71.6 km | 7.96 km | 10.02 km | 7:26/km |
+
+### 📊 Distance Build-up
+
+```
+2026-Feb:  █████████████████░░░  64.3 km (10 sessions)
+```
+```
+2026-Jan:  ███████░░░░░░░░░░░░░  27.0 km (5 sessions)
+```
+```
+2026-Mar:  ████████████████████  71.6 km (9 sessions)
+```
+
+> 📈 **Volume เพิ่มจาก 64.3 → 71.6 km/เดือน (+11%)**
+
+### 🏃 Pace Journey
+
+| ช่วง | Avg Pace | Best Pace | แนวโน้ม |
 |:---|:---|:---|:---:|
-| Tue 17 | 🟢 5km Easy | ❌ Skipped | ⚠️ |
-| Thu 19 | 🔵 4km Tempo | ❌ Skipped | ⚠️ |
-| Sat 21 | 🟣 8km Long Run | ✅ 10.02 km × 2! | 🔥 Over |
-| Extra | — | 10.01 km (Mar 20) | 📈 Bonus |
+| 2026-Feb | 7:20/km | 6:20/km | — Baseline |
+| 2026-Jan | 6:46/km | 6:37/km | ➡️ คงที่ |
+| 2026-Mar | 7:26/km | 7:01/km | ➡️ คงที่ |
 
-> ⚠️ การวิ่งมากกว่าแผนอาจดูดี แต่ร่างกายต้องการเวลาฟื้นตัว — **Week 4 (Cut-back) สำคัญมาก!**
-
----
-
-## 💡 Coach's Recommendations (คำแนะนำจากโค้ช)
-
-### 🟢 สิ่งที่ทำได้ดีมาก
-1. **ระยะทางพัฒนาขึ้นอย่างก้าวกระโดด** — จาก 5km → 10km ใน 2.5 เดือน
-2. **ความสม่ำเสมอดีขึ้น** — จาก 5 sessions/เดือน → 9-10 sessions/เดือน
-3. **เพซคงที่แม้ระยะเพิ่ม** — ร่างกายปรับตัวได้ดี ไม่เร่งเกินไป
-
-### 🟡 จุดที่ต้องพัฒนา
-1. **ทำตามแผนให้ตรง** — Easy Run วันธรรมดาสำคัญเท่ากับ Long Run วันเสาร์
-2. **วันพักคือวันสร้าง** — ร่างกายแข็งแรงขึ้นตอนพัก ไม่ใช่ตอนวิ่ง
-3. **ถ้า HR สูง (160+ bpm) ให้ลดเพซ** — วิ่งช้าให้ HR ลงมาโซน 2
-
-### 🔴 สัปดาห์หน้า (Week 4 Cut-back) — สำคัญมาก!
-- **Tue 24:** 🟢 4km Easy Run (เพซ 7:30-8:00/km)
-- **Thu 26:** 🟢 4km Easy Run
-- **Sat 28:** 🟣 6km Long Run (ชิลๆ)
-- 🎯 **เป้าหมาย:** ให้ร่างกายพักฟื้นก่อนเข้า Week 5-6 ที่จะเพิ่มระยะ
+> ⚡ **Pace Improvement: 14% เร็วขึ้นจากเริ่มต้น!**
 
 ---
 
-*Generated by Running Coach AI | Last session analyzed: 2026-03-21 (Afternoon Run — 10.02 km)*
+## ❤️ Heart Rate & Cadence Development
 
-[🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md) | [📊 ดูสถิติทั้งหมด (Statistics)](personal-statistics.md)
+### ❤️ Heart Rate Trend
+
+| ช่วง | Avg HR | จำนวน Sessions | สัญญาณ |
+|:---|:---|:---:|:---:|
+| 2026-Feb | ❤️ 161 bpm | 6 | — Baseline |
+| 2026-Jan | ❤️ 167 bpm | 4 | 📈 HR เพิ่ม |
+
+### 🦶 Cadence Trend
+
+| ช่วง | Avg Cadence | จำนวน Sessions | เป้าหมาย |
+|:---|:---|:---:|:---:|
+| 2026-Feb | 🦶 154 spm | 6 | 160-180 spm |
+| 2026-Jan | 🦶 172 spm | 4 | 160-180 spm |
+
+---
+
+## 🏅 Personal Records Timeline
+
+| Date | Record | Value | Activity |
+|:---|:---|:---:|:---|
+| 2026-01-07 | 🏆 Distance PB | **5.00 km** | Outdoor Run |
+| 2026-01-07 | ⚡ Pace PB | **6:38/km** | Outdoor Run |
+| 2026-01-26 | 🏆 Distance PB | **6.01 km** | Afternoon Run |
+| 2026-01-27 | ⚡ Pace PB | **6:37/km** | Outdoor Run |
+| 2026-02-04 | 🏆 Distance PB | **6.19 km** | Outdoor Run |
+| 2026-02-07 | 🏆 Distance PB | **7.00 km** | Outdoor Run |
+| 2026-02-13 | 🏆 Distance PB | **7.09 km** | Outdoor Run |
+| 2026-02-27 | 🏆 Distance PB | **8.00 km** | Morning Run |
+| 2026-02-27 | ⚡ Pace PB | **6:20/km** | Morning Run |
+| 2026-03-14 | 🏆 Distance PB | **8.23 km** | 7km Long Run |
+| 2026-03-20 | 🏆 Distance PB | **10.01 km** | Morning Run |
+| 2026-03-21 | 🏆 Distance PB | **10.02 km** | Morning Run |
+
+---
+
+## 📅 Recent Sessions (Last 10)
+
+| Date | Activity | Distance | Pace | HR |
+|:---|:---|:---:|:---:|:---:|
+| 2026-02-27 | Morning Run | 8.00 km | 6:20/km | N/A |
+| 2026-03-04 | Afternoon Run | 5.38 km | 7:29/km | N/A |
+| 2026-03-07 | 6km Long Run | 7.00 km | 7:52/km | N/A |
+| 2026-03-08 | Morning Run | 7.08 km | 7:37/km | N/A |
+| 2026-03-11 | Morning Run | 7.38 km | 7:29/km | N/A |
+| 2026-03-14 | 7km Long Run | 8.23 km | 7:11/km | N/A |
+| 2026-03-15 | Morning Run | 6.52 km | 7:40/km | N/A |
+| 2026-03-20 | Morning Run | 10.01 km | 7:14/km | N/A |
+| 2026-03-21 | Morning Run | 10.02 km | 7:27/km | N/A |
+| 2026-03-21 | Afternoon Run | 10.02 km | 7:01/km | N/A |
+
+---
+
+## 🔮 คำแนะนำจากโค้ช (Coach's Recommendations)
+
+### ✅ สิ่งที่ทำได้ดีแล้ว — รักษาไว้!
+
+1. 💪 **วินัยสม่ำเสมอ** — ออกกำลังกายมาแล้ว 23 วัน (2.3 ครั้ง/สัปดาห์)
+2. 🏅 **ระยะทางสูงสุด 10.02 km** — Morning Run
+3. ⚡ **Best Pace 6:20/km** — แสดงถึง Aerobic Fitness ที่ดี
+4. 🔥 **24 sessions สะสม** — ไม่ทิ้งกิจวัตร
+
+### ⚠️ จุดที่ต้องปรับปรุง
+
+1. 📊 **เพิ่มความถี่** — ปัจจุบัน 2.3 ครั้ง/สัปดาห์ ตั้งเป้า 3 ครั้ง/สัปดาห์
+2. ❤️ **คุม Easy Run ให้ช้าลง** — HR เฉลี่ย 163 bpm สูงเกินไป ลดเพซจน "พูดคุยได้ไม่หอบ"
+3. 🧘 **อย่าลืมวันพัก** — ร่างกายสร้างความแข็งแรงในช่วงพัก ไม่ใช่ตอนออกกำลังกาย
+
+### 🎯 เป้าหมายถัดไป
+
+| Milestone | Target | ปัจจุบัน | Progress |
+|:---|:---:|:---:|:---:|
+| 🏆 200K Club | 200 km | 163.0 km | ████████░░ 82% |
+
+---
+
+> 🏆 **สรุป: Boy มีระยะรวม 163.00 km จาก 24 sessions ใน 73 วัน — ถ้ารักษาวินัยนี้ไว้ จะพัฒนาได้อีกมาก!** 🔥✌️
+
+---
+
+*📊 Auto-generated on 2026-03-22 by Running Coach AI*
+
+[🔙 สถิติการวิ่ง](../personal-statistics.md) | [🏃🏻‍♂️ แผนฝึกซ้อม](../running-plan.md) | [🏠 Profile](assets_data/giornoadd/my-macos/running-comp/README.md)

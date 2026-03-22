@@ -1,13 +1,19 @@
-# 🏃 Coach Analysis — Tae (เต)
+# 📋 Personal Performance Report — Tae (เต)
+📅 อัพเดต: **2026-03-22**
+🏋️ Team: **💻 IT System**
 
-> วิเคราะห์พัฒนาการจาก Running Coach | อัพเดตล่าสุด: 2026-03-22
+*จัดทำโดย: Running Coach AI · 2026-03-22*
 
 ---
 
 ## 📊 ยังไม่มีข้อมูลกิจกรรม
 
-ยังไม่พบข้อมูลการวิ่ง/เดินสำหรับ Tae — เมื่อมีกิจกรรมแรก Coach Analysis จะถูกสร้างขึ้นอัตโนมัติ
+ยังไม่พบข้อมูลการวิ่ง/เดินสำหรับ Tae — เมื่อมีกิจกรรมแรก Performance Report จะถูกสร้างขึ้นอัตโนมัติ
 
-> 💪 **พร้อมเมื่อไหร่ ออกมาวิ่ง/เดินกันเลยครับ! ทีม 💻 IT System รอคุณอยู่!**
+> 💪 **พร้อมเมื่อไหร่ ออกมาวิ่ง/เดินกันเลย! ทีม 💻 IT System รอคุณอยู่!**
 
-[🏠 กลับหน้าหลัก (Profile)](README.md)
+---
+
+*📊 Auto-generated on 2026-03-22 by Running Coach AI*
+
+[🏠 Profile](assets_data/giornoadd/my-macos/running-comp/README.md) | [📊 Statistics](../personal-statistics.md)
