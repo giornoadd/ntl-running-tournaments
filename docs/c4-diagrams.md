@@ -20,6 +20,7 @@ C4Context
     System_Ext(gemini_api, "Google Gemini API", "Provides OCR capabilities to extract text and data from screenshots.")
     System_Ext(notebook_lm, "NotebookLM MCP", "Stores project context and acts as the knowledge base for AI agents.")
     System_Ext(ollama, "Local Ollama (qwen3:8b)", "Provides local LLM processing for summarization and translation.")
+    System_Ext(python_env, "Python Interpreter", "Tool generating infographics autonomously.")
 
     Rel(runner, running_sys, "Submits running evidence (screenshots) directly to")
     Rel(runner, running_sys, "Reads leaderboard & profile data from")
@@ -29,6 +30,7 @@ C4Context
     Rel(running_sys, gemini_api, "Sends images for OCR extraction")
     Rel(running_sys, notebook_lm, "Queries for tournament rules/laws/history")
     Rel(running_sys, ollama, "Sends prompt for fast local Thai processing")
+    Rel(running_sys, python_env, "Executes Python code for charting")
 ```
 
 ---

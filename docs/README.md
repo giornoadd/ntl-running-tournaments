@@ -60,10 +60,10 @@ Four AI agents manage the tournament operations:
 
 | Agent | Workflow | Role |
 | :--- | :--- | :--- |
-| 🏟️ **Coach Assistant** | `/coach-assistant` | Rename files, update CSV/stats, duplicate check, Drive sync |
+| 🏟️ **Coach Assistant** | `/coach-assistant` | Rename files, update CSV/stats, duplicate check, Drive sync, build dashboard data |
 | 🏃 **Running Coach** | `/running-coach` | Post-run analysis, goal setting, running plans, coach analysis |
-| 📈 **Sports Analyst** | `/sports-analyst` | Infographic content, personal stats cards, recaps, README update |
-| 📣 **Tournament Reporter** | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
+| 📈 **Sports Analyst** | `/sports-analyst` | Deep analytics, infographic content, personal stats cards, recaps, README update |
+| 📣 **Tournament Reporter** | `/tournament-reporter` | E-Sports caster, news, Python infographics generation, motivation & engagement |
 | 💻 **Software Engineer** | `/software-engineer` | Full data pipeline rebuild + React dashboard deploy |
 | 🔄 **Update Dashboard** | `/update-dashboard` | Quick dashboard rebuild — recalculate, build, push |
 

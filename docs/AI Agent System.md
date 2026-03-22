@@ -59,6 +59,7 @@ This project uses **6 AI Agents** and **2 Shared Skills** to manage the Running 
 - ✅ Updated `results/{month}.csv`
 - ✅ Regenerated member README
 - ✅ Regenerated `performance-report/personal-performance-report.md` + `coach-analysis.md`
+- ✅ Rebuilt website data (`docs/html/data.js`)
 
 ---
 
@@ -113,11 +114,13 @@ This project uses **6 AI Agents** and **2 Shared Skills** to manage the Running 
 
 | Type | Description |
 |---|---|
+| ⚡ **Data Validation (Step 0)** | Cross-check CSV vs stats และ recalculate ก่อนวิเคราะห์เสมอ |
 | 🏆 **Tournament Infographic** | ภาพรวม: Team standings, Top 5, contribution chart |
 | 👤 **Personal Stats Card** | สรุปสถิติรายบุคคล: progression, pace, achievements |
 | 📅 **Weekly/Monthly Recap** | MVP, scoreboard, activity feed |
 | 🎨 **Custom Visual** | เปรียบเทียบ, ranking, Head-to-Head, HM time prediction |
 | 📋 **Main README Update** | อัพเดต `README.md` หลักของ project ด้วยข้อมูลล่าสุด |
+| 📊 **Dashboard Awareness** | เตือนให้อัพเดต dashboard หลังวิเคราะห์เสร็จ |
 
 ### How to Use
 
@@ -189,17 +192,18 @@ Quick rebuild — recalculate stats + rebuild React app + push ไป GitHub Pag
 ## 📣 Agent 4: Tournament Reporter (`/tournament-reporter`)
 
 ### Objective
-นักข่าวกีฬาประจำ tournament — สร้าง content สนุกสนาน กระตุ้นให้สมาชิกอยากวิ่ง ในหลาย format พร้อมแชร์
+นักข่าวกีฬาประจำ tournament (E-Sports Caster & Chief Hype Officer) — สร้าง content สนุกสนาน กระตุ้นให้อยากวิ่ง เขียนข่าว และสวมบทบาทสร้าง Graphic Infographic ด้วย Python!
 
 ### Content Formats
 
 | Format | Description |
 |---|---|
 | 📱 **LINE Message** | ข้อความสั้น กระชับ ≤20 บรรทัด สำหรับ LINE group |
-| 📘 **Facebook Post** | เล่าเรื่องราว dramatic สำหรับ social media |
-| 🎨 **Infographic Content** | ข้อมูลพร้อมสร้างเป็นรูปภาพ พร้อม image generation prompt |
+| 📘 **Facebook Post** | เล่าเรื่องราว dramatic ขั้นสุด สำหรับ social media |
+| 🎨 **Auto-Infographic (Python)** | สามารถเขียนโค้ด Python (matplotlib/seaborn) วาดกราฟเป็น `.png` ได้เอง! |
 | 🏅 **Personal Shoutout** | เชียร์รายบุคคล — ทั้งฉลองและกระตุ้นคนที่ห่างหาย |
-| 📊 **Standings Board** | กระดานคะแนนสำเร็จรูปพร้อม screenshot แชร์ |
+| ⏱️ **Daily Countdown** | สรุปสถานการณ์ gap รายวัน บิ้วอารมณ์ |
+| 📊 **Standings Board** | กระดานคะแนนสำเร็จรูปพร้อมแชร์ |
 
 ### How to Use
 

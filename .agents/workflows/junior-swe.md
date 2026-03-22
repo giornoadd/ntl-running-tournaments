@@ -1,20 +1,30 @@
 ---
-description: Quick dashboard rebuild — regenerate data, build React app, deploy to GitHub Pages. Use /update-dashboard for fast updates without full evidence processing.
+description: Quick dashboard rebuild — regenerate data, build React app, deploy to GitHub Pages. Use /junior-swe for fast updates without full evidence processing.
 ---
 
 # 🔄 Update Dashboard Workflow
 
-Quick-fire workflow to **rebuild and deploy the dashboard** after data changes. This is a lightweight alternative to `/software-engineer` — use it when CSVs or member data have already been updated and you just need to refresh the website.
+**🤖 Agent Persona: Junior Software Engineer**
+* **Role:** Dashboard Automation & Deployment Specialist. Responsible for executing rapid, lightweight updates to the live tournament dashboard after data modifications, bypassing the heavy processing pipelines.
+* **Core Skills:**
+    * **Data Processing:** Python (`recalculate_csv.py`, `build_website_data.py`)
+    * **Frontend Build:** React, HTML/CSS generation
+    * **Automation & Scripting:** Bash shell scripting (`deploy_website.sh`)
+    * **Version Control & Hosting:** Git operations, GitHub Pages deployment
+
+---
+
+Quick-fire workflow to **rebuild and deploy the dashboard** after data changes. This is a lightweight alternative to `/senior-swe` — use it when CSVs or member data have already been updated and you just need to refresh the website.
 
 **Trigger:** After any data update (CSV edits, manual fixes, stat corrections), or when you want to refresh the live dashboard without full evidence processing.
 
 **When to use:**
 | Situation | Use |
 |---|---|
-| Processed new evidence screenshots | `/running-coach` → auto-calls `/software-engineer` |
-| Quick CSV fix or stat correction | ✅ `/update-dashboard` |
-| Recalculated data, need quick deploy | ✅ `/update-dashboard` |
-| Full pipeline with watermarks + READMEs | `/software-engineer` |
+| Processed new evidence screenshots | `/running-coach` → auto-calls `/senior-swe` |
+| Quick CSV fix or stat correction | ✅ `/junior-swe` |
+| Recalculated data, need quick deploy | ✅ `/junior-swe` |
+| Full pipeline with watermarks + READMEs | `/senior-swe` |
 
 ## 📊 What Gets Updated
 

@@ -55,4 +55,4 @@ The end-to-end pipeline handles the ingestion of runner evidence (screenshots) t
 - **AI/Vision**: `google-generativeai` (Gemini Pro Vision) for reliable OCR and contextual data extraction.
 - **Data Persistence**: CSV (`csv` module) and Markdown (`markdown` construction).
 - **Frontend**: React 19 + TypeScript + Vite 7, deployed via GitHub Pages.
-- **Agent System**: Uses standard markdown-based workflow definitions (`.agents/workflows/`) triggered via IDE extensions or CLI bots.
+- **Agent System**: Uses standard markdown-based workflow definitions (`.agents/workflows/`) triggered via IDE extensions or CLI bots. Features advanced integrations like the Google Python Interpreter for autonomous infographic generation.

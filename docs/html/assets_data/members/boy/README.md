@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **164.10 km** |
-| **Active Days** | 📅 24 days |
-| **Average / Session** | 📏 6.84 km |
+| **Total Distance** | 🔥 **174.10 km** |
+| **Active Days** | 📅 25 days |
+| **Average / Session** | 📏 6.96 km |
 | **Best Session** | 🏆 10.02 km (2026-03-21) |
 | **Best Pace** | ⚡ 6:20/km — Morning Run (2026-02-27) |
 | **Longest Run** | 🏅 10.02 km — Morning Run (2026-03-21) |
 | **Avg Running Cadence** | 🦶 160 spm |
-| **Evidence Files** | 📸 24 screenshots |
+| **Evidence Files** | 📸 25 screenshots |
 | **First Active** | 2026-01-07 |
-| **Last Active** | 2026-03-21 |
+| **Last Active** | 2026-03-22 |
 
 ---
 
 ## 📅 2026-March
-> 9 sessions · 71.64 km total · 7.96 km avg · best 10.02 km
+> 10 sessions · 81.64 km total · 8.16 km avg · best 10.02 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -44,6 +44,7 @@
 | 7 | 2026-03-20 | Fri, Mar 20 | **10.01 km** | 🏃 Morning Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-20.jpg) |
 | 8 | 2026-03-21 | Sat, Mar 21 | **10.02 km** | 🏃 Morning Run + Afternoon Run | [📸1](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg) [📸2](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21_1.jpg) |
 | 9 | 2026-03-21 | Sat, Mar 21 | **10.02 km** | 🏃 Morning Run + Afternoon Run | [📸1](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg) [📸2](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21_1.jpg) |
+| 10 | 2026-03-22 | Sun, Mar 22 | **10.00 km** | 🏃 Afternoon Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-22.jpg) |
 
 ## 📅 2026-February
 > 10 sessions · 65.44 km total · 6.54 km avg · best 8.00 km
@@ -73,4 +74,4 @@
 | 5 | 2026-01-29 | Thu, Jan 29 | **6.00 km** | 🏃 Outdoor Run | [📸](assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-jan-29.jpg) |
 
 ---
-*Auto-generated on 2026-03-22 11:38*
+*Auto-generated on 2026-03-22 19:02*

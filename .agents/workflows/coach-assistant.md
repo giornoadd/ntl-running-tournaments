@@ -60,8 +60,8 @@ Use `view_file` on the image. Extract:
 #### 3. Rename the file
 Format: `{nickname}-{yyyy}-{mon}-{dd}.{ext}`
 
-```
-running-pics/IMG_8764.JPG → running-pics/gio-2025-oct-17.jpg
+```text
+running-pics/IMG_8764.JPG → running-pics/gio-2026-feb-23.jpg
 ```
 
 - Month = 3-letter lowercase: `jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sep`, `oct`, `nov`, `dec`
@@ -76,7 +76,7 @@ mv "member_results/{Folder}/running-pics/{original}" "member_results/{Folder}/ru
 #### 4. Update personal-statistics.md
 Append a new row to `member_results/{Folder}/personal-statistics.md`:
 
-```
+```markdown
 | {date} | {activity} | {distance} | {time} | {pace} | {HR} | {zones} | {cadence} | {filename} |
 ```
 
@@ -97,15 +97,15 @@ Add entry to `results/{yyyy}-{Month}.csv` (e.g. `results/2026-March.csv`):
 
 - Use **Display Name** in CSV (GIO, Boy, Sand — not lowercase)
 - **Existing date row** → append to Runners column with comma-space:
-  ```
+  ```text
   "GIO: 6.02km, Boy: 5.22km"  →  "GIO: 6.02km, Boy: 5.22km, Sand: 3.50km"
   ```
 - **Same person, same date, second activity** → append as separate entry:
-  ```
+  ```text
   "GIO: 9.10km"  →  "GIO: 9.10km, GIO: 5.20km"
   ```
 - **New date row** → insert at correct chronological position:
-  ```
+  ```csv
   {date},{Name}: {distance}km,,0,0,0,0,0,0
   ```
 - Leave `Mandalorian Daily` through `IT System Avg` columns as `0` — `recalculate_csv.py` will fix them.
@@ -159,7 +159,7 @@ Validation warnings:
 
 #### 8. Deploy to Dashboard
 
-> After processing, run `/update-dashboard` to rebuild and deploy the website.
+> After processing, run `/junior-swe` to rebuild and deploy the website.
 
 ---
 

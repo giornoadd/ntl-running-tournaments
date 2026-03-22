@@ -24,11 +24,11 @@ Follow these instructions to set up your local environment to run the Running Co
    ```
 
 3. **Install Dependencies**:
-   Install the required image processing and AI libraries.
+   Install the required image processing, AI, and charting libraries.
    ```bash
    pip install -r requirements.txt
    ```
-   *Core dependencies typically include `Pillow` and `google-generativeai`.*
+   *Core dependencies typically include `Pillow`, `google-generativeai`, `matplotlib`, `seaborn`, and `pandas`.*
 
 ## 3. Configuration (`.env`)
 

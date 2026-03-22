@@ -36,3 +36,11 @@ For tasks that do not require multimodal vision (e.g., summarizing Thai text, tr
 - **Scope**: Local HTTP API access (`localhost:11434`).
 - **Authentication**: None. The service must be running locally.
 - **Setup**: Install Ollama and run `ollama run qwen3:8b`.
+
+## 4. Python Interpreter Tool (Auto-Infographics)
+
+The Tournament Reporter agent utilizes a sandboxed Python Interpreter tool (`google:python_interpreter`) to autonomously generate infographic charts (using matplotlib/seaborn).
+
+### Requirement
+- **Scope**: Sandboxed Python execution environment.
+- **Authentication**: None. Controlled via the agent's tool execution access.

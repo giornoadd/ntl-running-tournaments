@@ -31,10 +31,10 @@ Use the `/[slash command]` in your AI chat prompt to trigger the workflows defin
 
 | Agent Name | Trigger Command | Purpose & Output |
 | :--- | :--- | :--- |
-| **🏟️ Coach Assistant** | `/coach-assistant` | **Primary operations handler.** Process a dropped evidence screenshot — OCR, file renaming, stat aggregation, CSV + personal-statistics updates. |
-| **🏃 Running Coach** | `/running-coach` | **Personalized training.** Post-run analysis, goal setting, progress reviews, and `running-plan.md` creation using VDOT & periodization methods. |
-| **📈 Sports Analyst** | `/sports-analyst` | **Visualization & Data.** Creates infographics, Top 5 tables, weekly/monthly recaps, README updates. Output: `resources/tournaments-reports/`. |
-| **📣 Tournament Reporter** | `/tournament-reporter` | **Hype & Engagement.** LINE messages, Facebook posts, standings boards, personal shoutouts — sports-broadcast energy! |
+| **🏟️ Coach Assistant** | `/coach-assistant` | **Primary operations handler.** Process a dropped evidence screenshot — OCR, file renaming, stat aggregation, CSV + personal-statistics updates, and rebuilds dashboard data. |
+| **🏃 Running Coach** | `/running-coach` | **Personalized training.** Post-run analysis, goal setting, progress reviews, and `running-plan.md` creation using VDOT & periodization methods. Directly delegates to coach-assistant for new data. |
+| **📈 Sports Analyst** | `/sports-analyst` | **Visualization & Data.** Validates data (Step 0), creates infographics, Top 5 tables, weekly/monthly recaps, README updates. Output: `resources/tournaments-reports/`. |
+| **📣 Tournament Reporter** | `/tournament-reporter` | **Hype & Engagement.** E-Sports Caster energy! Writes LINE messages, Facebook posts, personal shoutouts, and **Auto-generates Infographics via Python** `matplotlib`. |
 | **💻 Software Engineer** | `/software-engineer` | **Full pipeline.** Regenerates data (CSV → data.js → data.json), builds React dashboard, deploys to GitHub Pages. |
 | **🔄 Update Dashboard** | `/update-dashboard` | **Quick rebuild.** Recalculate stats + build React app + push — lightweight alternative to `/software-engineer`. |
 

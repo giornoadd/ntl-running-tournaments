@@ -12,20 +12,20 @@ This repository automates the tracking, watermarking, and continuous statistics 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 761.43 km | 850.91 km | 💻 **IT System** |
-| **Average / Person** | 76.14 km | 85.09 km | 💻 **IT System** |
+| **Total Distance** | 761.43 km | 860.91 km | 💻 **IT System** |
+| **Average / Person** | 76.14 km | 86.09 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **8.95 km/person** 🔥 Gap ลดลงจาก 11.59 → 8.95! GIO วิ่ง 11km+5km ดึง Manda กลับ! Boat & Sand วิ่ง 10km PR! 🏃‍♂️💨
+> 💻 **IT System** leads by **9.95 km/person** 🔥 บอยจัดหนัก 10km ติดต่อกัน! IT System ขยับหนี Manda ออกไปอีกครั้ง! 🏃‍♂️💨
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
   🪖 Mandalorian: 321.36 km<br>
-  💻 IT System: 326.61 km<br>
-  <i>(🔥 มีนาคมสูสี! Gap เดือนนี้แค่ 5.25 km — Manda ตีตื้นขึ้นมา!)</i>
+  💻 IT System: 336.61 km<br>
+  <i>(🔥 เดือนมีนาคม IT ดึง gap หนีไปอีก 10km!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 321.36 km | IT: 326.61 km 🔥  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 321.36 km | IT: 336.61 km 🔥  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -44,10 +44,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 10 | 1–7 Mar | 547.58 | 598.55 | +50.97 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 736.82 | +89.87 | 💻 IT | 🔴🔴 |
 | 12 | 15–21 Mar | 745.07 | 850.91 | **+105.84** | 💻 IT | 🔴🔴🔴 |
-| **13** | **22–28 Mar** | **761.43** | **850.91** | **+89.48** | 💻 IT | 📉 Gap ลด! |
+| **13** | **22–28 Mar** | **761.43** | **860.91** | **+99.48** | 💻 IT | 📈 พี่บอยดึงหนี! |
 | — | 29–31 Mar | — | — | — | — | ⚡ Final Sprint! |
 
-> 📉 **Manda กลับมาสู้!** Gap ลดจาก +105.84 → **+89.48 km** — GIO ลง 16.36km วันเดียว + Boat & Sand วิ่ง 10km PR ดัน Manda กลับ! 🪖🔥
+> 📈 **IT ดึง gap กลับ!** Gap เพิ่มจาก +89.48 → **+99.48 km** — โคตรดุ พี่บอยลง 10km รัวๆ 4 เซสซั่นใน 3 วัน! IT เหยียบคันเร่งหนี! 💻🔥
 
 ---
 
@@ -57,7 +57,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | :---: | :--- | :--- | ---: | :--- |
 | 🥇 1 | **Gio** | 🪖 Mandalorian | 449.33 km | 70d |
 | 🥈 2 | **Jojo** | 💻 IT System | 299.04 km | 47d |
-| 🥉 3 | **Boy** | 💻 IT System | 164.10 km | 24d |
+| 🥉 3 | **Boy** | 💻 IT System | 174.10 km | 25d |
 | 🏅 4 | **O** | 💻 IT System | 151.01 km | 23d |
 | 🏅 5 | **Sand** | 🪖 Mandalorian | 103.15 km | 31d |
 
@@ -96,10 +96,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 25.93 km | 6d | |
 | ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 299.04 km | 47d | 🥈 Top 2! |
 | ITSystem-7 | 🏃🏻‍♂️ เต (Tae) | 0.00 km | 0d | 💤 MIA |
-| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 164.10 km | 24d | 🥉 Top 3! 🏆 10km PR! |
+| ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 174.10 km | 25d | 🥉 Top 3! 💥 วิ่ง 10km 4 เซสซั่นรวด! |
 | ITSystem-9 | 🏃🏻‍♂️ ต้น (Ton) | 44.92 km | 18d | |
 | ITSystem-10 | 🏃🏻‍♂️ แพน (PAN) | 4.21 km | 2d | |
-| **Team Total** | | **850.91 km** | | |
+| **Team Total** | | **860.91 km** | | |
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -152,10 +152,10 @@ Six AI agents manage tournament operations via slash commands:
 
 | Agent | Command | Role |
 |---|---|---|
-| 🏟️ Coach Assistant | `/coach-assistant` | Rename files, update CSV/stats, tournament ops |
+| 🏟️ Coach Assistant | `/coach-assistant` | Rename files, update CSV/stats, build dashboard data, tournament ops |
 | 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
-| 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
-| 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
+| 📈 Sports Analyst | `/sports-analyst` | Deep analytics, infographic content, personal stats cards, recaps |
+| 📣 Tournament Reporter | `/tournament-reporter` | E-Sports caster, news, Python infographics generation, motivation & engagement |
 | 💻 Software Engineer | `/software-engineer` | Full data pipeline rebuild + React dashboard deploy |
 | 🔄 Update Dashboard | `/update-dashboard` | Quick dashboard rebuild — recalculate, build, push |
 

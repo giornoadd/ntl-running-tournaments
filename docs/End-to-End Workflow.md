@@ -26,9 +26,9 @@ All agents can research via the [NotebookLM Knowledge Base](https://notebooklm.g
 ### Single Image Submission:
 ```
 1. Drop screenshot into member_results/{Folder}/running-pics/
-2. /coach-assistant    → Rename, extract stats, update CSV + personal-statistics.md
+2. /coach-assistant    → Rename, extract stats, update CSV + personal-statistics.md + build website data
 3. /running-coach      → Analyze the run, give feedback, update coach-analysis.md
-4. /update-dashboard   → Rebuild dashboard with new data + push to GitHub
+4. /junior-swe         → Deploy dashboard with new data + push to GitHub (often triggered by coach-assistant directly)
 ```
 
 ### Weekly Update:
