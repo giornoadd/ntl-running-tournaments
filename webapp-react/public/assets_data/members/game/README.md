@@ -57,4 +57,4 @@
 | 2 | 2025-12-30 | Tue, Dec 30 | **11.13 km** | 🏃 Indoor Run (วิ่งในร่ม) | [📸1](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30.png) [📸2](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_1.png) [📸3](assets_data/member_results/ITSystem-2_Game/running-pics/game-2025-dec-30_2.png) |
 
 ---
-*Auto-generated on 2026-03-22 19:44*
+*Auto-generated on 2026-03-22 19:47*
