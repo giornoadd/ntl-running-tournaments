@@ -292,6 +292,7 @@ def build_data():
         md_readme = ""
         md_stats = ""
         md_plan = ""
+        md_coach = ""
 
         if os.path.isdir(folder_path):
             def get_fixed_md(filename):
@@ -308,6 +309,7 @@ def build_data():
             md_readme = get_fixed_md("README.md")
             md_stats = get_fixed_md("personal-statistics.md")
             md_plan = get_fixed_md("running-plan.md")
+            md_coach = get_fixed_md("coach-analysis.md")
         
         member_obj = {
             "nickname": display_name,
@@ -321,7 +323,8 @@ def build_data():
             "markdown": {
                 "readme": md_readme,
                 "statistics": md_stats,
-                "plan": md_plan
+                "plan": md_plan,
+                "coach_analysis": md_coach
             }
         }
         roster.append(member_obj)

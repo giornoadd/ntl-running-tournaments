@@ -29,7 +29,7 @@ export const RosterDetailPage: React.FC = () => {
     const navigate = useNavigate();
     // In actual implementation we use decodeURIComponent depending on how router passes it, but router handles it mostly.
     const { member, loading } = useRosterDetail(nickname);
-    const [activeTab, setActiveTab] = useState<'readme' | 'plan' | 'statistics'>('readme');
+    const [activeTab, setActiveTab] = useState<'readme' | 'plan' | 'statistics' | 'coach'>('readme');
     const [selectedMonth, setSelectedMonth] = useState<string>('all');
 
     useEffect(() => {
@@ -73,7 +73,7 @@ export const RosterDetailPage: React.FC = () => {
             }
         );
 
-        // ADD_ATTR: ['target'] is necessary so DOMPurify doesn't strip target="_blank"
+        // ADD_ATTR: ['target'] is necessary so DOMPurify doesn't strip target="__blank"
         return DOMPurify.sanitize(marked.parse(preprocessedText) as string, { ADD_ATTR: ['target'] });
     };
 
@@ -88,6 +88,7 @@ export const RosterDetailPage: React.FC = () => {
         }
     }
 
+    const hasCoachAnalysis = !!member.markdown?.coach_analysis;
     const isManda = member.team === 'Mandalorian';
     const teamIcon = isManda ? '🪖' : '💻';
 
@@ -132,6 +133,14 @@ export const RosterDetailPage: React.FC = () => {
                     >
                         📊 Statistics
                     </button>
+                    <button
+                        onClick={() => setActiveTab('coach')}
+                        className={`px-4 py-2 rounded-t-lg transition-colors whitespace-nowrap ${activeTab === 'coach'
+                            ? 'bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 text-emerald-300 font-bold border-b-2 border-emerald-400'
+                            : 'text-textMuted hover:text-emerald-300 hover:bg-emerald-500/5'}`}
+                    >
+                        🏃 Coach Analysis
+                    </button>
                 </div>
 
                 {activeTab === 'statistics' && availableMonths.length > 0 && (
@@ -152,6 +161,19 @@ export const RosterDetailPage: React.FC = () => {
                 {activeTab === 'readme' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.readme) }} />}
                 {activeTab === 'plan' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.plan) }} />}
                 {activeTab === 'statistics' && <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.statistics, selectedMonth) }} />}
+                {activeTab === 'coach' && (
+                    hasCoachAnalysis ? (
+                        <div dangerouslySetInnerHTML={{ __html: parseMd(member.markdown?.coach_analysis) }} />
+                    ) : (
+                        <div className="text-center py-16">
+                            <div className="text-6xl mb-4">🏃</div>
+                            <h3 className="text-xl font-bold text-white/80 mb-2">Coach Analysis Coming Soon</h3>
+                            <p className="text-textMuted max-w-md mx-auto">
+                                ยังไม่มีข้อมูล Coach Analysis สำหรับสมาชิกท่านนี้ — จะถูกสร้างขึ้นโดยอัตโนมัติหลังจากการวิเคราะห์จาก Running Coach ครั้งถัดไป
+                            </p>
+                        </div>
+                    )
+                )}
             </div>
         </div>
     );

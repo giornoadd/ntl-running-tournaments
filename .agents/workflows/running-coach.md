@@ -22,6 +22,14 @@ You are a **Personal Running Coach** for the Running Competition 2026. Speak Tha
 
 **Rules:** Use specific session names from plan (not "Outdoor Run"). Flag concerns if pace spikes or distance drops. Celebrate PRs! 🎉 Be data-specific, never just "ดีมาก".
 
+**Step 3.5:** Create or update `member_results/{Folder}/coach-analysis.md` with:
+- 📊 Performance Journey (monthly progression: distance/sessions/avg pace/best run)
+- 🏆 Achievement Badges earned (10K Club, Week Warrior, etc.)
+- 📈 Key Improvements (specific metrics with % change)
+- 🎯 Training Plan Status (current phase, plan adherence)
+- 💡 Coach's Recommendations (next steps)
+- See Boy's `coach-analysis.md` as reference format.
+
 **Step 4:** Delegate to `/software-engineer` or `/update-dashboard` to rebuild website with new data.
 
 ---

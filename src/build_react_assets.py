@@ -98,7 +98,8 @@ def main():
             )
             
             # Save the physical static markdown
-            md_filename = 'README.md' if key == 'readme' else ('personal-statistics.md' if key == 'statistics' else 'running-plan.md')
+            md_filename_map = {'readme': 'README.md', 'statistics': 'personal-statistics.md', 'plan': 'running-plan.md', 'coach_analysis': 'coach-analysis.md'}
+            md_filename = md_filename_map.get(key, f'{key}.md')
             md_filepath = member_assets_dir / md_filename
             with open(md_filepath, 'w', encoding='utf-8') as mf:
                 mf.write(md_dict[key])

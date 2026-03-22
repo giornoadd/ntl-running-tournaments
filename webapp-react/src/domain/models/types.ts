@@ -37,6 +37,7 @@ export interface MemberMarkdown {
     readme: string;
     statistics: string;
     plan: string;
+    coach_analysis: string;
 }
 
 export interface Member {
