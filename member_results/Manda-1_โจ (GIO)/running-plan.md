@@ -263,7 +263,7 @@
 * **Sun 22:** ❌ `Full Body Strength` (ทำ Morning Walk แทน)
 
 ### 🗓️ Week 14: Mar 23 - Mar 29 (สัปดาห์สะสมระยะ Progressive)
-* **Mon 23:** `Upper Body Lift + 6km Easy Run`
+* **Mon 23:** ✅ `Upper Body Lift + 6km Easy Run` *(จริง: 6.07 km, Pace 7:26/km, 45m 10s, HR 148 bpm, Zone 3, Cadence 171 spm)*
 * **Tue 24:** `Progressive Run (7.5km)` ฝึกการไล่ระดับเพซจากช้า (Easy) ไปหาเร็ว (Threshold) ในช่วงกิโลเมตรท้ายๆ
 * **Wed 25:** `Loading Up (40-50m)` (เน้นการโหลดน้ำหนักเวทเทรนนิ่ง)
 * **Thu 26:** `6km Easy Run`

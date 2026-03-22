@@ -1,8 +1,8 @@
 # 📋 Personal Performance Report — Neung (หนึ่ง)
-📅 อัพเดต: **2026-03-22**
+📅 อัพเดต: **2026-03-23**
 🏋️ Team: **🪖 Mandalorian**
 
-*จัดทำโดย: Running Coach AI · 2026-03-22*
+*จัดทำโดย: Running Coach AI · 2026-03-23*
 
 ---
 
@@ -14,6 +14,6 @@
 
 ---
 
-*📊 Auto-generated on 2026-03-22 by Running Coach AI*
+*📊 Auto-generated on 2026-03-23 by Running Coach AI*
 
 [🏠 Profile](assets_data/giornoadd/my-macos/running-comp/README.md) | [📊 Statistics](../personal-statistics.md)
