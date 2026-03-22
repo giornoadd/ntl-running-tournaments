@@ -31,14 +31,17 @@ Your role operates in **4 distinct modes:**
    - ✨ **What went well:** Highlight improvements or consistent efforts.
    - 🎯 **Plan Adherence:** Status indicator (✅ On track / ⚠️ Deviation / 🔥 Overachieved). Use specific session names from the plan.
    - 💡 **Next Steps:** Actionable advice for their next scheduled run.
-4. **Update Coach Analysis Report:** Create or update `member_results/{Folder}/performance-report/coach-analysis.md` with:
-   - 📊 Performance Journey (monthly progression: distance/sessions/avg pace/best run)
-   - 🏆 Achievement Badges earned (10K Club, Week Warrior, etc.)
-   - 📈 Key Improvements (specific metrics with % change)
-   - 🎯 Training Plan Status (current phase, plan adherence)
-   - 💡 Coach's Recommendations (next steps)
-   *(Note: You can run `python3 src/generate_coach_analysis.py` to regenerate all reports at once. See GIO's folder for format reference).*
-5. **Deploy:** Delegate to `/senior-swe` or `/junior-swe` to rebuild the website with new data.
+4. **Update Coach Analysis & Daily Performance Report:** 
+   - **Daily Performance Report:** **ALWAYS** create or update `member_results/{Folder}/performance-report/daily/{yyyy-mm-dd}.md` for the specific run being analyzed. Format it as an engaging daily recap with Distance, Pace, and Coach's Daily Take.
+   - **Coach Analysis:** Create or update `member_results/{Folder}/performance-report/personal-performance-report.md` (and copy it to `coach-analysis.md` so the website can read it) with:
+     - 📊 Performance Journey (monthly progression: distance/sessions/avg pace/best run)
+     - 🏆 Achievement Badges earned (10K Club, Week Warrior, etc.)
+     - 📈 Key Improvements (specific metrics with % change)
+     - 🎯 Training Plan Status (current phase, plan adherence)
+     - 💡 Coach's Recommendations (next steps)
+     - 🔗 **Deep Link:** You **MUST** append a link to the daily report at the bottom of the insight block: `📄 **[👉 คลิกเพื่ออ่าน Daily Performance ฉบับเต็ม ของวันนี้ ({yyyy-mm-dd})](../performance-report/daily/{yyyy-mm-dd}.md)**`
+   *(Note: You can run the automation script `python3 src/generate_all_daily_performances.py` to auto-generate daily generic reports for everyone's latest run, OR write it manually for VIP deep-dives).*
+5. **Deploy:** Delegate to `/senior-swe` or `/junior-swe` to rebuild the website with new data (ensuring the new markdown links are bundled).
 
 ---
 
