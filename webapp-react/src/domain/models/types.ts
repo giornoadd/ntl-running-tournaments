@@ -50,6 +50,7 @@ export interface Member {
     recent_images: string[];
     stats_details: MemberStats;
     markdown: MemberMarkdown;
+    daily_dates?: string[];
 }
 
 export interface TeamStats {

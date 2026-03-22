@@ -105,6 +105,20 @@ def main():
                 mf.write(md_dict[key])
 
         # Export this member to an independent roster JSON
+        # First, also copy daily performance reports if they exist
+        daily_dates = []
+        if mem_dir:
+            daily_dir = mem_dir / 'performance-report' / 'daily'
+            if daily_dir.exists():
+                daily_assets_dir = assets_out_dir / 'member_results' / nickname_safe / 'daily'
+                daily_assets_dir.mkdir(parents=True, exist_ok=True)
+                for daily_file in sorted(daily_dir.glob('*.md')):
+                    date_str = daily_file.stem  # e.g. "2026-03-22"
+                    daily_dates.append(date_str)
+                    shutil.copy2(daily_file, daily_assets_dir / daily_file.name)
+        
+        member['daily_dates'] = daily_dates
+
         roster_json_path = rosters_out_dir / f"{nickname_safe}.json"
         with open(roster_json_path, 'w', encoding='utf-8') as rf:
             json.dump(member, rf, ensure_ascii=False, indent=2)

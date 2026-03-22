@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22 19:40:27",
+  "last_updated": "2026-03-22 19:44:19",
   "teams": {
     "Mandalorian": {
       "total_distance": 767.44,
@@ -43,7 +43,11 @@
         "longest_run_dist": 11.02,
         "longest_run_activity": "11km Long Run",
         "longest_run_date": "2026-03-22"
-      }
+      },
+      "daily_dates": [
+        "2026-03-07-performance",
+        "2026-03-22"
+      ]
     },
     {
       "nickname": "Jojo",
@@ -71,7 +75,10 @@
         "longest_run_dist": 10.04,
         "longest_run_activity": "Outdoor Run",
         "longest_run_date": "2026-01-08"
-      }
+      },
+      "daily_dates": [
+        "2026-03-20"
+      ]
     },
     {
       "nickname": "Boy",
@@ -99,7 +106,10 @@
         "longest_run_dist": 10.02,
         "longest_run_activity": "Morning Run",
         "longest_run_date": "2026-03-21"
-      }
+      },
+      "daily_dates": [
+        "2026-03-22"
+      ]
     },
     {
       "nickname": "O",
@@ -127,7 +137,10 @@
         "longest_run_dist": 22.4,
         "longest_run_activity": "Half Marathon Race (ฮาล์ฟมาราธอน)",
         "longest_run_date": "2026-03-08"
-      }
+      },
+      "daily_dates": [
+        "2026-03-21"
+      ]
     },
     {
       "nickname": "Sand",
@@ -155,7 +168,10 @@
         "longest_run_dist": 3.3,
         "longest_run_activity": "WFO #9",
         "longest_run_date": "2026-03-20"
-      }
+      },
+      "daily_dates": [
+        "2026-03-21"
+      ]
     },
     {
       "nickname": "Boat",
@@ -183,7 +199,10 @@
         "longest_run_dist": 10.03,
         "longest_run_activity": "Afternoon Run (วิ่งบ่าย)",
         "longest_run_date": "2026-03-21"
-      }
+      },
+      "daily_dates": [
+        "2026-03-21"
+      ]
     },
     {
       "nickname": "Oat",
@@ -211,7 +230,10 @@
         "longest_run_dist": 7.05,
         "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
         "longest_run_date": "2026-02-01"
-      }
+      },
+      "daily_dates": [
+        "2026-03-21"
+      ]
     },
     {
       "nickname": "Palm",
@@ -239,7 +261,10 @@
         "longest_run_dist": 5.01,
         "longest_run_activity": "5km Long Session",
         "longest_run_date": "2026-03-08"
-      }
+      },
+      "daily_dates": [
+        "2026-03-11"
+      ]
     },
     {
       "nickname": "Em",
@@ -267,7 +292,10 @@
         "longest_run_dist": 9.66,
         "longest_run_activity": "Outdoor Run (วิ่งกลางแจ้ง)",
         "longest_run_date": "2026-02-01"
-      }
+      },
+      "daily_dates": [
+        "2026-03-17"
+      ]
     },
     {
       "nickname": "Game",
@@ -295,7 +323,10 @@
         "longest_run_dist": 12.15,
         "longest_run_activity": "Indoor Run (วิ่งในร่ม)",
         "longest_run_date": "2026-03-17"
-      }
+      },
+      "daily_dates": [
+        "2026-03-19"
+      ]
     },
     {
       "nickname": "Fuse",
@@ -323,7 +354,10 @@
         "longest_run_dist": 8.21,
         "longest_run_activity": "Evening Run",
         "longest_run_date": "2026-03-15"
-      }
+      },
+      "daily_dates": [
+        "2026-03-15"
+      ]
     },
     {
       "nickname": "Ton",
@@ -351,7 +385,10 @@
         "longest_run_dist": 4.15,
         "longest_run_activity": "Morning Run",
         "longest_run_date": "2026-01-27"
-      }
+      },
+      "daily_dates": [
+        "2026-03-12"
+      ]
     },
     {
       "nickname": "Chan",
@@ -379,7 +416,10 @@
         "longest_run_dist": 3.47,
         "longest_run_activity": "Outdoor Running (วิ่งกลางแจ้ง)",
         "longest_run_date": "2026-02-23"
-      }
+      },
+      "daily_dates": [
+        "2026-03-08"
+      ]
     },
     {
       "nickname": "Toro",
@@ -407,7 +447,10 @@
         "longest_run_dist": 6.04,
         "longest_run_activity": "Evening Run (วิ่งตอนเย็น)",
         "longest_run_date": "2026-03-13"
-      }
+      },
+      "daily_dates": [
+        "2026-03-13"
+      ]
     },
     {
       "nickname": "Oum",
@@ -435,7 +478,10 @@
         "longest_run_dist": 4.82,
         "longest_run_activity": "วิ่งบนสายพาน (Treadmill Run)",
         "longest_run_date": "2026-03-16"
-      }
+      },
+      "daily_dates": [
+        "2026-03-17"
+      ]
     },
     {
       "nickname": "Mos",
@@ -463,7 +509,10 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
+      },
+      "daily_dates": [
+        "2026-03-15"
+      ]
     },
     {
       "nickname": "PAN",
@@ -488,7 +537,10 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
+      },
+      "daily_dates": [
+        "2026-02-08"
+      ]
     },
     {
       "nickname": "Peck",
@@ -510,7 +562,8 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
+      },
+      "daily_dates": []
     },
     {
       "nickname": "Neung",
@@ -532,7 +585,8 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
+      },
+      "daily_dates": []
     },
     {
       "nickname": "Tae",
@@ -554,7 +608,8 @@
         "longest_run_dist": 0.0,
         "longest_run_activity": "",
         "longest_run_date": ""
-      }
+      },
+      "daily_dates": []
     }
   ],
   "activities": [

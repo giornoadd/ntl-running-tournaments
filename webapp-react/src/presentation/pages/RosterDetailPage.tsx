@@ -27,14 +27,48 @@ marked.use({
 export const RosterDetailPage: React.FC = () => {
     const { nickname } = useParams<{ nickname: string }>();
     const navigate = useNavigate();
-    // In actual implementation we use decodeURIComponent depending on how router passes it, but router handles it mostly.
     const { member, loading } = useRosterDetail(nickname);
-    const [activeTab, setActiveTab] = useState<'readme' | 'plan' | 'statistics' | 'coach'>('readme');
+    const [activeTab, setActiveTab] = useState<'readme' | 'plan' | 'statistics' | 'coach' | 'daily'>('readme');
     const [selectedMonth, setSelectedMonth] = useState<string>('all');
+    const [selectedDailyDate, setSelectedDailyDate] = useState<string>('');
+    const [dailyContent, setDailyContent] = useState<string>('');
+    const [dailyLoading, setDailyLoading] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [nickname]);
+
+    // Auto-select the latest daily date when member loads
+    useEffect(() => {
+        if (member?.daily_dates && member.daily_dates.length > 0) {
+            const latest = member.daily_dates[member.daily_dates.length - 1];
+            setSelectedDailyDate(latest);
+        }
+    }, [member]);
+
+    // Fetch daily markdown content when date changes
+    useEffect(() => {
+        if (!selectedDailyDate || !member) return;
+        setDailyLoading(true);
+
+        const nicknameSafe = member.nickname.toLowerCase().replace(/[^a-z0-9_\-\.]/g, '');
+        const basePath = import.meta.env.BASE_URL || '/';
+        const url = `${basePath}assets_data/member_results/${nicknameSafe}/daily/${selectedDailyDate}.md`;
+
+        fetch(url)
+            .then(res => {
+                if (!res.ok) throw new Error('Not found');
+                return res.text();
+            })
+            .then(text => {
+                setDailyContent(text);
+                setDailyLoading(false);
+            })
+            .catch(() => {
+                setDailyContent('*ไม่พบรายงาน Daily Performance สำหรับวันที่เลือก*');
+                setDailyLoading(false);
+            });
+    }, [selectedDailyDate, member]);
 
     if (loading) return <div className="p-10 text-center text-textMuted">Loading profile...</div>;
     if (!member) return <div className="p-10 text-center text-red-500">Member Not Found</div>;
@@ -45,16 +79,12 @@ export const RosterDetailPage: React.FC = () => {
         let textToParse = text;
 
         if (monthFilter !== 'all') {
-            // Keep the initial headers and profile info, but filter the activity months
             const headerSplit = text.split(/---\n/);
             if (headerSplit.length > 1) {
                 const headerPart = headerSplit[0];
                 const sectionsPart = headerSplit.slice(1).join('---\n');
-
-                // Extract just the selected month section
                 const monthRegex = new RegExp(`(## 📅 ${monthFilter}[\\s\\S]*?)(?=## 📅|$)`);
                 const match = sectionsPart.match(monthRegex);
-
                 if (match) {
                     textToParse = `${headerPart}---\n\n${match[1]}`;
                 } else {
@@ -63,8 +93,6 @@ export const RosterDetailPage: React.FC = () => {
             }
         }
 
-        // Fix markdown links with unescaped spaces or parentheses that break the parser
-        // specifically targeting any markdown links containing spaces or parens in the URL
         const preprocessedText = textToParse.replace(
             /\[(.*?)\]\((.*?)\)/g,
             (_match, p1, p2) => {
@@ -73,7 +101,6 @@ export const RosterDetailPage: React.FC = () => {
             }
         );
 
-        // ADD_ATTR: ['target'] is necessary so DOMPurify doesn't strip target="__blank"
         return DOMPurify.sanitize(marked.parse(preprocessedText) as string, { ADD_ATTR: ['target'] });
     };
 
@@ -89,6 +116,7 @@ export const RosterDetailPage: React.FC = () => {
     }
 
     const hasCoachAnalysis = !!member.markdown?.coach_analysis;
+    const hasDailyReports = (member.daily_dates?.length ?? 0) > 0;
     const isManda = member.team === 'Mandalorian';
     const teamIcon = isManda ? '🪖' : '💻';
 
@@ -141,6 +169,16 @@ export const RosterDetailPage: React.FC = () => {
                     >
                         🏃 Coach Analysis
                     </button>
+                    {hasDailyReports && (
+                        <button
+                            onClick={() => setActiveTab('daily')}
+                            className={`px-4 py-2 rounded-t-lg transition-colors whitespace-nowrap ${activeTab === 'daily'
+                                ? 'bg-gradient-to-r from-amber-500/20 to-orange-500/20 text-amber-300 font-bold border-b-2 border-amber-400'
+                                : 'text-textMuted hover:text-amber-300 hover:bg-amber-500/5'}`}
+                        >
+                            🏅 Daily Performance
+                        </button>
+                    )}
                 </div>
 
                 {activeTab === 'statistics' && availableMonths.length > 0 && (
@@ -152,6 +190,18 @@ export const RosterDetailPage: React.FC = () => {
                         <option value="all">All Quarters</option>
                         {availableMonths.map(month => (
                             <option key={month} value={month}>{month.replace('-', ' ')}</option>
+                        ))}
+                    </select>
+                )}
+
+                {activeTab === 'daily' && hasDailyReports && (
+                    <select
+                        value={selectedDailyDate}
+                        onChange={(e) => setSelectedDailyDate(e.target.value)}
+                        className="bg-black/40 border border-amber-500/30 rounded-lg px-3 py-1.5 text-sm text-amber-200 focus:outline-none focus:border-amber-400"
+                    >
+                        {[...(member.daily_dates || [])].reverse().map(date => (
+                            <option key={date} value={date}>📅 {date}</option>
                         ))}
                     </select>
                 )}
@@ -170,6 +220,21 @@ export const RosterDetailPage: React.FC = () => {
                             <h3 className="text-xl font-bold text-white/80 mb-2">Coach Analysis Coming Soon</h3>
                             <p className="text-textMuted max-w-md mx-auto">
                                 ยังไม่มีข้อมูล Coach Analysis สำหรับสมาชิกท่านนี้ — จะถูกสร้างขึ้นโดยอัตโนมัติหลังจากการวิเคราะห์จาก Running Coach ครั้งถัดไป
+                            </p>
+                        </div>
+                    )
+                )}
+                {activeTab === 'daily' && (
+                    dailyLoading ? (
+                        <div className="text-center py-16 text-textMuted">⏳ Loading Daily Report...</div>
+                    ) : dailyContent ? (
+                        <div dangerouslySetInnerHTML={{ __html: parseMd(dailyContent) }} />
+                    ) : (
+                        <div className="text-center py-16">
+                            <div className="text-6xl mb-4">🏅</div>
+                            <h3 className="text-xl font-bold text-white/80 mb-2">No Daily Reports Yet</h3>
+                            <p className="text-textMuted max-w-md mx-auto">
+                                ยังไม่มีรายงาน Daily Performance สำหรับสมาชิกท่านนี้
                             </p>
                         </div>
                     )
