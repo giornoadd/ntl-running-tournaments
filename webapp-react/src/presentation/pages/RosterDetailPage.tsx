@@ -18,8 +18,8 @@ marked.use({
             if (href.match(/\.(jpg|jpeg|png|gif|webp|JPG|JPEG|PNG)$/)) {
                 return `<a href="${href}" target="_blank" rel="noopener noreferrer" title="${title || text}"><img src="${href}" alt="${text}" class="w-16 h-16 object-cover inline-block rounded-lg shadow-sm border border-white/20 mx-1 transition-transform hover:scale-110" loading="lazy" /></a>`;
             }
-            // Hide non-image links (e.g. .md file links) — show text only
-            return text;
+            // For other links (like .md documents), allow them to be clickable
+            return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-white underline underline-offset-2 transition-colors">${text}</a>`;
         }
     }
 });
