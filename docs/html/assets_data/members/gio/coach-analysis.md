@@ -153,19 +153,6 @@
 
 1. 🧘 **อย่าลืมวันพัก** — ร่างกายสร้างความแข็งแรงในช่วงพัก ไม่ใช่ตอนออกกำลังกาย
 
----
-
-## 🎨 📈 Today's Daily Insight (2026-03-22)
-
-> **Activity:** 11km Long Run + Morning Walk | **Distance:** 16.36 km | **Pace:** 8:22/km
-
-![Long Run Periodization Strategy](infographic.png)
-
-**🏆 Coach's Daily Take:**
-สุดยอดมากครับคุณโจ! วันนี้เป็นการทุบสถิติ **New Longest Run (11km)** ได้อย่างสมบูรณ์แบบ แผนการซ้อมแบบไต่ระดับ (Periodization) ของเราทำงานได้ผล 100% กราฟด้านบนแสดงให้เห็นชัดเจนว่าการยอมถอยระยะในสัปดาห์ Cut-back (Recovery) ช่วยให้ร่างกายมีแรงดีดตัวสปริงกลับมาทำลายสถิติใหม่ในสัปดาห์ถัดไปเสมอ! คุณมาถูกทางแล้วครับ 🪖🔥
-
-📄 **[👉 คลิกเพื่ออ่าน Daily Performance ฉบับเต็มของพี่โจ (2026-03-22)](../performance-report/daily/2026-03-22.md)**
-
 ### 🎯 เป้าหมายถัดไป
 
 | Milestone | Target | ปัจจุบัน | Progress |

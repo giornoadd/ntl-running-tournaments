@@ -11,5 +11,6 @@
 | 2026-03-08 | 7km Long Run | 7.16 km | 1:00:00 | 8:28/km | N/A | N/A | N/A | em-2026-mar-08.jpg |
 | 2026-03-11 | 6km Long Run | 6.63 km | 57:12 | 8:37/km | N/A | N/A | N/A | em-2026-mar-11.jpg |
 | 2026-03-14 | 6km Long Run | 6.15 km | 50:31 | 8:12/km | N/A | N/A | N/A | em-2026-mar-14.jpg |
+| 2026-03-22 | 6km Easy Run | 6.01 km | 54:06 | 9:00/km | N/A | N/A | N/A | em-2026-mar-22.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)
