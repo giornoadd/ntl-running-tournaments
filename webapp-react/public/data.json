@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21 15:39:25",
+  "last_updated": "2026-03-22 10:29:07",
   "teams": {
     "Mandalorian": {
       "total_distance": 724.94,
@@ -9,11 +9,11 @@
       "avg_distance": 72.49
     },
     "IT System": {
-      "total_distance": 840.89,
+      "total_distance": 850.91,
       "members": 10,
       "active_members": 9,
       "name": "IT System",
-      "avg_distance": 84.09
+      "avg_distance": 85.09
     }
   },
   "roster": [
@@ -77,22 +77,22 @@
       "nickname": "Boy",
       "thai_name": "บอย",
       "team": "IT System",
-      "total_distance": 154.08,
-      "active_days": 23,
-      "image_count": 23,
+      "total_distance": 164.1,
+      "active_days": 24,
+      "image_count": 24,
       "recent_images": [
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21_1.jpg",
         "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg",
         "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-20.jpg",
         "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-15.jpg",
-        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-14.jpg",
-        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-11.jpg"
+        "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-14.jpg"
       ],
       "stats_details": {
-        "run_dist": 152.98000000000002,
+        "run_dist": 163.00000000000003,
         "walk_dist": 0.0,
-        "run_count": 23,
+        "run_count": 24,
         "walk_count": 0,
-        "total_sessions": 23,
+        "total_sessions": 24,
         "best_pace": 380,
         "best_pace_activity": "Morning Run",
         "best_pace_date": "2026-02-27",
@@ -567,16 +567,26 @@
           "distance": 10.02,
           "team": "IT System",
           "images": [
-            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg"
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg",
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21_1.jpg"
+          ]
+        },
+        {
+          "name": "Boy",
+          "distance": 10.02,
+          "team": "IT System",
+          "images": [
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21.jpg",
+            "assets_data/member_results/ITSystem-8_Boy/running-pics/boy-2026-mar-21_1.jpg"
           ]
         }
       ],
       "mando_daily": 0.0,
-      "it_daily": 10.02,
+      "it_daily": 20.04,
       "mando_accum": 724.94,
-      "it_accum": 840.89,
+      "it_accum": 850.91,
       "mando_avg": 72.49,
-      "it_avg": 84.09
+      "it_avg": 85.09
     },
     {
       "date": "2026-03-20",

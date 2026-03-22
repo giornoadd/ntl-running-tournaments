@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **154.08 km** |
-| **Active Days** | 📅 23 days |
-| **Average / Session** | 📏 6.70 km |
+| **Total Distance** | 🔥 **164.10 km** |
+| **Active Days** | 📅 24 days |
+| **Average / Session** | 📏 6.84 km |
 | **Best Session** | 🏆 10.02 km (2026-03-21) |
 | **Best Pace** | ⚡ 6:20/km — Morning Run (2026-02-27) |
 | **Longest Run** | 🏅 10.02 km — Morning Run (2026-03-21) |
 | **Avg Running Cadence** | 🦶 160 spm |
-| **Evidence Files** | 📸 23 screenshots |
+| **Evidence Files** | 📸 24 screenshots |
 | **First Active** | 2026-01-07 |
 | **Last Active** | 2026-03-21 |
 
 ---
 
 ## 📅 2026-March
-> 8 sessions · 61.62 km total · 7.70 km avg · best 10.02 km
+> 9 sessions · 71.64 km total · 7.96 km avg · best 10.02 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -42,7 +42,8 @@
 | 5 | 2026-03-14 | Sat, Mar 14 | **8.23 km** | 🏃 7km Long Run | [📸](running-pics/boy-2026-mar-14.jpg) |
 | 6 | 2026-03-15 | Sun, Mar 15 | **6.52 km** | 🏃 Morning Run | [📸](running-pics/boy-2026-mar-15.jpg) |
 | 7 | 2026-03-20 | Fri, Mar 20 | **10.01 km** | 🏃 Morning Run | [📸](running-pics/boy-2026-mar-20.jpg) |
-| 8 | 2026-03-21 | Sat, Mar 21 | **10.02 km** | 🏃 Morning Run | [📸](running-pics/boy-2026-mar-21.jpg) |
+| 8 | 2026-03-21 | Sat, Mar 21 | **10.02 km** | 🏃 Morning Run + Afternoon Run | [📸1](running-pics/boy-2026-mar-21.jpg) [📸2](running-pics/boy-2026-mar-21_1.jpg) |
+| 9 | 2026-03-21 | Sat, Mar 21 | **10.02 km** | 🏃 Morning Run + Afternoon Run | [📸1](running-pics/boy-2026-mar-21.jpg) [📸2](running-pics/boy-2026-mar-21_1.jpg) |
 
 ## 📅 2026-February
 > 10 sessions · 65.44 km total · 6.54 km avg · best 8.00 km
@@ -72,4 +73,4 @@
 | 5 | 2026-01-29 | Thu, Jan 29 | **6.00 km** | 🏃 Outdoor Run | [📸](running-pics/boy-2026-jan-29.jpg) |
 
 ---
-*Auto-generated on 2026-03-21 15:39*
+*Auto-generated on 2026-03-22 10:28*
