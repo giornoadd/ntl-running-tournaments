@@ -12,7 +12,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - [Tournament Calendar](docs/tournaments/Tournament%20Calendar.md)
   - [Process Workflow](docs/End-to-End%20Workflow.md)
   - [AI Agent System Guide](docs/AI%20Agent%20System.md)
-- **`/member_results`**: Per-participant subfolders with individual READMEs, personal statistics, running plans, and `running-pics/` subfolder containing evidence screenshots.
+- **`/member_results`**: Per-participant subfolders with individual READMEs, personal statistics, running plans, `performance-report/` subfolder with coach analysis, and `running-pics/` subfolder containing evidence screenshots.
 - **`/results`**: Monthly CSV/MD statistics and [quarterly standings](results/README.md).
 - **`/resources`**: Output files from AI agents.
   - `/resources/tournaments-reports`: Infographics, recaps, and news content.
@@ -25,6 +25,7 @@ This project manages the 2026 Running Competition between the Mandalorian and IT
   - `analyze_with_gemini.py`: AI-powered OCR for date/distance extraction (requires `GEMINI_API_KEY`).
   - `recalculate_csv.py`: Validates distances, recalculates team statistics per year, and generates `results/README.md`.
   - `generate_member_readmes.py`: Generates individual member README profiles with stats and image links.
+  - `generate_coach_analysis.py`: Generates `performance-report/personal-performance-report.md` and `coach-analysis.md` for all members.
   - `activity_types.json`: OCR-verified activity types per member (walk/run detection).
 - **`/tests`**: 48 pytest tests covering config, dates, files, recalculation, and member READMEs.
 - **`/.agents`**: AI agent workflows and skills.
@@ -45,6 +46,7 @@ Four AI agents manage tournament operations via slash commands:
 | 🏃 Running Coach | `/running-coach` | Post-run analysis, goal setting, running plans |
 | 📈 Sports Analyst | `/sports-analyst` | Infographic content, personal stats cards, recaps |
 | 📣 Tournament Reporter | `/tournament-reporter` | News, LINE/Facebook posts, motivation & engagement |
+| 💻 Software Engineer | `/software-engineer` | Update React website, build & deploy to GitHub Pages |
 
 **Shared Skill:** All agents can query the [NotebookLM Knowledge Base](https://notebooklm.google.com/notebook/b1637cb3-37a1-4cdf-8f55-36b8ae810a9a).
 
@@ -68,6 +70,7 @@ This executes: rename → watermark → recalculate → generate READMEs.
 ```bash
 python3 src/recalculate_csv.py       # Recalculate all CSVs + results/README.md
 python3 src/generate_member_readmes.py  # Regenerate member profiles
+python3 src/generate_coach_analysis.py  # Regenerate performance reports + coach analysis
 ```
 
 ### 4. Competition Rules
@@ -80,4 +83,4 @@ python3 src/generate_member_readmes.py  # Regenerate member profiles
 
 ## Status/Roadmap
 - **Current Quarter**: Q1 (Jan – Mar 2026)
-- **Status**: 🟢 Active (Week 9)
+- **Status**: 🟢 Active (Week 12)

@@ -21,6 +21,11 @@ CSV files (results/*.csv)
   → src/build_website_data.py → docs/html/data.js
   → src/build_react_assets.py → webapp-react/public/data.json + rosters/*.json
   → React components fetch data.json at runtime
+
+Member stats (personal-statistics.md)
+  → src/generate_coach_analysis.py → performance-report/personal-performance-report.md + coach-analysis.md
+  → build_website_data.py reads coach-analysis.md → markdown.coach_analysis in data.json
+  → RosterDetailPage.tsx → "🏃 Coach Analysis" tab
 ```
 
 **Key dynamic features powered by data.json:**
@@ -28,6 +33,7 @@ CSV files (results/*.csv)
 - **CalendarPage → ACC-GAP**: Weekly gap computed from `activities[].mando_accum` / `it_accum`
 - **CalendarPage → Avg Gap/Person**: Gap ÷ 10 shown in Q1 week table
 - **History/Roster pages**: Activity feed, member profiles
+- **RosterDetailPage → Coach Analysis tab**: Performance reports from `coach-analysis.md`
 
 > [!IMPORTANT]
 > **Never hardcode competition data in React components.** All data comes from `data.json`, which is regenerated from CSVs each build.
@@ -41,6 +47,7 @@ CSV files (results/*.csv)
 ```bash
 python3 src/recalculate_csv.py
 python3 src/generate_member_readmes.py
+python3 src/generate_coach_analysis.py
 python3 src/build_website_data.py
 ```
 
@@ -62,7 +69,7 @@ Once the deployment script has finished successfully, push the generated `docs/`
 
 // turbo-all
 ```bash
-git add docs/ webapp-react/ scripts/ results/ src/build_react_assets.py src/build_website_data.py src/generate_landing_page.py
+git add docs/ webapp-react/ scripts/ results/ member_results/ src/
 git commit -m "chore(web): update website with latest running data"
 git push
 ```

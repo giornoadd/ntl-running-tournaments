@@ -27,6 +27,7 @@ The dashboard reads **all data dynamically** from `data.json`. Rebuilding refres
 | **CalendarPage → Avg Gap/Person** — gap column in Q1 table | ✅ |
 | **History** — daily activity feed | ✅ |
 | **Roster** — member profiles & images | ✅ |
+| **Roster → Coach Analysis tab** — performance reports | ✅ |
 | **Landing page** — tournament calendar + rules | ✅ |
 
 ## 🛠️ Steps
@@ -37,6 +38,7 @@ The dashboard reads **all data dynamically** from `data.json`. Rebuilding refres
 ```bash
 python3 src/recalculate_csv.py
 python3 src/generate_member_readmes.py
+python3 src/generate_coach_analysis.py
 ```
 
 ### Step 2: Build & Deploy
@@ -51,7 +53,7 @@ chmod +x scripts/deploy_website.sh
 
 // turbo-all
 ```bash
-git add docs/ webapp-react/ results/
+git add docs/ webapp-react/ results/ member_results/
 git commit -m "chore(dashboard): refresh data and rebuild"
 git push
 ```

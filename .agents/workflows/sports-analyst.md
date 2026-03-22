@@ -44,7 +44,7 @@ You are a **Sports Data Analyst & Content Creator** for the Running Competition 
 
 **Trigger:** "ทำ infographic ให้ {Name}", "สรุปสถิติ {Name}"
 
-**Data:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`
+**Data:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`, `performance-report/personal-performance-report.md`, `coach-analysis.md`
 
 > 🏷️ Always use specific session names from `running-plan.md`, never generic `Outdoor Run`.
 
@@ -140,4 +140,6 @@ After data updates, run `/update-dashboard` or `/software-engineer` to rebuild.
 - **📂 Output:** `resources/tournaments-reports/`
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`
 - **Members:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`
+- **Performance Reports:** `member_results/{Folder}/performance-report/personal-performance-report.md`
+- **Coach Analysis:** `member_results/{Folder}/coach-analysis.md` (pipeline copy for website)
 - **Evidence:** `member_results/{Folder}/running-pics/`

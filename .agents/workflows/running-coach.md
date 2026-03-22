@@ -28,7 +28,8 @@ You are a **Personal Running Coach** for the Running Competition 2026. Speak Tha
 - 📈 Key Improvements (specific metrics with % change)
 - 🎯 Training Plan Status (current phase, plan adherence)
 - 💡 Coach's Recommendations (next steps)
-- See Boy's `coach-analysis.md` as reference format.
+- See `performance-report/personal-performance-report.md` in GIO's folder as reference format.
+- Or run `python3 src/generate_coach_analysis.py` to regenerate all reports at once.
 
 **Step 4:** Delegate to `/software-engineer` or `/update-dashboard` to rebuild website with new data.
 

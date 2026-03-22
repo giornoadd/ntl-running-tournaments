@@ -126,6 +126,11 @@ python3 src/recalculate_csv.py
 python3 src/generate_member_readmes.py
 ```
 
+// turbo
+```bash
+python3 src/generate_coach_analysis.py
+```
+
 > ⚠️ Do NOT run `src/run_all.py` for single files — it re-watermarks ALL images.
 
 #### 7. Report summary
@@ -235,6 +240,11 @@ python3 src/recalculate_csv.py
 python3 src/generate_member_readmes.py
 ```
 
+// turbo
+```bash
+python3 src/generate_coach_analysis.py
+```
+
 4. **Report batch summary:**
 
 ```markdown
@@ -257,6 +267,8 @@ python3 src/generate_member_readmes.py
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **Member folders:** `member_results/{Team}-{ID}_{Thai} ({Alias})/`
 - **Evidence screenshots:** `member_results/{Folder}/running-pics/` ← renamed images go here
+- **Performance reports:** `member_results/{Folder}/performance-report/personal-performance-report.md`
+- **Coach analysis:** `member_results/{Folder}/coach-analysis.md` (pipeline copy for website)
 - **Results CSV:** `results/{yyyy}-{Month}.csv`
 - **Results MD:** `results/{yyyy}-{Month}.md`
 - **Tournament Dashboard:** `results/README.md` (auto-generated)
@@ -264,6 +276,7 @@ python3 src/generate_member_readmes.py
 - **Scripts:**
   - `src/recalculate_csv.py` — Recalculate all stats + regenerate `results/README.md`
   - `src/generate_member_readmes.py` — Regenerate member profile READMEs
+  - `src/generate_coach_analysis.py` — Generate `performance-report/` + `coach-analysis.md` for all members
   - `src/run_all.py` — Full pipeline (⚠️ slow, batch only)
   - `src/reformat_files.py` — Batch rename files
   - `src/add_date_watermark.py` — Add date watermarks
