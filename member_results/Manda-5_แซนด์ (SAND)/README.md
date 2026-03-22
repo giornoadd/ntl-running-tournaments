@@ -17,21 +17,21 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **103.15 km** (Running 6.35 km + Walk 96.37 km) |
-| **Active Days** | 📅 31 days |
-| **Total Sessions** | 📋 31 sessions (Running 2 + Walk 29) |
-| **Average / Session** | 📏 3.33 km |
+| **Total Distance** | 🔥 **110.49 km** (Running 6.35 km + Walk 103.71 km) |
+| **Active Days** | 📅 33 days |
+| **Total Sessions** | 📋 33 sessions (Running 2 + Walk 31) |
+| **Average / Session** | 📏 3.35 km |
 | **Best Session** | 🏆 10.10 km (2026-03-21) |
 | **Best Pace** | ⚡ 13:41/km — WFO #8 (2026-03-19) |
 | **Longest Run** | 🏅 3.30 km — WFO #9 (2026-03-20) |
-| **Evidence Files** | 📸 34 screenshots |
+| **Evidence Files** | 📸 36 screenshots |
 | **First Active** | 2025-12-23 |
-| **Last Active** | 2026-03-21 |
+| **Last Active** | 2026-03-22 |
 
 ---
 
 ## 📅 2026-March
-> 15 sessions · 57.02 km total · 3.80 km avg · best 10.10 km
+> 17 sessions · 64.36 km total · 3.79 km avg · best 10.10 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
@@ -50,6 +50,8 @@
 | 13 | 2026-03-19 | Thu, Mar 19 | **3.05 km** | 🏃 WFO #8 |  |
 | 14 | 2026-03-20 | Fri, Mar 20 | **3.30 km** | 🏃 WFO #9 | [📸](running-pics/sand-2026-mar-20.jpg) |
 | 15 | 2026-03-21 | Sat, Mar 21 | **10.10 km** | 🚶 Walk #1 | [📸](running-pics/sand-2026-mar-21.jpg) |
+| 16 | 2026-03-22 | Sun, Mar 22 | **3.30 km** | 🏃 Walk #2 + Walk #3 | [📸1](running-pics/sand-2026-mar-22.jpg) [📸2](running-pics/sand-2026-mar-22_1.jpg) |
+| 17 | 2026-03-22 | Sun, Mar 22 | **4.04 km** | 🏃 Walk #2 + Walk #3 | [📸1](running-pics/sand-2026-mar-22.jpg) [📸2](running-pics/sand-2026-mar-22_1.jpg) |
 
 ## 📅 2026-February
 > 7 sessions · 17.66 km total · 2.52 km avg · best 3.62 km
@@ -86,4 +88,4 @@
 | 3 | 2025-12-28 | Sun, Dec 28 | **2.12 km** | 🚶 Walk | [📸](running-pics/sand-2025-dec-28.jpg) |
 
 ---
-*Auto-generated on 2026-03-22 19:53*
+*Auto-generated on 2026-03-22 21:36*

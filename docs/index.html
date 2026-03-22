@@ -109,6 +109,46 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+/* Standings Card */
+.standings-card {
+  border-color: rgba(0,255,136,0.2);
+  background: linear-gradient(135deg, var(--surface), rgba(0,255,136,0.03));
+}
+.team-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.team-block {
+  flex: 1;
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+}
+.manda-block { border-color: rgba(0,255,136,0.2); }
+.it-block { border-color: rgba(0,204,255,0.2); }
+.team-label { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.3rem; font-weight: 600; }
+.team-distance { font-family: 'Outfit', sans-serif; font-size: 1.8rem; font-weight: 900; }
+.manda-block .team-distance { color: var(--manda); }
+.it-block .team-distance { color: var(--it); }
+.team-avg { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+.vs-divider {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--warning);
+  flex-shrink: 0;
+}
+.gap-indicator {
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
 /* Rules */
 .rules-grid { display: grid; gap: 1rem; }
 .rule-item {
@@ -141,8 +181,8 @@ body {
 
 /* Infographic Highlight Card */
 .highlight-card {
-  border-color: var(--accent);
-  background: linear-gradient(135deg, rgba(17, 24, 39, 1), rgba(0, 204, 255, 0.08));
+  border-color: var(--warning);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 1), rgba(251, 191, 36, 0.06));
   position: relative;
   overflow: hidden;
 }
@@ -150,12 +190,34 @@ body {
   content: '';
   position: absolute;
   top: 0; left: 0; width: 100%; height: 4px;
-  background: linear-gradient(90deg, var(--manda), var(--accent));
+  background: linear-gradient(90deg, var(--warning), var(--accent));
 }
 .impact-text {
   font-size: 1.1rem;
   color: #fff;
   line-height: 1.6;
+}
+.milestone-table {
+  margin: 1.5rem 0;
+}
+.milestone-row td {
+  padding: 0.5rem 0.75rem;
+}
+.milestone-row.gold { background: rgba(251,191,36,0.08); }
+.milestone-row.silver { background: rgba(192,192,192,0.06); }
+.milestone-row.bronze { background: rgba(205,127,50,0.06); }
+.fun-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+}
+.fun-stat-item {
+  font-size: 0.9rem;
+  padding: 0.4rem;
 }
 .pulse-btn {
   display: inline-block;
@@ -228,6 +290,9 @@ tr:hover { background: rgba(255,255,255,0.02); }
   .container { padding: 1rem; }
   .card { padding: 1.25rem; }
   th, td { padding: 0.4rem 0.5rem; font-size: 0.8rem; }
+  .team-row { flex-direction: column; }
+  .vs-divider { margin: 0.5rem 0; }
+  .fun-stats { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -247,29 +312,91 @@ tr:hover { background: rgba(255,255,255,0.02); }
     <div class="cta-sub">Real-time standings, team stats, roster profiles & activity history</div>
   </a>
 
-  <!-- Latest Infographic Hit -->
+  <!-- ⚔️ Live Standings (from results/README.md) -->
+  
+  <div class="card standings-card">
+    <h2>⚔️ Live Standings — Q1 2026</h2>
+    <div class="team-battle">
+      <div class="team-row">
+        <div class="team-block manda-block">
+          <div class="team-label">🪖 Mandalorian</div>
+          <div class="team-distance">774.78 km</div>
+          <div class="team-avg">avg 77.48 km/person</div>
+        </div>
+        <div class="vs-divider">VS</div>
+        <div class="team-block it-block">
+          <div class="team-label">💻 IT System</div>
+          <div class="team-distance">865.93 km</div>
+          <div class="team-avg">avg 86.59 km/person</div>
+        </div>
+      </div>
+      <div class="gap-indicator">
+        <span style="color:var(--it);font-weight:800">💻 IT System</span> leads by 
+        <span style="color:var(--accent);font-size:1.3em;font-weight:900">9.12 km/person</span>
+      </div>
+    </div>
+    
+    <h3 style="margin-top:1.5rem;margin-bottom:0.8rem;font-size:1rem;color:var(--accent)">🌟 Top 5 Individual</h3>
+    <table>
+      <thead><tr><th>Rank</th><th>Name</th><th>Team</th><th style="text-align:right">Distance</th></tr></thead>
+      <tbody><tr><td>🥇 1</td><td><b>Gio</b></td><td><span style="color:var(--manda)">🪖</span></td><td style="text-align:right">419.66 km</td></tr>
+<tr><td>🥈 2</td><td><b>Jojo</b></td><td><span style="color:var(--it)">💻</span></td><td style="text-align:right">304.06 km</td></tr>
+<tr><td>🥉 3</td><td><b>Boy</b></td><td><span style="color:var(--it)">💻</span></td><td style="text-align:right">174.10 km</td></tr>
+<tr><td>🏅 4</td><td><b>O</b></td><td><span style="color:var(--it)">💻</span></td><td style="text-align:right">133.08 km</td></tr>
+<tr><td>🏅 5</td><td><b>Sand</b></td><td><span style="color:var(--manda)">🪖</span></td><td style="text-align:right">102.68 km</td></tr>
+</tbody>
+    </table>
+    
+    <h3 style="margin-top:1.5rem;margin-bottom:0.8rem;font-size:1rem;color:var(--accent)">📅 Monthly Breakdown</h3>
+    <table>
+      <thead><tr><th>Month</th><th>🪖 Manda</th><th>💻 IT</th><th>Winner</th></tr></thead>
+      <tbody><tr><td>March</td><td style="color:var(--manda)">334.71 km</td><td style="color:var(--it)">341.63 km</td><td>💻 IT System</td></tr>
+<tr><td>February</td><td style="color:var(--manda)">224.52 km</td><td style="color:var(--it)">278.42 km</td><td>💻 IT System</td></tr>
+<tr><td>January</td><td style="color:var(--manda)">215.55 km</td><td style="color:var(--it)">245.88 km</td><td>💻 IT System</td></tr>
+</tbody>
+    </table>
+  </div>
+
+
+  <!-- 🏆 100km Milestone Highlight -->
+  
+  <!-- 🏆 Q1 100 KM Milestone Highlight -->
   <div class="card highlight-card">
-    <h2>🏆 Running Competition Update! (Week 12)</h2>
+    <h2>🏆🔥 100 KM CLUB — สัปดาห์สุดท้ายของ Q1!</h2>
     <div class="infographic-content">
       <p class="impact-text">
-        📅 สัปดาห์ที่ 12 | โค้งสุดท้ายก่อนจบ Q1!<br><br>
-        ⚔️ <b>สถานะศึก! (บิดเบี้ยวความจริง!)</b><br>
-        🪖 <b style="color:var(--manda)">Mandalorian:</b> 673.35 km (avg 67.33)<br>
-        💻 <b style="color:var(--it)">IT System:</b> 660.11 km (avg 66.01)<br>
-        📊 นำอยู่: 🪖 <b style="color:var(--manda)">Manda</b> <span style="color:var(--accent); font-size:1.2em; font-weight: 800;">+1.32 km/คน</span><br><br>
-        🔥 <b>ไฮไลท์ประจำสัปดาห์:</b><br>
-        • 👑 <b style="color:var(--warning)">MVP: GIO</b> เปิดใช้พลังสแตนด์ 「Möbius Testament」 พลิกกระดานสะสมระยะทะลุ 403 km!<br>
-        <i style="color:var(--muted)">"ความเป็นจริงและระยะห่างที่เห็นนั้น ผมจะเปลี่ยนมันเอง... 【真実（しんじつ）の上書き（うわがき）】(The Overwriting of Reality)"</i><br>
-        • 📉 IT System เสียแชมป์ชั่วคราว! แต่สงครามยังไม่จบ!<br><br>
-        เหลืออีกแค่ 15 วัน จบ Q1! IT System ห้ามยอมแพ้ Manda ห้ามประมาท!<br>
-        💪 สู้ๆ ทุกคน! ทุกก้าวมีค่า เดิน 2 กม. ก็นับ!
+        ผ่านมา 3 เดือนเต็ม! จาก 20 นักรบ... มีเพียง <b style="color:var(--warning);font-size:1.3em">5 คน</b> ที่ฝ่าด่านนรก 100 กิโลเมตรสะสมได้สำเร็จ! 🏅
       </p>
-      <img src="img/giorno-stand.jpeg" alt="Möbius Testament" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+      
+      <div class="milestone-table">
+        <table>
+          <thead>
+            <tr><th>Rank</th><th>Runner</th><th>Team</th><th style="text-align:right">Distance</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr class="milestone-row gold"><td>👑</td><td><b>GIO</b></td><td><span style="color:var(--manda)">🪖 Manda</span></td><td style="text-align:right"><b>419.66 km</b></td><td>🌟🌟🌟🌟 LEGENDARY</td></tr>
+            <tr class="milestone-row silver"><td>🥈</td><td><b>Jojo</b></td><td><span style="color:var(--it)">💻 IT</span></td><td style="text-align:right"><b>304.06 km</b></td><td>🌟🌟🌟 ELITE</td></tr>
+            <tr class="milestone-row bronze"><td>🥉</td><td><b>Boy</b></td><td><span style="color:var(--it)">💻 IT</span></td><td style="text-align:right"><b>174.10 km</b></td><td>🌟🌟 CHAMPION</td></tr>
+            <tr class="milestone-row"><td>🏅</td><td><b>O</b></td><td><span style="color:var(--it)">💻 IT</span></td><td style="text-align:right"><b>133.08 km</b></td><td>🌟 HERO</td></tr>
+            <tr class="milestone-row"><td>🏅</td><td><b>Sand</b></td><td><span style="color:var(--manda)">🪖 Manda</span></td><td style="text-align:right"><b>102.68 km</b></td><td>🌟 HERO</td></tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="fun-stats">
+        <div class="fun-stat-item">🏃 ระยะรวมทั้ง 20 คน = <b style="color:var(--accent)">1,640.71 km</b></div>
+        <div class="fun-stat-item">👟 คนที่ผ่าน 100km = <b style="color:var(--warning)">5 จาก 20 คน</b> (25%)</div>
+        <div class="fun-stat-item">📅 เหลืออีก <b style="color:var(--warning)">9 วัน</b> จบ Q1!</div>
+        <div class="fun-stat-item">💬 <i>ทุกก้าวมีค่า! เดิน 2 กม. ก็นับ!</i> 🔥</div>
+      </div>
+      
+      <img src="img/q1-100km-milestone.png" alt="100 KM Club — Q1 2026" style="width:100%; border-radius:12px; margin-top:1.5rem; border: 1px solid var(--border); box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
       <div style="text-align: center;">
-        <a href="html/index.html" class="pulse-btn">ร่วมเป็นส่วนหนึ่งของตำนาน! 🏃‍♂️💨</a>
+        <a href="html/index.html" class="pulse-btn">📊 ดู Dashboard เต็มรูปแบบ →</a>
       </div>
     </div>
   </div>
+
 
   <!-- Tournament Rules -->
   <div class="card">
@@ -352,7 +479,7 @@ tr:hover { background: rgba(255,255,255,0.02); }
   </div>
 
   <div class="footer">
-    Running Competition 2026 · Mandalorian vs IT System · Auto-generated on 2026-03-22 20:46
+    Running Competition 2026 · Mandalorian vs IT System · Auto-generated on 2026-03-22 21:37
   </div>
 
 </div>

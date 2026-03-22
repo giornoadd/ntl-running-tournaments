@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-22 20:46:45",
+  "last_updated": "2026-03-22 21:37:56",
   "teams": {
     "Mandalorian": {
-      "total_distance": 767.44,
+      "total_distance": 774.78,
       "members": 10,
       "active_members": 8,
       "name": "Mandalorian",
-      "avg_distance": 76.74
+      "avg_distance": 77.48
     },
     "IT System": {
       "total_distance": 865.93,
@@ -147,22 +147,22 @@
       "nickname": "Sand",
       "thai_name": "แซนด์",
       "team": "Mandalorian",
-      "total_distance": 95.34,
-      "active_days": 28,
-      "image_count": 34,
+      "total_distance": 102.68,
+      "active_days": 30,
+      "image_count": 36,
       "recent_images": [
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22_1.jpg",
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-21.jpg",
         "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-20.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-18.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-17.jpg",
-        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-16.jpg"
+        "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-18.jpg"
       ],
       "stats_details": {
         "run_dist": 6.35,
-        "walk_dist": 96.37,
+        "walk_dist": 103.71000000000001,
         "run_count": 2,
-        "walk_count": 29,
-        "total_sessions": 31,
+        "walk_count": 31,
+        "total_sessions": 33,
         "best_pace": 821,
         "best_pace_activity": "WFO #8",
         "best_pace_date": "2026-03-19",
@@ -171,7 +171,8 @@
         "longest_run_date": "2026-03-20"
       },
       "daily_dates": [
-        "2026-03-21"
+        "2026-03-21",
+        "2026-03-22"
       ]
     },
     {
@@ -645,6 +646,24 @@
           ]
         },
         {
+          "name": "Sand",
+          "distance": 3.3,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22_1.jpg"
+          ]
+        },
+        {
+          "name": "Sand",
+          "distance": 4.04,
+          "team": "Mandalorian",
+          "images": [
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22.jpg",
+            "assets_data/member_results/Manda-5_SAND/running-pics/sand-2026-mar-22_1.jpg"
+          ]
+        },
+        {
           "name": "Boy",
           "distance": 10.0,
           "team": "IT System",
@@ -661,11 +680,11 @@
           ]
         }
       ],
-      "mando_daily": 22.37,
+      "mando_daily": 29.71,
       "it_daily": 15.02,
-      "mando_accum": 767.44,
+      "mando_accum": 774.78,
       "it_accum": 865.93,
-      "mando_avg": 76.74,
+      "mando_avg": 77.48,
       "it_avg": 86.59
     },
     {
