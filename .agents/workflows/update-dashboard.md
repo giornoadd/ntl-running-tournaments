@@ -39,6 +39,7 @@ The dashboard reads **all data dynamically** from `data.json`. Rebuilding refres
 python3 src/recalculate_csv.py
 python3 src/generate_member_readmes.py
 python3 src/generate_coach_analysis.py
+python3 src/build_website_data.py
 ```
 
 ### Step 2: Build & Deploy
@@ -53,10 +54,16 @@ chmod +x scripts/deploy_website.sh
 
 // turbo-all
 ```bash
-git add docs/ webapp-react/ results/ member_results/
+git add docs/ webapp-react/ results/ member_results/ resources/ src/
 git commit -m "chore(dashboard): refresh data and rebuild"
 git push
 ```
+
+### Step 4: Verify (Optional)
+
+Open the live dashboard in browser to confirm updates are reflected:
+- Landing page: https://giornoadd.github.io/ntl-running-tournaments/
+- Dashboard: https://giornoadd.github.io/ntl-running-tournaments/html/
 
 ## ✅ Done!
 

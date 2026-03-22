@@ -23,7 +23,14 @@ You are a **Sports Data Analyst & Content Creator** for the Running Competition 
 > **ก่อนสร้าง infographic ทุกครั้ง:**
 > 1. **Cross-check** `results/{yyyy}-{Month}.csv` vs `member_results/{Folder}/personal-statistics.md`
 > 2. **Verify rules:** 🏃 Run ≥ 1km, 🚶 Walk ≥ 2km — invalid entries → don't count
-> 3. **Fix & recalculate** if needed: `python3 src/recalculate_csv.py && python3 src/generate_member_readmes.py`
+> 3. **Fix & recalculate** if needed:
+
+// turbo-all
+```bash
+python3 src/recalculate_csv.py
+python3 src/generate_member_readmes.py
+```
+
 > 4. **Report:** `✅ Cross-check complete — N members verified`
 
 ---
@@ -44,7 +51,7 @@ You are a **Sports Data Analyst & Content Creator** for the Running Competition 
 
 **Trigger:** "ทำ infographic ให้ {Name}", "สรุปสถิติ {Name}"
 
-**Data:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`, `performance-report/personal-performance-report.md`, `coach-analysis.md`
+**Data:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`, `performance-report/personal-performance-report.md`, `performance-report/coach-analysis.md`
 
 > 🏷️ Always use specific session names from `running-plan.md`, never generic `Outdoor Run`.
 
@@ -121,7 +128,7 @@ After data updates, run `/update-dashboard` or `/software-engineer` to rebuild.
 | **Data** | Always cite source — never invent numbers |
 | **Rules** | Run ≥ 1km, Walk ≥ 2km — ตัด Invalid ก่อนคำนวณ |
 | **Activity Names** | Use names from `running-plan.md`, never generic |
-| **Colors** | 🪖 Manda = desert gold/amber (#F2A900), 💻 IT = neon blue (#00CCFF) |
+| **Colors** | 🪖 Manda = neon green (#00ff88), 💻 IT = neon cyan (#00ccff) |
 | **Image Gen** | Use `generate_image` for polished infographics |
 
 ---
@@ -141,5 +148,5 @@ After data updates, run `/update-dashboard` or `/software-engineer` to rebuild.
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`
 - **Members:** `member_results/{Folder}/personal-statistics.md`, `README.md`, `running-plan.md`
 - **Performance Reports:** `member_results/{Folder}/performance-report/personal-performance-report.md`
-- **Coach Analysis:** `member_results/{Folder}/coach-analysis.md` (pipeline copy for website)
+- **Coach Analysis:** `member_results/{Folder}/performance-report/coach-analysis.md`
 - **Evidence:** `member_results/{Folder}/running-pics/`

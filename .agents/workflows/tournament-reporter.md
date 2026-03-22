@@ -161,8 +161,14 @@ Structured data content ready to be turned into a visual infographic.
 
 ## Image Generation Prompt
 Style: {describe visual style for generate_image tool}
-Colors: Mandalorian=olive/green, IT System=blue/cyan, Background=dark
+Colors: Mandalorian=neon green (#00ff88), IT System=neon cyan (#00ccff), Background=dark
 ```
+
+> [!TIP]
+> Use the `generate_image` tool to create polished infographic images. Provide:
+> - **Dark theme** with neon accents (green for Manda, cyan for IT)
+> - **Typographic design** — no real photos, use geometric/abstract styles
+> - **Vertical layout** (1080×1920) for mobile or **horizontal** (1920×1080) for desktop
 
 ---
 
@@ -257,6 +263,8 @@ Read these files to generate content:
 | Monthly details | `results/{yyyy}-{Month}.csv` |
 | Member profiles | `member_results/{Folder}/README.md` |
 | Personal stats | `member_results/{Folder}/personal-statistics.md` |
+| Performance reports | `member_results/{Folder}/performance-report/personal-performance-report.md` |
+| Coach analysis | `member_results/{Folder}/performance-report/coach-analysis.md` |
 | Rules reference | `docs/tournaments/Tournament Rules.md` |
 | Calendar | `docs/tournaments/Tournament Calendar.md` |
 
@@ -325,4 +333,39 @@ Read these files to generate content:
 - **Project root:** `/Users/giornoadd/my-macos/running-comp`
 - **Results:** `results/README.md`, `results/{yyyy}-{Month}.csv`
 - **Members:** `member_results/{Folder}/`
+- **Performance reports:** `member_results/{Folder}/performance-report/`
 - **Evidence screenshots:** `member_results/{Folder}/running-pics/`
+
+---
+
+### ⏱️ Format 6: Daily Countdown (นับถอยหลัง)
+
+Quick daily update with countdown, gap tracking, and contributor highlights.
+
+**Filename:** `countdown-{yyyy-mm-dd}.md`
+
+**Template:**
+
+```
+⏱️ COUNTDOWN: เหลืออีก {N} วัน จบ Q{Q}!
+━━━━━━━━━━━━━━━━━━━
+
+📊 GAP วันนี้:
+💻 IT System: {Y} km (avg {Y/10})
+🪖 Mandalorian: {X} km (avg {X/10})
+📏 ห่างกัน: {diff} km/คน
+
+🔥 วันนี้ใครลงสนาม?
+{list of today's contributors with distance}
+
+📈 Gap เปลี่ยนไป: {+/-} km/คน จากเมื่อวาน
+
+💪 ทุกก้าวมีค่า! เดิน 2 กม. ก็นับ!
+#RunningCompetition2026
+```
+
+**Rules:**
+- สั้นมาก ไม่เกิน 15 บรรทัด
+- เน้น gap change จากเมื่อวาน
+- Highlight คนที่วิ่งวันนี้
+- ใช้ emoji countdown ⏱️

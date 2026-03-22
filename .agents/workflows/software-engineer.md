@@ -26,6 +26,10 @@ Member stats (personal-statistics.md)
   → src/generate_coach_analysis.py → performance-report/personal-performance-report.md + coach-analysis.md
   → build_website_data.py reads coach-analysis.md → markdown.coach_analysis in data.json
   → RosterDetailPage.tsx → "🏃 Coach Analysis" tab
+
+Landing page (docs/index.html)
+  → src/generate_landing_page.py → auto-generated via deploy_website.sh
+  → Manual edits to docs/index.html (e.g. infographic highlights) are preserved
 ```
 
 **Key dynamic features powered by data.json:**
@@ -58,6 +62,9 @@ Run the deployment script which will automatically:
 3. Build the React app into `docs/html/`.
 4. Generate the tournament landing page at `docs/index.html`.
 
+> [!NOTE]
+> The deploy script overwrites `docs/index.html`. If you made **manual edits** (e.g. infographic highlights), back them up first or re-apply after deploy.
+
 // turbo-all
 ```bash
 chmod +x scripts/deploy_website.sh
@@ -69,7 +76,7 @@ Once the deployment script has finished successfully, push the generated `docs/`
 
 // turbo-all
 ```bash
-git add docs/ webapp-react/ scripts/ results/ member_results/ src/
+git add docs/ webapp-react/ scripts/ results/ member_results/ src/ resources/
 git commit -m "chore(web): update website with latest running data"
 git push
 ```

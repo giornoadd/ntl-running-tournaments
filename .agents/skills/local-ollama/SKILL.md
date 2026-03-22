@@ -63,7 +63,7 @@ curl http://localhost:11434/api/chat -d '{
 ```bash
 curl http://localhost:11434/api/generate -d '{
   "model": "qwen3:8b",
-  "prompt": "สรุปผลการแข่งขันวิ่ง: Mandalorian 393km vs IT System 481km",
+  "prompt": "สรุปผลการแข่งขันวิ่ง: Mandalorian 761km vs IT System 851km",
   "stream": false
 }'
 ```
@@ -94,15 +94,15 @@ curl http://localhost:11434/api/tags
 ### 📈 Sports Analyst (sports-analyst)
 | Use Case | Prompt Hint |
 |---|---|
-| Summarize stats | "Summarize: GIO 241km/37 sessions, Jojo 151km/30 sessions. Compare." |
-| Generate captions | "Write an infographic caption for a team scoring 481km total" |
-| Trend analysis | "Week 1-4 avg 10km/week, Week 5-8 avg 15km/week. Analyze the trend." |
+| Summarize stats | "Summarize: GIO 419km/80+ sessions, Jojo 299km/60+ sessions. Compare." |
+| Generate captions | "Write an infographic caption for a team scoring 851km total" |
+| Trend analysis | "Week 1-8 avg 12km/week, Week 9-13 avg 18km/week. Analyze the trend." |
 
 ### 📣 Tournament Reporter (tournament-reporter)
 | Use Case | Prompt Hint |
 |---|---|
-| LINE message | "Write a fun LINE update: IT System leads by 8.80km/person, Week 9" |
-| Facebook post | "Write an exciting Facebook post about GIO reaching 241km" |
+| LINE message | "Write a fun LINE update: IT System leads by 8.95km/person, Week 13" |
+| Facebook post | "Write an exciting Facebook post about GIO reaching 419km" |
 | Shoutout | "Write a gentle, funny motivation for Tae who hasn't run yet" |
 
 ---
@@ -144,7 +144,7 @@ response = client.chat(
     model=OLLAMA_MODEL,
     messages=[
         {"role": "system", "content": "You are a sports analyst."},
-        {"role": "user", "content": "Summarize: GIO 241km, Jojo 151km"},
+        {"role": "user", "content": "Summarize: GIO 419km, Jojo 299km"},
     ],
     options={"temperature": 0.7, "top_k": 40, "top_p": 0.9},
 )

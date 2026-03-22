@@ -136,7 +136,7 @@ resources/notebooklm-log/{agent}/{yyyy-mm-dd}.md
 
 | Agent | Directory |
 |---|---|
-| Coach Assistant | `process-image/` |
+| Coach Assistant | `coach-assistant/` |
 | Running Coach | `running-coach/` |
 | Sports Analyst | `sports-analyst/` |
 | Tournament Reporter | `tournament-reporter/` |
