@@ -12,5 +12,6 @@
 | 2026-03-01 | Morning Walk | 2.24 km | 29:24 | 13:07/km | N/A | N/A | N/A | mos-2026-mar-01.jpg |
 | 2026-03-03 | Evening Walk (เดินตอนเย็น) | 2.95 km | 43:21 | 14:41/km | N/A | N/A | N/A | mos-2026-mar-03.jpg |
 | 2026-03-15 | Long Walk | 2.03 km | 24:43 | 12:10/km | N/A | N/A | N/A | mos-2026-mar-15.jpg |
+| 2026-03-23 | Walking (เดิน) | 2.34 km | 29:44 | ~12:42/km | N/A | N/A | N/A | mos-2026-mar-23.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม (Running Plan)](running-plan.md)

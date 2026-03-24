@@ -264,7 +264,7 @@
 
 ### 🗓️ Week 14: Mar 23 - Mar 29 (สัปดาห์สะสมระยะ Progressive)
 * **Mon 23:** ✅ `Upper Body Lift + 6km Easy Run` *(จริง: 6.07 km, Pace 7:26/km, 45m 10s, HR 148 bpm, Zone 3, Cadence 171 spm)*
-* **Tue 24:** `Progressive Run (7.5km)` ฝึกการไล่ระดับเพซจากช้า (Easy) ไปหาเร็ว (Threshold) ในช่วงกิโลเมตรท้ายๆ
+* **Tue 24:** ✅ `Progressive Run (7.5km)` **(Overachieved!)** *(จริง: 8.67 km, Pace 9:48/km, 1h 25m 3s, HR 130 bpm, Zone 2, Cadence 127 spm)* วิ่งไกลกว่าแผน 1.17km! 🔥
 * **Wed 25:** `Loading Up (40-50m)` (เน้นการโหลดน้ำหนักเวทเทรนนิ่ง)
 * **Thu 26:** `6km Easy Run`
 * **Fri 27:** 🧘🏻‍♂️ *Rest Day*

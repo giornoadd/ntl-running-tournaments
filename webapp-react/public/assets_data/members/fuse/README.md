@@ -35,7 +35,7 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-03-03 | Tue, Mar 03 | **4.78 km** | 🏃 Morning Run + Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg) |
+| 1 | 2026-03-03 | Tue, Mar 03 | **4.78 km** | 🏃 Morning Run + Morning Run | [📸1](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03.jpg) [📸2](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-03_1.jpg) |
 | 2 | 2026-03-08 | Sun, Mar 08 | **5.91 km** | 🏃 Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-08.jpg) |
 | 3 | 2026-03-15 | Sun, Mar 15 | **8.21 km** | 🏃 Evening Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-mar-15.jpg) |
 
@@ -51,8 +51,8 @@
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🏃 Morning Walk (เดินเช้า) + Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) |
-| 2 | 2026-01-24 | Sat, Jan 24 | **6.61 km** | 🏃 Morning Walk (เดินเช้า) + Morning Run | [📸](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) |
+| 1 | 2026-01-24 | Sat, Jan 24 | **12.76 km** | 🏃 Morning Walk (เดินเช้า) + Morning Run | [📸1](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) [📸2](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.jpg) |
+| 2 | 2026-01-24 | Sat, Jan 24 | **6.61 km** | 🏃 Morning Walk (เดินเช้า) + Morning Run | [📸1](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.JPEG) [📸2](assets_data/member_results/Manda-8_fuse/running-pics/fuse-2026-jan-24.jpg) |
 
 ---
-*Auto-generated on 2026-03-23 06:01*
+*Auto-generated on 2026-03-24 07:16*

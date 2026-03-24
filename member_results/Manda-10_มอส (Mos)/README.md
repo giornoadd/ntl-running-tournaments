@@ -17,25 +17,26 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Distance** | 🔥 **22.77 km** (Running 0.00 km + Walk 22.77 km) |
-| **Active Days** | 📅 8 days |
-| **Total Sessions** | 📋 8 sessions (Running 0 + Walk 8) |
-| **Average / Session** | 📏 2.85 km |
+| **Total Distance** | 🔥 **25.11 km** (Running 0.00 km + Walk 25.11 km) |
+| **Active Days** | 📅 9 days |
+| **Total Sessions** | 📋 9 sessions (Running 0 + Walk 9) |
+| **Average / Session** | 📏 2.79 km |
 | **Best Session** | 🏆 4.61 km (2026-01-21) |
-| **Evidence Files** | 📸 8 screenshots |
+| **Evidence Files** | 📸 9 screenshots |
 | **First Active** | 2026-01-19 |
-| **Last Active** | 2026-03-15 |
+| **Last Active** | 2026-03-23 |
 
 ---
 
 ## 📅 2026-March
-> 3 sessions · 7.22 km total · 2.41 km avg · best 2.95 km
+> 4 sessions · 9.56 km total · 2.39 km avg · best 2.95 km
 
 | # | Date | Day | Distance | Activity | Evidence |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | 1 | 2026-03-01 | Sun, Mar 01 | **2.24 km** | 🚶 Morning Walk | [📸](running-pics/mos-2026-mar-01.jpg) |
 | 2 | 2026-03-03 | Tue, Mar 03 | **2.95 km** | 🚶 Evening Walk (เดินตอนเย็น) | [📸](running-pics/mos-2026-mar-03.jpg) |
 | 3 | 2026-03-15 | Sun, Mar 15 | **2.03 km** | 🚶 Long Walk | [📸](running-pics/mos-2026-mar-15.jpg) |
+| 4 | 2026-03-23 | Mon, Mar 23 | **2.34 km** | 🚶 Walking (เดิน) | [📸](running-pics/mos-2026-mar-23.jpg) |
 
 ## 📅 2026-February
 > 2 sessions · 4.85 km total · 2.42 km avg · best 2.59 km
@@ -55,4 +56,4 @@
 | 3 | 2026-01-21 | Wed, Jan 21 | **4.61 km** | 🚶 Walking (เดิน) | [📸](running-pics/mos-2026-jan-21.jpg) |
 
 ---
-*Auto-generated on 2026-03-23 06:01*
+*Auto-generated on 2026-03-24 07:16*

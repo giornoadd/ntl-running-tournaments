@@ -7,25 +7,25 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 ## 🏆 Live Standings — Q1 2026
 
-> 📅 Status: 🟢 In Progress — **Week 13** | Data as of: 2026-03-23
+> 📅 Status: 🟢 In Progress — **Week 13** | Data as of: 2026-03-24
 
 ### ⚔️ Team Battle
 | Metric | 🪖 Mandalorian | 💻 IT System | Leader |
 | :--- | ---: | ---: | :--- |
-| **Total Distance** | 784.30 km | 865.93 km | 💻 **IT System** |
-| **Average / Person** | 78.43 km | 86.59 km | 💻 **IT System** |
+| **Total Distance** | 800.35 km | 875.51 km | 💻 **IT System** |
+| **Average / Person** | 80.03 km | 87.55 km | 💻 **IT System** |
 | **Active Members** | 8 / 10 | 8 / 10 | ท่ามกลางสมรภูมิ |
 
-> 💻 **IT System** leads by **8.16 km/person** 🔥 GIO กดทั้งวิ่งทั้งเดิน 9.52km! Gap ลดจาก 9.12 → **8.16 km/คน** Mandalorian ตีตื้นต่อเนื่อง! เหลือ 8 วัน Final Sprint! ⚔️🎙️
+> 💻 **IT System** leads by **7.52 km/person** 🔥 วันนี้ GIO กด Progressive Run 8.67km + Walk 3.02km! Sand WFO#10! Mos กลับมาเดินอีกครั้ง! Gap ลดจาก 8.16 → **7.52 km/คน** Mandalorian ตีตื้นต่อเนื่อง! เหลือ 7 วัน Final Sprint! ⚔️🎙️
 
 <p>
   <b>📊 Progress Bar (Monthly: March)</b><br>
-  🪖 Mandalorian: 344.23 km 🏆<br>
-  💻 IT System: 341.63 km<br>
-  <i>(🔥 Mandalorian นำเดือนมี.ค.ไปแล้ว +2.60 km!)</i>
+  🪖 Mandalorian: 360.28 km 🏆<br>
+  💻 IT System: 351.21 km<br>
+  <i>(🔥 Mandalorian นำเดือนมี.ค.ไปแล้ว +9.07 km!)</i>
 </p>
 
-> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 344.23 km 🏆 | IT: 341.63 km  
+> Previous months: **Jan** — Manda: 215.55 km | IT: 245.88 km · **Feb** — Manda: 224.52 km | IT: 278.42 km · **Mar** — Manda: 360.28 km 🏆 | IT: 351.21 km  
 > 📋 [January](results/2026-January.md) · [February](results/2026-February.md) · [March](results/2026-March.md)
 
 ### 📈 Weekly Accumulated Gap (IT System − Mandalorian)
@@ -44,10 +44,10 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | 10 | 1–7 Mar | 547.58 | 598.55 | +50.97 | 💻 IT | 📉 |
 | 11 | 8–14 Mar | 646.95 | 736.82 | +89.87 | 💻 IT | 🔴🔴 |
 | 12 | 15–21 Mar | 745.07 | 850.91 | **+105.84** | 💻 IT | 🔴🔴🔴 |
-| **13** | **22–28 Mar** | **784.30** | **865.93** | **+81.63** | 💻 IT | 📉📉 Gap ลด! GIO 9.52km! |
+| **13** | **22–28 Mar** | **800.35** | **875.51** | **+75.16** | 💻 IT | 📉📉📉 Gap ลด! GIO 11.69km! |
 | — | 29–31 Mar | — | — | — | — | ⚡ Final Sprint! |
 
-> 🎙️ **Sports Analyst Recap (23 มี.ค.):** GIO ลงสนามวันนี้ทั้งวิ่งทั้งเดิน **9.52 km** (6km Easy Run: Cadence 171 spm Breakthrough! + Morning Walk 3.45 km) ดัน Mandalorian ขึ้นมาที่ **784.30 km** Gap ลดจาก +91.15 เหลือ **+81.63 km!** ที่น่าสนใจคือเดือนมี.ค. **Mandalorian นำ IT System ไปแล้ว 2.60 km!** (344.23 vs 341.63) — เหลือ **8 วัน Final Sprint** สัปดาห์สุดท้ายของ Q1! 🔥⚔️
+> 🎙️ **Sports Analyst Recap (24 มี.ค.):** Batch ใหญ่วันนี้! **GIO** กด Progressive Run 8.67km (HR 130 bpm Zone 2!) + Walk 3.02km = 11.69km! **Sand** WFO#10 2.02km! **Mos** กลับมาเดิน 2.34km! ฝั่ง IT System — **Game** 4.55km, **Jojo** 5.03km (Walk Pace PB 12:13/km!) Gap ลดจาก +81.63 เหลือ **+75.16 km!** 🔥 เดือนมี.ค. **Mandalorian นำ IT System ไป 9.07 km!** (360.28 vs 351.21) — เหลือ **7 วัน** Final Sprint! ⚔️
 
 ---
 
@@ -55,11 +55,11 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | Rank | Name | Team | Distance | Active Days |
 | :---: | :--- | :--- | ---: | :--- |
-| 🥇 1 | **Gio** | 🪖 Mandalorian | 458.85 km | 72d | 🔥 ใกล้ 500K! |
-| 🥈 2 | **Jojo** | 💻 IT System | 304.06 km | 48d |
+| 🥇 1 | **Gio** | 🪖 Mandalorian | 470.54 km | 74d | 🔥 ใกล้ 500K! |
+| 🥈 2 | **Jojo** | 💻 IT System | 309.09 km | 49d | 🎉 300K Club! |
 | 🥉 3 | **Boy** | 💻 IT System | 174.10 km | 25d |
 | 🏅 4 | **O** | 💻 IT System | 151.01 km | 23d |
-| 🏅 5 | **Sand** | 🪖 Mandalorian | 110.49 km | 33d | 🌟 110km! |
+| 🏅 5 | **Sand** | 🪖 Mandalorian | 112.51 km | 34d | 🌟 ทะลุ 112km! |
 
 📊 Full quarterly & monthly breakdowns → [`results/README.md`](results/README.md)
 
@@ -71,17 +71,17 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
-| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 458.85 km | 72d | 🥇 Overall Leader! 🔥 Cadence 171 spm! |
+| Manda-1 | 🏃🏻‍♂️ โจ (GIO) | 470.54 km | 74d | 🥇 Overall Leader! 🔥 Progressive Run Zone 2! |
 | Manda-2 | 🏃🏻‍♂️ โบ๊ท (Boat) | 73.17 km | 11d | 🏆 PR 10.03km! |
 | Manda-3 | 🏃🏻‍♂️ ต้อ (TORO) | 29.08 km | 6d | |
 | Manda-4 | 🏃🏻‍♂️ เอ็ม (EM) | 49.16 km | 8d | 🔥 ใกล้ 50km! |
-| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 110.49 km | 33d | 🏅 Top 5! 🌟 ทะลุ 110km! |
+| Manda-5 | 🏃🏻‍♂️ แซนด์ (SAND) | 112.51 km | 34d | 🏅 Top 5! 🌟 WFO #10! |
 | Manda-6 | 🏃🏻‍♂️ เป๊ก (peck) | 0.00 km | 0d | 💤 MIA |
 | Manda-7 | 🏃🏻‍♂️ หนึ่ง (Neung) | 0.00 km | 0d | 💤 MIA |
 | Manda-8 | 🏃🏻‍♂️ ฟิวส์ (fuse) | 45.65 km | 6d | |
 | Manda-9 | 🏃🏻‍♂️ พี่ฉันท์ (Chan) | 41.23 km | 10d | |
-| Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 22.77 km | 8d | |
-| **Team Total** | | **784.30 km** | | |
+| Manda-10 | 🏃🏻‍♂️ มอส (Mos) | 25.11 km | 9d | 🌿 กลับมาเดินอีกครั้ง! |
+| **Team Total** | | **800.35 km** | | 🎉 ทะลุ 800km! |
 
 <br>
 
@@ -90,18 +90,18 @@ This repository automates the tracking, watermarking, and continuous statistics 
 | ID | Name | Distance | Active | Note |
 | :--- | :--- | ---: | :---: | :--- |
 | ITSystem-1 | 🏃🏻‍♂️ โอ๊ต (Oat) | 69.30 km | 14d | |
-| ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 70.42 km | 9d | 🏆 PR 12.15km |
+| ITSystem-2 | 🏃🏻‍♂️ เกมส์ (Game) | 74.97 km | 10d | 🏆 HR 120bpm ต่ำสุดตลอดกาล! |
 | ITSystem-3 | 🏃🏻‍♂️ โอ (O) | 151.01 km | 23d | 🏅 Top 4! |
 | ITSystem-4 | 🏃🏻‍♂️ ปาล์ม (Palm) | 62.17 km | 15d | |
 | ITSystem-5 | 🏃🏻‍♂️ อุ้ม (Oum) | 25.93 km | 6d | |
-| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 304.06 km | 48d | 🥈 Top 2! 🎉 ทะลุ 300km! |
+| ITSystem-6 | 🏃🏻‍♂️ โจโจ้ (Jojo) | 309.09 km | 49d | 🥈 Top 2! 🎉 Walk Pace PB! อีก 1 ครั้งครบ 50! |
 | ITSystem-7 | 🏃🏻‍♂️ เต (Tae) | 0.00 km | 0d | 💤 MIA |
 | ITSystem-8 | 🏃🏻‍♂️ บอย (Boy) | 174.10 km | 25d | 🥉 Top 3! 💥 วิ่ง 10km 4 เซสซั่นรวด! |
 | ITSystem-9 | 🏃🏻‍♂️ ต้น (Ton) | 44.92 km | 18d | |
 | ITSystem-10 | 🏃🏻‍♂️ แพน (PAN) | 4.21 km | 2d | |
-| **Team Total** | | **865.93 km** | | |
+| **Team Total** | | **875.51 km** | | |
 
-> 🎙️ **Tactical Note:** Mandalorian ตีตื้นอย่างต่อเนื่อง! เดือนมี.ค. Mandalorian **นำแล้ว +2.60 km** (344.23 vs 341.63) แต่ Q1 รวมยัง IT System นำ 81.63 km เนื่องจากช่วง ม.ค.-ก.พ. IT System สะสมมาเยอะ
+> 🎙️ **Tactical Note:** Mandalorian ตีตื้นต่อเนื่อง! เดือนมี.ค. Mandalorian **นำชัดเจน +9.07 km** (360.28 vs 351.21) แต่ Q1 รวมยัง IT System นำ 75.16 km — Gap ลดจากจุดพีค 105.84 ลงมาเหลือ 75.16! เหลือ 7 วัน ใครจะเป็นแชมป์ Q1? ⚔️🔥
 
 > ⚠️ Note: Roster distances include all sessions since member's first activity (including 2025). Team standings use 2026 Q1 CSV accumulation only.
 
@@ -126,7 +126,7 @@ This repository automates the tracking, watermarking, and continuous statistics 
 
 > ⚠️ **Q1 Deadline:** Submit all evidence by **31 March 2026, 23:59**  
 > 📣 Q1 results & rewards announced in early April  
-> ⏰ **เหลืออีก 8 วัน!** Final Sprint — GIO กด 9.52km! Mandalorian นำเดือนมี.ค.! ลุยให้สุดก่อน Q1 จบ! 🔥
+> ⏰ **เหลืออีก 7 วัน!** Final Sprint — GIO กด 11.69km! Mandalorian ทะลุ 800km! ลุยให้สุดก่อน Q1 จบ! 🔥
 
 ---
 
@@ -226,4 +226,4 @@ For architecture details, tournament rules, and the full E2E pipeline, see:
 👉 **[docs/](docs/README.md)** — Full documentation index
 
 ---
-*Last updated: 2026-03-23 05:57*
+*Last updated: 2026-03-24 07:08*

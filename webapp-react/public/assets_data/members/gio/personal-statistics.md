@@ -100,5 +100,7 @@
 | 2026-03-22 | Morning Walk | 5.34 km | 1h 12m | N/A | N/A | N/A | N/A | gio-2026-mar-22_1.jpg |
 | 2026-03-23 | 6km Easy Run | 6.07 km | 45:10 | 7:26/km | 148 bpm | Zone 2-3-4 (30%/48%/21%) | 171 spm | gio-2026-mar-23.jpg |
 | 2026-03-23 | Morning Walk | 3.45 km | 50:08 | N/A | 114 bpm | Zone 1-2 | N/A | gio-2026-mar-23_1.jpg |
+| 2026-03-24 | Progressive Run | 8.67 km | 1:25:03 | 9:48/km | 130 bpm | Zone 2 Endurance | 127 spm | gio-2026-mar-24.jpg |
+| 2026-03-24 | Morning Walk | 3.02 km | 41:36 | N/A | N/A | N/A | N/A | gio-2026-mar-24_1.jpg |
 
 [🏠 กลับหน้าหลัก (Profile)](README.md) | [🏃🏻‍♂️ ดูแผนฝึกซ้อม 27 weeks (Running Plan)](running-plan.md)
